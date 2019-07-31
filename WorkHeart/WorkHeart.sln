@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkHeart", "WorkHeart\WorkHeart.csproj", "{D7B04512-8AF3-49D4-B06B-6138B8911960}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7B04512-8AF3-49D4-B06B-6138B8911960}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D7B04512-8AF3-49D4-B06B-6138B8911960}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D7B04512-8AF3-49D4-B06B-6138B8911960}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D7B04512-8AF3-49D4-B06B-6138B8911960}.Release|iPhone.Build.0 = Release|iPhone
+		{D7B04512-8AF3-49D4-B06B-6138B8911960}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D7B04512-8AF3-49D4-B06B-6138B8911960}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{D7B04512-8AF3-49D4-B06B-6138B8911960}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D7B04512-8AF3-49D4-B06B-6138B8911960}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
