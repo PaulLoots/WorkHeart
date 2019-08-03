@@ -84,16 +84,23 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Spaceship.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Spaceship.imageset\Spaceship.png" />
-    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Objects\" />
+    <Folder Include="Resources\Assets.xcassets\" />
+    <Folder Include="Resources\Icons\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="GameScene.sks" />
+    <BundleResource Include="Resources\spaceship.png" />
+    <BundleResource Include="Resources\Fonts\SF-Pro-Rounded-Bold.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="Resources\Icons\light.png" />
+    <BundleResource Include="Resources\Icons\pause.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -111,6 +118,11 @@
       <DependentUpon>GameViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="GameScene.cs" />
+    <Compile Include="Objects\Bubble.cs" />
+    <Compile Include="Objects\TestSprite.cs" />
+    <Compile Include="Objects\TimerButton.cs" />
+    <Compile Include="Objects\Colours.cs" />
+    <Compile Include="Objects\LightBubble.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

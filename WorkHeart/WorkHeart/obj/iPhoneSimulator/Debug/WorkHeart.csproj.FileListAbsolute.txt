@@ -1,0 +1,15 @@
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/bin/iPhoneSimulator/Debug/WorkHeart.exe
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/bin/iPhoneSimulator/Debug/WorkHeart.pdb
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/WorkHeart.csprojAssemblyReference.cache
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/WorkHeart.csproj.CoreCompileInputs.cache
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/WorkHeart.exe
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/WorkHeart.pdb
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/actool/_PartialAppManifest.items
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/actool/_BundleResourceWithLogicalName.items
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/coremlc/_PartialAppManifest.items
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/spaceship.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/Icons/light.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/Icons/pause.png

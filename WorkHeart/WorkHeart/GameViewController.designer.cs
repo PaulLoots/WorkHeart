@@ -1,12 +1,19 @@
-﻿using Foundation;
+﻿// WARNING
+//
+// This file has been generated automatically by Visual Studio from the outlets and
+// actions declared in your storyboard file.
+// Manual changes to this file will not be maintained.
+//
+using Foundation;
+using System;
 using System.CodeDom.Compiler;
 
 namespace WorkHeart
 {
-    [Register("GameViewController")]
+    [Register ("GameViewController")]
     partial class GameViewController
     {
-        void ReleaseDesignerOutlets()
+        void ReleaseDesignerOutlets ()
         {
         }
     }
