@@ -20,6 +20,14 @@ namespace WorkHeart
         //Timer States
         public string TrackingState = "stopped";
 
+        //Bubble States
+        public bool CenteredState;
+        public SKNode currentBubble;
+        public bool isDragging;
+
+        //Touch Vars
+        public CGPoint touchBeginPos;
+
         //Events
         public delegate void TrackingStartedAction();
         public static event TrackingStartedAction OnTrackingStarted;
@@ -62,6 +70,55 @@ namespace WorkHeart
             var touch = touches.AnyObject as UITouch;
             var pt = touch.LocationInNode(this);
 
+            currentBubble = null;
+
+            if (TrackingState != "stopped" && CenteredState == false)
+            {
+                touchBeginPos = pt;
+
+                var touchedNode = this.GetNodeAtPoint(pt);
+                switch (touchedNode.Name)
+                {
+                    case "LightBubble":
+                        currentBubble = lightBubble;
+                        break;
+                    default:
+                        break;
+            }
+        }
+
+        }
+
+        public override void TouchesMoved(NSSet touches, UIEvent evt)
+        {
+            var touch = touches.AnyObject as UITouch;
+            var pt = touch.LocationInNode(this);
+            var xDifference = touchBeginPos.X - pt.X;
+            var yDifference = touchBeginPos.Y - pt.Y;
+
+            if (xDifference < 0)
+            {
+                xDifference = -xDifference;
+            }
+
+            if (yDifference < 0)
+            {
+                yDifference = -yDifference;
+            }
+
+            if (isDragging && currentBubble != null)
+            {
+                currentBubble.Position = pt;
+                Console.WriteLine(currentBubble);
+            }
+            else isDragging |= (currentBubble != null && xDifference > 5 || yDifference > 5);
+        }
+
+        public override void TouchesEnded(NSSet touches, UIEvent evt)
+        {
+            var touch = touches.AnyObject as UITouch;
+            var pt = touch.LocationInNode(this);
+
             var touchedNode = this.GetNodeAtPoint(pt);
             switch (touchedNode.Name)
             {
@@ -71,33 +128,42 @@ namespace WorkHeart
                     {
                         StartTracking();
                         TrackingState = "running";
-                    } 
+                    }
                     else if (TrackingState == "running")
                     {
                         StopTracking();
                         TrackingState = "stopped";
                     }
 
-                        break;
+                    break;
                 case "LightBubble":
-                
+
                     if (TrackingState == "stopped")
                     {
                         lightBubble.SetActivated();
                     }
-                    else if (TrackingState == "running")
+                    else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
                         OnBubbleCenterd();
+                        CenteredState = true;
                         lightBubble.CenterItem();
                         lightBubble.CenterItemContents();
                     }
 
                     break;
                 default:
-                    OnBubbleUnCenterd();
+
+                    if (TrackingState == "running" && CenteredState == true)
+                    {
+                        OnBubbleUnCenterd();
+                        CenteredState = false;
+                    }
                     break;
             }
 
+            isDragging = false;
+            currentBubble = null;
+            Console.WriteLine(isDragging);
         }
 
         public override void Update(double currentTime)

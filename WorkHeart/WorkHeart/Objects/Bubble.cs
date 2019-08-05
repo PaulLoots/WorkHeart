@@ -21,7 +21,6 @@ namespace WorkHeart.Objects
         public Bubble()
         {
             SubscribeToTracking();
-            SubscribeToBubbleCentered();
 
             SetDefaultLook();
             AddIcon();
@@ -89,12 +88,16 @@ namespace WorkHeart.Objects
         {
             GameScene.OnTrackingStopped -= StopTracking;
             GameScene.OnTrackingStarted += StartTracking;
+
+            SubscribeToBubbleUnCentered();
         }
 
         private void SubscribeToTrackingStopped()
         {
             GameScene.OnTrackingStarted -= StartTracking;
             GameScene.OnTrackingStopped += StopTracking;
+
+            SubscribeToBubbleCentered();
         }
 
         private void StartTracking()
@@ -153,12 +156,20 @@ namespace WorkHeart.Objects
         {
             SubscribeToBubbleCentered();
 
-            SetActivatedPhysics();
-            LineWidth = 15;
-            AddIcon();
-            //******************************************************* Scale ***
+            //SetActivatedPhysics();
+
+            //LineWidth = 15;
+            //AddIcon();
+
+            //******************************************************* Scale + Status ***
+
             var setSizeNormal = SKAction.ScaleTo(1, 0.3);
             RunAction(setSizeNormal);
+
+            //SetStatusGood();
+            SetActivatedPhysics();
+            //LineWidth = 15;
+            AddIcon();
         }
 
         //Tracking Statusses
@@ -169,7 +180,6 @@ namespace WorkHeart.Objects
             SetActivatedPhysics();
             SetColours(Colours.Green);
             iconSprite.Color = UIColor.White;
-
         }
 
         public void CenterItem()

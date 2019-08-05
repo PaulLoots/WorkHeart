@@ -1,30 +1,29 @@
 ﻿<Properties StartupConfiguration="{D7B04512-8AF3-49D4-B06B-6138B8911960}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/GameScene.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/Objects/TimerButton.cs">
     <Files>
-      <File FileName="WorkHeart/GameScene.cs" Line="100" Column="1" />
-      <File FileName="WorkHeart/Objects/TestSprite.cs" Line="8" Column="2" />
-      <File FileName="WorkHeart/Objects/TimerButton.cs" Line="139" Column="1" />
-      <File FileName="WorkHeart/Objects/LightBubble.cs" Line="20" Column="1" />
-      <File FileName="WorkHeart/Objects/Colours.cs" Line="17" Column="10" />
-      <File FileName="WorkHeart/Objects/Bubble.cs" Line="157" Column="28" />
+      <File FileName="WorkHeart/GameScene.cs" Line="111" Column="45" />
+      <File FileName="WorkHeart/Objects/TestSprite.cs" Line="22" Column="61" />
+      <File FileName="WorkHeart/Objects/TimerButton.cs" Line="49" Column="1" />
+      <File FileName="WorkHeart/Objects/LightBubble.cs" Line="44" Column="1" />
+      <File FileName="WorkHeart/Objects/Colours.cs" />
+      <File FileName="WorkHeart/Objects/Bubble.cs" Line="171" Column="15" />
+      <File FileName="WorkHeart/Info.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WorkHeart" expanded="True">
             <Node name="WorkHeart" expanded="True">
-              <Node name="Objects" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="Icons" expanded="True" />
+              <Node name="Objects" expanded="True">
+                <Node name="TimerButton.cs" selected="True" />
               </Node>
-              <Node name="GameScene.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WorkHeart PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.739FE020-869E-40FE-A6BE-1FAC199B1CB1" />
+  <MonoDevelop.Ide.ItemProperties.WorkHeart automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.739FE020-869E-40FE-A6BE-1FAC199B1CB1" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

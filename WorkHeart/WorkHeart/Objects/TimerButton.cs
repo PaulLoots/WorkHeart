@@ -16,7 +16,6 @@ namespace WorkHeart.Objects
             parentSize = parentDimentions;
 
             SubscribeToTracking();
-            SubscribeToBubbleCentered();
 
             SetDefaultLook();
             SetCenteredPhysics();
@@ -39,6 +38,7 @@ namespace WorkHeart.Objects
         {
             var body = SKPhysicsBody.CreateCircularBody(defaultSize + 5);
             body.AffectedByGravity = false;
+            body.AllowsRotation = false;
             body.Dynamic = false;
             body.LinearDamping = 100;
             body.Friction = 10;
@@ -112,12 +112,16 @@ namespace WorkHeart.Objects
         {
             GameScene.OnTrackingStopped -= StopTracking;
             GameScene.OnTrackingStarted += StartTracking;
+
+            SubscribeToBubbleUnCentered();
         }
 
         private void SubscribeToTrackingStopped()
         {
             GameScene.OnTrackingStarted -= StartTracking;
             GameScene.OnTrackingStopped += StopTracking;
+
+            SubscribeToBubbleCentered();
         }
 
         private void StartTracking()
@@ -166,8 +170,8 @@ namespace WorkHeart.Objects
         {
             SubscribeToBubbleCentered();
 
-            SetCenteredPhysics();
             CenterItemContents();
+            SetCenteredPhysics();
         }
 
         private void SetColours(Colours colour)
