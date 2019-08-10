@@ -18,6 +18,8 @@ namespace WorkHeart.Objects
 
             SubscribeToTracking();
 
+            SetIcon("light");
+
             SetDefaultCharateristics();
             Position = defaultPosition;
         }
@@ -27,7 +29,19 @@ namespace WorkHeart.Objects
             Name = "LightBubble";
 
             iconSprite.Name = "LightBubble";
-            iconSprite.Texture = SKTexture.FromImageNamed("Icons/light");
+            iconName = "light";
+
+            if (activated)
+            {
+                //SetIcon(iconName + "-blue");
+                SetIconColour(Colours.Blue);
+            }
+            else
+            {
+                //SetIcon(iconName);
+                SetIconColour(Colours.Black);
+            }
+
         }
 
         private void SubscribeToTracking()
@@ -45,6 +59,8 @@ namespace WorkHeart.Objects
         private void StartTracking()
         {
             SubscribeToTrackingStopped();
+            //SetIcon(iconName);
+            SetIconColour(Colours.White);
         }
 
         private void StopTracking()

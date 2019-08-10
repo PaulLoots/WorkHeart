@@ -1,0 +1,22 @@
+"--cache=/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone11.2-13.0/mtouch-cache"
+"--sim=/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/bin/iPhoneSimulator/Debug/device-builds/iphone11.2-13.0/WorkHeart.app"
+--executable=WorkHeart
+ --debug
+ --nolink
+--sdkroot=/Users/paulloots/Downloads/Xcode-beta.app/Contents/Developer
+--sdk=13.0
+--targetver=12.2
+ --aot-options=-O=-float32
+ --http-message-handler=NSUrlSessionHandler
+ --abi=x86_64
+"--symbollist=/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone11.2-13.0/mtouch-symbols.list"
+ --dsym=no
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
+ --target-framework=Xamarin.iOS,v1.0
+"--root-assembly=/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/bin/iPhoneSimulator/Debug/WorkHeart.exe"
+ 

@@ -8,8 +8,6 @@ namespace WorkHeart.Objects
 {
         public class TestSprite : SKSpriteNode
         {
-
-
             public TestSprite(CGPoint initialPosition)
                 : base(NSBundle.MainBundle.PathForResource("spaceship", "png"))
             {
@@ -34,7 +32,5 @@ namespace WorkHeart.Objects
                 Position = initialPosition;
             }
 
-           
         }
-
 }

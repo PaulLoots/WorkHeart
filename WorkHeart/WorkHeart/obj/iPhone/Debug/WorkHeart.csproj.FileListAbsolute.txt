@@ -1,5 +1,9 @@
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/bin/iPhone/Debug/WorkHeart.exe
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/bin/iPhone/Debug/WorkHeart.pdb
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/WorkHeart.csproj.CoreCompileInputs.cache
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/WorkHeart.exe
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/WorkHeart.pdb
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/WorkHeart.csprojAssemblyReference.cache
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/ibtool/_BundleResourceWithLogicalName.items
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/actool/_PartialAppManifest.items
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/actool/_BundleResourceWithLogicalName.items
@@ -8,8 +12,8 @@
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/optimized/spaceship.png
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/optimized/Icons/light.png
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/optimized/Icons/pause.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/optimized/Icons/light-blue.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/optimized/Icons/default.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/optimized/Icons/noise-blue.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/optimized/Icons/noise.png
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-13.0/optimized/
-/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/WorkHeart.csproj.CoreCompileInputs.cache
-/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/WorkHeart.exe
-/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/WorkHeart.pdb
-/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/WorkHeart.csprojAssemblyReference.cache

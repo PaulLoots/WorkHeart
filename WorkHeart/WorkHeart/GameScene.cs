@@ -5,7 +5,10 @@ using Foundation;
 using SpriteKit;
 using UIKit;
 
+using System.Timers;
+
 using WorkHeart.Objects;
+using WorkHeart.Classes;
 
 namespace WorkHeart
 {
@@ -15,9 +18,13 @@ namespace WorkHeart
 
         //Objects
         SKFieldNode gravityNode;
+        TimerButton timerButton;
         LightBubble lightBubble;
+        NoiseBubble noiseBubble;
+        DurationBubble durationBubble;
 
         //Timer States
+        Timer timer = new System.Timers.Timer();
         public string TrackingState = "stopped";
 
         //Bubble States
@@ -27,6 +34,9 @@ namespace WorkHeart
 
         //Touch Vars
         public CGPoint touchBeginPos;
+
+        //Timer Vars
+        private DateTime timerBeginTime;
 
         //Events
         public delegate void TrackingStartedAction();
@@ -59,10 +69,17 @@ namespace WorkHeart
             gravityNode = CreateGravityNode();
             AddChild(gravityNode);
 
-            AddChild(new TimerButton(Size));
+            timerButton = new TimerButton(Size);
+            AddChild(timerButton);
 
             lightBubble = new LightBubble(Size);
             AddChild(lightBubble);
+
+            noiseBubble = new NoiseBubble(Size);
+            AddChild(noiseBubble);
+
+            durationBubble = new DurationBubble(Size);
+            AddChild(durationBubble);
         }
 
         public override void TouchesBegan(NSSet touches, UIEvent evt)
@@ -81,6 +98,12 @@ namespace WorkHeart
                 {
                     case "LightBubble":
                         currentBubble = lightBubble;
+                        break;
+                    case "NoiseBubble":
+                        currentBubble = noiseBubble;
+                        break;
+                    case "DurationBubble":
+                        currentBubble = durationBubble;
                         break;
                     default:
                         break;
@@ -151,6 +174,36 @@ namespace WorkHeart
                     }
 
                     break;
+                case "NoiseBubble":
+
+                    if (TrackingState == "stopped")
+                    {
+                        noiseBubble.SetActivated();
+                    }
+                    else if (TrackingState == "running" && CenteredState == false && isDragging == false)
+                    {
+                        OnBubbleCenterd();
+                        CenteredState = true;
+                        noiseBubble.CenterItem();
+                        noiseBubble.CenterItemContents();
+                    }
+
+                    break;
+                case "DurationBubble":
+
+                    if (TrackingState == "stopped")
+                    {
+                        durationBubble.SetActivated();
+                    }
+                    else if (TrackingState == "running" && CenteredState == false && isDragging == false)
+                    {
+                        OnBubbleCenterd();
+                        CenteredState = true;
+                        durationBubble.CenterItem();
+                        durationBubble.CenterItemContents();
+                    }
+
+                    break;
                 default:
 
                     if (TrackingState == "running" && CenteredState == true)
@@ -174,11 +227,29 @@ namespace WorkHeart
         private void StartTracking()
         {
             OnTrackingStarted();
+
+            timerBeginTime = DateTime.Now;
+ 
+            timer.Interval = 1000;
+            timer.Enabled = true;
+            timer.Elapsed += UpdateTimedData;
+            timer.Start(); 
         }
 
         private void StopTracking()
         {
+            timer.Stop();
             OnTrackingStopped();
+        }
+
+        private void UpdateTimedData(object sender, ElapsedEventArgs e)
+        {
+            TimeSpan timeElapsed = e.SignalTime - timerBeginTime;
+            Console.WriteLine(timeElapsed);
+
+            durationBubble.UpdateDuration(timeElapsed);
+
+            timerButton.UpdateTime(timeElapsed);
         }
 
         //Create Initial Gravity field

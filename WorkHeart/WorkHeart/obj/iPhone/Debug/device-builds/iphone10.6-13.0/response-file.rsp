@@ -4,8 +4,8 @@
  --fastdev
  --debug
  --linksdkonly
---sdkroot=/Applications/Xcode.app/Contents/Developer
---sdk=12.4
+--sdkroot=/Users/paulloots/Downloads/Xcode-beta.app/Contents/Developer
+--sdk=13.0
 --targetver=12.2
  --aot-options=-O=float32
  --http-message-handler=NSUrlSessionHandler

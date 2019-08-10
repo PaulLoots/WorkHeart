@@ -92,6 +92,7 @@
     <Folder Include="Objects\" />
     <Folder Include="Resources\Assets.xcassets\" />
     <Folder Include="Resources\Icons\" />
+    <Folder Include="Classes\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="GameScene.sks" />
@@ -101,6 +102,9 @@
     </BundleResource>
     <BundleResource Include="Resources\Icons\light.png" />
     <BundleResource Include="Resources\Icons\pause.png" />
+    <BundleResource Include="Resources\Icons\default.png" />
+    <BundleResource Include="Resources\Icons\noise.png" />
+    <BundleResource Include="Resources\Icons\duration.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -123,6 +127,10 @@
     <Compile Include="Objects\TimerButton.cs" />
     <Compile Include="Objects\Colours.cs" />
     <Compile Include="Objects\LightBubble.cs" />
+    <Compile Include="Objects\NoiseBubble.cs" />
+    <Compile Include="Classes\LightData.cs" />
+    <Compile Include="Objects\DurationBubble.cs" />
+    <Compile Include="Classes\DurationData.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

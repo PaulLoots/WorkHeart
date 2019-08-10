@@ -1,21 +1,28 @@
 ﻿<Properties StartupConfiguration="{D7B04512-8AF3-49D4-B06B-6138B8911960}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/Objects/TimerButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/Objects/Bubble.cs">
     <Files>
-      <File FileName="WorkHeart/GameScene.cs" Line="111" Column="45" />
-      <File FileName="WorkHeart/Objects/TestSprite.cs" Line="22" Column="61" />
-      <File FileName="WorkHeart/Objects/TimerButton.cs" Line="49" Column="1" />
-      <File FileName="WorkHeart/Objects/LightBubble.cs" Line="44" Column="1" />
-      <File FileName="WorkHeart/Objects/Colours.cs" />
-      <File FileName="WorkHeart/Objects/Bubble.cs" Line="171" Column="15" />
+      <File FileName="WorkHeart/GameScene.cs" Line="254" Column="1" />
+      <File FileName="WorkHeart/Objects/TestSprite.cs" Line="10" Column="10" />
+      <File FileName="WorkHeart/Objects/TimerButton.cs" Line="22" Column="1" />
+      <File FileName="WorkHeart/Objects/LightBubble.cs" Line="37" Column="45" />
+      <File FileName="WorkHeart/Objects/Colours.cs" Line="18" Column="6" />
       <File FileName="WorkHeart/Info.plist" />
+      <File FileName="WorkHeart/Objects/NoiseBubble.cs" Line="39" Column="17" />
+      <File FileName="WorkHeart/Objects/Bubble.cs" Line="53" Column="27" />
+      <File FileName="WorkHeart/Objects/DurationBubble.cs" Line="42" Column="14" />
+      <File FileName="WorkHeart/Classes/DurationData.cs" Line="16" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WorkHeart" expanded="True">
             <Node name="WorkHeart" expanded="True">
+              <Node name="Classes" expanded="True" />
               <Node name="Objects" expanded="True">
-                <Node name="TimerButton.cs" selected="True" />
+                <Node name="Bubble.cs" selected="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="Icons" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +30,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WorkHeart automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.739FE020-869E-40FE-A6BE-1FAC199B1CB1" />
+  <MonoDevelop.Ide.ItemProperties.WorkHeart automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.816AE9D1-D733-4910-893A-B1982B64AFAE" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

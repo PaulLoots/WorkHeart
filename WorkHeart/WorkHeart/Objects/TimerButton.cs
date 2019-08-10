@@ -8,8 +8,11 @@ namespace WorkHeart.Objects
 {
     public class TimerButton : SKShapeNode
     {
-        const float defaultSize = 50;
+        const float defaultSize = 60;
         private CGSize parentSize;
+
+        //Label Var
+        private SKLabelNode timerLabel;
 
         public TimerButton(CGSize parentDimentions)
         {
@@ -46,6 +49,19 @@ namespace WorkHeart.Objects
             //body.Restitution = 1;
             PhysicsBody = body;
         }
+
+        //private void SetCenteredPhysicsAfterScaleDown()
+        //{
+        //    var body = SKPhysicsBody.CreateCircularBody(defaultSize + 25);
+        //    body.AffectedByGravity = false;
+        //    body.AllowsRotation = false;
+        //    body.Dynamic = false;
+        //    body.LinearDamping = 100;
+        //    body.Friction = 10;
+        //    body.Mass = 10;
+        //    //body.Restitution = 1;
+        //    PhysicsBody = body;
+        //}
 
         private void SetLoosePhysics()
         {
@@ -86,7 +102,7 @@ namespace WorkHeart.Objects
 
         private void AddTimingElements()
         {
-            var timeLabel = new SKLabelNode
+            timerLabel = new SKLabelNode
             {
                 Text = "00:00",
                 FontSize = 15,
@@ -96,12 +112,12 @@ namespace WorkHeart.Objects
                 Name = "TimerBtn"
             };
 
-            AddChild(timeLabel);
+            AddChild(timerLabel);
 
             var iconSprite = SKSpriteNode.FromImageNamed("Icons/pause");
             iconSprite.Position = new CGPoint(0, -20);
-            iconSprite.Color = UIColor.White;
-            iconSprite.ColorBlendFactor = 1;
+            //iconSprite.Color = UIColor.White;
+            //iconSprite.ColorBlendFactor = 1;
 
             AddChild(iconSprite);
         }
@@ -141,8 +157,8 @@ namespace WorkHeart.Objects
             RemoveAllChildren();
             AddTimerLabels();
 
-            SetCenteredPhysics();
             CenterItemContents();
+            SetCenteredPhysics();
         }
 
         //Bubble Centered Event
@@ -171,6 +187,7 @@ namespace WorkHeart.Objects
             SubscribeToBubbleCentered();
 
             CenterItemContents();
+            //SetCenteredPhysicsAfterScaleDown();
             SetCenteredPhysics();
         }
 
@@ -184,6 +201,13 @@ namespace WorkHeart.Objects
         {
             var translateToCenter = SKAction.MoveTo(new CGPoint(parentSize.Width / 2, parentSize.Height / 2), 0.3);
             RunAction(translateToCenter);
+        }
+
+        public void UpdateTime(TimeSpan timeElaspsed)
+        {
+            InvokeOnMainThread(() => {
+                timerLabel.Text = timeElaspsed.Hours.ToString() + ":" + timeElaspsed.Minutes.ToString() + ":" + timeElaspsed.Seconds.ToString();
+            });
         }
 
 

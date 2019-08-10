@@ -5,9 +5,12 @@ namespace WorkHeart.Objects
 {
     public enum Colours
     {
+        White,
+        Black,
         Grey,
         Blue,
         Green,
+        Yellow,
         Orange,
         Red
     }
@@ -17,6 +20,10 @@ namespace WorkHeart.Objects
         {
             switch (colour)
             {
+                case Colours.White:
+                    return UIColor.FromRGB(255, 255, 255);
+                case Colours.Black:
+                    return UIColor.FromRGB(0, 0, 0);
                 case Colours.Grey:
                     return UIColor.FromRGB(79, 79, 79);
                 case Colours.Blue:
@@ -25,6 +32,8 @@ namespace WorkHeart.Objects
                     return UIColor.FromRGB(39, 174, 96);
                 case Colours.Orange:
                     return UIColor.FromRGB(242, 153, 74);
+                case Colours.Yellow:
+                    return UIColor.FromRGB(242, 201, 76);
                 case Colours.Red:
                     return UIColor.FromRGB(235, 87, 87);
                 default:
