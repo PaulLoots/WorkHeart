@@ -41,7 +41,7 @@ namespace WorkHeart.Objects
             if (activated)
             {
                 //SetIcon(iconName + "-blue");
-                SetIconColour(Colours.Blue);
+                SetIconColour(Colours.White);
             }
             else
             {
@@ -90,10 +90,9 @@ namespace WorkHeart.Objects
         {
             if (activated)
             {
-                var colourStatus = durationDataController.getDurationStatus(timeElapsed);
+                var colourStatus = durationDataController.getDurationStatus(timeElapsed, 10, 15, 500);
 
                 SetStatus(colourStatus);
-                Console.WriteLine(colourStatus);
             }
         }
     }

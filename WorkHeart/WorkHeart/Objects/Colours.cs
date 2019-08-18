@@ -23,7 +23,7 @@ namespace WorkHeart.Objects
                 case Colours.White:
                     return UIColor.FromRGB(255, 255, 255);
                 case Colours.Black:
-                    return UIColor.FromRGB(0, 0, 0);
+                    return UIColor.FromRGB(51, 51, 51);
                 case Colours.Grey:
                     return UIColor.FromRGB(79, 79, 79);
                 case Colours.Blue:

@@ -32,8 +32,8 @@ namespace WorkHeart.Objects
             path.AddArc(0, 0, defaultSize, 0, (float)Math.PI * 2f, true);
             Path = path;
             LineWidth = 15;
-            StrokeColor = Colors.GetColor(Colours.Blue).ColorWithAlpha((System.nfloat)0.1);
-            FillColor = Colors.GetColor(Colours.Blue);
+            StrokeColor = Colors.GetColor(Colours.Black).ColorWithAlpha((System.nfloat)0.1);
+            FillColor = Colors.GetColor(Colours.Black);
             Position = new CGPoint(parentSize.Width / 2, parentSize.Height / 2);
         }
 
@@ -153,7 +153,7 @@ namespace WorkHeart.Objects
         {
             SubscribeToTracking();
 
-            SetColours(Colours.Blue);
+            SetColours(Colours.Black);
             RemoveAllChildren();
             AddTimerLabels();
 
@@ -194,7 +194,7 @@ namespace WorkHeart.Objects
         private void SetColours(Colours colour)
         {
             FillColor = Colors.GetColor(colour);
-            StrokeColor = Colors.GetColor(colour).ColorWithAlpha((System.nfloat)0.1);
+            StrokeColor = Colors.GetColor(colour).ColorWithAlpha((System.nfloat)0.2);
         }
 
         public void CenterItemContents()

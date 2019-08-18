@@ -22,6 +22,7 @@ namespace WorkHeart
         LightBubble lightBubble;
         NoiseBubble noiseBubble;
         DurationBubble durationBubble;
+        WaterBubble waterBubble;
 
         //Timer States
         Timer timer = new System.Timers.Timer();
@@ -65,6 +66,9 @@ namespace WorkHeart
         {
             setBGColour(UIColor.White);
 
+            //add headings
+            AddHeadingLabels();
+
             //Add Gravity to scene
             gravityNode = CreateGravityNode();
             AddChild(gravityNode);
@@ -80,6 +84,9 @@ namespace WorkHeart
 
             durationBubble = new DurationBubble(Size);
             AddChild(durationBubble);
+
+            waterBubble = new WaterBubble(Size);
+            AddChild(waterBubble);
         }
 
         public override void TouchesBegan(NSSet touches, UIEvent evt)
@@ -104,6 +111,9 @@ namespace WorkHeart
                         break;
                     case "DurationBubble":
                         currentBubble = durationBubble;
+                        break;
+                    case "WaterBubble":
+                        currentBubble = waterBubble;
                         break;
                     default:
                         break;
@@ -204,6 +214,24 @@ namespace WorkHeart
                     }
 
                     break;
+                case "WaterBubble":
+
+                    if (TrackingState == "stopped")
+                    {
+                        waterBubble.SetActivated();
+                    }
+                    else if (TrackingState == "running" && CenteredState == false && isDragging == false)
+                    {
+                        OnBubbleCenterd();
+                        CenteredState = true;
+                        waterBubble.CenterItem();
+                        waterBubble.CenterItemContents();
+                    }
+
+                    break;
+                case "addWater":
+                    waterBubble.addWater();
+                    break;
                 default:
 
                     if (TrackingState == "running" && CenteredState == true)
@@ -216,7 +244,6 @@ namespace WorkHeart
 
             isDragging = false;
             currentBubble = null;
-            Console.WriteLine(isDragging);
         }
 
         public override void Update(double currentTime)
@@ -233,13 +260,19 @@ namespace WorkHeart
             timer.Interval = 1000;
             timer.Enabled = true;
             timer.Elapsed += UpdateTimedData;
-            timer.Start(); 
+            timer.Start();
+
+            //Style
+            setBGColour(UIColor.Black);
         }
 
         private void StopTracking()
         {
             timer.Stop();
             OnTrackingStopped();
+
+            //Style
+            setBGColour(UIColor.White);
         }
 
         private void UpdateTimedData(object sender, ElapsedEventArgs e)
@@ -248,6 +281,7 @@ namespace WorkHeart
             Console.WriteLine(timeElapsed);
 
             durationBubble.UpdateDuration(timeElapsed);
+            waterBubble.UpdateDuration(timeElapsed);
 
             timerButton.UpdateTime(timeElapsed);
         }
@@ -266,6 +300,52 @@ namespace WorkHeart
         public void setBGColour(UIColor color)
         {
             BackgroundColor = color;
+        }
+
+        private void AddHeadingLabels()
+        {
+            //Get time of day
+            string partOfDay;
+            var hours = DateTime.Now.Hour;
+            if (hours > 16)
+            {
+                partOfDay = "Evening";
+            }
+            else if (hours > 11)
+            {
+                partOfDay = "Afternoon";
+            }
+            else
+            {
+                partOfDay = "Morning";
+            }
+
+            var headingLabel1 = new SKLabelNode
+            {
+                Text = "Ready For a",
+                FontSize = 34,
+                FontName = "Helvetica Neue Condensed Bold",
+                FontColor = UIColor.FromRGB(51, 51, 51),
+                VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Top,
+                HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Left,
+                Position = new CGPoint((float)(this.Size.Width / 2.85), (float)(this.Size.Height * 0.85)),
+                Name = "headingLabel1"
+            };
+
+            var headingLabel2 = new SKLabelNode
+            {
+                Text = "Productive " + partOfDay + "?",
+                FontSize = 34,
+                FontName = "Helvetica Neue Condensed Bold",
+                FontColor = UIColor.FromRGB(51, 51, 51),
+                VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Top,
+                HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Left,
+                Position = new CGPoint((float)(this.Size.Width / 2.85), (float)(this.Size.Height * 0.85) - 40),
+                Name = "headingLabel2"
+            };
+
+            AddChild(headingLabel1);
+            AddChild(headingLabel2);
         }
     }
 }

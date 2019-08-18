@@ -34,7 +34,7 @@ namespace WorkHeart.Objects
             if (activated)
             {
                 //SetIcon(iconName + "-blue");
-                SetIconColour(Colours.Blue);
+                SetIconColour(Colours.White);
             }
             else
             {

@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{D7B04512-8AF3-49D4-B06B-6138B8911960}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/Objects/Bubble.cs">
     <Files>
-      <File FileName="WorkHeart/GameScene.cs" Line="254" Column="1" />
-      <File FileName="WorkHeart/Objects/TestSprite.cs" Line="10" Column="10" />
-      <File FileName="WorkHeart/Objects/TimerButton.cs" Line="22" Column="1" />
-      <File FileName="WorkHeart/Objects/LightBubble.cs" Line="37" Column="45" />
-      <File FileName="WorkHeart/Objects/Colours.cs" Line="18" Column="6" />
+      <File FileName="WorkHeart/GameScene.cs" Line="319" Column="14" />
+      <File FileName="WorkHeart/Objects/TestSprite.cs" />
+      <File FileName="WorkHeart/Objects/TimerButton.cs" Line="38" Column="10" />
+      <File FileName="WorkHeart/Objects/LightBubble.cs" Line="37" Column="46" />
+      <File FileName="WorkHeart/Objects/Colours.cs" Line="16" Column="6" />
       <File FileName="WorkHeart/Info.plist" />
-      <File FileName="WorkHeart/Objects/NoiseBubble.cs" Line="39" Column="17" />
-      <File FileName="WorkHeart/Objects/Bubble.cs" Line="53" Column="27" />
-      <File FileName="WorkHeart/Objects/DurationBubble.cs" Line="42" Column="14" />
-      <File FileName="WorkHeart/Classes/DurationData.cs" Line="16" Column="10" />
+      <File FileName="WorkHeart/Objects/NoiseBubble.cs" Line="35" Column="14" />
+      <File FileName="WorkHeart/Objects/DurationBubble.cs" Line="96" Column="49" />
+      <File FileName="WorkHeart/Classes/DurationData.cs" Line="12" Column="1" />
+      <File FileName="WorkHeart/Objects/Bubble.cs" Line="333" Column="38" />
+      <File FileName="WorkHeart/Objects/DurationBubble (copy).cs" Line="21" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,16 +22,14 @@
               <Node name="Objects" expanded="True">
                 <Node name="Bubble.cs" selected="True" />
               </Node>
-              <Node name="Resources" expanded="True">
-                <Node name="Icons" expanded="True" />
-              </Node>
+              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WorkHeart automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.816AE9D1-D733-4910-893A-B1982B64AFAE" />
+  <MonoDevelop.Ide.ItemProperties.WorkHeart automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.739FE020-869E-40FE-A6BE-1FAC199B1CB1" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

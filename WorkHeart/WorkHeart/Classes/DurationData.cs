@@ -6,16 +6,11 @@ namespace WorkHeart.Classes
 
     public class DurationData
     {
-        //TIme in Seconds
-        private double timeGreen = 3;
-        private double timeYellow = 6;
-        private double timeOrange = 9;
-
         public DurationData()
         {
         }
 
-        public Colours getDurationStatus(TimeSpan timeElapsed)
+        public Colours getDurationStatus(TimeSpan timeElapsed, double timeGreen, double timeYellow, double timeOrange)
         {
             switch (timeElapsed.TotalSeconds)
             {

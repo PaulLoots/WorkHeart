@@ -14,6 +14,7 @@ namespace WorkHeart.Objects
         public const float defaultSize = 33;
         public float currentSize = defaultSize;
         public SKSpriteNode iconSprite;
+        private Colours currentColor;
 
         //Bubble Activation Status
         public bool activated = true;
@@ -23,6 +24,18 @@ namespace WorkHeart.Objects
 
         //Icon Vars
         public string iconName;
+
+        //Bubble type var
+        public string bubbleType;
+
+        //Action vars
+        public string actionLabel1;
+        public string actionLabel2;
+        private SKShapeNode actionButton;
+        private SKLabelNode actionLabel1Text;
+        private SKLabelNode actionLabel2Text;
+        public bool actionButtonAdded;
+        public string actionName;
 
 
         public Bubble()
@@ -38,7 +51,7 @@ namespace WorkHeart.Objects
             var path = new CGPath();
             path.AddArc(0, 0, defaultSize, 0, (float)Math.PI * 2f, true);
             Path = path;
-            FillColor = Colors.GetColor(Colours.Blue).ColorWithAlpha((System.nfloat)0.1);
+            FillColor = Colors.GetColor(Colours.Black);
 
             //iconName = "light";
         }
@@ -118,7 +131,7 @@ namespace WorkHeart.Objects
 
             AddChild(iconSprite);
             SetIcon(iconName);
-            SetIconColour(Colours.Blue);
+            SetIconColour(Colours.White);
             //setIconStyle();
         }
 
@@ -162,6 +175,8 @@ namespace WorkHeart.Objects
         {
             SubscribeToTracking();
 
+            RemoveActionView();
+
             if (centered)
             {
                 AddIcon();
@@ -179,7 +194,7 @@ namespace WorkHeart.Objects
             if (activated)
             {
                 PhysicsBody = null;
-                FillColor = Colors.GetColor(Colours.Blue).ColorWithAlpha((System.nfloat)0.1);
+                FillColor = Colors.GetColor(Colours.Black);
             } else
             {
                 //SetIcon(iconName);
@@ -211,29 +226,18 @@ namespace WorkHeart.Objects
         {
             SubscribeToBubbleCentered();
 
-            //SetActivatedPhysics();
-
-            //LineWidth = 15;
-            //AddIcon();
-
-            //******************************************************* Scale + Status ***
-
             if (centered)
             {
-                var setSizeNormal = SKAction.ScaleTo(1, 0.3);
-                RunAction(setSizeNormal);
-
-                //SetStatusGood();
-            
                 LineWidth = 15;
                 AddIcon();
                 iconSprite.RunAction(SKAction.FadeAlphaTo(1, 0.2));
 
                 SetReActivatedPhysics();
-                //SetActivatedPhysics();
                 SetIconColour(Colours.White);
 
                 centered = false;
+
+                SetStatus(currentColor);
             }
         }
 
@@ -241,11 +245,13 @@ namespace WorkHeart.Objects
         {
             centered = true;
 
+            RemoveActionView();
             RemoveAllChildren();
             iconSprite.RunAction(SKAction.FadeAlphaTo(0, 0.1));
 
             LineWidth = 3;
 
+            SetScale(1);
             var setSizeHuge = SKAction.ScaleTo(5, 0.3);
             RunAction(setSizeHuge);
 
@@ -258,14 +264,12 @@ namespace WorkHeart.Objects
 
             if (activated)
             {
-                FillColor = Colors.GetColor(Colours.Blue).ColorWithAlpha((System.nfloat)0.1);
-                //SetIcon(iconName + "-blue");
-                SetIconColour(Colours.Blue);
+                FillColor = Colors.GetColor(Colours.Black);
+                SetIconColour(Colours.White);
             }
             else
             {
                 FillColor = Colors.GetColor(Colours.Grey).ColorWithAlpha((System.nfloat)0.1);
-                //SetIcon(iconName);
                 SetIconColour(Colours.Black);
             }
         }
@@ -273,7 +277,7 @@ namespace WorkHeart.Objects
         private void SetColours(Colours colour)
         {
             FillColor = Colors.GetColor(colour);
-            StrokeColor = Colors.GetColor(colour).ColorWithAlpha((System.nfloat)0.1);
+            StrokeColor = Colors.GetColor(colour).ColorWithAlpha((System.nfloat)0.2);
         }
 
         public void SetIcon(string iconName)
@@ -305,24 +309,136 @@ namespace WorkHeart.Objects
                 switch (colour)
                 {
                     case Colours.Green:
+                        currentColor = Colours.Green;
+
+                        RemoveActionView();
                         RunAction(SKAction.ScaleTo(1, 0.3));
                         iconSprite.RunAction(SKAction.ScaleTo(1, 0.3));
                         LineWidth = 15;
                         break;
                     case Colours.Yellow:
+                        currentColor = Colours.Yellow;
+
+                        RemoveActionView();
                         RunAction(SKAction.ScaleTo((System.nfloat)1.2, 0.3));
                         iconSprite.RunAction(SKAction.ScaleTo((System.nfloat)0.9, 0.3));
                         LineWidth = 12;
                         break;
                     case Colours.Orange:
+                        currentColor = Colours.Orange;
+
                         RunAction(SKAction.ScaleTo((System.nfloat)1.5, 0.3));
-                        iconSprite.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
+                        iconSprite.RunAction(SKAction.ScaleTo((System.nfloat)0.5, 0.1));
                         LineWidth = 10;
+                        showActionView();
                         break;
                     case Colours.Red:
+                        currentColor = Colours.Red;
+
                         RunAction(SKAction.ScaleTo((System.nfloat)2, 0.3));
-                        iconSprite.RunAction(SKAction.ScaleTo((System.nfloat)0.5, 0.3));
+                        iconSprite.RunAction(SKAction.ScaleTo((System.nfloat)0.35, 0.3));
+                        actionButton.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
+                        actionLabel1Text.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
+                        actionLabel2Text.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
+                        SetIconColour(Colours.Red);
                         LineWidth = 8;
+                        showActionView();
+                        break;
+                }
+            }
+        }
+
+        private void showActionView()
+        {
+            if (!actionButtonAdded) {
+
+                AddActionLabels();
+
+                if (bubbleType == "actionbubble")
+                {
+                    actionButtonAdded = true;
+
+                    //Action Button
+                    actionButton = new SKShapeNode();
+                    var path = new CGPath();
+                    path.AddArc(0, 0, 16, 0, (float)Math.PI * 2f, true);
+                    actionButton.Path = path;
+                    actionButton.Position = new CGPoint(0, 0 - 14);
+                    actionButton.FillColor = Colors.GetColor(Colours.White);
+                    actionButton.Name = actionName;
+                    AddChild(actionButton);
+
+                    //Icon
+                    iconSprite.Texture = SKTexture.FromImageNamed("Icons/" + actionName);
+                    iconSprite.Position = new CGPoint(0, 0 - 14);
+                    SetIconColour(Colours.Orange);
+                }
+                else
+                {
+
+                }
+            }
+        }
+
+        private void RemoveActionView()
+        {
+            if (actionButtonAdded)
+            {
+                actionButtonAdded = false;
+                actionButton.RemoveFromParent();
+                actionLabel1Text.RemoveFromParent();
+                actionLabel2Text.RemoveFromParent();
+                iconSprite.Texture = SKTexture.FromImageNamed("Icons/" + iconName);
+                iconSprite.Position = new CGPoint(0, 0);
+                SetIconColour(Colours.White);
+            }
+        }
+
+        private void AddActionLabels()
+        {
+            actionLabel1Text = new SKLabelNode
+            {
+                Text = actionLabel1,
+                FontSize = 7,
+                FontName = "Helvetica Neue Medium",
+                FontColor = UIColor.White,
+                Position = new CGPoint(0, 0 + 15),
+                VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Center,
+                HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Center,
+                Name = "actionLabel1"
+            };
+
+            actionLabel2Text = new SKLabelNode
+            {
+                Text = actionLabel2,
+                FontSize = 7,
+                FontName = "Helvetica Neue Medium",
+                FontColor = UIColor.White,
+                Position = new CGPoint(0, 0 + 7),
+                VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Center,
+                HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Center,
+                Name = "actionLabel2"
+            };
+
+            AddChild(actionLabel1Text);
+            AddChild(actionLabel2Text);
+        }
+
+        public override void TouchesBegan(NSSet touches, UIEvent evt)
+        {
+            Console.WriteLine("touch");
+            var touch = touches.AnyObject as UITouch;
+            var pt = touch.LocationInNode(this);
+
+            if (bubbleType == "actionbubble")
+            {
+                var touchedNode = this.GetNodeAtPoint(pt);
+                switch (touchedNode.Name)
+                {
+                    case "actionButton":
+                        Console.WriteLine("ActionTouched");
+                        break;
+                    default:
                         break;
                 }
             }

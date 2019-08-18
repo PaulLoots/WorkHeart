@@ -105,6 +105,8 @@
     <BundleResource Include="Resources\Icons\default.png" />
     <BundleResource Include="Resources\Icons\noise.png" />
     <BundleResource Include="Resources\Icons\duration.png" />
+    <BundleResource Include="Resources\Icons\water.png" />
+    <BundleResource Include="Resources\Icons\addWater.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -131,6 +133,7 @@
     <Compile Include="Classes\LightData.cs" />
     <Compile Include="Objects\DurationBubble.cs" />
     <Compile Include="Classes\DurationData.cs" />
+    <Compile Include="Objects\WaterBubble.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
