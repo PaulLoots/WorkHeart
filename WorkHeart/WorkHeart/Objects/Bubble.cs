@@ -19,8 +19,12 @@ namespace WorkHeart.Objects
         //Bubble Activation Status
         public bool activated = true;
 
-        //Bubble Centered Status
+        //Centered Vars
         public bool centered;
+        private SKLabelNode centeredLabel1Text;
+        private SKLabelNode centeredLabel2Text;
+        public string centerLabel1;
+        public string centerLabel2;
 
         //Icon Vars
         public string iconName;
@@ -32,10 +36,12 @@ namespace WorkHeart.Objects
         public string actionLabel1;
         public string actionLabel2;
         private SKShapeNode actionButton;
+        private SKShapeNode actionButtonMinus;
         private SKLabelNode actionLabel1Text;
         private SKLabelNode actionLabel2Text;
         public bool actionButtonAdded;
         public string actionName;
+        public string minusActionName;
 
 
         public Bubble()
@@ -66,39 +72,6 @@ namespace WorkHeart.Objects
             body.Mass = 1;
             PhysicsBody = body;
         }
-
-        //private void SetYellowPhysics()
-        //{
-        //    var body = SKPhysicsBody.CreateCircularBody(currentSize + 12);
-        //    body.AffectedByGravity = false;
-        //    body.AllowsRotation = true;
-        //    body.Friction = 5;
-        //    body.LinearDamping = 1;
-        //    body.Mass = 1;
-        //    PhysicsBody = body;
-        //}
-
-        //private void SetOrangePhysics()
-        //{
-        //    var body = SKPhysicsBody.CreateCircularBody(currentSize + 15);
-        //    body.AffectedByGravity = false;
-        //    body.AllowsRotation = true;
-        //    body.Friction = 5;
-        //    body.LinearDamping = 1;
-        //    body.Mass = 1;
-        //    PhysicsBody = body;
-        //}
-
-        //private void SetRedPhysics()
-        //{
-        //    var body = SKPhysicsBody.CreateCircularBody(currentSize + 20);
-        //    body.AffectedByGravity = false;
-        //    body.AllowsRotation = true;
-        //    body.Friction = 5;
-        //    body.LinearDamping = 1;
-        //    body.Mass = 1;
-        //    PhysicsBody = body;
-        //}
 
         private void SetReActivatedPhysics()
         {
@@ -228,6 +201,7 @@ namespace WorkHeart.Objects
 
             if (centered)
             {
+                RemoveCenteredView();
                 LineWidth = 15;
                 AddIcon();
                 iconSprite.RunAction(SKAction.FadeAlphaTo(1, 0.2));
@@ -245,6 +219,8 @@ namespace WorkHeart.Objects
         {
             centered = true;
 
+            ZRotation = 0;
+
             RemoveActionView();
             RemoveAllChildren();
             iconSprite.RunAction(SKAction.FadeAlphaTo(0, 0.1));
@@ -253,9 +229,11 @@ namespace WorkHeart.Objects
 
             SetScale(1);
             var setSizeHuge = SKAction.ScaleTo(5, 0.3);
-            RunAction(setSizeHuge);
+            RunActionAsync(setSizeHuge);
 
             SetCenteredPhysics();
+
+            showCenteredView();
         }
 
         public void SetActivated()
@@ -303,6 +281,7 @@ namespace WorkHeart.Objects
         public void SetStatus(Colours colour)
         {
             SetColours(colour);
+            currentColor = colour;
 
             if (!centered)
             {
@@ -337,10 +316,13 @@ namespace WorkHeart.Objects
 
                         RunAction(SKAction.ScaleTo((System.nfloat)2, 0.3));
                         iconSprite.RunAction(SKAction.ScaleTo((System.nfloat)0.35, 0.3));
-                        actionButton.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
-                        actionLabel1Text.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
-                        actionLabel2Text.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
-                        SetIconColour(Colours.Red);
+                        if (actionButtonAdded)
+                        {
+                            actionButton.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
+                            actionLabel1Text.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
+                            actionLabel2Text.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
+                            SetIconColour(Colours.Red);
+                        }
                         LineWidth = 8;
                         showActionView();
                         break;
@@ -424,24 +406,119 @@ namespace WorkHeart.Objects
             AddChild(actionLabel2Text);
         }
 
-        public override void TouchesBegan(NSSet touches, UIEvent evt)
+        //Bubble centred look
+        private void showCenteredView()
         {
-            Console.WriteLine("touch");
-            var touch = touches.AnyObject as UITouch;
-            var pt = touch.LocationInNode(this);
-
-            if (bubbleType == "actionbubble")
+            if (!actionButtonAdded)
             {
-                var touchedNode = this.GetNodeAtPoint(pt);
-                switch (touchedNode.Name)
+
+                AddCenteredLabels();
+                
+
+                if (bubbleType == "actionbubble")
                 {
-                    case "actionButton":
-                        Console.WriteLine("ActionTouched");
-                        break;
-                    default:
-                        break;
+                    //Action Button
+                    actionButton = new SKShapeNode();
+                    var path = new CGPath();
+                    path.AddArc(0, 0, 36, 0, (float)Math.PI * 2f, true);
+                    actionButton.Path = path;
+                    actionButton.Position = new CGPoint(10, - 18);
+                    actionButton.FillColor = Colors.GetColor(Colours.White);
+                    actionButton.Name = actionName;
+                    AddChild(actionButton);
+
+                    actionButton.SetScale((System.nfloat)0.2);
+
+                    //Minus Action Button
+                    actionButtonMinus = new SKShapeNode();
+                    actionButtonMinus.Path = path;
+                    actionButtonMinus.Position = new CGPoint(-10, -18);
+                    actionButtonMinus.FillColor = Colors.GetColor(Colours.White);
+                    actionButtonMinus.Alpha = (System.nfloat)0.3;
+                    actionButtonMinus.Name = minusActionName;
+                    AddChild(actionButtonMinus);
+
+                    actionButtonMinus.SetScale((System.nfloat)0.2);
+
+                    //Icon
+                    var trackIcon = SKSpriteNode.FromImageNamed("Icons/" + iconName);
+                    trackIcon.Position = new CGPoint(0, 22);
+                    trackIcon.Color = Colors.GetColor(Colours.White);
+                    trackIcon.ColorBlendFactor = 1;
+                    AddChild(trackIcon);
+
+                    trackIcon.SetScale((System.nfloat)0.1);
+
+                    //Icon
+                    var plusIcon = SKSpriteNode.FromImageNamed("Icons/plus");
+                    plusIcon.Position = new CGPoint(10, -18);
+                    plusIcon.Color = Colors.GetColor(Colours.Black);
+                    plusIcon.ColorBlendFactor = 1;
+                    AddChild(plusIcon);
+
+                    plusIcon.SetScale((System.nfloat)0.1);
+
+                    //Icon2
+                    var minusIcon = SKSpriteNode.FromImageNamed("Icons/minus");
+                    minusIcon.Position = new CGPoint(-10, -18);
+                    minusIcon.Color = Colors.GetColor(Colours.White);
+                    minusIcon.ColorBlendFactor = 1;
+                    AddChild(minusIcon);
+
+                    minusIcon.SetScale((System.nfloat)0.1);
+                }
+                else
+                {
+
                 }
             }
         }
+
+        private void RemoveCenteredView()
+        {
+            RemoveAllChildren();
+            if (actionButtonAdded)
+            {
+                actionButtonAdded = false;
+            }
+        }
+
+        private void AddCenteredLabels()
+        {
+            centeredLabel1Text = new SKLabelNode
+            {
+                Text = centerLabel1,
+                FontSize = 64,
+                FontName = "Helvetica Neue Condensed Bold",
+                FontColor = UIColor.White,
+                Position = new CGPoint(0, 6),
+                VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Center,
+                HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Center,
+                Name = "actionLabel1"
+            };
+
+            centeredLabel2Text = new SKLabelNode
+            {
+                Text = centerLabel2,
+                FontSize = 18,
+                FontName = "Helvetica Neue Medium",
+                FontColor = UIColor.White,
+                Position = new CGPoint(0, -3),
+                VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Center,
+                HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Center,
+                Name = "actionLabel2"
+            };
+
+            AddChild(centeredLabel1Text);
+            AddChild(centeredLabel2Text);
+            centeredLabel1Text.SetScale((System.nfloat)0.2);
+            centeredLabel2Text.SetScale((System.nfloat)0.2);
+        }
+
+        public void UpdateCenteredLabel()
+        {
+            centeredLabel1Text.Text = centerLabel1;
+        }
+
     }
 }

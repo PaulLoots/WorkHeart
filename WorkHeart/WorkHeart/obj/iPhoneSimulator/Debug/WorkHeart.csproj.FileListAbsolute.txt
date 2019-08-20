@@ -18,3 +18,7 @@
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/Icons/water.png
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/Icons/addWater.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/Icons/plus.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/Icons/minus.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/Icons/food.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.4/optimized/Icons/addfood.png

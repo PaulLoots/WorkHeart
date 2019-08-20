@@ -86,6 +86,12 @@
   <ItemGroup>
     <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Resources\Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\Icon-120.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\Icon-180.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\Icon-120-1.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\Icon-152.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\Icon-167.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\LaunchImage.launchimage\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -107,6 +113,10 @@
     <BundleResource Include="Resources\Icons\duration.png" />
     <BundleResource Include="Resources\Icons\water.png" />
     <BundleResource Include="Resources\Icons\addWater.png" />
+    <BundleResource Include="Resources\Icons\plus.png" />
+    <BundleResource Include="Resources\Icons\minus.png" />
+    <BundleResource Include="Resources\Icons\food.png" />
+    <BundleResource Include="Resources\Icons\addFood.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -134,6 +144,11 @@
     <Compile Include="Objects\DurationBubble.cs" />
     <Compile Include="Classes\DurationData.cs" />
     <Compile Include="Objects\WaterBubble.cs" />
+    <Compile Include="Objects\FoodBubble.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

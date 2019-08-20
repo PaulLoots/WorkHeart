@@ -16,3 +16,5 @@
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/noise.png
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/duration.png
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/water.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/addWater.png

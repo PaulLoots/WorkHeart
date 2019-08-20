@@ -23,6 +23,7 @@ namespace WorkHeart
         NoiseBubble noiseBubble;
         DurationBubble durationBubble;
         WaterBubble waterBubble;
+        FoodBubble foodBubble;
 
         //Timer States
         Timer timer = new System.Timers.Timer();
@@ -87,6 +88,9 @@ namespace WorkHeart
 
             waterBubble = new WaterBubble(Size);
             AddChild(waterBubble);
+
+            foodBubble = new FoodBubble(Size);
+            AddChild(foodBubble);
         }
 
         public override void TouchesBegan(NSSet touches, UIEvent evt)
@@ -114,6 +118,9 @@ namespace WorkHeart
                         break;
                     case "WaterBubble":
                         currentBubble = waterBubble;
+                        break;
+                    case "FoodBubble":
+                        currentBubble = foodBubble;
                         break;
                     default:
                         break;
@@ -232,6 +239,30 @@ namespace WorkHeart
                 case "addWater":
                     waterBubble.addWater();
                     break;
+                case "removeWater":
+                    waterBubble.removeWater();
+                    break;
+                case "FoodBubble":
+
+                    if (TrackingState == "stopped")
+                    {
+                        foodBubble.SetActivated();
+                    }
+                    else if (TrackingState == "running" && CenteredState == false && isDragging == false)
+                    {
+                        OnBubbleCenterd();
+                        CenteredState = true;
+                        foodBubble.CenterItem();
+                        foodBubble.CenterItemContents();
+                    }
+
+                    break;
+                case "addFood":
+                    foodBubble.addFood();
+                    break;
+                case "removeFood":
+                    foodBubble.removeFood();
+                    break;
                 default:
 
                     if (TrackingState == "running" && CenteredState == true)
@@ -282,6 +313,7 @@ namespace WorkHeart
 
             durationBubble.UpdateDuration(timeElapsed);
             waterBubble.UpdateDuration(timeElapsed);
+            foodBubble.UpdateDuration(timeElapsed);
 
             timerButton.UpdateTime(timeElapsed);
         }

@@ -11,7 +11,7 @@ namespace WorkHeart.Objects
     public class WaterBubble : Bubble
     {
         //Wter tinme Ajustment
-        private int waterInterval = 10;
+        private int waterInterval = 15;
 
         private int glasses = 1;
         private CGSize parentSize;
@@ -27,6 +27,9 @@ namespace WorkHeart.Objects
             actionLabel1 = "Time to drink";
             actionLabel2 = "some water";
             actionName = "addWater";
+            minusActionName = "removeWater";
+            centerLabel1 = "0";
+            centerLabel2 = "GLASSES";
 
             parentSize = parentDimentions;
             defaultPosition = new CGPoint(parentSize.Width / 2 + 114, parentSize.Height / 2);
@@ -113,6 +116,24 @@ namespace WorkHeart.Objects
         public void addWater()
         {
             glasses = glasses + 1;
+            centerLabel1 = (glasses - 1).ToString();
+            if (centered)
+            {
+                UpdateCenteredLabel();
+            }
+        }
+
+        public void removeWater()
+        {
+            if (glasses > 1)
+            {
+                glasses = glasses - 1;
+                centerLabel1 = (glasses - 1).ToString();
+                if (centered)
+                {
+                    UpdateCenteredLabel();
+                }
+            }
         }
     }
 }
