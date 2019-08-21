@@ -116,7 +116,11 @@
     <BundleResource Include="Resources\Icons\plus.png" />
     <BundleResource Include="Resources\Icons\minus.png" />
     <BundleResource Include="Resources\Icons\food.png" />
+    <BundleResource Include="Resources\Icons\addStand.png" />
+    <BundleResource Include="Resources\Icons\stand.png" />
     <BundleResource Include="Resources\Icons\addFood.png" />
+    <BundleResource Include="Resources\Icons\plusFood.png" />
+    <BundleResource Include="Resources\Icons\timerRing.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -145,6 +149,7 @@
     <Compile Include="Classes\DurationData.cs" />
     <Compile Include="Objects\WaterBubble.cs" />
     <Compile Include="Objects\FoodBubble.cs" />
+    <Compile Include="Objects\StandBubble.cs" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

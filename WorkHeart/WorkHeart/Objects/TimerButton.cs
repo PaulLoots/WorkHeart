@@ -13,6 +13,10 @@ namespace WorkHeart.Objects
 
         //Label Var
         private SKLabelNode timerLabel;
+        private SKSpriteNode timerRing;
+
+        //Shape Buttons
+        private SKShapeNode stopButton;
 
         public TimerButton(CGSize parentDimentions)
         {
@@ -23,6 +27,7 @@ namespace WorkHeart.Objects
             SetDefaultLook();
             SetCenteredPhysics();
             AddTimerLabels();
+            AddRing();
         }
 
         private void SetDefaultLook()
@@ -31,9 +36,9 @@ namespace WorkHeart.Objects
             Name = "TimerBtn";
             path.AddArc(0, 0, defaultSize, 0, (float)Math.PI * 2f, true);
             Path = path;
-            LineWidth = 15;
-            StrokeColor = Colors.GetColor(Colours.Black).ColorWithAlpha((System.nfloat)0.1);
-            FillColor = Colors.GetColor(Colours.Black);
+            LineWidth = 0;
+            StrokeColor = Colors.GetColor(Colours.White).ColorWithAlpha((System.nfloat)0.1);
+            FillColor = Colors.GetColor(Colours.White);
             Position = new CGPoint(parentSize.Width / 2, parentSize.Height / 2);
         }
 
@@ -49,19 +54,6 @@ namespace WorkHeart.Objects
             //body.Restitution = 1;
             PhysicsBody = body;
         }
-
-        //private void SetCenteredPhysicsAfterScaleDown()
-        //{
-        //    var body = SKPhysicsBody.CreateCircularBody(defaultSize + 25);
-        //    body.AffectedByGravity = false;
-        //    body.AllowsRotation = false;
-        //    body.Dynamic = false;
-        //    body.LinearDamping = 100;
-        //    body.Friction = 10;
-        //    body.Mass = 10;
-        //    //body.Restitution = 1;
-        //    PhysicsBody = body;
-        //}
 
         private void SetLoosePhysics()
         {
@@ -80,7 +72,7 @@ namespace WorkHeart.Objects
                 Text = "Start",
                 FontSize = 13,
                 FontName = "Helvetica Neue Condensed Bold",
-                FontColor = UIColor.White,
+                FontColor = UIColor.Black,
                 VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Center - 40,
                 HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Center,
                 Name = "TimerBtn"
@@ -92,7 +84,7 @@ namespace WorkHeart.Objects
                 Position = new CGPoint(timerLabelStart.Position.X, timerLabelStart.Position.Y - 15),
                 FontSize = 13,
                 FontName = "Helvetica Neue Condensed Bold",
-                FontColor = UIColor.White,
+                FontColor = UIColor.Black,
                 Name = "TimerBtn"
             };
 
@@ -107,7 +99,7 @@ namespace WorkHeart.Objects
                 Text = "00:00",
                 FontSize = 15,
                 FontName = "Helvetica Neue Condensed Bold",
-                FontColor = UIColor.White,
+                FontColor = UIColor.Black,
                 Position = new CGPoint(0, 5),
                 Name = "TimerBtn"
             };
@@ -116,13 +108,23 @@ namespace WorkHeart.Objects
 
             var iconSprite = SKSpriteNode.FromImageNamed("Icons/pause");
             iconSprite.Position = new CGPoint(0, -20);
-            //iconSprite.Color = UIColor.White;
-            //iconSprite.ColorBlendFactor = 1;
+            iconSprite.Color = UIColor.Black;
+            iconSprite.ColorBlendFactor = 1;
 
             AddChild(iconSprite);
         }
 
-        //Tracking Events
+        private void AddRing()
+        {
+            timerRing = SKSpriteNode.FromImageNamed("Icons/timerRing");
+            timerRing.Position = new CGPoint(0, 0);
+            AddChild(timerRing);
+            timerRing.Name = "timerRing";
+
+            timerRing.SetScale((System.nfloat)0.38);
+        }
+
+        // Tracking Events
 
         private void SubscribeToTracking()
         {
@@ -142,9 +144,9 @@ namespace WorkHeart.Objects
 
         private void StartTracking()
         {
-            SubscribeToTrackingStopped();
+            SubscribePaused();
 
-            SetColours(Colours.Grey);
+            LineWidth = 15;
             RemoveAllChildren();
             AddTimingElements();
         }
@@ -153,15 +155,16 @@ namespace WorkHeart.Objects
         {
             SubscribeToTracking();
 
-            SetColours(Colours.Black);
+            LineWidth = 0;
             RemoveAllChildren();
             AddTimerLabels();
+            AddRing();
 
             CenterItemContents();
             SetCenteredPhysics();
         }
 
-        //Bubble Centered Event
+        // Bubble Centered Event
 
         private void SubscribeToBubbleCentered()
         {
@@ -189,6 +192,53 @@ namespace WorkHeart.Objects
             CenterItemContents();
             //SetCenteredPhysicsAfterScaleDown();
             SetCenteredPhysics();
+        }
+
+        // Paused Event
+
+        private void SubscribePaused()
+        {
+            GameScene.OnTrackingPlayed -= TrackingPlayed;
+            GameScene.OnTrackingPaused += TrackingPaused;
+        }
+
+        private void SubscribeToPlayed()
+        {
+            GameScene.OnTrackingPaused -= TrackingPaused;
+            GameScene.OnTrackingPlayed += TrackingPlayed;
+        }
+
+        private void TrackingPaused()
+        {
+            SubscribeToPlayed();
+            SubscribeToTrackingStopped();
+
+            SetScale(1);
+            RunActionAsync(SKAction.ScaleTo((System.nfloat)1.3, 0.3));
+
+            ShowTrackingPaused();
+        }
+
+        private void TrackingPlayed()
+        {
+            SubscribePaused();
+
+            RunActionAsync(SKAction.ScaleTo((System.nfloat)1, 0.3));
+        }
+
+        private void ShowTrackingPaused()
+        {
+            //Stop Button
+            stopButton = new SKShapeNode();
+            var path = new CGPath();
+            path.AddArc(0, 0, 36, 0, (float)Math.PI * 2f, true);
+            stopButton.Path = path;
+            stopButton.Position = new CGPoint(0,0);
+            stopButton.FillColor = Colors.GetColor(Colours.Black);
+            stopButton.Name = "stopButton";
+            AddChild(stopButton);
+
+            //stopButton.SetScale((System.nfloat)0.2);
         }
 
         private void SetColours(Colours colour)

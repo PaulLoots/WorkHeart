@@ -33,12 +33,12 @@ namespace WorkHeart.Objects
 
             if (activated)
             {
-                SetIconColour(Colours.White);
+                SetIconColour(Colours.Black);
             }
             else
             {
                 //SetIcon(iconName);
-                SetIconColour(Colours.Black);
+                SetIconColour(Colours.White);
             }
 
         }

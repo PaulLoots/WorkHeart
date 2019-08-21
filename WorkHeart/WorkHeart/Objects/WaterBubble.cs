@@ -11,7 +11,7 @@ namespace WorkHeart.Objects
     public class WaterBubble : Bubble
     {
         //Wter tinme Ajustment
-        private int waterInterval = 15;
+        private int waterInterval = 8;
 
         private int glasses = 1;
         private CGSize parentSize;
@@ -54,12 +54,12 @@ namespace WorkHeart.Objects
             if (activated)
             {
                 //SetIcon(iconName + "-blue");
-                SetIconColour(Colours.White);
+                SetIconColour(Colours.Black);
             }
             else
             {
                 //SetIcon(iconName);
-                SetIconColour(Colours.Black);
+                SetIconColour(Colours.White);
             }
 
         }
@@ -115,6 +115,7 @@ namespace WorkHeart.Objects
 
         public void addWater()
         {
+            RunActionAsync(SKAction.ScaleBy((System.nfloat)0.8, 0.2));
             glasses = glasses + 1;
             centerLabel1 = (glasses - 1).ToString();
             if (centered)
@@ -134,6 +135,11 @@ namespace WorkHeart.Objects
                     UpdateCenteredLabel();
                 }
             }
+        }
+
+        public int GetGlasses()
+        {
+            return glasses;
         }
     }
 }

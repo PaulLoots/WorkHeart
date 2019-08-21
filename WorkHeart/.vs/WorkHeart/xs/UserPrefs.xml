@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{D7B04512-8AF3-49D4-B06B-6138B8911960}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/GameScene.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/Objects/StandBubble.cs">
     <Files>
-      <File FileName="WorkHeart/GameScene.cs" Line="18" Column="1" />
+      <File FileName="WorkHeart/GameScene.cs" Line="325" Column="1" />
       <File FileName="WorkHeart/Objects/TestSprite.cs" />
       <File FileName="WorkHeart/Objects/TimerButton.cs" />
-      <File FileName="WorkHeart/Objects/LightBubble.cs" />
+      <File FileName="WorkHeart/Objects/LightBubble.cs" Line="25" Column="10" />
       <File FileName="WorkHeart/Objects/Colours.cs" />
       <File FileName="WorkHeart/Info.plist" />
-      <File FileName="WorkHeart/Objects/NoiseBubble.cs" Line="35" Column="14" />
-      <File FileName="WorkHeart/Objects/DurationBubble.cs" Line="92" Column="14" />
-      <File FileName="WorkHeart/Classes/DurationData.cs" Line="12" Column="1" />
-      <File FileName="WorkHeart/Objects/Bubble.cs" Line="352" Column="1" />
-      <File FileName="WorkHeart/Objects/WaterBubble.cs" Line="14" Column="39" />
-      <File FileName="WorkHeart/Objects/WaterBubble (copy).cs" Line="33" Column="1" />
+      <File FileName="WorkHeart/Objects/NoiseBubble.cs" />
+      <File FileName="WorkHeart/Objects/DurationBubble.cs" />
+      <File FileName="WorkHeart/Classes/DurationData.cs" />
+      <File FileName="WorkHeart/Objects/Bubble.cs" />
+      <File FileName="WorkHeart/Objects/WaterBubble.cs" />
+      <File FileName="WorkHeart/Objects/FoodBubble.cs" />
+      <File FileName="WorkHeart/Objects/StandBubble.cs" Line="29" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,11 +21,12 @@
           <Node name="WorkHeart" expanded="True">
             <Node name="WorkHeart" expanded="True">
               <Node name="Classes" expanded="True" />
-              <Node name="Objects" expanded="True" />
+              <Node name="Objects" expanded="True">
+                <Node name="StandBubble.cs" selected="True" />
+              </Node>
               <Node name="Resources" expanded="True">
                 <Node name="Icons" expanded="True" />
               </Node>
-              <Node name="GameScene.cs" selected="True" />
             </Node>
           </Node>
         </State>

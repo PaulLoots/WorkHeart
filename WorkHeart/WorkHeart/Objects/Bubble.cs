@@ -57,7 +57,7 @@ namespace WorkHeart.Objects
             var path = new CGPath();
             path.AddArc(0, 0, defaultSize, 0, (float)Math.PI * 2f, true);
             Path = path;
-            FillColor = Colors.GetColor(Colours.Black);
+            FillColor = Colors.GetColor(Colours.Grey).ColorWithAlpha((System.nfloat)0.1);
 
             //iconName = "light";
         }
@@ -167,11 +167,11 @@ namespace WorkHeart.Objects
             if (activated)
             {
                 PhysicsBody = null;
-                FillColor = Colors.GetColor(Colours.Black);
+                FillColor = Colors.GetColor(Colours.Grey).ColorWithAlpha((System.nfloat)0.1);
             } else
             {
                 //SetIcon(iconName);
-                SetIconColour(Colours.Black);
+                SetIconColour(Colours.White);
                 FillColor = Colors.GetColor(Colours.Grey).ColorWithAlpha((System.nfloat)0.1);
             }
         }
@@ -242,13 +242,13 @@ namespace WorkHeart.Objects
 
             if (activated)
             {
-                FillColor = Colors.GetColor(Colours.Black);
-                SetIconColour(Colours.White);
+                FillColor = Colors.GetColor(Colours.Grey).ColorWithAlpha((System.nfloat)0.1);
+                SetIconColour(Colours.Grey);
             }
             else
             {
                 FillColor = Colors.GetColor(Colours.Grey).ColorWithAlpha((System.nfloat)0.1);
-                SetIconColour(Colours.Black);
+                SetIconColour(Colours.White);
             }
         }
 
@@ -351,6 +351,7 @@ namespace WorkHeart.Objects
                     AddChild(actionButton);
 
                     //Icon
+                    Console.WriteLine(actionName);
                     iconSprite.Texture = SKTexture.FromImageNamed("Icons/" + actionName);
                     iconSprite.Position = new CGPoint(0, 0 - 14);
                     SetIconColour(Colours.Orange);

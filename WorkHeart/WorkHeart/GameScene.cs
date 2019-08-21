@@ -24,21 +24,34 @@ namespace WorkHeart
         DurationBubble durationBubble;
         WaterBubble waterBubble;
         FoodBubble foodBubble;
+        StandBubble standBubble;
 
         //Timer States
         Timer timer = new System.Timers.Timer();
+        Timer pausedTimer = new System.Timers.Timer();
         public string TrackingState = "stopped";
+        TimeSpan pausedTimeElapsed;
+        TimeSpan totalPausedTime;
 
         //Bubble States
         public bool CenteredState;
         public SKNode currentBubble;
         public bool isDragging;
 
+        //Labels
+        private SKLabelNode headingLabel1;
+        private SKLabelNode headingLabel2;
+        private SKSpriteNode infoIcon;
+        private SKLabelNode infoText1;
+        private SKLabelNode infoText2;
+        private SKLabelNode infoText3;
+
         //Touch Vars
         public CGPoint touchBeginPos;
 
         //Timer Vars
         private DateTime timerBeginTime;
+        private DateTime pausedTimerBeginTime;
 
         //Events
         public delegate void TrackingStartedAction();
@@ -46,6 +59,12 @@ namespace WorkHeart
 
         public delegate void TrackingStoppedAction();
         public static event TrackingStoppedAction OnTrackingStopped;
+
+        public delegate void TrackingPausedAction();
+        public static event TrackingPausedAction OnTrackingPaused;
+
+        public delegate void TrackingPlayedAction();
+        public static event TrackingPlayedAction OnTrackingPlayed;
 
         public delegate void BubbleCenterdAction();
         public static event BubbleCenterdAction OnBubbleCenterd;
@@ -91,6 +110,9 @@ namespace WorkHeart
 
             foodBubble = new FoodBubble(Size);
             AddChild(foodBubble);
+
+            standBubble = new StandBubble(Size);
+            AddChild(standBubble);
         }
 
         public override void TouchesBegan(NSSet touches, UIEvent evt)
@@ -121,6 +143,9 @@ namespace WorkHeart
                         break;
                     case "FoodBubble":
                         currentBubble = foodBubble;
+                        break;
+                    case "StandBubble":
+                        currentBubble = standBubble;
                         break;
                     default:
                         break;
@@ -162,6 +187,25 @@ namespace WorkHeart
             var touchedNode = this.GetNodeAtPoint(pt);
             switch (touchedNode.Name)
             {
+                case "timerRing":
+
+                    if (TrackingState == "stopped")
+                    {
+                        StartTracking();
+                        TrackingState = "running";
+                    }
+                    else if (TrackingState == "running")
+                    {
+                        PauseTracking();
+                        TrackingState = "paused";
+                    }
+                    else if (TrackingState == "paused")
+                    {
+                        ResumeTracking();
+                        TrackingState = "running";
+                    }
+
+                    break;
                 case "TimerBtn":
 
                     if (TrackingState == "stopped")
@@ -171,9 +215,20 @@ namespace WorkHeart
                     }
                     else if (TrackingState == "running")
                     {
-                        StopTracking();
-                        TrackingState = "stopped";
+                        PauseTracking();
+                        TrackingState = "paused";
                     }
+                    else if (TrackingState == "paused")
+                    {
+                        ResumeTracking();
+                        TrackingState = "running";
+                    }
+
+                    break;
+                case "stopButton":
+
+                    StopTracking();
+                    TrackingState = "stopped";
 
                     break;
                 case "LightBubble":
@@ -181,6 +236,7 @@ namespace WorkHeart
                     if (TrackingState == "stopped")
                     {
                         lightBubble.SetActivated();
+                        addInfoLabel("light", "Monitor the ambient lighting conditions around you");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
@@ -196,6 +252,7 @@ namespace WorkHeart
                     if (TrackingState == "stopped")
                     {
                         noiseBubble.SetActivated();
+                        addInfoLabel("noise", "Keep track of the noise levels in your work environment");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
@@ -211,6 +268,7 @@ namespace WorkHeart
                     if (TrackingState == "stopped")
                     {
                         durationBubble.SetActivated();
+                        addInfoLabel("duration", "See how long you work continuously");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
@@ -226,6 +284,7 @@ namespace WorkHeart
                     if (TrackingState == "stopped")
                     {
                         waterBubble.SetActivated();
+                        addInfoLabel("water", "Make sure you drink enough water and keep hydrated");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
@@ -247,6 +306,7 @@ namespace WorkHeart
                     if (TrackingState == "stopped")
                     {
                         foodBubble.SetActivated();
+                        addInfoLabel("food", "Eat at regular intervals to avoid fatigue");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
@@ -257,11 +317,33 @@ namespace WorkHeart
                     }
 
                     break;
-                case "addFood":
+                case "plusFood":
                     foodBubble.addFood();
                     break;
                 case "removeFood":
                     foodBubble.removeFood();
+                    break;
+                case "StandBubble":
+
+                    if (TrackingState == "stopped")
+                    {
+                        standBubble.SetActivated();
+                        addInfoLabel("stand", "Stand up on a regular basis to keep blood flowing");
+                    }
+                    else if (TrackingState == "running" && CenteredState == false && isDragging == false)
+                    {
+                        OnBubbleCenterd();
+                        CenteredState = true;
+                        standBubble.CenterItem();
+                        standBubble.CenterItemContents();
+                    }
+
+                    break;
+                case "addStand":
+                    standBubble.addStand();
+                    break;
+                case "removeStand":
+                    standBubble.removeStand();
                     break;
                 default:
 
@@ -295,27 +377,72 @@ namespace WorkHeart
 
             //Style
             setBGColour(UIColor.Black);
+            headingLabel1.RemoveFromParent();
+            headingLabel2.RemoveFromParent();
+            removeInfoLabel();
         }
 
         private void StopTracking()
         {
-            timer.Stop();
+            totalPausedTime = new TimeSpan(0);
+            //timer.Stop();
             OnTrackingStopped();
 
             //Style
             setBGColour(UIColor.White);
+            AddHeadingLabels();
+            timerButton.SetScale(1);
+        }
+
+        private void PauseTracking()
+        {
+            timer.Stop();
+            OnTrackingPaused();
+            PausedTime();
+
+            //Style
+            //setBGColour(UIColor.White);
+            //AddHeadingLabels();
+        }
+
+        private void ResumeTracking()
+        {
+            totalPausedTime += pausedTimeElapsed;
+            pausedTimer.Stop();
+            timer.Start();
+            OnTrackingPlayed();
+
+            //Style
+            //setBGColour(UIColor.White);
+            //AddHeadingLabels();
         }
 
         private void UpdateTimedData(object sender, ElapsedEventArgs e)
         {
-            TimeSpan timeElapsed = e.SignalTime - timerBeginTime;
-            Console.WriteLine(timeElapsed);
-
+            TimeSpan timeElapsed = e.SignalTime - timerBeginTime - totalPausedTime;
+            
             durationBubble.UpdateDuration(timeElapsed);
             waterBubble.UpdateDuration(timeElapsed);
             foodBubble.UpdateDuration(timeElapsed);
+            standBubble.UpdateDuration(timeElapsed);
 
             timerButton.UpdateTime(timeElapsed);
+        }
+
+        private void PausedTime()
+        {
+            pausedTimerBeginTime = DateTime.Now;
+
+            pausedTimer.Interval = 1000;
+            pausedTimer.Enabled = true;
+            pausedTimer.Elapsed += UpdatePausedTimedData;
+            pausedTimer.Start();
+        }
+
+        private void UpdatePausedTimedData(object sender, ElapsedEventArgs e)
+        {
+
+            pausedTimeElapsed = e.SignalTime - pausedTimerBeginTime;
         }
 
         //Create Initial Gravity field
@@ -352,7 +479,7 @@ namespace WorkHeart
                 partOfDay = "Morning";
             }
 
-            var headingLabel1 = new SKLabelNode
+            headingLabel1 = new SKLabelNode
             {
                 Text = "Ready For a",
                 FontSize = 34,
@@ -364,7 +491,7 @@ namespace WorkHeart
                 Name = "headingLabel1"
             };
 
-            var headingLabel2 = new SKLabelNode
+            headingLabel2 = new SKLabelNode
             {
                 Text = "Productive " + partOfDay + "?",
                 FontSize = 34,
@@ -376,8 +503,47 @@ namespace WorkHeart
                 Name = "headingLabel2"
             };
 
+            addInfoLabel("light", "Select which items you would like to track");
+
             AddChild(headingLabel1);
             AddChild(headingLabel2);
+        }
+
+        private void addInfoLabel(string icon, string text)
+        {
+            removeInfoLabel();
+
+            //Icon
+            infoIcon = SKSpriteNode.FromImageNamed("Icons/" + icon);
+            infoIcon.Position = new CGPoint((float)(this.Size.Width / 2.70), (float)(this.Size.Height * 0.23));
+            infoIcon.Color = Colors.GetColor(Colours.Black).ColorWithAlpha((System.nfloat)0.5);
+            infoIcon.ColorBlendFactor = 1;
+            AddChild(infoIcon);
+
+            infoIcon.SetScale((System.nfloat)0.3);
+
+            infoText1 = new SKLabelNode
+            {
+                Text = text,
+                FontSize = 18,
+                FontName = "Helvetica Neue Regular",
+                FontColor = UIColor.FromRGB(51, 51, 51),
+                VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Top,
+                HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Left,
+                Position = new CGPoint((float)(this.Size.Width / 2.85), (float)(this.Size.Height * 0.18)),
+                Name = "headingLabel2"
+            };
+            AddChild(infoText1);
+        }
+
+        private void removeInfoLabel()
+        {
+            //Icon
+            if (infoIcon != null)
+            {
+                infoIcon.RemoveFromParent();
+                infoText1.RemoveFromParent();
+            }
         }
     }
 }

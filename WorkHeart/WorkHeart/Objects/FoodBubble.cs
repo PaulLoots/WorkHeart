@@ -26,7 +26,7 @@ namespace WorkHeart.Objects
             bubbleType = "actionbubble";
             actionLabel1 = "Time to eat";
             actionLabel2 = "something";
-            actionName = "addFood";
+            actionName = "plusFood";
             minusActionName = "removeFood";
             centerLabel1 = "0";
             centerLabel2 = "SNACKS";
@@ -54,12 +54,12 @@ namespace WorkHeart.Objects
             if (activated)
             {
                 //SetIcon(iconName + "-blue");
-                SetIconColour(Colours.White);
+                SetIconColour(Colours.Black);
             }
             else
             {
                 //SetIcon(iconName);
-                SetIconColour(Colours.Black);
+                SetIconColour(Colours.White);
             }
 
         }

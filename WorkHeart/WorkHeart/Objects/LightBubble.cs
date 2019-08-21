@@ -34,12 +34,12 @@ namespace WorkHeart.Objects
             if (activated)
             {
                 //SetIcon(iconName + "-blue");
-                SetIconColour(Colours.White);
+                SetIconColour(Colours.Black);
             }
             else
             {
                 //SetIcon(iconName);
-                SetIconColour(Colours.Black);
+                SetIconColour(Colours.White);
             }
 
         }
