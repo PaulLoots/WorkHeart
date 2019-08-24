@@ -82,6 +82,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.Essentials">
+      <HintPath>..\packages\Xamarin.Essentials.1.3.0\lib\xamarinios10\Xamarin.Essentials.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK-1.0" />
+    <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -121,6 +126,7 @@
     <BundleResource Include="Resources\Icons\addFood.png" />
     <BundleResource Include="Resources\Icons\plusFood.png" />
     <BundleResource Include="Resources\Icons\timerRing.png" />
+    <BundleResource Include="Resources\Icons\motion.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -129,6 +135,7 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -150,6 +157,9 @@
     <Compile Include="Objects\WaterBubble.cs" />
     <Compile Include="Objects\FoodBubble.cs" />
     <Compile Include="Objects\StandBubble.cs" />
+    <Compile Include="Classes\NoiseData.cs" />
+    <Compile Include="Classes\MovementData.cs" />
+    <Compile Include="Objects\MotionBubble.cs" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

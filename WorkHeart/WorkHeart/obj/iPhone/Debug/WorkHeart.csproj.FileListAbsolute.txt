@@ -18,3 +18,16 @@
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/water.png
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/addWater.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/bin/iPhone/Debug/Xamarin.Essentials.dll
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/bin/iPhone/Debug/Xamarin.Essentials.pdb
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/bin/iPhone/Debug/Xamarin.Essentials.xml
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/plus.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/minus.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/food.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/addStand.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/stand.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/addFood.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/plusFood.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/timerRing.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/WorkHeart.csproj.CopyComplete
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/motion.png

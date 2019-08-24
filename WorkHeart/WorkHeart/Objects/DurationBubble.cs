@@ -90,7 +90,7 @@ namespace WorkHeart.Objects
         {
             if (activated)
             {
-                var colourStatus = durationDataController.getDurationStatus(timeElapsed, 10, 15, 500);
+                var colourStatus = durationDataController.getDurationStatus(timeElapsed, 30, 60, 500);
 
                 SetStatus(colourStatus);
             }

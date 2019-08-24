@@ -42,6 +42,12 @@ namespace WorkHeart.Objects
         public bool actionButtonAdded;
         public string actionName;
         public string minusActionName;
+        private SKLabelNode actionInfoLabel1Text;
+        private SKLabelNode actionInfoLabel2Text;
+        private SKLabelNode actionInfoLabel3Text;
+        public string actionInfoLabel1;
+        public string actionInfoLabel2;
+        public string actionInfoLabel3;
 
 
         public Bubble()
@@ -294,6 +300,10 @@ namespace WorkHeart.Objects
                         RunAction(SKAction.ScaleTo(1, 0.3));
                         iconSprite.RunAction(SKAction.ScaleTo(1, 0.3));
                         LineWidth = 15;
+                        if (bubbleType != "actionbubble")
+                        {
+                            SetIconColour(Colours.White);
+                        }
                         break;
                     case Colours.Yellow:
                         currentColor = Colours.Yellow;
@@ -302,17 +312,33 @@ namespace WorkHeart.Objects
                         RunAction(SKAction.ScaleTo((System.nfloat)1.2, 0.3));
                         iconSprite.RunAction(SKAction.ScaleTo((System.nfloat)0.9, 0.3));
                         LineWidth = 12;
+                        if (bubbleType != "actionbubble")
+                        {
+                            SetIconColour(Colours.White);
+                        }
                         break;
                     case Colours.Orange:
                         currentColor = Colours.Orange;
+                        showActionView();
 
                         RunAction(SKAction.ScaleTo((System.nfloat)1.5, 0.3));
                         iconSprite.RunAction(SKAction.ScaleTo((System.nfloat)0.5, 0.1));
+                        if (actionButtonAdded)
+                        {
+                            actionButton.RunAction(SKAction.ScaleTo((System.nfloat)1, 0.3));
+                            actionLabel1Text.RunAction(SKAction.ScaleTo((System.nfloat)1, 0.3));
+                            actionLabel2Text.RunAction(SKAction.ScaleTo((System.nfloat)1, 0.3));
+                            SetIconColour(Colours.Orange);
+                        }
+                        if (bubbleType != "actionbubble")
+                        {
+                            SetIconColour(Colours.White);
+                        }
                         LineWidth = 10;
-                        showActionView();
                         break;
                     case Colours.Red:
                         currentColor = Colours.Red;
+                        showActionView();
 
                         RunAction(SKAction.ScaleTo((System.nfloat)2, 0.3));
                         iconSprite.RunAction(SKAction.ScaleTo((System.nfloat)0.35, 0.3));
@@ -323,8 +349,11 @@ namespace WorkHeart.Objects
                             actionLabel2Text.RunAction(SKAction.ScaleTo((System.nfloat)0.75, 0.3));
                             SetIconColour(Colours.Red);
                         }
+                        if (bubbleType != "actionbubble")
+                        {
+                            SetIconColour(Colours.White);
+                        }
                         LineWidth = 8;
-                        showActionView();
                         break;
                 }
             }
@@ -358,7 +387,21 @@ namespace WorkHeart.Objects
                 }
                 else
                 {
+                    //Icon
+                    actionButtonAdded = true;
 
+                    actionButton = new SKShapeNode();
+                    var path = new CGPath();
+                    path.AddArc(0, 0, 1, 0, (float)Math.PI * 2f, true);
+                    actionButton.Path = path;
+                    actionButton.Position = new CGPoint(0, 0 - 14);
+                    actionButton.FillColor = Colors.GetColor(Colours.White);
+                    actionButton.Alpha = 0;
+                    AddChild(actionButton);
+
+                    iconSprite.Texture = SKTexture.FromImageNamed("Icons/" + iconName);
+                    iconSprite.Position = new CGPoint(0, 0 - 14);
+                    SetIconColour(Colours.Orange);
                 }
             }
         }
@@ -415,7 +458,6 @@ namespace WorkHeart.Objects
 
                 AddCenteredLabels();
                 
-
                 if (bubbleType == "actionbubble")
                 {
                     //Action Button
@@ -470,7 +512,57 @@ namespace WorkHeart.Objects
                 }
                 else
                 {
+                    //Icon
+                    var trackIcon = SKSpriteNode.FromImageNamed("Icons/" + iconName);
+                    trackIcon.Position = new CGPoint(0, 22);
+                    trackIcon.Color = Colors.GetColor(Colours.White);
+                    trackIcon.ColorBlendFactor = 1;
+                    AddChild(trackIcon);
 
+                    trackIcon.SetScale((System.nfloat)0.1);
+
+                    actionInfoLabel1Text = new SKLabelNode
+                    {
+                        Text = actionInfoLabel1,
+                        FontSize = 14,
+                        FontName = "Helvetica Neue",
+                        FontColor = UIColor.White,
+                        Position = new CGPoint(0, - 15),
+                        VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Center,
+                        HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Center,
+                        Name = "actionInfoLabel1"
+                    };
+
+                    actionInfoLabel2Text = new SKLabelNode
+                    {
+                        Text = actionInfoLabel2,
+                        FontSize = 14,
+                        FontName = "Helvetica Neue",
+                        FontColor = UIColor.White,
+                        Position = new CGPoint(0, - 19),
+                        VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Center,
+                        HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Center,
+                        Name = "actionInfoLabel2"
+                    };
+
+                    actionInfoLabel3Text = new SKLabelNode
+                    {
+                        Text = actionInfoLabel3,
+                        FontSize = 14,
+                        FontName = "Helvetica Neue",
+                        FontColor = UIColor.White,
+                        Position = new CGPoint(0, -23),
+                        VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Center,
+                        HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Center,
+                        Name = "actionInfoLabel2"
+                    };
+
+                    AddChild(actionInfoLabel1Text);
+                    AddChild(actionInfoLabel2Text);
+                    AddChild(actionInfoLabel3Text);
+                    actionInfoLabel1Text.SetScale((System.nfloat)0.2);
+                    actionInfoLabel2Text.SetScale((System.nfloat)0.2);
+                    actionInfoLabel3Text.SetScale((System.nfloat)0.2);
                 }
             }
         }

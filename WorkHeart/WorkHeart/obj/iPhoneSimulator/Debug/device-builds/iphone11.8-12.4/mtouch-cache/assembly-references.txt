@@ -1,7 +1,12 @@
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/bin/iPhoneSimulator/Debug/WorkHeart.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/mscorlib.dll
-/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
-/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/System.dll
-/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/Mono.Security.dll
-/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/System.Xml.dll
-/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/System.Core.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/mscorlib.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/System.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/Mono.Security.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/System.Xml.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/System.Numerics.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/System.Core.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/System.Net.Http.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/packages/Xamarin.Essentials.1.3.0/lib/xamarinios10/Xamarin.Essentials.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
