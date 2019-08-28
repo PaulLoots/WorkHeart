@@ -9,7 +9,6 @@ using System.Timers;
 
 using WorkHeart.Objects;
 using WorkHeart.Classes;
-using System.Diagnostics;
 
 namespace WorkHeart
 {
@@ -20,7 +19,7 @@ namespace WorkHeart
         //Objects
         SKFieldNode gravityNode;
         TimerButton timerButton;
-        MotionBubble motionBubble;
+        LightBubble lightBubble;
         NoiseBubble noiseBubble;
         DurationBubble durationBubble;
         WaterBubble waterBubble;
@@ -28,8 +27,8 @@ namespace WorkHeart
         StandBubble standBubble;
 
         //Timer States
-        System.Timers.Timer timer = new System.Timers.Timer();
-        System.Timers.Timer pausedTimer = new System.Timers.Timer();
+        Timer timer = new System.Timers.Timer();
+        Timer pausedTimer = new System.Timers.Timer();
         public string TrackingState = "stopped";
         TimeSpan pausedTimeElapsed;
         TimeSpan totalPausedTime;
@@ -97,8 +96,8 @@ namespace WorkHeart
             timerButton = new TimerButton(Size);
             AddChild(timerButton);
 
-            motionBubble = new MotionBubble(Size);
-            AddChild(motionBubble);
+            lightBubble = new LightBubble(Size);
+            AddChild(lightBubble);
 
             noiseBubble = new NoiseBubble(Size);
             AddChild(noiseBubble);
@@ -130,8 +129,8 @@ namespace WorkHeart
                 var touchedNode = this.GetNodeAtPoint(pt);
                 switch (touchedNode.Name)
                 {
-                    case "MotionBubble":
-                        currentBubble = motionBubble;
+                    case "LightBubble":
+                        currentBubble = lightBubble;
                         break;
                     case "NoiseBubble":
                         currentBubble = noiseBubble;
@@ -232,19 +231,19 @@ namespace WorkHeart
                     TrackingState = "stopped";
 
                     break;
-                case "MotionBubble":
+                case "LightBubble":
 
                     if (TrackingState == "stopped")
                     {
-                        motionBubble.SetActivated();
-                        addInfoLabel("light", "Monitor movement and vibrations", "in your workspace.");
+                        lightBubble.SetActivated();
+                        addInfoLabel("light", "Monitor the ambient lighting conditions around you");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
                         OnBubbleCenterd();
                         CenteredState = true;
-                        motionBubble.CenterItem();
-                        motionBubble.CenterItemContents();
+                        lightBubble.CenterItem();
+                        lightBubble.CenterItemContents();
                     }
 
                     break;
@@ -253,7 +252,7 @@ namespace WorkHeart
                     if (TrackingState == "stopped")
                     {
                         noiseBubble.SetActivated();
-                        addInfoLabel("noise", "Keep track of the noise levels", "in your work environment");
+                        addInfoLabel("noise", "Keep track of the noise levels in your work environment");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
@@ -269,7 +268,7 @@ namespace WorkHeart
                     if (TrackingState == "stopped")
                     {
                         durationBubble.SetActivated();
-                        addInfoLabel("duration", "See how long you work continuously."," ");
+                        addInfoLabel("duration", "See how long you work continuously");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
@@ -285,7 +284,7 @@ namespace WorkHeart
                     if (TrackingState == "stopped")
                     {
                         waterBubble.SetActivated();
-                        addInfoLabel("water", "Make sure you drink enough water", "and stay hydrated.");
+                        addInfoLabel("water", "Make sure you drink enough water and keep hydrated");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
@@ -307,7 +306,7 @@ namespace WorkHeart
                     if (TrackingState == "stopped")
                     {
                         foodBubble.SetActivated();
-                        addInfoLabel("food", "Eat at regular intervals", "to avoid fatigue.");
+                        addInfoLabel("food", "Eat at regular intervals to avoid fatigue");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
@@ -329,7 +328,7 @@ namespace WorkHeart
                     if (TrackingState == "stopped")
                     {
                         standBubble.SetActivated();
-                        addInfoLabel("stand", "Stand up on a regular basis", "to keep blood flowing.");
+                        addInfoLabel("stand", "Stand up on a regular basis to keep blood flowing");
                     }
                     else if (TrackingState == "running" && CenteredState == false && isDragging == false)
                     {
@@ -421,9 +420,7 @@ namespace WorkHeart
         private void UpdateTimedData(object sender, ElapsedEventArgs e)
         {
             TimeSpan timeElapsed = e.SignalTime - timerBeginTime - totalPausedTime;
-
-            noiseBubble.CheckNoise();
-            motionBubble.CheckMotion();
+            
             durationBubble.UpdateDuration(timeElapsed);
             waterBubble.UpdateDuration(timeElapsed);
             foodBubble.UpdateDuration(timeElapsed);
@@ -506,13 +503,13 @@ namespace WorkHeart
                 Name = "headingLabel2"
             };
 
-            addInfoLabel("light", "Select which items you would", "like to track.");
+            addInfoLabel("light", "Select which items you would like to track");
 
             AddChild(headingLabel1);
             AddChild(headingLabel2);
         }
 
-        private void addInfoLabel(string icon, string text, string text2)
+        private void addInfoLabel(string icon, string text)
         {
             removeInfoLabel();
 
@@ -534,30 +531,9 @@ namespace WorkHeart
                 VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Top,
                 HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Left,
                 Position = new CGPoint((float)(this.Size.Width / 2.85), (float)(this.Size.Height * 0.18)),
+                Name = "headingLabel2"
             };
-            infoText2 = new SKLabelNode
-            {
-                Text = text2,
-                FontSize = 18,
-                FontName = "Helvetica Neue Regular",
-                FontColor = UIColor.FromRGB(51, 51, 51),
-                VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Top,
-                HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Left,
-                Position = new CGPoint((float)(this.Size.Width / 2.85), (float)(this.Size.Height * 0.15)),
-            };
-            //infoText3 = new SKLabelNode
-            //{
-            //    Text = text.Substring(77, 114),
-            //    FontSize = 18,
-            //    FontName = "Helvetica Neue Regular",
-            //    FontColor = UIColor.FromRGB(51, 51, 51),
-            //    VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Top,
-            //    HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Left,
-            //    Position = new CGPoint((float)(this.Size.Width / 2.85), (float)(this.Size.Height * 0.12)),
-            //};
             AddChild(infoText1);
-            AddChild(infoText2);
-            //AddChild(infoText3);
         }
 
         private void removeInfoLabel()
@@ -567,8 +543,6 @@ namespace WorkHeart
             {
                 infoIcon.RemoveFromParent();
                 infoText1.RemoveFromParent();
-                infoText2.RemoveFromParent();
-                //infoText3.RemoveFromParent();
             }
         }
     }

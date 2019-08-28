@@ -30,6 +30,9 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Assets.xcassets/AppIcon.appiconset</string>
@@ -39,7 +42,5 @@
 	</array>
 	<key>XSLaunchImageAssets</key>
 	<string>Resources/Assets.xcassets/LaunchImage.launchimage</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Work Heart needs to use the microphone</string>
 </dict>
 </plist>

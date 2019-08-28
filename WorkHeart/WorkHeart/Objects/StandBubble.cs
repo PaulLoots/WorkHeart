@@ -11,7 +11,7 @@ namespace WorkHeart.Objects
     public class StandBubble : Bubble
     {
         //Wter tinme Ajustment
-        private int standInterval = 26;
+        private int standInterval = 12;
 
         private int glasses = 1;
         private CGSize parentSize;

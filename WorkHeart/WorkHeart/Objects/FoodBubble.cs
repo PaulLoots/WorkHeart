@@ -11,7 +11,7 @@ namespace WorkHeart.Objects
     public class FoodBubble : Bubble
     {
         //Wter tinme Ajustment
-        private int foodInterval = 24;
+        private int foodInterval = 10;
 
         private int glasses = 1;
         private CGSize parentSize;

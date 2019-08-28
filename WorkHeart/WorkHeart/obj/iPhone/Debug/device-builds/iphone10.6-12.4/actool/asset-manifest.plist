@@ -5,27 +5,21 @@
 	<key>com.apple.actool.compilation-results</key>
 	<dict>
 		<key>output-files</key>
-		<array>
-			<string>/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/actool/bundle/AppIcon60x60@2x.png</string>
-			<string>/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/actool/bundle/AppIcon76x76@2x~ipad.png</string>
-			<string>/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/actool/bundle/LaunchImage-700-568h@2x.png</string>
-			<string>/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/actool/bundle/Assets.car</string>
-			<string>/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/actool/partial-info.plist</string>
-		</array>
+		<array/>
 	</dict>
 	<key>com.apple.actool.document.warnings</key>
 	<array>
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./AppIcon.appiconset</string>
+				<string>./AppIcon.appiconset/[][watch][44x44][longLook][42mm][2x][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/actool/cloned-assets/Resources/Assets.xcassets</string>
 			<key>message</key>
-			<string>A 1024x1024 app store icon is required for iOS apps</string>
+			<string>The app icon set "AppIcon" has an unassigned child.</string>
 			<key>type</key>
-			<string>Missing Content</string>
+			<string>Ambiguous Content</string>
 		</dict>
 	</array>
 </dict>
