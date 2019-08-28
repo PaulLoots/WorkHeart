@@ -1,43 +1,22 @@
 ﻿<Properties StartupConfiguration="{D7B04512-8AF3-49D4-B06B-6138B8911960}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/Objects/NoiseBubble.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/Objects/TimerButton.cs">
     <Files>
-      <File FileName="WorkHeart/GameScene.cs" Line="537" Column="15" />
+      <File FileName="WorkHeart/GameScene.cs" Line="576" Column="1" />
       <File FileName="WorkHeart/Objects/TestSprite.cs" />
-      <File FileName="WorkHeart/Objects/TimerButton.cs" />
+      <File FileName="WorkHeart/Objects/TimerButton.cs" Line="268" Column="1" />
       <File FileName="WorkHeart/Objects/LightBubble.cs" />
       <File FileName="WorkHeart/Objects/Colours.cs" />
-      <File FileName="WorkHeart/Info.plist" />
-      <File FileName="WorkHeart/Objects/DurationBubble.cs" Line="81" Column="1" />
+      <File FileName="WorkHeart/Objects/NoiseBubble.cs" />
+      <File FileName="WorkHeart/Objects/DurationBubble.cs" />
       <File FileName="WorkHeart/Classes/DurationData.cs" />
-      <File FileName="WorkHeart/Objects/Bubble.cs" Line="611" Column="21" />
+      <File FileName="WorkHeart/Objects/Bubble.cs" />
       <File FileName="WorkHeart/Objects/WaterBubble.cs" />
       <File FileName="WorkHeart/Objects/FoodBubble.cs" />
-      <File FileName="WorkHeart/Objects/StandBubble.cs" />
-      <File FileName="WorkHeart/Classes/NoiseData.cs" />
-      <File FileName="WorkHeart/Objects/NoiseBubble.cs" Line="105" Column="42" />
-      <File FileName="packages/Xamarin.Essentials.1.3.0/readme.txt" />
-      <File FileName="WorkHeart/Classes/MovementData.cs" Line="19" Column="1" />
-      <File FileName="WorkHeart/Objects/MotionBubble.cs" Line="110" Column="61" />
+      <File FileName="WorkHeart/Objects/StandBubble.cs" Line="140" Column="1" />
+      <File FileName="WorkHeart/Info.plist" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="WorkHeart" expanded="True">
-            <Node name="WorkHeart" expanded="True">
-              <Node name="Classes" expanded="True" />
-              <Node name="Objects" expanded="True">
-                <Node name="NoiseBubble.cs" selected="True" />
-              </Node>
-              <Node name="Resources" expanded="True">
-                <Node name="Icons" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WorkHeart automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.89634DF3-B260-4F74-8438-393C9EA8837B" />
+  <MonoDevelop.Ide.ItemProperties.WorkHeart PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.89634DF3-B260-4F74-8438-393C9EA8837B" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
