@@ -106,7 +106,7 @@ namespace WorkHeart.Objects
             iconSprite = SKSpriteNode.FromImageNamed("Icons/default");
             iconSprite.Position = new CGPoint(0, 0);
 
-            Console.WriteLine(iconSprite.Texture);
+            Console.WriteLine("109" + iconSprite.Texture);
 
             AddChild(iconSprite);
             SetIcon(iconName);
@@ -266,7 +266,7 @@ namespace WorkHeart.Objects
 
         public void SetIcon(string iconName)
         {
-            Console.WriteLine(iconName);
+            Console.WriteLine("269" + iconName);
             iconSprite.Texture = SKTexture.FromImageNamed("Icons/" + iconName);
 
             Console.WriteLine(iconSprite.Color);
@@ -380,7 +380,7 @@ namespace WorkHeart.Objects
                     AddChild(actionButton);
 
                     //Icon
-                    Console.WriteLine(actionName);
+                    Console.WriteLine("383" + actionName);
                     iconSprite.Texture = SKTexture.FromImageNamed("Icons/" + actionName);
                     iconSprite.Position = new CGPoint(0, 0 - 14);
                     SetIconColour(Colours.Orange);

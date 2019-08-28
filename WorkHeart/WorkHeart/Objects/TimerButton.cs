@@ -17,6 +17,7 @@ namespace WorkHeart.Objects
 
         //Shape Buttons
         private SKShapeNode stopButton;
+        private SKSpriteNode pauseIcon;
 
         public TimerButton(CGSize parentDimentions)
         {
@@ -96,7 +97,7 @@ namespace WorkHeart.Objects
         {
             timerLabel = new SKLabelNode
             {
-                Text = "00:00",
+                Text = "00:00:00",
                 FontSize = 15,
                 FontName = "Helvetica Neue Condensed Bold",
                 FontColor = UIColor.Black,
@@ -106,12 +107,12 @@ namespace WorkHeart.Objects
 
             AddChild(timerLabel);
 
-            var iconSprite = SKSpriteNode.FromImageNamed("Icons/pause");
-            iconSprite.Position = new CGPoint(0, -20);
-            iconSprite.Color = UIColor.Black;
-            iconSprite.ColorBlendFactor = 1;
+            pauseIcon = SKSpriteNode.FromImageNamed("Icons/pause");
+            pauseIcon.Position = new CGPoint(0, -20);
+            pauseIcon.Color = UIColor.Black;
+            pauseIcon.ColorBlendFactor = 1;
 
-            AddChild(iconSprite);
+            AddChild(pauseIcon);
         }
 
         private void AddRing()
@@ -157,6 +158,10 @@ namespace WorkHeart.Objects
 
             LineWidth = 0;
             RemoveAllChildren();
+            SetScale(1);
+            StrokeColor = Colors.GetColor(Colours.White).ColorWithAlpha((System.nfloat)0.1);
+            FillColor = Colors.GetColor(Colours.White);
+
             AddTimerLabels();
             AddRing();
 
@@ -223,22 +228,44 @@ namespace WorkHeart.Objects
         {
             SubscribePaused();
 
+            StrokeColor = Colors.GetColor(Colours.White).ColorWithAlpha((System.nfloat)0.1);
+            FillColor = Colors.GetColor(Colours.White);
             RunActionAsync(SKAction.ScaleTo((System.nfloat)1, 0.3));
+            StartTracking();
         }
 
         private void ShowTrackingPaused()
         {
+            pauseIcon.RemoveFromParent();
+            timerLabel.Position = new CGPoint(0, 32);
+            timerLabel.FontColor = Colors.GetColor(Colours.White);
+
+            FillColor = Colors.GetColor(Colours.Black);
+            StrokeColor = Colors.GetColor(Colours.Black).ColorWithAlpha((System.nfloat)0.1);
+
             //Stop Button
             stopButton = new SKShapeNode();
             var path = new CGPath();
             path.AddArc(0, 0, 36, 0, (float)Math.PI * 2f, true);
             stopButton.Path = path;
-            stopButton.Position = new CGPoint(0,0);
-            stopButton.FillColor = Colors.GetColor(Colours.Black);
+            stopButton.Position = new CGPoint(0, 0);
+            stopButton.FillColor = Colors.GetColor(Colours.White);
             stopButton.Name = "stopButton";
             AddChild(stopButton);
 
-            //stopButton.SetScale((System.nfloat)0.2);
+            stopButton.SetScale((System.nfloat)0.7);
+
+            var stopIcon = SKSpriteNode.FromImageNamed("Icons/stop");
+            stopIcon.Position = new CGPoint(0, 0);
+
+            AddChild(stopIcon);
+            stopIcon.SetScale((System.nfloat)0.3);
+
+            var playIcon = SKSpriteNode.FromImageNamed("Icons/play");
+            playIcon.Position = new CGPoint(0, -40);
+
+            AddChild(playIcon);
+            playIcon.SetScale((System.nfloat)0.3);
         }
 
         private void SetColours(Colours colour)
@@ -256,7 +283,25 @@ namespace WorkHeart.Objects
         public void UpdateTime(TimeSpan timeElaspsed)
         {
             InvokeOnMainThread(() => {
-                timerLabel.Text = timeElaspsed.Hours.ToString() + ":" + timeElaspsed.Minutes.ToString() + ":" + timeElaspsed.Seconds.ToString();
+                var hours = timeElaspsed.Hours.ToString();
+                if (hours.Length < 2)
+                {
+                    hours = "0" + hours;
+                }
+
+                var minutes = timeElaspsed.Minutes.ToString();
+                if (minutes.Length < 2)
+                {
+                    minutes = "0" + minutes;
+                }
+
+                var seconds = timeElaspsed.Seconds.ToString();
+                if (seconds.Length < 2)
+                {
+                    seconds = "0" + seconds;
+                }
+
+                timerLabel.Text = hours + ":" + minutes + ":" + seconds;
             });
         }
 

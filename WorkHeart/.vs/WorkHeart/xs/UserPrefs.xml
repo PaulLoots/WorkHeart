@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{D7B04512-8AF3-49D4-B06B-6138B8911960}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/Objects/TimerButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/GameScene.cs">
     <Files>
-      <File FileName="WorkHeart/GameScene.cs" Line="576" Column="1" />
+      <File FileName="WorkHeart/GameScene.cs" Line="565" Column="34" />
       <File FileName="WorkHeart/Objects/TestSprite.cs" />
-      <File FileName="WorkHeart/Objects/TimerButton.cs" Line="268" Column="1" />
+      <File FileName="WorkHeart/Objects/TimerButton.cs" />
       <File FileName="WorkHeart/Objects/LightBubble.cs" />
       <File FileName="WorkHeart/Objects/Colours.cs" />
       <File FileName="WorkHeart/Objects/NoiseBubble.cs" />
@@ -12,13 +12,18 @@
       <File FileName="WorkHeart/Objects/Bubble.cs" />
       <File FileName="WorkHeart/Objects/WaterBubble.cs" />
       <File FileName="WorkHeart/Objects/FoodBubble.cs" />
-      <File FileName="WorkHeart/Objects/StandBubble.cs" Line="140" Column="1" />
+      <File FileName="WorkHeart/Objects/StandBubble.cs" />
       <File FileName="WorkHeart/Info.plist" />
+      <File FileName="WorkHeart/Classes/MovementData.cs" />
+      <File FileName="WorkHeart/Classes/NoiseData.cs" />
+      <File FileName="WorkHeart/Objects/MotionBubble.cs" />
+      <File FileName="WorkHeart/Main.cs" />
+      <File FileName="WorkHeart/GameViewController.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WorkHeart PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.89634DF3-B260-4F74-8438-393C9EA8837B" />
+  <MonoDevelop.Ide.ItemProperties.WorkHeart PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.24a1164fdf1efff3014856f8cae6b5f70ff3c369" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

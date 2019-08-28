@@ -56,7 +56,7 @@ namespace WorkHeart.Classes
             recorder.UpdateMeters();
             peakPower = recorder.PeakPower(0);
             averagePower = recorder.AveragePower(0);
-            Console.WriteLine($"{averagePower}:{peakPower}");
+            //Console.WriteLine($"{averagePower}:{peakPower}");
 
             return averagePower + 90;
         }
@@ -134,23 +134,6 @@ namespace WorkHeart.Classes
 
             recorder.PrepareToRecord();
             recorder.Record();
-
-            //var peakPower = 0.0;
-            //var averagePower = 0.0;
-            //// Note: No await, run the following Task synchronously!
-            //Task.Run(async () => // Personally I would create my own Thread, but this works for a quick example
-            //{
-            //    while (true) // Do not create object/release objects or subtasks in this loop, it will cause poor performance due to GC.
-            //    {
-            //        if (!recorder.Recording)
-            //            return;
-            //        recorder.UpdateMeters();
-            //        peakPower = recorder.PeakPower(0);
-            //        averagePower = recorder.AveragePower(0);
-            //        Console.WriteLine($"{averagePower}:{peakPower}");
-            //        Thread.Sleep(200);
-            //    }
-            //});
         }
     }
 }

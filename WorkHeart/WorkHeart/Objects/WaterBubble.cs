@@ -11,7 +11,7 @@ namespace WorkHeart.Objects
     public class WaterBubble : Bubble
     {
         //Wter tinme Ajustment
-        private int waterInterval = 20;
+        private int waterInterval = 3400;
 
         private int glasses = 1;
         private CGSize parentSize;

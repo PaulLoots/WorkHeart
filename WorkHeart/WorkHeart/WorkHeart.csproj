@@ -127,6 +127,9 @@
     <BundleResource Include="Resources\Icons\plusFood.png" />
     <BundleResource Include="Resources\Icons\timerRing.png" />
     <BundleResource Include="Resources\Icons\motion.png" />
+    <BundleResource Include="Resources\Icons\play.png" />
+    <BundleResource Include="Resources\Icons\stop.png" />
+    <BundleResource Include="Resources\Icons\bulb.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />

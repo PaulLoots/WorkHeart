@@ -11,7 +11,7 @@ namespace WorkHeart.Objects
     public class StandBubble : Bubble
     {
         //Wter tinme Ajustment
-        private int standInterval = 26;
+        private int standInterval = 5400;
 
         private int glasses = 1;
         private CGSize parentSize;
@@ -107,7 +107,7 @@ namespace WorkHeart.Objects
 
             if (activated)
             {
-                var colourStatus = durationDataController.getDurationStatus(timeElapsed, standTimeAmount - (standInterval * 0.65), standTimeAmount - (standInterval * 0.35), standTimeAmount);
+                var colourStatus = durationDataController.getDurationStatus(timeElapsed, standTimeAmount - (standInterval * 0.66), standTimeAmount - (standInterval * 0.30), standTimeAmount);
 
                 SetStatus(colourStatus);
             }

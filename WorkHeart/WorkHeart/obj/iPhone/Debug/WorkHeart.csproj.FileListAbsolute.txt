@@ -31,3 +31,6 @@
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/timerRing.png
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/WorkHeart.csproj.CopyComplete
 /Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/motion.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/play.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/stop.png
+/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/obj/iPhone/Debug/device-builds/iphone10.6-12.4/optimized/Icons/bulb.png

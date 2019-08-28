@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		l4Sd6ngQlaGIdVLaod5qvcFlTao=
+		toCHVq3QGGilZcLdKUs84W8BJnQ=
 		</data>
 		<key>Fonts/SF-Pro-Rounded-Bold.otf</key>
 		<data>
@@ -35,6 +35,10 @@
 		<key>Icons/addWater.png</key>
 		<data>
 		sJhZKx5iXSKyi0frkM+Xt9HP/+I=
+		</data>
+		<key>Icons/bulb.png</key>
+		<data>
+		A3XEixSjghy5RgsnGtUsOK6u3Dk=
 		</data>
 		<key>Icons/default.png</key>
 		<data>
@@ -68,6 +72,10 @@
 		<data>
 		h+M7lqNx8fp7ok7YbhkSaVW7j1U=
 		</data>
+		<key>Icons/play.png</key>
+		<data>
+		mbepdMU5H8xcPsK+Qyle+aqbPKw=
+		</data>
 		<key>Icons/plus.png</key>
 		<data>
 		zaa0azJ+FsV75s4zEilRgr7S43g=
@@ -79,6 +87,10 @@
 		<key>Icons/stand.png</key>
 		<data>
 		MM0NxylTfJgQaLRl0j9uEvNxFrg=
+		</data>
+		<key>Icons/stop.png</key>
+		<data>
+		nTOcNs/QVXxyFvb4STtIdWNidC8=
 		</data>
 		<key>Icons/timerRing.png</key>
 		<data>
@@ -130,7 +142,7 @@
 		</data>
 		<key>OpenTK-1.0.aotdata.arm64</key>
 		<data>
-		C9p1KXmsNL59vh9J44JrhcJbt8s=
+		uhllrhSqGaiYzJQiFDFQhwvfvXw=
 		</data>
 		<key>OpenTK-1.0.dll</key>
 		<data>
@@ -154,7 +166,7 @@
 		</data>
 		<key>System.Core.aotdata.arm64</key>
 		<data>
-		nWpZCWVe4tUOwR7NdiVrczY3SYQ=
+		ioqL7CkzGA4athZr5IZbQc1bCQ0=
 		</data>
 		<key>System.Core.dll</key>
 		<data>
@@ -166,7 +178,7 @@
 		</data>
 		<key>System.Drawing.Common.aotdata.arm64</key>
 		<data>
-		udrXP5kGQil5dSBnDtgprnPGoM0=
+		Q0Uv72CvAYjkwMAA5Gso5GcAOCs=
 		</data>
 		<key>System.Drawing.Common.dll</key>
 		<data>
@@ -174,7 +186,7 @@
 		</data>
 		<key>System.Net.Http.aotdata.arm64</key>
 		<data>
-		3wYQ5zlpxfENKYaFFf5jkTZ9joo=
+		mgw+77Aqzk9hepxUvyKXWwnpme4=
 		</data>
 		<key>System.Net.Http.dll</key>
 		<data>
@@ -186,7 +198,7 @@
 		</data>
 		<key>System.Numerics.aotdata.arm64</key>
 		<data>
-		MYtm/k038sU0EvrtTIWrLhsBxQQ=
+		++3Ma8aofE7j5bdO9YTogFTo6ow=
 		</data>
 		<key>System.Numerics.dll</key>
 		<data>
@@ -198,7 +210,7 @@
 		</data>
 		<key>System.aotdata.arm64</key>
 		<data>
-		dJ9FGaqHEyza/mNwnJrMgm+DxM4=
+		GdIooSB8C0ZEOVBlVqHrnfY2u6w=
 		</data>
 		<key>System.dll</key>
 		<data>
@@ -210,19 +222,19 @@
 		</data>
 		<key>WorkHeart.aotdata.arm64</key>
 		<data>
-		su6ZtIucP8sjr82aphcyzMf0rok=
+		rC9zrZ0GFX5TdjAkD/V8ZKPgDHM=
 		</data>
 		<key>WorkHeart.exe</key>
 		<data>
-		cp8Vg8uYJgdKWPgxewPlR+3u9dc=
+		04cc9Pn+Krv+w9vSn6K5JfDCwyg=
 		</data>
 		<key>WorkHeart.pdb</key>
 		<data>
-		MKXjH70FJGPysy/gqyXVmGe24Js=
+		tr7kCDKRsdq33HVlHS2ZC1KoB/M=
 		</data>
 		<key>Xamarin.Essentials.aotdata.arm64</key>
 		<data>
-		Y09lJ2lkCBUtJ+82Fq2RKSVgpKA=
+		mVxauIGTibOEfwErgmpOf8acYZc=
 		</data>
 		<key>Xamarin.Essentials.dll</key>
 		<data>
@@ -234,15 +246,15 @@
 		</data>
 		<key>Xamarin.iOS.aotdata.arm64</key>
 		<data>
-		7AgxJL/xlKD1JeDri/IxVfv0vBA=
+		0F9IN7hweZFRQaP0sY6RkUess24=
 		</data>
 		<key>Xamarin.iOS.dll</key>
 		<data>
-		McMOOBRrWzb1bUGJcVCJUyRffzU=
+		+utiIOnahsUMtBb6mpyolt86POc=
 		</data>
 		<key>Xamarin.iOS.pdb</key>
 		<data>
-		IvN520HIdynfXeF8BqISObfweZc=
+		8C8MaOVWi1CVDG9vEWyVCvQyMVM=
 		</data>
 		<key>archived-expanded-entitlements.xcent</key>
 		<data>
@@ -254,39 +266,39 @@
 		</data>
 		<key>libOpenTK-1.0.dll.dylib</key>
 		<data>
-		UWJWyNu21ZbAKR1WbeZG3WeY5yk=
+		pVinolEhQAsVbijWPXhKwvXzJsk=
 		</data>
 		<key>libSystem.Core.dll.dylib</key>
 		<data>
-		ntYF65s7y++K/pVMzhf+2eeJ4Vc=
+		5Sy7JU5TyWJ44K8tFMW1ztF2tB0=
 		</data>
 		<key>libSystem.Drawing.Common.dll.dylib</key>
 		<data>
-		ao5labicjv7mykFW0Ol3MX3AEwQ=
+		YUk2EZtdZCqGhSZ2LSdfjGq8eW8=
 		</data>
 		<key>libSystem.Net.Http.dll.dylib</key>
 		<data>
-		9xI93tAmM9UDJ8sVVTvahgzeF64=
+		NjRPGSdGnUJbn86rj+D4WkN430I=
 		</data>
 		<key>libSystem.Numerics.dll.dylib</key>
 		<data>
-		EviBkC37aGJQy7+GHxJMDBkJrBM=
+		b0uKcCC+iPm6Su96zOVLlwR38gs=
 		</data>
 		<key>libSystem.dll.dylib</key>
 		<data>
-		Qy2Itq0C4Y2O0ra2CabMpO89NCA=
+		yqZlDLHjH9Be1hjKMIIFpn+hTVg=
 		</data>
 		<key>libWorkHeart.exe.dylib</key>
 		<data>
-		Z92QARKyz5/7GYmmR80ydHMjB4A=
+		WTINqlN8l+180BF92YV/qYXQ89w=
 		</data>
 		<key>libXamarin.Essentials.dll.dylib</key>
 		<data>
-		KkIg42QoKNGxuSPoe/ThbUGTEis=
+		WDvT7zI9zRmzFbRhBWNEzpFEDnI=
 		</data>
 		<key>libXamarin.iOS.dll.dylib</key>
 		<data>
-		pzCh1akBOJMH1kb835Gv8LbQglQ=
+		r+eHjWTNoC+9rHcuB2K0VS6VIbs=
 		</data>
 		<key>libmono-native-unified.dylib</key>
 		<data>
@@ -298,7 +310,7 @@
 		</data>
 		<key>libmscorlib.dll.dylib</key>
 		<data>
-		/8aLGCgzjz6Hr4fX3VVOddNqGMU=
+		I1x7W4VrkiW6OSHc/x9CNwRwjEM=
 		</data>
 		<key>libxamarin-debug.dylib</key>
 		<data>
@@ -306,15 +318,15 @@
 		</data>
 		<key>mscorlib.aotdata.arm64</key>
 		<data>
-		fFQevaA2wGiH63uxl02ta6M+KJo=
+		42uUABBUEci00IqW7oovn1Irqw8=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		qn/m3NKXHkw7QNuc5bb8cZLLMZ0=
+		hAPIIxzxVoGxSeUwf+vCVJJeLHI=
 		</data>
 		<key>mscorlib.pdb</key>
 		<data>
-		2W8/MKUtJ58E7Q7tEcIwAb67uqA=
+		+3R7E/EzimXenugfssyG4fa2OhI=
 		</data>
 		<key>spaceship.png</key>
 		<data>
@@ -341,7 +353,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A7mK9KX+48IK+o2/jz88IWunp7zENeZkqATqb4aCous=
+			GJMm356IdkSEHRuZ7qbobuoo6OzxJnxG3pi5SAN4/Kw=
 			</data>
 		</dict>
 		<key>Fonts/SF-Pro-Rounded-Bold.otf</key>
@@ -377,6 +389,13 @@
 			<key>hash2</key>
 			<data>
 			QtyRaqX3Sa8aHyMKqcAKeMrvv+9XzOCoOGOGmRCHUC8=
+			</data>
+		</dict>
+		<key>Icons/bulb.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gNfdpdqTt2eSTD3tD5ojWmItrM0x0xhRxTp0UD8Pkks=
 			</data>
 		</dict>
 		<key>Icons/default.png</key>
@@ -435,6 +454,13 @@
 			eOu56P3vYiwCdzlzbsqbhMiK48J0F/ybZcE6Zumv58c=
 			</data>
 		</dict>
+		<key>Icons/play.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H2tKcHaeb37pOuW7bIvII1OmgDyIAzojEddP9hDcvpA=
+			</data>
+		</dict>
 		<key>Icons/plus.png</key>
 		<dict>
 			<key>hash2</key>
@@ -454,6 +480,13 @@
 			<key>hash2</key>
 			<data>
 			ncRXDKPlFNtxBLg1w2WG/rQCgtyU7Y8C1JD/bJCLP2I=
+			</data>
+		</dict>
+		<key>Icons/stop.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9DJLF16DYuwJLOW6Sf5Qyey8Yptk8oB/yVTZzKTCRSs=
 			</data>
 		</dict>
 		<key>Icons/timerRing.png</key>
@@ -537,7 +570,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BhDGyHkLUicNRArUfw+YWhPc3bQ6K6GQmti5RfyDk3U=
+			aTNI1DPdN3jT2a9AB1h3MuA+xZJhXaJUlZxfBFwwcBg=
 			</data>
 		</dict>
 		<key>OpenTK-1.0.dll</key>
@@ -572,7 +605,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KlE7FSF9+aiXrF2qn5KZT87YUp3HQ15pULw+0HBwiXU=
+			ULaq19f/sGxHExk3AbLiGoJvnxhmJi8sv7ah4IOv938=
 			</data>
 		</dict>
 		<key>System.Core.dll</key>
@@ -593,7 +626,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ujJNIFl+Zm7cak+luVFoCZWK5X2dEWSlsWfAiYw5l4U=
+			qA0LgcEY3okiQlmG57PnVya+jha7BUpceWCyzQrGw4E=
 			</data>
 		</dict>
 		<key>System.Drawing.Common.dll</key>
@@ -607,7 +640,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9fLxEQMrKWp17OexSFLxTZ3m1UynqlDr52KTLKQGb0s=
+			yWTbQ9kgvYH/O9x29bvGdqDl2WtPpxE/DJZUPW5K38U=
 			</data>
 		</dict>
 		<key>System.Net.Http.dll</key>
@@ -628,7 +661,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/qP96mRvQz/WtjXEOwnUeNBzQitIt4ArcdVBU9Mce1E=
+			TAHZHKxkDNMRGURMBxuZVFZ01CxOgJRKkYtahBHegfU=
 			</data>
 		</dict>
 		<key>System.Numerics.dll</key>
@@ -649,7 +682,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/PHJXTk9+u/1VdJf+yaVo9AEOEPn/l8/uQVtDFB8pj8=
+			QXkreKjMLUc14Z/c87qCLn9MgCJRBcP/t3ig1KFJKgE=
 			</data>
 		</dict>
 		<key>System.dll</key>
@@ -670,28 +703,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGHpQVp++bwsqPgq8apcl6PdSm+L1psKYi/ec3uGG78=
+			aMdegioXAQ91/cEiXPenQ8J+PkeMS5UxytKi92eqDTI=
 			</data>
 		</dict>
 		<key>WorkHeart.exe</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sRXjUAZRRJEv3i+d6xjn5xP/TxQYiAesmEzNcQ7P7sU=
+			7JXCM0wW/QUrUB5MM0i+25xfLZG2f58Y6q9o7XkJbiM=
 			</data>
 		</dict>
 		<key>WorkHeart.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2AnrioKqlwRSkDQo7d1iILmHN5OYjkuGkab0SVDZPDM=
+			DOiR+YPdQrkIP1RRwFxcrOFFQIBUVNcsm+iNpcDZZRo=
 			</data>
 		</dict>
 		<key>Xamarin.Essentials.aotdata.arm64</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3/Run2CQtJDkbRyJTOfYKo4WLTm49yO2iGf5Y5sqUJY=
+			5TpGvUQqBIyTP6lKtLD7N/zj5FiCQjDNJzdz66eZzWY=
 			</data>
 		</dict>
 		<key>Xamarin.Essentials.dll</key>
@@ -712,21 +745,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AgO7OZoTvr47/xB098ORnFDJa0plv9CiDAXoWk3ANbU=
+			6t+gWog7iTP4BjaYDKxPqPj7MYsreBIKRkXLo8ln2eg=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8UESDEHsp6CJnGT//l+44E48LgXC/RFZqKC5uSywLyY=
+			Aqgg+E7U9XgDbb3t2a5PrSDDpQkVB2zJ0lcTYmDYy5c=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lcnQQe9zSOwDDO427WBcH10L0cmbM1Zlhe4fTBB3rz0=
+			eiUnMH3dsk4NZ66121Uy2hU8vjQJ/sqxv4sNn8RokjA=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -747,63 +780,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kuyvmv7/IjDDclOFxjhBZ6kA/yalcvMmHkL1E5hQUh0=
+			FdC11URxlk2Nq8dImdWI4rZhCnpDUd64KKguL1d47so=
 			</data>
 		</dict>
 		<key>libSystem.Core.dll.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t/2s39c2mn2Ff4JZA6DlKZSwM5z2ytVLcJJ+oDSNzuI=
+			KNwfsYB9qcs7a+mH2jZokBn8bLTJEfwwFARwa2t/4nQ=
 			</data>
 		</dict>
 		<key>libSystem.Drawing.Common.dll.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			itiSWm80mdbgM69PKNZQXfUGcTZhe3+ZmHNhO/pzS4w=
+			tqPgRxrZKpczJnYFle0RomkxC5XTKDwmKgrpmeJOPno=
 			</data>
 		</dict>
 		<key>libSystem.Net.Http.dll.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Aai28PNl756EDxKeT3lBL1uGR9LFtHn2/nhLfQz4sU=
+			PURyKIerQfWucrL09Be14WkmwuZ5EFyF+Ov6k+uI7Yk=
 			</data>
 		</dict>
 		<key>libSystem.Numerics.dll.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			itbQSjboK6VyrQ2K4sjiMHz6meBgp8jUS5qMcQgjfgw=
+			Bfhlv2gdr8RF33Ij66bG6B/j1YTO5MglGrjF8Tt2rCI=
 			</data>
 		</dict>
 		<key>libSystem.dll.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nt8ZE79Iwm9g+bYgk9Kr5wW/qONscHcDEQew0ETbOlw=
+			5LWuggoRBM7eP4gDQletz5cSBAfmV0E9bu9zd/xcJmw=
 			</data>
 		</dict>
 		<key>libWorkHeart.exe.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AdUsBlwzdPPefL8s/zHQ3XLgUiv+d7OdQ7Jzua44TyA=
+			CHUP4isYknho6dJgOBQoDpg+Ku4Q+CpZWFWEWU3Lb7I=
 			</data>
 		</dict>
 		<key>libXamarin.Essentials.dll.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sKXOcfH1/lnHGZR8OipuVzTgJLDQFHXArHbrfug5lwE=
+			Xuy1DJcTWPFPOUWvCO+aD2Q5rL5ZkTkCBCGyL7fdP0A=
 			</data>
 		</dict>
 		<key>libXamarin.iOS.dll.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WdDDp9u6atUU4urfhhckTk+BqVQbypUIU+6Dt3FSkIA=
+			wlXNv3cgQK5bv8OSlQHqIuJUwZI3et4ncg8EANHmpSc=
 			</data>
 		</dict>
 		<key>libmono-native-unified.dylib</key>
@@ -824,7 +857,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IAvL0iv7EXBVkHaapD5SS0wL1WsHxA8NvkIoUEUaHC0=
+			uoIk4l4hKzWmqMA0LOAiGfJ7Nw8jwvR+ax51cO+NEh8=
 			</data>
 		</dict>
 		<key>libxamarin-debug.dylib</key>
@@ -838,21 +871,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z7ynBZQl8RSzvX04DQP6T9qgb4GLBlq6Rlbl1OvZim0=
+			FyNdtQCnTRthyJFbLq9SE84A7dE89GXfsKQmTZvDzBs=
 			</data>
 		</dict>
 		<key>mscorlib.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DxFPw66UTZaLk2usrEWPShcaDeCZ6IHMkMDO3Ai0PIE=
+			SL2NZ/3DFoXTiru4HpU4prLpikh7HusFMYE0Wm3iJ+8=
 			</data>
 		</dict>
 		<key>mscorlib.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LyjBtIwIdv7dxlYJGyiAIlslONsy8hmeIHVwR2VAgWo=
+			iAorMD0wd1dezMLzBGlelYs/XNiMOR5OCpmEuAa3QBI=
 			</data>
 		</dict>
 		<key>spaceship.png</key>

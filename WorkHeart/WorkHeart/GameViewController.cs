@@ -18,8 +18,8 @@ namespace WorkHeart
 
             // Configure the view.
             var skView = (SKView)View;
-            skView.ShowsFPS = true;
-            skView.ShowsNodeCount = true;
+            //skView.ShowsFPS = true;
+            //skView.ShowsNodeCount = true;
             /* Sprite Kit applies additional optimizations to improve rendering performance */
             skView.IgnoresSiblingOrder = true;
 

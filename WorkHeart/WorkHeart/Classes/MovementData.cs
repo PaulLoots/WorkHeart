@@ -47,9 +47,6 @@ namespace WorkHeart.Classes
 
         private void HandleAccelerometerReadingChanged(object sender, AccelerometerChangedEventArgs e)
         {
-            Console.WriteLine(e.Reading.Acceleration.X);
-            Console.WriteLine(e.Reading.Acceleration.Y);
-            Console.WriteLine(e.Reading.Acceleration.Z);
             currentMotionX = e.Reading.Acceleration.X;
             currentMotionY = e.Reading.Acceleration.Y;
             currentMotionZ = e.Reading.Acceleration.Z;

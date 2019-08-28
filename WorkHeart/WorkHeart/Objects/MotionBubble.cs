@@ -29,9 +29,9 @@ namespace WorkHeart.Objects
             bubbleType = "passivebubble";
             actionLabel1 = "Heavy";
             actionLabel2 = "motion";
-            actionInfoLabel1 = "Below 60db = Good";
-            actionInfoLabel2 = "Below 80db = Medium";
-            actionInfoLabel3 = "Above 90db = Bad";
+            actionInfoLabel1 = "";
+            actionInfoLabel2 = "";
+            actionInfoLabel3 = "";
             //actionName = "addWater";
             //minusActionName = "removeWater";
             centerLabel1 = "0";

@@ -750,28 +750,12 @@ add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #336]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x54000dc1
+.word 0x54000a01
 .word 0xaa1703e0
 .word 0xaa1703f9
-.loc 3 21 0
+.loc 3 24 0
 .word 0xf9401bb1
 .word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xd2800020
-.word 0xaa1703e0
-.word 0xd2800021
-.word 0xf94002e2
-.word 0xf9415450
-.word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf9414e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 22 0
-.word 0xf9401bb1
-.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -782,28 +766,12 @@ ldr x1, [x16, #336]
 .word 0xf9415050
 .word 0xd63f0200
 .word 0xf9401bb1
-.word 0xf9418a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 24 0
-.word 0xf9401bb1
-.word 0xf9419a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xd2800020
-.word 0xaa1703e0
-.word 0xd2800021
-.word 0xf94002e2
-.word 0xf9415850
-.word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf941c631
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 27 0
 .word 0xf9401bb1
-.word 0xf941d631
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -817,7 +785,7 @@ ldr x15, [x16, #352]
 bl _p_6
 .word 0xf9002fa0
 .word 0xf9401bb1
-.word 0xf9420631
+.word 0xf9418e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
@@ -825,7 +793,7 @@ bl _p_6
 .word 0xaa0003f8
 .loc 3 28 0
 .word 0xf9401bb1
-.word 0xf9422231
+.word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba2
@@ -837,31 +805,31 @@ bl _p_6
 .word 0xf9413050
 .word 0xd63f0200
 .word 0xf9401bb1
-.word 0xf9425231
+.word 0xf941da31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 31 0
 .word 0xf9401bb1
-.word 0xf9426231
+.word 0xf941ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1803e1
 .word 0xaa1703e0
 .word 0xf94002e2
-.word 0xf9415c50
+.word 0xf9415450
 .word 0xd63f0200
 .word 0xf9401bb1
-.word 0xf9428a31
+.word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 32 0
 .word 0xf9401bb1
-.word 0xf9429a31
+.word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf942aa31
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
@@ -2667,7 +2635,7 @@ bl _p_12
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9100e3a0
-.word 0x9102e320
+.word 0x91030320
 .word 0xf9401fa1
 .word 0xf9000001
 .word 0xf94023a1
@@ -2761,7 +2729,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 76 0
+.loc 5 79 0
 .word 0xf94013b1
 .word 0xf9423631
 .word 0xb4000051
@@ -2774,12 +2742,12 @@ bl _p_15
 .word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 77 0
+.loc 5 80 0
 .word 0xf94013b1
 .word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 79 0
+.loc 5 82 0
 .word 0xf94013b1
 .word 0xf9427631
 .word 0xb4000051
@@ -2798,7 +2766,7 @@ Lme_1e:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_DidMoveToView_SpriteKit_SKView
 WorkHeart_GameScene_DidMoveToView_SpriteKit_SKView:
-.loc 5 82 0 prologue_end
+.loc 5 85 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2829,7 +2797,7 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 83 0
+.loc 5 86 0
 .word 0xf94013b1
 .word 0xf9407e31
 .word 0xb4000051
@@ -2840,7 +2808,7 @@ bl _p_16
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 84 0
+.loc 5 87 0
 .word 0xf94013b1
 .word 0xf940a631
 .word 0xb4000051
@@ -2858,7 +2826,7 @@ Lme_1f:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_CreateSceneContents
 WorkHeart_GameScene_CreateSceneContents:
-.loc 5 87 0 prologue_end
+.loc 5 90 0 prologue_end
 .word 0xa9b07bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -2889,7 +2857,7 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 88 0
+.loc 5 91 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -2908,7 +2876,7 @@ bl _p_18
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 91 0
+.loc 5 94 0
 .word 0xf9400fb1
 .word 0xf940c631
 .word 0xb4000051
@@ -2920,7 +2888,7 @@ bl _p_19
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 94 0
+.loc 5 97 0
 .word 0xf9400fb1
 .word 0xf940f231
 .word 0xb4000051
@@ -2948,7 +2916,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 95 0
+.loc 5 98 0
 .word 0xf9400fb1
 .word 0xf9415a31
 .word 0xb4000051
@@ -2964,9 +2932,21 @@ ldr x2, [x16, #16]
 .word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 97 0
+.loc 5 100 0
 .word 0xf9400fb1
 .word 0xf9419631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_21
+.word 0xf9400fb1
+.word 0xf941b231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 102 0
+.word 0xf9400fb1
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -2981,7 +2961,7 @@ ldr x2, [x16, #16]
 .word 0xfd0003c0
 .word 0xfd0007c1
 .word 0xf9400fb1
-.word 0xf941d231
+.word 0xf941fe31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -2993,9 +2973,9 @@ bl _p_13
 .word 0x910243a1
 .word 0xfd404ba0
 .word 0xfd404fa1
-bl _p_21
+bl _p_22
 .word 0xf9400fb1
-.word 0xf9420631
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
@@ -3012,9 +2992,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 98 0
+.loc 5 103 0
 .word 0xf9400fb1
-.word 0xf9424a31
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3025,12 +3005,12 @@ ldr x2, [x16, #16]
 .word 0xf9412850
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf9427631
+.word 0xf942a231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 100 0
+.loc 5 105 0
 .word 0xf9400fb1
-.word 0xf9428631
+.word 0xf942b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3045,7 +3025,7 @@ ldr x2, [x16, #16]
 .word 0xfd0003c0
 .word 0xfd0007c1
 .word 0xf9400fb1
-.word 0xf942c231
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3057,9 +3037,9 @@ bl _p_13
 .word 0x910203a1
 .word 0xfd4043a0
 .word 0xfd4047a1
-bl _p_22
+bl _p_23
 .word 0xf9400fb1
-.word 0xf942f631
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406fa0
@@ -3076,9 +3056,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 101 0
+.loc 5 106 0
 .word 0xf9400fb1
-.word 0xf9433a31
+.word 0xf9436631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3089,12 +3069,12 @@ ldr x2, [x16, #16]
 .word 0xf9412850
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf9436631
+.word 0xf9439231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 103 0
+.loc 5 108 0
 .word 0xf9400fb1
-.word 0xf9437631
+.word 0xf943a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3109,7 +3089,7 @@ ldr x2, [x16, #16]
 .word 0xfd0003c0
 .word 0xfd0007c1
 .word 0xf9400fb1
-.word 0xf943b231
+.word 0xf943de31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3121,9 +3101,9 @@ bl _p_13
 .word 0x9101c3a1
 .word 0xfd403ba0
 .word 0xfd403fa1
-bl _p_23
+bl _p_24
 .word 0xf9400fb1
-.word 0xf943e631
+.word 0xf9441231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
@@ -3140,9 +3120,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 104 0
+.loc 5 109 0
 .word 0xf9400fb1
-.word 0xf9442a31
+.word 0xf9445631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3153,12 +3133,12 @@ ldr x2, [x16, #16]
 .word 0xf9412850
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf9445631
+.word 0xf9448231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 106 0
+.loc 5 111 0
 .word 0xf9400fb1
-.word 0xf9446631
+.word 0xf9449231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3173,7 +3153,7 @@ ldr x2, [x16, #16]
 .word 0xfd0003c0
 .word 0xfd0007c1
 .word 0xf9400fb1
-.word 0xf944a231
+.word 0xf944ce31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3185,9 +3165,9 @@ bl _p_13
 .word 0x910183a1
 .word 0xfd4033a0
 .word 0xfd4037a1
-bl _p_24
+bl _p_25
 .word 0xf9400fb1
-.word 0xf944d631
+.word 0xf9450231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a0
@@ -3204,9 +3184,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 107 0
+.loc 5 112 0
 .word 0xf9400fb1
-.word 0xf9451a31
+.word 0xf9454631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3217,12 +3197,12 @@ ldr x2, [x16, #16]
 .word 0xf9412850
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf9454631
+.word 0xf9457231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 109 0
+.loc 5 114 0
 .word 0xf9400fb1
-.word 0xf9455631
+.word 0xf9458231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3237,7 +3217,7 @@ ldr x2, [x16, #16]
 .word 0xfd0003c0
 .word 0xfd0007c1
 .word 0xf9400fb1
-.word 0xf9459231
+.word 0xf945be31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3249,9 +3229,9 @@ bl _p_13
 .word 0x910143a1
 .word 0xfd402ba0
 .word 0xfd402fa1
-bl _p_25
+bl _p_26
 .word 0xf9400fb1
-.word 0xf945c631
+.word 0xf945f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94063a0
@@ -3268,9 +3248,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 110 0
+.loc 5 115 0
 .word 0xf9400fb1
-.word 0xf9460a31
+.word 0xf9463631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3281,12 +3261,12 @@ ldr x2, [x16, #16]
 .word 0xf9412850
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf9463631
+.word 0xf9466231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 112 0
+.loc 5 117 0
 .word 0xf9400fb1
-.word 0xf9464631
+.word 0xf9467231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3301,7 +3281,7 @@ ldr x2, [x16, #16]
 .word 0xfd0003c0
 .word 0xfd0007c1
 .word 0xf9400fb1
-.word 0xf9468231
+.word 0xf946ae31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3313,9 +3293,9 @@ bl _p_13
 .word 0x910103a1
 .word 0xfd4023a0
 .word 0xfd4027a1
-bl _p_26
+bl _p_27
 .word 0xf9400fb1
-.word 0xf946b631
+.word 0xf946e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
@@ -3332,9 +3312,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 113 0
+.loc 5 118 0
 .word 0xf9400fb1
-.word 0xf946fa31
+.word 0xf9472631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3345,12 +3325,12 @@ ldr x2, [x16, #16]
 .word 0xf9412850
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf9472631
+.word 0xf9475231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 115 0
+.loc 5 120 0
 .word 0xf9400fb1
-.word 0xf9473631
+.word 0xf9476231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3365,7 +3345,7 @@ ldr x2, [x16, #16]
 .word 0xfd0003c0
 .word 0xfd0007c1
 .word 0xf9400fb1
-.word 0xf9477231
+.word 0xf9479e31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3377,9 +3357,9 @@ bl _p_13
 .word 0x9100c3a1
 .word 0xfd401ba0
 .word 0xfd401fa1
-bl _p_27
+bl _p_28
 .word 0xf9400fb1
-.word 0xf947a631
+.word 0xf947d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405ba0
@@ -3396,9 +3376,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 116 0
+.loc 5 121 0
 .word 0xf9400fb1
-.word 0xf947ea31
+.word 0xf9481631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3409,16 +3389,16 @@ ldr x2, [x16, #16]
 .word 0xf9412850
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf9481631
+.word 0xf9484231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 117 0
+.loc 5 122 0
 .word 0xf9400fb1
-.word 0xf9482631
+.word 0xf9485231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fb1
-.word 0xf9483631
+.word 0xf9486231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -3431,8 +3411,8 @@ Lme_20:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
 WorkHeart_GameScene_TouchesBegan_Foundation_NSSet_UIKit_UIEvent:
-.loc 5 120 0 prologue_end
-.word 0xa9b17bfd
+.loc 5 125 0 prologue_end
+.word 0xa9ae7bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -3456,16 +3436,17 @@ ldr x0, [x16, #56]
 .word 0xb4000051
 bl _p_1
 .word 0xd2800018
-.word 0x910283a0
+.word 0x910323a0
 .word 0xd2800000
-.word 0xf90053a0
-.word 0xf90057a0
+.word 0xf90067a0
+.word 0xf9006ba0
 .word 0xd2800017
 .word 0xd2800016
 .word 0xd2800015
 .word 0xd2800014
+.word 0xd2800013
 .word 0xf9402fb1
-.word 0xf9408631
+.word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
@@ -3473,12 +3454,12 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf940a631
+.word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 121 0
+.loc 5 126 0
 .word 0xf9402fb1
-.word 0xf940b631
+.word 0xf940ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a1
@@ -3486,15 +3467,18 @@ bl _p_1
 .word 0xf9400021
 .word 0xf940d830
 .word 0xd63f0200
-.word 0xaa0003f3
+.word 0xf9006fa0
 .word 0xf9402fb1
-.word 0xf940de31
+.word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9005bb3
-.word 0xeb1f027f
-.word 0x54000160
-.word 0xf9400260
+.word 0xf9406fa0
+.word 0xf90073a0
+.word 0xf9406fa0
+.word 0xeb1f001f
+.word 0x54000180
+.word 0xf9406fa0
+.word 0xf9400000
 .word 0xf9400000
 .word 0xf9400800
 .word 0xf9400800
@@ -3504,45 +3488,45 @@ add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #696]
 .word 0xeb01001f
 .word 0x54000040
-.word 0xf9005bbf
-.word 0xf9405ba0
+.word 0xf90073bf
+.word 0xf94073a0
 .word 0xaa0003f8
-.loc 5 122 0
+.loc 5 127 0
 .word 0xf9402fb1
-.word 0xf9412a31
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1903e0
-.word 0x910243a0
-.word 0xf9005fa0
+.word 0x9102e3a0
+.word 0xf90077a0
 .word 0xaa1803e0
 .word 0xaa1903e1
-bl _p_28
-.word 0xf9405fbe
+bl _p_29
+.word 0xf94077be
 .word 0xfd0003c0
 .word 0xfd0007c1
 .word 0xf9402fb1
-.word 0xf9416231
+.word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x910243a0
-.word 0x910283a0
-.word 0xf9404ba0
-.word 0xf90053a0
-.word 0xf9404fa0
-.word 0xf90057a0
-.loc 5 124 0
+.word 0x9102e3a0
+.word 0x910323a0
+.word 0xf9405fa0
+.word 0xf90067a0
+.word 0xf94063a0
+.word 0xf9006ba0
+.loc 5 129 0
 .word 0xf9402fb1
-.word 0xf9418a31
+.word 0xf9419a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800000
 .word 0xf900433f
-.loc 5 126 0
+.loc 5 131 0
 .word 0xf9402fb1
-.word 0xf941a631
+.word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -3551,195 +3535,292 @@ bl _p_28
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #608]
-bl _p_29
+bl _p_30
 .word 0x53001c00
-.word 0xf9006ba0
+.word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf941d631
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406ba0
+.word 0xf94083a0
 .word 0x34000100
 .word 0xaa1903e0
-.word 0x3943a320
+.word 0x3943c320
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x9a9f17e0
-.word 0xb900c3a0
+.word 0xb900f3a0
 .word 0x14000003
 .word 0xd2800000
-.word 0xb900c3bf
-.word 0xb980c3a0
+.word 0xb900f3bf
+.word 0xb980f3a0
 .word 0x53001c00
 .word 0xaa0003f7
 .word 0xaa1703e0
-.word 0x34002740
-.loc 5 127 0
-.word 0xf9402fb1
-.word 0xf9422631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 128 0
+.word 0x34003e00
+.loc 5 132 0
 .word 0xf9402fb1
 .word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1903e0
-.word 0x910283a0
-.word 0x910203a0
-.word 0xf94053a0
-.word 0xf90043a0
-.word 0xf94057a0
-.word 0xf90047a0
-.word 0x910203a0
-.word 0x9103c320
-.word 0xf94043a1
-.word 0xf9000001
-.word 0xf94047a1
-.word 0xf9000401
-.loc 5 130 0
+.loc 5 133 0
 .word 0xf9402fb1
-.word 0xf9427a31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-.word 0x910283a0
-.word 0x9101c3a0
-.word 0xf94053a0
-.word 0xf9003ba0
-.word 0xf94057a0
-.word 0xf9003fa0
+.word 0x910323a0
+.word 0x910263a0
+.word 0xf94067a0
+.word 0xf9004fa0
+.word 0xf9406ba0
+.word 0xf90053a0
+.word 0x910263a0
+.word 0x9103e320
+.word 0xf9404fa1
+.word 0xf9000001
+.word 0xf94053a1
+.word 0xf9000401
+.loc 5 135 0
+.word 0xf9402fb1
+.word 0xf9428a31
+.word 0xb4000051
+.word 0xd63f0220
 .word 0xaa1903e0
-.word 0x9101c3a1
-.word 0xfd403ba0
-.word 0xfd403fa1
+.word 0x910323a0
+.word 0x910223a0
+.word 0xf94067a0
+.word 0xf90047a0
+.word 0xf9406ba0
+.word 0xf9004ba0
+.word 0xaa1903e0
+.word 0x910223a1
+.word 0xfd4047a0
+.word 0xfd404ba1
 .word 0xf9400321
 .word 0xf9412430
 .word 0xd63f0200
-.word 0xf90073a0
+.word 0xf9008ba0
 .word 0xf9402fb1
-.word 0xf942c631
+.word 0xf942d631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94073a0
-.word 0xf9006fa0
+.word 0xf9408ba0
+.word 0xf90087a0
 .word 0xaa0003f6
-.loc 5 131 0
+.loc 5 136 0
 .word 0xf9402fb1
-.word 0xf942e231
+.word 0xf942f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406fa1
+.word 0xf94087a1
 .word 0xaa0103e0
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9410030
 .word 0xd63f0200
-.word 0xf9006ba0
+.word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf9430e31
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406ba0
+.word 0xf94083a0
 .word 0xaa0003f4
 .word 0xaa0003e1
 .word 0xaa0003f5
 .word 0xaa0003e1
-.word 0xb4001cc0
+.word 0xb4003380
+.word 0xaa1503e0
+.word 0xaa1503e0
+bl _p_31
+.word 0xf90083a0
+.word 0xf9402fb1
+.word 0xf9435631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94083a0
+.word 0xaa0003f3
+.word 0xaa0003e1
+.word 0xd28ee761
+.word 0xf2aec2a1
+.word 0xd28ee77e
+.word 0xf2aec2be
+.word 0x6b1e001f
+.word 0x540002e8
+.word 0xaa1303e0
+.word 0xd28b0fc0
+.word 0xf2a696a0
+.word 0xd28b0fde
+.word 0xf2a696be
+.word 0x6b1e027f
+.word 0x54000c40
+.word 0xaa1303e0
+.word 0xd28e9540
+.word 0xf2ad2be0
+.word 0xd28e955e
+.word 0xf2ad2bfe
+.word 0x6b1e027f
+.word 0x54001100
+.word 0xaa1303e0
+.word 0xd28ee760
+.word 0xf2aec2a0
+.word 0xd28ee77e
+.word 0xf2aec2be
+.word 0x6b1e027f
+.word 0x54000c60
+.word 0x14000175
+.word 0xaa1303e0
+.word 0x92916b00
+.word 0xf2b53440
+.word 0x92916b1e
+.word 0xf2b5345e
+.word 0x6b1e027f
+.word 0x54000208
+.word 0xaa1303e0
+.word 0xd285e7a0
+.word 0xf2af1780
+.word 0xd285e7be
+.word 0xf2af179e
+.word 0x6b1e027f
+.word 0x54000300
+.word 0xaa1303e0
+.word 0x92916b00
+.word 0xf2b53440
+.word 0x92916b1e
+.word 0xf2b5345e
+.word 0x6b1e027f
+.word 0x540005e0
+.word 0x1400015f
+.word 0xaa1303e0
+.word 0x929a8180
+.word 0xf2b76f40
+.word 0x929a819e
+.word 0xf2b76f5e
+.word 0x6b1e027f
+.word 0x54000300
+.word 0xaa1303e0
+.word 0x92972dc0
+.word 0xf2b97ba0
+.word 0x92972dde
+.word 0xf2b97bbe
+.word 0x6b1e027f
+.word 0x540009a0
+.word 0x14000150
 .word 0xaa1503e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #704]
 .word 0xaa1503e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
-.word 0xf9006ba0
+.word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf9435631
+.word 0xf9449631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406ba0
-.word 0x35000900
+.word 0xf94083a0
+.word 0x35000b80
+.word 0x14000141
 .word 0xaa1503e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #712]
 .word 0xaa1503e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
-.word 0xf9006ba0
+.word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf9438e31
+.word 0xf944d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406ba0
-.word 0x35000a40
+.word 0xf94083a0
+.word 0x35000ca0
+.word 0x14000132
 .word 0xaa1503e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #720]
 .word 0xaa1503e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
-.word 0xf9006ba0
+.word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf943c631
+.word 0xf9450e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406ba0
-.word 0x35000b80
+.word 0xf94083a0
+.word 0x35000dc0
+.word 0x14000123
 .word 0xaa1503e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #728]
 .word 0xaa1503e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
-.word 0xf9006ba0
+.word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf943fe31
+.word 0xf9454a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406ba0
-.word 0x35000cc0
+.word 0xf94083a0
+.word 0x35000ee0
+.word 0x14000114
 .word 0xaa1503e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #736]
 .word 0xaa1503e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
-.word 0xf9006ba0
+.word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf9443631
+.word 0xf9458631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406ba0
-.word 0x35000e00
+.word 0xf94083a0
+.word 0x35001000
+.word 0x14000105
 .word 0xaa1503e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #744]
 .word 0xaa1503e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
-.word 0xf9006ba0
+.word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf9446e31
+.word 0xf945c231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406ba0
-.word 0x35000f40
-.word 0x14000091
-.loc 5 134 0
+.word 0xf94083a0
+.word 0x35001120
+.word 0x140000f6
+.word 0xaa1503e0
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #752]
+.word 0xaa1503e0
+bl _p_32
+.word 0x53001c00
+.word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf9448a31
+.word 0xf945fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94083a0
+.word 0x35001240
+.word 0x140000e7
+.loc 5 139 0
+.word 0xf9402fb1
+.word 0xf9461a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -3758,15 +3839,15 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 135 0
+.loc 5 140 0
 .word 0xf9402fb1
-.word 0xf944d631
+.word 0xf9466631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000081
-.loc 5 137 0
+.word 0x140000d7
+.loc 5 142 0
 .word 0xf9402fb1
-.word 0xf944ea31
+.word 0xf9467a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -3785,15 +3866,15 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 138 0
+.loc 5 143 0
 .word 0xf9402fb1
-.word 0xf9453631
+.word 0xf946c631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000069
-.loc 5 140 0
+.word 0x140000bf
+.loc 5 145 0
 .word 0xf9402fb1
-.word 0xf9454a31
+.word 0xf946da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -3812,15 +3893,15 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 141 0
+.loc 5 146 0
 .word 0xf9402fb1
-.word 0xf9459631
+.word 0xf9472631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000051
-.loc 5 143 0
+.word 0x140000a7
+.loc 5 148 0
 .word 0xf9402fb1
-.word 0xf945aa31
+.word 0xf9473a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -3839,15 +3920,15 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 144 0
+.loc 5 149 0
 .word 0xf9402fb1
-.word 0xf945f631
+.word 0xf9478631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000039
-.loc 5 146 0
+.word 0x1400008f
+.loc 5 151 0
 .word 0xf9402fb1
-.word 0xf9460a31
+.word 0xf9479a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -3866,15 +3947,15 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 147 0
+.loc 5 152 0
 .word 0xf9402fb1
-.word 0xf9465631
+.word 0xf947e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000021
-.loc 5 149 0
+.word 0x14000077
+.loc 5 154 0
 .word 0xf9402fb1
-.word 0xf9466a31
+.word 0xf947fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -3893,41 +3974,133 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 150 0
+.loc 5 155 0
 .word 0xf9402fb1
-.word 0xf946b631
+.word 0xf9484631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400005f
+.loc 5 157 0
+.word 0xf9402fb1
+.word 0xf9485a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #760]
+bl _p_33
+.word 0xf9402fb1
+.word 0xf9487a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 158 0
+.word 0xf9402fb1
+.word 0xf9488a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9103a320
+.word 0x910203a1
+.word 0xf9400000
+.word 0xf90043a0
+.word 0xd2868000
+.word 0xf2a61c40
+.word 0xf2c00080
+.word 0x9102c3a0
+.word 0xf9005bbf
+.word 0x9102c3a0
+.word 0xd2868001
+.word 0xf2a61c41
+.word 0xf2c00081
+bl _p_34
+.word 0x9102c3a0
+.word 0x9101e3a0
+.word 0xf9405ba0
+.word 0xf9003fa0
+.word 0xf9402fb1
+.word 0xf948ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9102a3a0
+.word 0xf90077a0
+.word 0x910203a0
+.word 0xf94043a0
+.word 0x9101e3a1
+.word 0xf9403fa1
+bl _p_35
+.word 0xf94077be
+.word 0xf90003c0
+.word 0xf9402fb1
+.word 0xf9491e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9102a3a0
+.word 0x9103a320
+.word 0xf94057a1
+.word 0xf9000001
+.loc 5 159 0
+.word 0xf9402fb1
+.word 0xf9493e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x9103a320
+.word 0x9101c3a1
+.word 0xf9400000
+.word 0xf9003ba0
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #768]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_36
+.word 0x9101c3a1
+.word 0x91004001
+.word 0xf9403ba2
+.word 0xf9000022
+bl _p_37
+.word 0xf9402fb1
+.word 0xf9498e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 160 0
+.word 0xf9402fb1
+.word 0xf9499e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000009
-.loc 5 152 0
+.loc 5 162 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf946da31
+.word 0xf949c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 154 0
+.loc 5 164 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf946fa31
+.word 0xf949e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 156 0
+.loc 5 166 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9471a31
+.word 0xf94a0231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9472a31
+.word 0xf94a1231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -3935,7 +4108,7 @@ ldr x2, [x16, #16]
 .word 0xa94363b7
 .word 0xf94023b9
 .word 0x910003bf
-.word 0xa8cf7bfd
+.word 0xa8d27bfd
 .word 0xd65f03c0
 
 Lme_21:
@@ -3943,7 +4116,7 @@ Lme_21:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_TouchesMoved_Foundation_NSSet_UIKit_UIEvent
 WorkHeart_GameScene_TouchesMoved_Foundation_NSSet_UIKit_UIEvent:
-.loc 5 159 0 prologue_end
+.loc 5 169 0 prologue_end
 .word 0xa9ac7bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -3956,7 +4129,7 @@ WorkHeart_GameScene_TouchesMoved_Foundation_NSSet_UIKit_UIEvent:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #776]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -3991,7 +4164,7 @@ bl _p_1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 160 0
+.loc 5 170 0
 .word 0xf9402fb1
 .word 0xf940c231
 .word 0xb4000051
@@ -4022,7 +4195,7 @@ ldr x1, [x16, #696]
 .word 0xd2800013
 .word 0xaa1303e0
 .word 0xaa1303f8
-.loc 5 161 0
+.loc 5 171 0
 .word 0xf9402fb1
 .word 0xf9413631
 .word 0xb4000051
@@ -4033,7 +4206,7 @@ ldr x1, [x16, #696]
 .word 0xf9005ba0
 .word 0xaa1303e0
 .word 0xaa1903e1
-bl _p_28
+bl _p_29
 .word 0xf9405bbe
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -4047,7 +4220,7 @@ bl _p_28
 .word 0xf9004ba0
 .word 0xf94047a0
 .word 0xf9004fa0
-.loc 5 162 0
+.loc 5 172 0
 .word 0xf9402fb1
 .word 0xf9419631
 .word 0xb4000051
@@ -4056,15 +4229,15 @@ bl _p_28
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x54002920
-.word 0x9103c320
-bl _p_31
+.word 0x9103e320
+bl _p_38
 .word 0xfd008fa0
 .word 0xf9402fb1
 .word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910243a0
-bl _p_31
+bl _p_38
 .word 0xfd0093a0
 .word 0xf9402fb1
 .word 0xf941de31
@@ -4080,7 +4253,7 @@ bl _p_31
 .word 0xd63f0220
 .word 0xfd408ba0
 .word 0xfd0053a0
-.loc 5 163 0
+.loc 5 173 0
 .word 0xf9402fb1
 .word 0xf9421631
 .word 0xb4000051
@@ -4089,15 +4262,15 @@ bl _p_31
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x54002520
-.word 0x9103c320
-bl _p_32
+.word 0x9103e320
+bl _p_39
 .word 0xfd0083a0
 .word 0xf9402fb1
 .word 0xf9424231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910243a0
-bl _p_32
+bl _p_39
 .word 0xfd0087a0
 .word 0xf9402fb1
 .word 0xf9425e31
@@ -4113,7 +4286,7 @@ bl _p_32
 .word 0xd63f0220
 .word 0xfd407fa0
 .word 0xfd0057a0
-.loc 5 165 0
+.loc 5 175 0
 .word 0xf9402fb1
 .word 0xf9429631
 .word 0xb4000051
@@ -4122,7 +4295,7 @@ bl _p_32
 .word 0xfd0077a0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd007ba0
 .word 0xf9402fb1
 .word 0xf942be31
@@ -4142,12 +4315,12 @@ bl _p_33
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0x340002c0
-.loc 5 166 0
+.loc 5 176 0
 .word 0xf9402fb1
 .word 0xf9430631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 167 0
+.loc 5 177 0
 .word 0xf9402fb1
 .word 0xf9431631
 .word 0xb4000051
@@ -4161,12 +4334,12 @@ bl _p_33
 .word 0xd63f0220
 .word 0xfd4097a0
 .word 0xfd0053a0
-.loc 5 168 0
+.loc 5 178 0
 .word 0xf9402fb1
 .word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 170 0
+.loc 5 180 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4179,7 +4352,7 @@ bl _p_33
 .word 0xfd0077a0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd007ba0
 .word 0xf9402fb1
 .word 0xf9439231
@@ -4199,12 +4372,12 @@ bl _p_33
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0x340002c0
-.loc 5 171 0
+.loc 5 181 0
 .word 0xf9402fb1
 .word 0xf943da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 172 0
+.loc 5 182 0
 .word 0xf9402fb1
 .word 0xf943ea31
 .word 0xb4000051
@@ -4218,12 +4391,12 @@ bl _p_33
 .word 0xd63f0220
 .word 0xfd4097a0
 .word 0xfd0057a0
-.loc 5 173 0
+.loc 5 183 0
 .word 0xf9402fb1
 .word 0xf9441e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 175 0
+.loc 5 185 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4233,7 +4406,7 @@ bl _p_33
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-.word 0x3943a720
+.word 0x3943c720
 .word 0x34000100
 .word 0xaa1903e0
 .word 0xf9404320
@@ -4249,12 +4422,12 @@ bl _p_33
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0x34000580
-.loc 5 176 0
+.loc 5 186 0
 .word 0xf9402fb1
 .word 0xf9449231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 177 0
+.loc 5 187 0
 .word 0xf9402fb1
 .word 0xf944a231
 .word 0xb4000051
@@ -4278,32 +4451,32 @@ bl _p_33
 .word 0xf944ee31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 178 0
+.loc 5 188 0
 .word 0xf9402fb1
 .word 0xf944fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf9404320
-bl _p_34
+bl _p_37
 .word 0xf9402fb1
 .word 0xf9451a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 179 0
+.loc 5 189 0
 .word 0xf9402fb1
 .word 0xf9452a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000054
-.loc 5 180 0
+.loc 5 190 0
 .word 0xf9402fb1
 .word 0xf9453e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-.word 0x3943a721
+.word 0x3943c721
 .word 0xaa1903e0
 .word 0xf9404320
 .word 0xf90063b9
@@ -4317,7 +4490,7 @@ bl _p_34
 .word 0xfd007fa0
 .word 0xd28000a0
 .word 0xd28000a0
-bl _p_33
+bl _p_40
 .word 0xfd0083a0
 .word 0xf9402fb1
 .word 0xf9459631
@@ -4346,7 +4519,7 @@ bl _p_33
 .word 0xfd007fa0
 .word 0xd28000a0
 .word 0xd28000a0
-bl _p_33
+bl _p_40
 .word 0xfd0083a0
 .word 0xf9402fb1
 .word 0xf9460a31
@@ -4379,8 +4552,8 @@ bl _p_33
 .word 0xb980cba1
 .word 0xb980d3a2
 .word 0x2a020021
-.word 0x3903a401
-.loc 5 181 0
+.word 0x3903c401
+.loc 5 191 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4409,7 +4582,7 @@ Lme_22:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_TouchesEnded_Foundation_NSSet_UIKit_UIEvent
 WorkHeart_GameScene_TouchesEnded_Foundation_NSSet_UIKit_UIEvent:
-.loc 5 184 0 prologue_end
+.loc 5 194 0 prologue_end
 .word 0xa9a97bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -4422,7 +4595,7 @@ WorkHeart_GameScene_TouchesEnded_Foundation_NSSet_UIKit_UIEvent:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #784]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -4473,7 +4646,7 @@ bl _p_1
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 185 0
+.loc 5 195 0
 .word 0xf9402fb1
 .word 0xf9410231
 .word 0xb4000051
@@ -4507,7 +4680,7 @@ ldr x1, [x16, #696]
 .word 0xf9009fbf
 .word 0xf9409fa0
 .word 0xaa0003f8
-.loc 5 186 0
+.loc 5 196 0
 .word 0xf9402fb1
 .word 0xf9418231
 .word 0xb4000051
@@ -4518,7 +4691,7 @@ ldr x1, [x16, #696]
 .word 0xf900a3a0
 .word 0xaa1803e0
 .word 0xaa1903e1
-bl _p_28
+bl _p_29
 .word 0xf940a3be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -4532,7 +4705,7 @@ bl _p_28
 .word 0xf9004ba0
 .word 0xf94047a0
 .word 0xf9004fa0
-.loc 5 188 0
+.loc 5 198 0
 .word 0xf9402fb1
 .word 0xf941e231
 .word 0xb4000051
@@ -4559,7 +4732,7 @@ bl _p_28
 .word 0xf940b3a0
 .word 0xf900afa0
 .word 0xaa0003f7
-.loc 5 189 0
+.loc 5 199 0
 .word 0xf9402fb1
 .word 0xf9424a31
 .word 0xb4000051
@@ -4583,7 +4756,7 @@ bl _p_28
 .word 0xb400ef00
 .word 0xaa1603e0
 .word 0xaa1603e0
-bl _p_35
+bl _p_31
 .word 0xf900aba0
 .word 0xf9402fb1
 .word 0xf942ae31
@@ -4749,9 +4922,9 @@ bl _p_35
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #768]
+ldr x1, [x16, #792]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4765,9 +4938,9 @@ bl _p_30
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #776]
+ldr x1, [x16, #800]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4781,9 +4954,9 @@ bl _p_30
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #784]
+ldr x1, [x16, #808]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4799,7 +4972,7 @@ adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #704]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4815,7 +4988,7 @@ adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #712]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4831,7 +5004,7 @@ adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #720]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4847,7 +5020,7 @@ adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #728]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4861,9 +5034,9 @@ bl _p_30
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #792]
+ldr x1, [x16, #816]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4877,9 +5050,9 @@ bl _p_30
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #800]
+ldr x1, [x16, #824]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4895,7 +5068,7 @@ adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #736]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4909,9 +5082,9 @@ bl _p_30
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #808]
+ldr x1, [x16, #832]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4925,9 +5098,9 @@ bl _p_30
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #816]
+ldr x1, [x16, #840]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4943,7 +5116,7 @@ adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #744]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4957,9 +5130,9 @@ bl _p_30
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #824]
+ldr x1, [x16, #848]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4973,9 +5146,9 @@ bl _p_30
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #832]
+ldr x1, [x16, #856]
 .word 0xaa1603e0
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -4985,7 +5158,7 @@ bl _p_30
 .word 0xf940aba0
 .word 0x3500bc40
 .word 0x140005f3
-.loc 5 193 0
+.loc 5 203 0
 .word 0xf9402fb1
 .word 0xf948b231
 .word 0xb4000051
@@ -4996,7 +5169,7 @@ bl _p_30
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #608]
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -5008,24 +5181,24 @@ bl _p_30
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0x34000520
-.loc 5 194 0
+.loc 5 204 0
 .word 0xf9402fb1
 .word 0xf9490631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 195 0
+.loc 5 205 0
 .word 0xf9402fb1
 .word 0xf9491631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_36
+bl _p_41
 .word 0xf9402fb1
 .word 0xf9493231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 196 0
+.loc 5 206 0
 .word 0xf9402fb1
 .word 0xf9494231
 .word 0xb4000051
@@ -5034,145 +5207,7 @@ bl _p_36
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #840]
-.word 0xf9003f20
-.word 0x9101e321
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 5 197 0
-.word 0xf9402fb1
-.word 0xf9499231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x1400007a
-.loc 5 198 0
-.word 0xf9402fb1
-.word 0xf949a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9403f20
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #840]
-bl _p_30
-.word 0x53001c00
-.word 0xf900aba0
-.word 0xf9402fb1
-.word 0xf949d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf940aba0
-.word 0x53001c01
-.word 0x390283a0
-.word 0x394283a0
-.word 0x34000520
-.loc 5 199 0
-.word 0xf9402fb1
-.word 0xf949fa31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 200 0
-.word 0xf9402fb1
-.word 0xf94a0a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_37
-.word 0xf9402fb1
-.word 0xf94a2631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 201 0
-.word 0xf9402fb1
-.word 0xf94a3631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #848]
-.word 0xf9003f20
-.word 0x9101e321
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 5 202 0
-.word 0xf9402fb1
-.word 0xf94a8631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x1400003d
-.loc 5 203 0
-.word 0xf9402fb1
-.word 0xf94a9a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9403f20
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #848]
-bl _p_30
-.word 0x53001c00
-.word 0xf900aba0
-.word 0xf9402fb1
-.word 0xf94aca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf940aba0
-.word 0x53001c01
-.word 0x3902a3a0
-.word 0x3942a3a0
-.word 0x34000500
-.loc 5 204 0
-.word 0xf9402fb1
-.word 0xf94aee31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 205 0
-.word 0xf9402fb1
-.word 0xf94afe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_38
-.word 0xf9402fb1
-.word 0xf94b1a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 206 0
-.word 0xf9402fb1
-.word 0xf94b2a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #840]
+ldr x0, [x16, #864]
 .word 0xf9003f20
 .word 0x9101e321
 .word 0xd349fc21
@@ -5188,10 +5223,148 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 5 207 0
 .word 0xf9402fb1
+.word 0xf9499231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400007a
+.loc 5 208 0
+.word 0xf9402fb1
+.word 0xf949a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9403f20
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #864]
+bl _p_32
+.word 0x53001c00
+.word 0xf900aba0
+.word 0xf9402fb1
+.word 0xf949d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf940aba0
+.word 0x53001c01
+.word 0x390283a0
+.word 0x394283a0
+.word 0x34000520
+.loc 5 209 0
+.word 0xf9402fb1
+.word 0xf949fa31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 210 0
+.word 0xf9402fb1
+.word 0xf94a0a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_42
+.word 0xf9402fb1
+.word 0xf94a2631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 211 0
+.word 0xf9402fb1
+.word 0xf94a3631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #872]
+.word 0xf9003f20
+.word 0x9101e321
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 5 212 0
+.word 0xf9402fb1
+.word 0xf94a8631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400003d
+.loc 5 213 0
+.word 0xf9402fb1
+.word 0xf94a9a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9403f20
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #872]
+bl _p_32
+.word 0x53001c00
+.word 0xf900aba0
+.word 0xf9402fb1
+.word 0xf94aca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf940aba0
+.word 0x53001c01
+.word 0x3902a3a0
+.word 0x3942a3a0
+.word 0x34000500
+.loc 5 214 0
+.word 0xf9402fb1
+.word 0xf94aee31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 215 0
+.word 0xf9402fb1
+.word 0xf94afe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_43
+.word 0xf9402fb1
+.word 0xf94b1a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 216 0
+.word 0xf9402fb1
+.word 0xf94b2a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xf9003f20
+.word 0x9101e321
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 5 217 0
+.word 0xf9402fb1
 .word 0xf94b7a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 209 0
+.loc 5 219 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -5201,7 +5374,7 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400057d
-.loc 5 212 0
+.loc 5 222 0
 .word 0xf9402fb1
 .word 0xf94bae31
 .word 0xb4000051
@@ -5212,7 +5385,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #608]
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -5224,24 +5397,24 @@ bl _p_30
 .word 0x3902c3a0
 .word 0x3942c3a0
 .word 0x34000520
-.loc 5 213 0
+.loc 5 223 0
 .word 0xf9402fb1
 .word 0xf94c0231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 214 0
+.loc 5 224 0
 .word 0xf9402fb1
 .word 0xf94c1231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_36
+bl _p_41
 .word 0xf9402fb1
 .word 0xf94c2e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 215 0
+.loc 5 225 0
 .word 0xf9402fb1
 .word 0xf94c3e31
 .word 0xb4000051
@@ -5250,145 +5423,7 @@ bl _p_36
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #840]
-.word 0xf9003f20
-.word 0x9101e321
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 5 216 0
-.word 0xf9402fb1
-.word 0xf94c8e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x1400007a
-.loc 5 217 0
-.word 0xf9402fb1
-.word 0xf94ca231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9403f20
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #840]
-bl _p_30
-.word 0x53001c00
-.word 0xf900aba0
-.word 0xf9402fb1
-.word 0xf94cd231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf940aba0
-.word 0x53001c01
-.word 0x3902e3a0
-.word 0x3942e3a0
-.word 0x34000520
-.loc 5 218 0
-.word 0xf9402fb1
-.word 0xf94cf631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 219 0
-.word 0xf9402fb1
-.word 0xf94d0631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_37
-.word 0xf9402fb1
-.word 0xf94d2231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 220 0
-.word 0xf9402fb1
-.word 0xf94d3231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #848]
-.word 0xf9003f20
-.word 0x9101e321
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 5 221 0
-.word 0xf9402fb1
-.word 0xf94d8231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x1400003d
-.loc 5 222 0
-.word 0xf9402fb1
-.word 0xf94d9631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9403f20
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #848]
-bl _p_30
-.word 0x53001c00
-.word 0xf900aba0
-.word 0xf9402fb1
-.word 0xf94dc631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf940aba0
-.word 0x53001c01
-.word 0x390303a0
-.word 0x394303a0
-.word 0x34000500
-.loc 5 223 0
-.word 0xf9402fb1
-.word 0xf94dea31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 224 0
-.word 0xf9402fb1
-.word 0xf94dfa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_38
-.word 0xf9402fb1
-.word 0xf94e1631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 225 0
-.word 0xf9402fb1
-.word 0xf94e2631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #840]
+ldr x0, [x16, #864]
 .word 0xf9003f20
 .word 0x9101e321
 .word 0xd349fc21
@@ -5404,10 +5439,148 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 5 226 0
 .word 0xf9402fb1
+.word 0xf94c8e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400007a
+.loc 5 227 0
+.word 0xf9402fb1
+.word 0xf94ca231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9403f20
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #864]
+bl _p_32
+.word 0x53001c00
+.word 0xf900aba0
+.word 0xf9402fb1
+.word 0xf94cd231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf940aba0
+.word 0x53001c01
+.word 0x3902e3a0
+.word 0x3942e3a0
+.word 0x34000520
+.loc 5 228 0
+.word 0xf9402fb1
+.word 0xf94cf631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 229 0
+.word 0xf9402fb1
+.word 0xf94d0631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_42
+.word 0xf9402fb1
+.word 0xf94d2231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 230 0
+.word 0xf9402fb1
+.word 0xf94d3231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #872]
+.word 0xf9003f20
+.word 0x9101e321
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 5 231 0
+.word 0xf9402fb1
+.word 0xf94d8231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400003d
+.loc 5 232 0
+.word 0xf9402fb1
+.word 0xf94d9631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9403f20
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #872]
+bl _p_32
+.word 0x53001c00
+.word 0xf900aba0
+.word 0xf9402fb1
+.word 0xf94dc631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf940aba0
+.word 0x53001c01
+.word 0x390303a0
+.word 0x394303a0
+.word 0x34000500
+.loc 5 233 0
+.word 0xf9402fb1
+.word 0xf94dea31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 234 0
+.word 0xf9402fb1
+.word 0xf94dfa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_43
+.word 0xf9402fb1
+.word 0xf94e1631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 235 0
+.word 0xf9402fb1
+.word 0xf94e2631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xf9003f20
+.word 0x9101e321
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 5 236 0
+.word 0xf9402fb1
 .word 0xf94e7631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 228 0
+.loc 5 238 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -5417,19 +5590,19 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140004be
-.loc 5 231 0
+.loc 5 241 0
 .word 0xf9402fb1
 .word 0xf94eaa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_39
+bl _p_44
 .word 0xf9402fb1
 .word 0xf94ec631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 232 0
+.loc 5 242 0
 .word 0xf9402fb1
 .word 0xf94ed631
 .word 0xb4000051
@@ -5452,13 +5625,13 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 234 0
+.loc 5 244 0
 .word 0xf9402fb1
 .word 0xf94f2631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400049a
-.loc 5 237 0
+.loc 5 247 0
 .word 0xf9402fb1
 .word 0xf94f3a31
 .word 0xb4000051
@@ -5469,7 +5642,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #608]
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -5481,12 +5654,12 @@ bl _p_30
 .word 0x390323a0
 .word 0x394323a0
 .word 0x34000560
-.loc 5 238 0
+.loc 5 248 0
 .word 0xf9402fb1
 .word 0xf94f8e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 239 0
+.loc 5 249 0
 .word 0xf9402fb1
 .word 0xf94f9e31
 .word 0xb4000051
@@ -5495,12 +5668,12 @@ bl _p_30
 .word 0xf9401f21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_40
+bl _p_45
 .word 0xf9402fb1
 .word 0xf94fc231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 240 0
+.loc 5 250 0
 .word 0xf9402fb1
 .word 0xf94fd231
 .word 0xb4000051
@@ -5509,28 +5682,28 @@ bl _p_40
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #856]
+ldr x1, [x16, #880]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #864]
+ldr x2, [x16, #888]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x3, [x16, #872]
+ldr x3, [x16, #896]
 .word 0xaa1903e0
-bl _p_41
+bl _p_46
 .word 0xf9402fb1
 .word 0xf9501231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 241 0
+.loc 5 251 0
 .word 0xf9402fb1
 .word 0xf9502231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400005f
-.loc 5 242 0
+.loc 5 252 0
 .word 0xf9402fb1
 .word 0xf9503631
 .word 0xb4000051
@@ -5540,8 +5713,8 @@ bl _p_41
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #840]
-bl _p_30
+ldr x1, [x16, #864]
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -5551,10 +5724,10 @@ bl _p_30
 .word 0xf940aba0
 .word 0x34000160
 .word 0xaa1903e0
-.word 0x3943a320
+.word 0x3943c320
 .word 0x35000100
 .word 0xaa1903e0
-.word 0x3943a720
+.word 0x3943c720
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x9a9f17e0
@@ -5567,12 +5740,12 @@ bl _p_30
 .word 0x390343a0
 .word 0x394343a0
 .word 0x34000780
-.loc 5 243 0
+.loc 5 253 0
 .word 0xf9402fb1
 .word 0xf950c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 244 0
+.loc 5 254 0
 .word 0xf9402fb1
 .word 0xf950d231
 .word 0xb4000051
@@ -5591,7 +5764,7 @@ ldr x0, [x16, #536]
 .word 0xf9510631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 245 0
+.loc 5 255 0
 .word 0xf9402fb1
 .word 0xf9511631
 .word 0xb4000051
@@ -5599,8 +5772,8 @@ ldr x0, [x16, #536]
 .word 0xaa1903e0
 .word 0xd2800020
 .word 0xd280003e
-.word 0x3903a33e
-.loc 5 246 0
+.word 0x3903c33e
+.loc 5 256 0
 .word 0xf9402fb1
 .word 0xf9513631
 .word 0xb4000051
@@ -5609,12 +5782,12 @@ ldr x0, [x16, #536]
 .word 0xf9401f21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_42
+bl _p_47
 .word 0xf9402fb1
 .word 0xf9515a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 247 0
+.loc 5 257 0
 .word 0xf9402fb1
 .word 0xf9516a31
 .word 0xb4000051
@@ -5623,17 +5796,17 @@ bl _p_42
 .word 0xf9401f21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_43
+bl _p_48
 .word 0xf9402fb1
 .word 0xf9518e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 248 0
+.loc 5 258 0
 .word 0xf9402fb1
 .word 0xf9519e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 250 0
+.loc 5 260 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -5643,7 +5816,7 @@ bl _p_43
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140003f4
-.loc 5 253 0
+.loc 5 263 0
 .word 0xf9402fb1
 .word 0xf951d231
 .word 0xb4000051
@@ -5654,7 +5827,7 @@ bl _p_43
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #608]
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -5666,12 +5839,12 @@ bl _p_30
 .word 0x390363a0
 .word 0x394363a0
 .word 0x34000560
-.loc 5 254 0
+.loc 5 264 0
 .word 0xf9402fb1
 .word 0xf9522631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 255 0
+.loc 5 265 0
 .word 0xf9402fb1
 .word 0xf9523631
 .word 0xb4000051
@@ -5680,12 +5853,12 @@ bl _p_30
 .word 0xf9402321
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_40
+bl _p_45
 .word 0xf9402fb1
 .word 0xf9525a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 256 0
+.loc 5 266 0
 .word 0xf9402fb1
 .word 0xf9526a31
 .word 0xb4000051
@@ -5694,28 +5867,28 @@ bl _p_40
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #880]
+ldr x1, [x16, #904]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #888]
+ldr x2, [x16, #912]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x3, [x16, #896]
+ldr x3, [x16, #920]
 .word 0xaa1903e0
-bl _p_41
+bl _p_46
 .word 0xf9402fb1
 .word 0xf952aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 257 0
+.loc 5 267 0
 .word 0xf9402fb1
 .word 0xf952ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400005f
-.loc 5 258 0
+.loc 5 268 0
 .word 0xf9402fb1
 .word 0xf952ce31
 .word 0xb4000051
@@ -5725,8 +5898,8 @@ bl _p_41
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #840]
-bl _p_30
+ldr x1, [x16, #864]
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -5736,10 +5909,10 @@ bl _p_30
 .word 0xf940aba0
 .word 0x34000160
 .word 0xaa1903e0
-.word 0x3943a320
+.word 0x3943c320
 .word 0x35000100
 .word 0xaa1903e0
-.word 0x3943a720
+.word 0x3943c720
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x9a9f17e0
@@ -5752,12 +5925,12 @@ bl _p_30
 .word 0x390383a0
 .word 0x394383a0
 .word 0x34000780
-.loc 5 259 0
+.loc 5 269 0
 .word 0xf9402fb1
 .word 0xf9535a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 260 0
+.loc 5 270 0
 .word 0xf9402fb1
 .word 0xf9536a31
 .word 0xb4000051
@@ -5776,7 +5949,7 @@ ldr x0, [x16, #536]
 .word 0xf9539e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 261 0
+.loc 5 271 0
 .word 0xf9402fb1
 .word 0xf953ae31
 .word 0xb4000051
@@ -5784,8 +5957,8 @@ ldr x0, [x16, #536]
 .word 0xaa1903e0
 .word 0xd2800020
 .word 0xd280003e
-.word 0x3903a33e
-.loc 5 262 0
+.word 0x3903c33e
+.loc 5 272 0
 .word 0xf9402fb1
 .word 0xf953ce31
 .word 0xb4000051
@@ -5794,12 +5967,12 @@ ldr x0, [x16, #536]
 .word 0xf9402321
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_42
+bl _p_47
 .word 0xf9402fb1
 .word 0xf953f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 263 0
+.loc 5 273 0
 .word 0xf9402fb1
 .word 0xf9540231
 .word 0xb4000051
@@ -5808,17 +5981,17 @@ bl _p_42
 .word 0xf9402321
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_44
+bl _p_49
 .word 0xf9402fb1
 .word 0xf9542631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 264 0
+.loc 5 274 0
 .word 0xf9402fb1
 .word 0xf9543631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 266 0
+.loc 5 276 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -5828,7 +6001,7 @@ bl _p_44
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400034e
-.loc 5 269 0
+.loc 5 279 0
 .word 0xf9402fb1
 .word 0xf9546a31
 .word 0xb4000051
@@ -5839,7 +6012,7 @@ bl _p_44
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #608]
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -5851,12 +6024,12 @@ bl _p_30
 .word 0x3903a3a0
 .word 0x3943a3a0
 .word 0x34000560
-.loc 5 270 0
+.loc 5 280 0
 .word 0xf9402fb1
 .word 0xf954be31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 271 0
+.loc 5 281 0
 .word 0xf9402fb1
 .word 0xf954ce31
 .word 0xb4000051
@@ -5865,12 +6038,12 @@ bl _p_30
 .word 0xf9402721
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_40
+bl _p_45
 .word 0xf9402fb1
 .word 0xf954f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 272 0
+.loc 5 282 0
 .word 0xf9402fb1
 .word 0xf9550231
 .word 0xb4000051
@@ -5879,28 +6052,28 @@ bl _p_40
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #904]
+ldr x1, [x16, #928]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #912]
+ldr x2, [x16, #936]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x3, [x16, #920]
+ldr x3, [x16, #944]
 .word 0xaa1903e0
-bl _p_41
+bl _p_46
 .word 0xf9402fb1
 .word 0xf9554231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 273 0
+.loc 5 283 0
 .word 0xf9402fb1
 .word 0xf9555231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400005f
-.loc 5 274 0
+.loc 5 284 0
 .word 0xf9402fb1
 .word 0xf9556631
 .word 0xb4000051
@@ -5910,8 +6083,8 @@ bl _p_41
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #840]
-bl _p_30
+ldr x1, [x16, #864]
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -5921,10 +6094,10 @@ bl _p_30
 .word 0xf940aba0
 .word 0x34000160
 .word 0xaa1903e0
-.word 0x3943a320
+.word 0x3943c320
 .word 0x35000100
 .word 0xaa1903e0
-.word 0x3943a720
+.word 0x3943c720
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x9a9f17e0
@@ -5937,12 +6110,12 @@ bl _p_30
 .word 0x3903c3a0
 .word 0x3943c3a0
 .word 0x34000780
-.loc 5 275 0
+.loc 5 285 0
 .word 0xf9402fb1
 .word 0xf955f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 276 0
+.loc 5 286 0
 .word 0xf9402fb1
 .word 0xf9560231
 .word 0xb4000051
@@ -5961,7 +6134,7 @@ ldr x0, [x16, #536]
 .word 0xf9563631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 277 0
+.loc 5 287 0
 .word 0xf9402fb1
 .word 0xf9564631
 .word 0xb4000051
@@ -5969,8 +6142,8 @@ ldr x0, [x16, #536]
 .word 0xaa1903e0
 .word 0xd2800020
 .word 0xd280003e
-.word 0x3903a33e
-.loc 5 278 0
+.word 0x3903c33e
+.loc 5 288 0
 .word 0xf9402fb1
 .word 0xf9566631
 .word 0xb4000051
@@ -5979,12 +6152,12 @@ ldr x0, [x16, #536]
 .word 0xf9402721
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_42
+bl _p_47
 .word 0xf9402fb1
 .word 0xf9568a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 279 0
+.loc 5 289 0
 .word 0xf9402fb1
 .word 0xf9569a31
 .word 0xb4000051
@@ -5993,17 +6166,17 @@ bl _p_42
 .word 0xf9402721
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_45
+bl _p_50
 .word 0xf9402fb1
 .word 0xf956be31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 280 0
+.loc 5 290 0
 .word 0xf9402fb1
 .word 0xf956ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 282 0
+.loc 5 292 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -6013,7 +6186,7 @@ bl _p_45
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140002a8
-.loc 5 285 0
+.loc 5 295 0
 .word 0xf9402fb1
 .word 0xf9570231
 .word 0xb4000051
@@ -6024,7 +6197,7 @@ bl _p_45
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #608]
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -6036,12 +6209,12 @@ bl _p_30
 .word 0x3903e3a0
 .word 0x3943e3a0
 .word 0x34000560
-.loc 5 286 0
+.loc 5 296 0
 .word 0xf9402fb1
 .word 0xf9575631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 287 0
+.loc 5 297 0
 .word 0xf9402fb1
 .word 0xf9576631
 .word 0xb4000051
@@ -6050,12 +6223,12 @@ bl _p_30
 .word 0xf9402b21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_40
+bl _p_45
 .word 0xf9402fb1
 .word 0xf9578a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 288 0
+.loc 5 298 0
 .word 0xf9402fb1
 .word 0xf9579a31
 .word 0xb4000051
@@ -6064,28 +6237,28 @@ bl _p_40
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #928]
+ldr x1, [x16, #952]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #936]
+ldr x2, [x16, #960]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x3, [x16, #944]
+ldr x3, [x16, #968]
 .word 0xaa1903e0
-bl _p_41
+bl _p_46
 .word 0xf9402fb1
 .word 0xf957da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 289 0
+.loc 5 299 0
 .word 0xf9402fb1
 .word 0xf957ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400005f
-.loc 5 290 0
+.loc 5 300 0
 .word 0xf9402fb1
 .word 0xf957fe31
 .word 0xb4000051
@@ -6095,8 +6268,8 @@ bl _p_41
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #840]
-bl _p_30
+ldr x1, [x16, #864]
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -6106,10 +6279,10 @@ bl _p_30
 .word 0xf940aba0
 .word 0x34000160
 .word 0xaa1903e0
-.word 0x3943a320
+.word 0x3943c320
 .word 0x35000100
 .word 0xaa1903e0
-.word 0x3943a720
+.word 0x3943c720
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x9a9f17e0
@@ -6122,12 +6295,12 @@ bl _p_30
 .word 0x390403a0
 .word 0x394403a0
 .word 0x34000780
-.loc 5 291 0
+.loc 5 301 0
 .word 0xf9402fb1
 .word 0xf9588a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 292 0
+.loc 5 302 0
 .word 0xf9402fb1
 .word 0xf9589a31
 .word 0xb4000051
@@ -6146,7 +6319,7 @@ ldr x0, [x16, #536]
 .word 0xf958ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 293 0
+.loc 5 303 0
 .word 0xf9402fb1
 .word 0xf958de31
 .word 0xb4000051
@@ -6154,8 +6327,8 @@ ldr x0, [x16, #536]
 .word 0xaa1903e0
 .word 0xd2800020
 .word 0xd280003e
-.word 0x3903a33e
-.loc 5 294 0
+.word 0x3903c33e
+.loc 5 304 0
 .word 0xf9402fb1
 .word 0xf958fe31
 .word 0xb4000051
@@ -6164,12 +6337,12 @@ ldr x0, [x16, #536]
 .word 0xf9402b21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_42
+bl _p_47
 .word 0xf9402fb1
 .word 0xf9592231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 295 0
+.loc 5 305 0
 .word 0xf9402fb1
 .word 0xf9593231
 .word 0xb4000051
@@ -6178,17 +6351,17 @@ bl _p_42
 .word 0xf9402b21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_46
+bl _p_51
 .word 0xf9402fb1
 .word 0xf9595631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 296 0
+.loc 5 306 0
 .word 0xf9402fb1
 .word 0xf9596631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 298 0
+.loc 5 308 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -6198,7 +6371,7 @@ bl _p_46
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000202
-.loc 5 300 0
+.loc 5 310 0
 .word 0xf9402fb1
 .word 0xf9599a31
 .word 0xb4000051
@@ -6207,18 +6380,18 @@ bl _p_46
 .word 0xf9402b21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_47
+bl _p_52
 .word 0xf9402fb1
 .word 0xf959be31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 301 0
+.loc 5 311 0
 .word 0xf9402fb1
 .word 0xf959ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140001f0
-.loc 5 303 0
+.loc 5 313 0
 .word 0xf9402fb1
 .word 0xf959e231
 .word 0xb4000051
@@ -6227,18 +6400,18 @@ bl _p_47
 .word 0xf9402b21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_48
+bl _p_53
 .word 0xf9402fb1
 .word 0xf95a0631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 304 0
+.loc 5 314 0
 .word 0xf9402fb1
 .word 0xf95a1631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140001de
-.loc 5 307 0
+.loc 5 317 0
 .word 0xf9402fb1
 .word 0xf95a2a31
 .word 0xb4000051
@@ -6249,7 +6422,7 @@ bl _p_48
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #608]
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -6261,12 +6434,12 @@ bl _p_30
 .word 0x390423a0
 .word 0x394423a0
 .word 0x34000560
-.loc 5 308 0
+.loc 5 318 0
 .word 0xf9402fb1
 .word 0xf95a7e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 309 0
+.loc 5 319 0
 .word 0xf9402fb1
 .word 0xf95a8e31
 .word 0xb4000051
@@ -6275,12 +6448,12 @@ bl _p_30
 .word 0xf9402f21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_40
+bl _p_45
 .word 0xf9402fb1
 .word 0xf95ab231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 310 0
+.loc 5 320 0
 .word 0xf9402fb1
 .word 0xf95ac231
 .word 0xb4000051
@@ -6289,28 +6462,28 @@ bl _p_40
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #952]
+ldr x1, [x16, #976]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #960]
+ldr x2, [x16, #984]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x3, [x16, #968]
+ldr x3, [x16, #992]
 .word 0xaa1903e0
-bl _p_41
+bl _p_46
 .word 0xf9402fb1
 .word 0xf95b0231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 311 0
+.loc 5 321 0
 .word 0xf9402fb1
 .word 0xf95b1231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400005f
-.loc 5 312 0
+.loc 5 322 0
 .word 0xf9402fb1
 .word 0xf95b2631
 .word 0xb4000051
@@ -6320,8 +6493,8 @@ bl _p_41
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #840]
-bl _p_30
+ldr x1, [x16, #864]
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -6331,10 +6504,10 @@ bl _p_30
 .word 0xf940aba0
 .word 0x34000160
 .word 0xaa1903e0
-.word 0x3943a320
+.word 0x3943c320
 .word 0x35000100
 .word 0xaa1903e0
-.word 0x3943a720
+.word 0x3943c720
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x9a9f17e0
@@ -6347,12 +6520,12 @@ bl _p_30
 .word 0x390443a0
 .word 0x394443a0
 .word 0x34000780
-.loc 5 313 0
+.loc 5 323 0
 .word 0xf9402fb1
 .word 0xf95bb231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 314 0
+.loc 5 324 0
 .word 0xf9402fb1
 .word 0xf95bc231
 .word 0xb4000051
@@ -6371,7 +6544,7 @@ ldr x0, [x16, #536]
 .word 0xf95bf631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 315 0
+.loc 5 325 0
 .word 0xf9402fb1
 .word 0xf95c0631
 .word 0xb4000051
@@ -6379,8 +6552,8 @@ ldr x0, [x16, #536]
 .word 0xaa1903e0
 .word 0xd2800020
 .word 0xd280003e
-.word 0x3903a33e
-.loc 5 316 0
+.word 0x3903c33e
+.loc 5 326 0
 .word 0xf9402fb1
 .word 0xf95c2631
 .word 0xb4000051
@@ -6389,12 +6562,12 @@ ldr x0, [x16, #536]
 .word 0xf9402f21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_42
+bl _p_47
 .word 0xf9402fb1
 .word 0xf95c4a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 317 0
+.loc 5 327 0
 .word 0xf9402fb1
 .word 0xf95c5a31
 .word 0xb4000051
@@ -6403,17 +6576,17 @@ bl _p_42
 .word 0xf9402f21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_49
+bl _p_54
 .word 0xf9402fb1
 .word 0xf95c7e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 318 0
+.loc 5 328 0
 .word 0xf9402fb1
 .word 0xf95c8e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 320 0
+.loc 5 330 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -6423,7 +6596,7 @@ bl _p_49
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000138
-.loc 5 322 0
+.loc 5 332 0
 .word 0xf9402fb1
 .word 0xf95cc231
 .word 0xb4000051
@@ -6432,18 +6605,18 @@ bl _p_49
 .word 0xf9402f21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_50
+bl _p_55
 .word 0xf9402fb1
 .word 0xf95ce631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 323 0
+.loc 5 333 0
 .word 0xf9402fb1
 .word 0xf95cf631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000126
-.loc 5 325 0
+.loc 5 335 0
 .word 0xf9402fb1
 .word 0xf95d0a31
 .word 0xb4000051
@@ -6452,18 +6625,18 @@ bl _p_50
 .word 0xf9402f21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_51
+bl _p_56
 .word 0xf9402fb1
 .word 0xf95d2e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 326 0
+.loc 5 336 0
 .word 0xf9402fb1
 .word 0xf95d3e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000114
-.loc 5 329 0
+.loc 5 339 0
 .word 0xf9402fb1
 .word 0xf95d5231
 .word 0xb4000051
@@ -6474,7 +6647,7 @@ bl _p_51
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x1, [x16, #608]
-bl _p_30
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -6486,12 +6659,12 @@ bl _p_30
 .word 0x390463a0
 .word 0x394463a0
 .word 0x34000560
-.loc 5 330 0
+.loc 5 340 0
 .word 0xf9402fb1
 .word 0xf95da631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 331 0
+.loc 5 341 0
 .word 0xf9402fb1
 .word 0xf95db631
 .word 0xb4000051
@@ -6500,12 +6673,12 @@ bl _p_30
 .word 0xf9403321
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_40
+bl _p_45
 .word 0xf9402fb1
 .word 0xf95dda31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 332 0
+.loc 5 342 0
 .word 0xf9402fb1
 .word 0xf95dea31
 .word 0xb4000051
@@ -6514,28 +6687,28 @@ bl _p_40
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #976]
+ldr x1, [x16, #1000]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #984]
+ldr x2, [x16, #1008]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x3, [x16, #992]
+ldr x3, [x16, #1016]
 .word 0xaa1903e0
-bl _p_41
+bl _p_46
 .word 0xf9402fb1
 .word 0xf95e2a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 333 0
+.loc 5 343 0
 .word 0xf9402fb1
 .word 0xf95e3a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400005f
-.loc 5 334 0
+.loc 5 344 0
 .word 0xf9402fb1
 .word 0xf95e4e31
 .word 0xb4000051
@@ -6545,8 +6718,8 @@ bl _p_41
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #840]
-bl _p_30
+ldr x1, [x16, #864]
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -6556,10 +6729,10 @@ bl _p_30
 .word 0xf940aba0
 .word 0x34000160
 .word 0xaa1903e0
-.word 0x3943a320
+.word 0x3943c320
 .word 0x35000100
 .word 0xaa1903e0
-.word 0x3943a720
+.word 0x3943c720
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x9a9f17e0
@@ -6572,12 +6745,12 @@ bl _p_30
 .word 0x390483a0
 .word 0x394483a0
 .word 0x34000780
-.loc 5 335 0
+.loc 5 345 0
 .word 0xf9402fb1
 .word 0xf95eda31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 336 0
+.loc 5 346 0
 .word 0xf9402fb1
 .word 0xf95eea31
 .word 0xb4000051
@@ -6596,7 +6769,7 @@ ldr x0, [x16, #536]
 .word 0xf95f1e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 337 0
+.loc 5 347 0
 .word 0xf9402fb1
 .word 0xf95f2e31
 .word 0xb4000051
@@ -6604,8 +6777,8 @@ ldr x0, [x16, #536]
 .word 0xaa1903e0
 .word 0xd2800020
 .word 0xd280003e
-.word 0x3903a33e
-.loc 5 338 0
+.word 0x3903c33e
+.loc 5 348 0
 .word 0xf9402fb1
 .word 0xf95f4e31
 .word 0xb4000051
@@ -6614,12 +6787,12 @@ ldr x0, [x16, #536]
 .word 0xf9403321
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_42
+bl _p_47
 .word 0xf9402fb1
 .word 0xf95f7231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 339 0
+.loc 5 349 0
 .word 0xf9402fb1
 .word 0xf95f8231
 .word 0xb4000051
@@ -6628,17 +6801,17 @@ bl _p_42
 .word 0xf9403321
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_52
+bl _p_57
 .word 0xf9402fb1
 .word 0xf95fa631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 340 0
+.loc 5 350 0
 .word 0xf9402fb1
 .word 0xf95fb631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 342 0
+.loc 5 352 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -6648,7 +6821,7 @@ bl _p_52
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400006e
-.loc 5 344 0
+.loc 5 354 0
 .word 0xf9402fb1
 .word 0xf95fea31
 .word 0xb4000051
@@ -6657,18 +6830,18 @@ bl _p_52
 .word 0xf9403321
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_53
+bl _p_58
 .word 0xf9402fb1
 .word 0xf9600e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 345 0
+.loc 5 355 0
 .word 0xf9402fb1
 .word 0xf9601e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400005c
-.loc 5 347 0
+.loc 5 357 0
 .word 0xf9402fb1
 .word 0xf9603231
 .word 0xb4000051
@@ -6677,18 +6850,18 @@ bl _p_53
 .word 0xf9403321
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_54
+bl _p_59
 .word 0xf9402fb1
 .word 0xf9605631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 348 0
+.loc 5 358 0
 .word 0xf9402fb1
 .word 0xf9606631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400004a
-.loc 5 351 0
+.loc 5 361 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -6702,8 +6875,8 @@ bl _p_54
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #840]
-bl _p_30
+ldr x1, [x16, #864]
+bl _p_32
 .word 0x53001c00
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -6713,7 +6886,7 @@ bl _p_30
 .word 0xf940aba0
 .word 0x340000a0
 .word 0xaa1903e0
-.word 0x3943a320
+.word 0x3943c320
 .word 0xb9014ba0
 .word 0x14000003
 .word 0xd2800000
@@ -6723,12 +6896,12 @@ bl _p_30
 .word 0x3904a3a0
 .word 0x3944a3a0
 .word 0x34000420
-.loc 5 352 0
+.loc 5 362 0
 .word 0xf9402fb1
 .word 0xf960fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 353 0
+.loc 5 363 0
 .word 0xf9402fb1
 .word 0xf9610e31
 .word 0xb4000051
@@ -6747,20 +6920,20 @@ ldr x0, [x16, #568]
 .word 0xf9614231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 354 0
+.loc 5 364 0
 .word 0xf9402fb1
 .word 0xf9615231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800000
-.word 0x3903a33f
-.loc 5 355 0
+.word 0x3903c33f
+.loc 5 365 0
 .word 0xf9402fb1
 .word 0xf9616e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 356 0
+.loc 5 366 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -6769,7 +6942,7 @@ ldr x0, [x16, #568]
 .word 0xf9618e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 359 0
+.loc 5 369 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -6780,8 +6953,8 @@ ldr x0, [x16, #568]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800000
-.word 0x3903a73f
-.loc 5 360 0
+.word 0x3903c73f
+.loc 5 370 0
 .word 0xf9402fb1
 .word 0xf961ca31
 .word 0xb4000051
@@ -6789,7 +6962,7 @@ ldr x0, [x16, #568]
 .word 0xaa1903e0
 .word 0xd2800000
 .word 0xf900433f
-.loc 5 361 0
+.loc 5 371 0
 .word 0xf9402fb1
 .word 0xf961e631
 .word 0xb4000051
@@ -6811,7 +6984,7 @@ Lme_23:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_Update_double
 WorkHeart_GameScene_Update_double:
-.loc 5 364 0 prologue_end
+.loc 5 374 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6819,7 +6992,7 @@ WorkHeart_GameScene_Update_double:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1024]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6835,7 +7008,7 @@ ldr x16, [x16, #1000]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 366 0
+.loc 5 376 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
@@ -6853,7 +7026,7 @@ Lme_24:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_StartTracking
 WorkHeart_GameScene_StartTracking:
-.loc 5 369 0 prologue_end
+.loc 5 379 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -6861,7 +7034,7 @@ WorkHeart_GameScene_StartTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1032]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6884,7 +7057,7 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 370 0
+.loc 5 380 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -6903,7 +7076,7 @@ ldr x0, [x16, #408]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 372 0
+.loc 5 382 0
 .word 0xf9400fb1
 .word 0xf940c231
 .word 0xb4000051
@@ -6911,7 +7084,7 @@ ldr x0, [x16, #408]
 .word 0xaa1a03e0
 .word 0x9100c3a0
 .word 0xf9001fa0
-bl _p_55
+bl _p_60
 .word 0xf9401fbe
 .word 0xf90003c0
 .word 0xf9400fb1
@@ -6919,10 +7092,10 @@ bl _p_55
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9100c3a0
-.word 0x91040340
+.word 0x91042340
 .word 0xf9401ba1
 .word 0xf9000001
-.loc 5 374 0
+.loc 5 384 0
 .word 0xf9400fb1
 .word 0xf9410a31
 .word 0xb4000051
@@ -6939,12 +7112,12 @@ bl _p_55
 .word 0xf2e811fe
 .word 0x9e6703c0
 .word 0x3940003e
-bl _p_56
+bl _p_61
 .word 0xf9400fb1
 .word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 375 0
+.loc 5 385 0
 .word 0xf9400fb1
 .word 0xf9415e31
 .word 0xb4000051
@@ -6955,12 +7128,12 @@ bl _p_56
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_57
+bl _p_62
 .word 0xf9400fb1
 .word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 376 0
+.loc 5 386 0
 .word 0xf9400fb1
 .word 0xf9419a31
 .word 0xb4000051
@@ -6975,10 +7148,10 @@ bl _p_57
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #1040]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xaa0003e1
 .word 0xf94027a2
 .word 0xeb1f035f
@@ -7000,17 +7173,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1048]
 .word 0xf9001420
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1032]
+ldr x0, [x16, #1056]
 .word 0xf9002020
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1040]
+ldr x0, [x16, #1064]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -7019,12 +7192,12 @@ ldr x0, [x16, #1040]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_59
+bl _p_63
 .word 0xf9400fb1
 .word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 377 0
+.loc 5 387 0
 .word 0xf9400fb1
 .word 0xf9428231
 .word 0xb4000051
@@ -7033,18 +7206,18 @@ bl _p_59
 .word 0xf9403741
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_60
+bl _p_64
 .word 0xf9400fb1
 .word 0xf942a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 380 0
+.loc 5 390 0
 .word 0xf9400fb1
 .word 0xf942b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_61
+bl _p_65
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf942d231
@@ -7057,7 +7230,7 @@ bl _p_18
 .word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 381 0
+.loc 5 391 0
 .word 0xf9400fb1
 .word 0xf942fe31
 .word 0xb4000051
@@ -7072,7 +7245,7 @@ bl _p_18
 .word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 382 0
+.loc 5 392 0
 .word 0xf9400fb1
 .word 0xf9433631
 .word 0xb4000051
@@ -7087,19 +7260,19 @@ bl _p_18
 .word 0xf9435e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 383 0
+.loc 5 393 0
 .word 0xf9400fb1
 .word 0xf9436e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_62
+bl _p_66
 .word 0xf9400fb1
 .word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 384 0
+.loc 5 394 0
 .word 0xf9400fb1
 .word 0xf9439a31
 .word 0xb4000051
@@ -7124,7 +7297,7 @@ Lme_25:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_StopTracking
 WorkHeart_GameScene_StopTracking:
-.loc 5 387 0 prologue_end
+.loc 5 397 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -7132,7 +7305,7 @@ WorkHeart_GameScene_StopTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1072]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7155,7 +7328,7 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 388 0
+.loc 5 398 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -7166,7 +7339,7 @@ bl _p_1
 .word 0xf9001fbf
 .word 0x9100e3a0
 .word 0xd2800001
-bl _p_63
+bl _p_34
 .word 0x9100e3a0
 .word 0x9100c3a0
 .word 0xf9401fa0
@@ -7176,10 +7349,10 @@ bl _p_63
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9100c3a0
-.word 0x91038340
+.word 0x9103a340
 .word 0xf9401ba1
 .word 0xf9000001
-.loc 5 390 0
+.loc 5 400 0
 .word 0xf9400fb1
 .word 0xf940da31
 .word 0xb4000051
@@ -7198,7 +7371,7 @@ ldr x0, [x16, #440]
 .word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 393 0
+.loc 5 403 0
 .word 0xf9400fb1
 .word 0xf9411e31
 .word 0xb4000051
@@ -7217,7 +7390,7 @@ bl _p_18
 .word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 394 0
+.loc 5 404 0
 .word 0xf9400fb1
 .word 0xf9416631
 .word 0xb4000051
@@ -7229,7 +7402,7 @@ bl _p_19
 .word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 395 0
+.loc 5 405 0
 .word 0xf9400fb1
 .word 0xf9419231
 .word 0xb4000051
@@ -7239,7 +7412,7 @@ bl _p_19
 .word 0xf90023a0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0027a0
 .word 0xf9400fb1
 .word 0xf941be31
@@ -7255,7 +7428,7 @@ bl _p_33
 .word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 396 0
+.loc 5 406 0
 .word 0xf9400fb1
 .word 0xf941f631
 .word 0xb4000051
@@ -7274,472 +7447,8 @@ Lme_26:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_PauseTracking
 WorkHeart_GameScene_PauseTracking:
-.loc 5 399 0 prologue_end
+.loc 5 409 0 prologue_end
 .word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1056]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 400 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9403741
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_64
-.word 0xf9400fb1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 401 0
-.word 0xf9400fb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #472]
-.word 0xf9400001
-.word 0xaa0103e0
-.word 0xf9001ba1
-.word 0xf9400c30
-.word 0xd63f0200
-.word 0xf9401ba0
-.word 0xf9400fb1
-.word 0xf940e631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 402 0
-.word 0xf9400fb1
-.word 0xf940f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_65
-.word 0xf9400fb1
-.word 0xf9411231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 407 0
-.word 0xf9400fb1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9413231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_27:
-.text
-	.align 4
-	.no_dead_strip WorkHeart_GameScene_ResumeTracking
-WorkHeart_GameScene_ResumeTracking:
-.loc 5 410 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1064]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 411 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91038340
-.word 0x9100e3a1
-.word 0xf9400000
-.word 0xf9001fa0
-.word 0xaa1a03e0
-.word 0x91036340
-.word 0x9100c3a1
-.word 0xf9400000
-.word 0xf9001ba0
-.word 0x910103a0
-.word 0xf90027a0
-.word 0x9100e3a0
-.word 0xf9401fa0
-.word 0x9100c3a1
-.word 0xf9401ba1
-bl _p_66
-.word 0xf94027be
-.word 0xf90003c0
-.word 0xf9400fb1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910103a0
-.word 0x91038340
-.word 0xf94023a1
-.word 0xf9000001
-.loc 5 412 0
-.word 0xf9400fb1
-.word 0xf940fe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9403b41
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_64
-.word 0xf9400fb1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 413 0
-.word 0xf9400fb1
-.word 0xf9413231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9403741
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_60
-.word 0xf9400fb1
-.word 0xf9415631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 414 0
-.word 0xf9400fb1
-.word 0xf9416631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #504]
-.word 0xf9400001
-.word 0xaa0103e0
-.word 0xf9002ba1
-.word 0xf9400c30
-.word 0xd63f0200
-.word 0xf9402ba0
-.word 0xf9400fb1
-.word 0xf9419a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 419 0
-.word 0xf9400fb1
-.word 0xf941aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf941ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_28:
-.text
-	.align 4
-	.no_dead_strip WorkHeart_GameScene_UpdateTimedData_object_System_Timers_ElapsedEventArgs
-WorkHeart_GameScene_UpdateTimedData_object_System_Timers_ElapsedEventArgs:
-.loc 5 422 0 prologue_end
-.word 0xa9b67bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xaa0003f9
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1072]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0x910243a0
-.word 0xf9004bbf
-.word 0xf94017b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 423 0
-.word 0xf94017b1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013a1
-.word 0x910223a0
-.word 0xf9004fa0
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_67
-.word 0xf9404fbe
-.word 0xf90003c0
-.word 0xf94017b1
-.word 0xf940be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x91040320
-.word 0x9101c3a1
-.word 0xf9400000
-.word 0xf9003ba0
-.word 0x910203a0
-.word 0xf9004fa0
-.word 0x910223a0
-.word 0xf94047a0
-.word 0x9101c3a1
-.word 0xf9403ba1
-bl _p_68
-.word 0xf9404fbe
-.word 0xf90003c0
-.word 0xf94017b1
-.word 0xf9410631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x91038320
-.word 0x9101a3a1
-.word 0xf9400000
-.word 0xf90037a0
-.word 0x9101e3a0
-.word 0xf9004fa0
-.word 0x910203a0
-.word 0xf94043a0
-.word 0x9101a3a1
-.word 0xf94037a1
-bl _p_69
-.word 0xf9404fbe
-.word 0xf90003c0
-.word 0xf94017b1
-.word 0xf9414e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x9101e3a0
-.word 0x910243a0
-.word 0xf9403fa0
-.word 0xf9004ba0
-.loc 5 425 0
-.word 0xf94017b1
-.word 0xf9416e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9402321
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_70
-.word 0xf94017b1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 426 0
-.word 0xf94017b1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9401f21
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_71
-.word 0xf94017b1
-.word 0xf941c631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 427 0
-.word 0xf94017b1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9402722
-.word 0x910243a0
-.word 0x910183a0
-.word 0xf9404ba0
-.word 0xf90033a0
-.word 0xaa0203e0
-.word 0x910183a1
-.word 0xf94033a1
-.word 0x3940005e
-bl _p_72
-.word 0xf94017b1
-.word 0xf9421231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 428 0
-.word 0xf94017b1
-.word 0xf9422231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9402b22
-.word 0x910243a0
-.word 0x910163a0
-.word 0xf9404ba0
-.word 0xf9002fa0
-.word 0xaa0203e0
-.word 0x910163a1
-.word 0xf9402fa1
-.word 0x3940005e
-bl _p_73
-.word 0xf94017b1
-.word 0xf9425e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 429 0
-.word 0xf94017b1
-.word 0xf9426e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9402f22
-.word 0x910243a0
-.word 0x910143a0
-.word 0xf9404ba0
-.word 0xf9002ba0
-.word 0xaa0203e0
-.word 0x910143a1
-.word 0xf9402ba1
-.word 0x3940005e
-bl _p_74
-.word 0xf94017b1
-.word 0xf942aa31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 430 0
-.word 0xf94017b1
-.word 0xf942ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9403322
-.word 0x910243a0
-.word 0x910123a0
-.word 0xf9404ba0
-.word 0xf90027a0
-.word 0xaa0203e0
-.word 0x910123a1
-.word 0xf94027a1
-.word 0x3940005e
-bl _p_75
-.word 0xf94017b1
-.word 0xf942f631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 432 0
-.word 0xf94017b1
-.word 0xf9430631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9401b22
-.word 0x910243a0
-.word 0x910103a0
-.word 0xf9404ba0
-.word 0xf90023a0
-.word 0xaa0203e0
-.word 0x910103a1
-.word 0xf94023a1
-.word 0x3940005e
-bl _p_76
-.word 0xf94017b1
-.word 0xf9434231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 433 0
-.word 0xf94017b1
-.word 0xf9435231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9436231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8ca7bfd
-.word 0xd65f03c0
-
-Lme_29:
-.text
-	.align 4
-	.no_dead_strip WorkHeart_GameScene_PausedTime
-WorkHeart_GameScene_PausedTime:
-.loc 5 436 0 prologue_end
-.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
@@ -7769,7 +7478,471 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
+.loc 5 410 0
+.word 0xf9400fb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9403741
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_67
+.word 0xf9400fb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 411 0
+.word 0xf9400fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #472]
+.word 0xf9400001
+.word 0xaa0103e0
+.word 0xf9001ba1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xf9401ba0
+.word 0xf9400fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 412 0
+.word 0xf9400fb1
+.word 0xf940f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_68
+.word 0xf9400fb1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 417 0
+.word 0xf9400fb1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9413231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_27:
+.text
+	.align 4
+	.no_dead_strip WorkHeart_GameScene_ResumeTracking
+WorkHeart_GameScene_ResumeTracking:
+.loc 5 420 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1088]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 421 0
+.word 0xf9400fb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9103a340
+.word 0x9100e3a1
+.word 0xf9400000
+.word 0xf9001fa0
+.word 0xaa1a03e0
+.word 0x91038340
+.word 0x9100c3a1
+.word 0xf9400000
+.word 0xf9001ba0
+.word 0x910103a0
+.word 0xf90027a0
+.word 0x9100e3a0
+.word 0xf9401fa0
+.word 0x9100c3a1
+.word 0xf9401ba1
+bl _p_69
+.word 0xf94027be
+.word 0xf90003c0
+.word 0xf9400fb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910103a0
+.word 0x9103a340
+.word 0xf94023a1
+.word 0xf9000001
+.loc 5 422 0
+.word 0xf9400fb1
+.word 0xf940fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9403b41
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_67
+.word 0xf9400fb1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 423 0
+.word 0xf9400fb1
+.word 0xf9413231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9403741
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_64
+.word 0xf9400fb1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 424 0
+.word 0xf9400fb1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #504]
+.word 0xf9400001
+.word 0xaa0103e0
+.word 0xf9002ba1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xf9402ba0
+.word 0xf9400fb1
+.word 0xf9419a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 429 0
+.word 0xf9400fb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf941ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_28:
+.text
+	.align 4
+	.no_dead_strip WorkHeart_GameScene_UpdateTimedData_object_System_Timers_ElapsedEventArgs
+WorkHeart_GameScene_UpdateTimedData_object_System_Timers_ElapsedEventArgs:
+.loc 5 432 0 prologue_end
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1096]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0x910243a0
+.word 0xf9004bbf
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 433 0
+.word 0xf94017b1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013a1
+.word 0x910223a0
+.word 0xf9004fa0
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_70
+.word 0xf9404fbe
+.word 0xf90003c0
+.word 0xf94017b1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x91042320
+.word 0x9101c3a1
+.word 0xf9400000
+.word 0xf9003ba0
+.word 0x910203a0
+.word 0xf9004fa0
+.word 0x910223a0
+.word 0xf94047a0
+.word 0x9101c3a1
+.word 0xf9403ba1
+bl _p_71
+.word 0xf9404fbe
+.word 0xf90003c0
+.word 0xf94017b1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x9103a320
+.word 0x9101a3a1
+.word 0xf9400000
+.word 0xf90037a0
+.word 0x9101e3a0
+.word 0xf9004fa0
+.word 0x910203a0
+.word 0xf94043a0
+.word 0x9101a3a1
+.word 0xf94037a1
+bl _p_35
+.word 0xf9404fbe
+.word 0xf90003c0
+.word 0xf94017b1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9101e3a0
+.word 0x910243a0
+.word 0xf9403fa0
+.word 0xf9004ba0
+.loc 5 435 0
+.word 0xf94017b1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9402321
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_72
+.word 0xf94017b1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 436 0
+.word 0xf94017b1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9401f21
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_73
+.word 0xf94017b1
+.word 0xf941c631
+.word 0xb4000051
+.word 0xd63f0220
 .loc 5 437 0
+.word 0xf94017b1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9402722
+.word 0x910243a0
+.word 0x910183a0
+.word 0xf9404ba0
+.word 0xf90033a0
+.word 0xaa0203e0
+.word 0x910183a1
+.word 0xf94033a1
+.word 0x3940005e
+bl _p_74
+.word 0xf94017b1
+.word 0xf9421231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 438 0
+.word 0xf94017b1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9402b22
+.word 0x910243a0
+.word 0x910163a0
+.word 0xf9404ba0
+.word 0xf9002fa0
+.word 0xaa0203e0
+.word 0x910163a1
+.word 0xf9402fa1
+.word 0x3940005e
+bl _p_75
+.word 0xf94017b1
+.word 0xf9425e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 439 0
+.word 0xf94017b1
+.word 0xf9426e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9402f22
+.word 0x910243a0
+.word 0x910143a0
+.word 0xf9404ba0
+.word 0xf9002ba0
+.word 0xaa0203e0
+.word 0x910143a1
+.word 0xf9402ba1
+.word 0x3940005e
+bl _p_76
+.word 0xf94017b1
+.word 0xf942aa31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 440 0
+.word 0xf94017b1
+.word 0xf942ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9403322
+.word 0x910243a0
+.word 0x910123a0
+.word 0xf9404ba0
+.word 0xf90027a0
+.word 0xaa0203e0
+.word 0x910123a1
+.word 0xf94027a1
+.word 0x3940005e
+bl _p_77
+.word 0xf94017b1
+.word 0xf942f631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 442 0
+.word 0xf94017b1
+.word 0xf9430631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9401b22
+.word 0x910243a0
+.word 0x910103a0
+.word 0xf9404ba0
+.word 0xf90023a0
+.word 0xaa0203e0
+.word 0x910103a1
+.word 0xf94023a1
+.word 0x3940005e
+bl _p_78
+.word 0xf94017b1
+.word 0xf9434231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 443 0
+.word 0xf94017b1
+.word 0xf9435231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9436231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+
+Lme_29:
+.text
+	.align 4
+	.no_dead_strip WorkHeart_GameScene_PausedTime
+WorkHeart_GameScene_PausedTime:
+.loc 5 446 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1104]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 447 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -7777,7 +7950,7 @@ bl _p_1
 .word 0xaa1a03e0
 .word 0x9100c3a0
 .word 0xf9001fa0
-bl _p_55
+bl _p_60
 .word 0xf9401fbe
 .word 0xf90003c0
 .word 0xf9400fb1
@@ -7785,10 +7958,10 @@ bl _p_55
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9100c3a0
-.word 0x91042340
+.word 0x91044340
 .word 0xf9401ba1
 .word 0xf9000001
-.loc 5 439 0
+.loc 5 449 0
 .word 0xf9400fb1
 .word 0xf940c631
 .word 0xb4000051
@@ -7805,12 +7978,12 @@ bl _p_55
 .word 0xf2e811fe
 .word 0x9e6703c0
 .word 0x3940003e
-bl _p_56
+bl _p_61
 .word 0xf9400fb1
 .word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 440 0
+.loc 5 450 0
 .word 0xf9400fb1
 .word 0xf9411a31
 .word 0xb4000051
@@ -7821,12 +7994,12 @@ bl _p_56
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_57
+bl _p_62
 .word 0xf9400fb1
 .word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 441 0
+.loc 5 451 0
 .word 0xf9400fb1
 .word 0xf9415631
 .word 0xb4000051
@@ -7841,10 +8014,10 @@ bl _p_57
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #1040]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xaa0003e1
 .word 0xf94023a2
 .word 0xeb1f035f
@@ -7866,17 +8039,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1088]
+ldr x0, [x16, #1112]
 .word 0xf9001420
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1096]
+ldr x0, [x16, #1120]
 .word 0xf9002020
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1104]
+ldr x0, [x16, #1128]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -7885,12 +8058,12 @@ ldr x0, [x16, #1104]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_59
+bl _p_63
 .word 0xf9400fb1
 .word 0xf9422e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 442 0
+.loc 5 452 0
 .word 0xf9400fb1
 .word 0xf9423e31
 .word 0xb4000051
@@ -7899,12 +8072,12 @@ bl _p_59
 .word 0xf9403b41
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_60
+bl _p_64
 .word 0xf9400fb1
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 443 0
+.loc 5 453 0
 .word 0xf9400fb1
 .word 0xf9427231
 .word 0xb4000051
@@ -7929,7 +8102,7 @@ Lme_2a:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_UpdatePausedTimedData_object_System_Timers_ElapsedEventArgs
 WorkHeart_GameScene_UpdatePausedTimedData_object_System_Timers_ElapsedEventArgs:
-.loc 5 446 0 prologue_end
+.loc 5 456 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -7939,7 +8112,7 @@ WorkHeart_GameScene_UpdatePausedTimedData_object_System_Timers_ElapsedEventArgs:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1136]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7962,7 +8135,7 @@ bl _p_1
 .word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 448 0
+.loc 5 458 0
 .word 0xf94017b1
 .word 0xf9408631
 .word 0xb4000051
@@ -7973,7 +8146,7 @@ bl _p_1
 .word 0xf9002fa0
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_67
+bl _p_70
 .word 0xf9402fbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -7981,7 +8154,7 @@ bl _p_67
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-.word 0x91042320
+.word 0x91044320
 .word 0x910103a1
 .word 0xf9400000
 .word 0xf90023a0
@@ -7991,7 +8164,7 @@ bl _p_67
 .word 0xf9402ba0
 .word 0x910103a1
 .word 0xf94023a1
-bl _p_68
+bl _p_71
 .word 0xf9402fbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -7999,10 +8172,10 @@ bl _p_68
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910123a0
-.word 0x91036320
+.word 0x91038320
 .word 0xf94027a1
 .word 0xf9000001
-.loc 5 449 0
+.loc 5 459 0
 .word 0xf94017b1
 .word 0xf9412231
 .word 0xb4000051
@@ -8021,7 +8194,7 @@ Lme_2b:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_CreateGravityNode
 WorkHeart_GameScene_CreateGravityNode:
-.loc 5 453 0 prologue_end
+.loc 5 463 0 prologue_end
 .word 0xa9b07bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -8030,7 +8203,7 @@ WorkHeart_GameScene_CreateGravityNode:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1144]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -8059,12 +8232,12 @@ bl _p_1
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 454 0
+.loc 5 464 0
 .word 0xf94017b1
 .word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_77
+bl _p_79
 .word 0xf9007fa0
 .word 0xf94017b1
 .word 0xf940b231
@@ -8073,7 +8246,7 @@ bl _p_77
 .word 0xf9407fa0
 .word 0xf9007ba0
 .word 0xaa0003f9
-.loc 5 455 0
+.loc 5 465 0
 .word 0xf94017b1
 .word 0xf940ce31
 .word 0xb4000051
@@ -8090,7 +8263,7 @@ bl _p_77
 .word 0xf940fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 456 0
+.loc 5 466 0
 .word 0xf94017b1
 .word 0xf9410e31
 .word 0xb4000051
@@ -8118,7 +8291,7 @@ bl _p_77
 .word 0xf9403fa0
 .word 0xf90047a0
 .word 0x910203a0
-bl _p_78
+bl _p_80
 .word 0xfd0073a0
 .word 0xf94017b1
 .word 0xf9418231
@@ -8126,7 +8299,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0077a0
 .word 0xf94017b1
 .word 0xf941a231
@@ -8170,7 +8343,7 @@ bl _p_33
 .word 0xf94037a0
 .word 0xf90047a0
 .word 0x910203a0
-bl _p_79
+bl _p_81
 .word 0xfd0063a0
 .word 0xf94017b1
 .word 0xf9425231
@@ -8178,7 +8351,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0067a0
 .word 0xf94017b1
 .word 0xf9427231
@@ -8206,7 +8379,7 @@ bl _p_33
 .word 0xf9002ba0
 .word 0xf9002fa0
 .word 0x910143a0
-bl _p_80
+bl _p_82
 .word 0x910143a0
 .word 0x910103a0
 .word 0xf9402ba0
@@ -8229,7 +8402,7 @@ bl _p_80
 .word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 457 0
+.loc 5 467 0
 .word 0xf94017b1
 .word 0xf9433631
 .word 0xb4000051
@@ -8246,7 +8419,7 @@ bl _p_80
 .word 0xf9436631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 458 0
+.loc 5 468 0
 .word 0xf94017b1
 .word 0xf9437631
 .word 0xb4000051
@@ -8263,14 +8436,14 @@ bl _p_80
 .word 0xf943a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 459 0
+.loc 5 469 0
 .word 0xf94017b1
 .word 0xf943b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa0003f8
-.loc 5 460 0
+.loc 5 470 0
 .word 0xf94017b1
 .word 0xf943ce31
 .word 0xb4000051
@@ -8292,7 +8465,7 @@ Lme_2c:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_setBGColour_UIKit_UIColor
 WorkHeart_GameScene_setBGColour_UIKit_UIColor:
-.loc 5 463 0 prologue_end
+.loc 5 473 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -8300,7 +8473,7 @@ WorkHeart_GameScene_setBGColour_UIKit_UIColor:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1152]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8323,7 +8496,7 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 464 0
+.loc 5 474 0
 .word 0xf94013b1
 .word 0xf9407e31
 .word 0xb4000051
@@ -8338,7 +8511,7 @@ bl _p_1
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 465 0
+.loc 5 475 0
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -8356,7 +8529,7 @@ Lme_2d:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_AddHeadingLabels
 WorkHeart_GameScene_AddHeadingLabels:
-.loc 5 468 0 prologue_end
+.loc 5 478 0 prologue_end
 .word 0xd2805410
 .word 0x910003f1
 .word 0xcb100231
@@ -8371,7 +8544,7 @@ WorkHeart_GameScene_AddHeadingLabels:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1160]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -8404,14 +8577,14 @@ bl _p_1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 471 0
+.loc 5 481 0
 .word 0xf9402bb1
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9103a3a0
 .word 0xf90087a0
-bl _p_55
+bl _p_60
 .word 0xf94087be
 .word 0xf90003c0
 .word 0xf9402bb1
@@ -8423,7 +8596,7 @@ bl _p_55
 .word 0xf94077a0
 .word 0xf90083a0
 .word 0x910403a0
-bl _p_81
+bl _p_83
 .word 0x93407c00
 .word 0xf900c7a0
 .word 0xf9402bb1
@@ -8433,7 +8606,7 @@ bl _p_81
 .word 0xf940c7a0
 .word 0xf900c3a0
 .word 0xaa0003f8
-.loc 5 472 0
+.loc 5 482 0
 .word 0xf9402bb1
 .word 0xf9413231
 .word 0xb4000051
@@ -8448,12 +8621,12 @@ bl _p_81
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0x34000240
-.loc 5 473 0
+.loc 5 483 0
 .word 0xf9402bb1
 .word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 474 0
+.loc 5 484 0
 .word 0xf9402bb1
 .word 0xf9417a31
 .word 0xb4000051
@@ -8461,15 +8634,15 @@ bl _p_81
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1144]
+ldr x0, [x16, #1168]
 .word 0xaa0003f9
-.loc 5 475 0
+.loc 5 485 0
 .word 0xf9402bb1
 .word 0xf9419a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400002f
-.loc 5 476 0
+.loc 5 486 0
 .word 0xf9402bb1
 .word 0xf941ae31
 .word 0xb4000051
@@ -8483,12 +8656,12 @@ ldr x0, [x16, #1144]
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0x34000240
-.loc 5 477 0
+.loc 5 487 0
 .word 0xf9402bb1
 .word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 478 0
+.loc 5 488 0
 .word 0xf9402bb1
 .word 0xf941f231
 .word 0xb4000051
@@ -8496,20 +8669,20 @@ ldr x0, [x16, #1144]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1176]
 .word 0xaa0003f9
-.loc 5 479 0
+.loc 5 489 0
 .word 0xf9402bb1
 .word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000011
-.loc 5 481 0
+.loc 5 491 0
 .word 0xf9402bb1
 .word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 482 0
+.loc 5 492 0
 .word 0xf9402bb1
 .word 0xf9423631
 .word 0xb4000051
@@ -8517,14 +8690,14 @@ ldr x0, [x16, #1152]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1160]
+ldr x0, [x16, #1184]
 .word 0xaa0003f9
-.loc 5 483 0
+.loc 5 493 0
 .word 0xf9402bb1
 .word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 485 0
+.loc 5 495 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -8537,10 +8710,10 @@ ldr x0, [x16, #1160]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf9014fa0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf942a231
 .word 0xb4000051
@@ -8553,7 +8726,7 @@ bl _p_82
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1176]
+ldr x1, [x16, #1200]
 .word 0xaa1503e0
 .word 0xf94002a2
 .word 0xf9413050
@@ -8570,7 +8743,7 @@ ldr x1, [x16, #1176]
 .word 0xf90143a0
 .word 0xd2800440
 .word 0xd2800440
-bl _p_33
+bl _p_40
 .word 0xfd0147a0
 .word 0xf9402bb1
 .word 0xf9431a31
@@ -8594,7 +8767,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1208]
 .word 0xaa1303e0
 .word 0xf9400262
 .word 0xf9413c50
@@ -8615,7 +8788,7 @@ ldr x1, [x16, #1184]
 .word 0xd2800660
 .word 0xd2800661
 .word 0xd2800662
-bl _p_83
+bl _p_85
 .word 0xf90133a0
 .word 0xf9402bb1
 .word 0xf943ca31
@@ -8688,7 +8861,7 @@ bl _p_83
 .word 0xf94073a0
 .word 0xf9007fa0
 .word 0x9103c3a0
-bl _p_78
+bl _p_80
 .word 0xfd0123a0
 .word 0xf9402bb1
 .word 0xf944ee31
@@ -8728,7 +8901,7 @@ bl _p_78
 .word 0xf9406ba0
 .word 0xf9007fa0
 .word 0x9103c3a0
-bl _p_79
+bl _p_81
 .word 0xfd011fa0
 .word 0xf9402bb1
 .word 0xf9458e31
@@ -8752,7 +8925,7 @@ bl _p_79
 .word 0xf9005fa0
 .word 0xf90063a0
 .word 0x9102e3a0
-bl _p_80
+bl _p_82
 .word 0x9102e3a0
 .word 0x9101e3a0
 .word 0xf9405fa0
@@ -8783,7 +8956,7 @@ bl _p_80
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1192]
+ldr x1, [x16, #1216]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -8806,7 +8979,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 497 0
+.loc 5 507 0
 .word 0xf9402bb1
 .word 0xf946b631
 .word 0xb4000051
@@ -8815,10 +8988,10 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf9010ba0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf946e231
 .word 0xb4000051
@@ -8832,14 +9005,14 @@ bl _p_82
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1224]
 .word 0xaa1903e1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #1208]
+ldr x2, [x16, #1232]
 .word 0xaa1903e1
-bl _p_84
+bl _p_86
 .word 0xf90103a0
 .word 0xf9402bb1
 .word 0xf9473231
@@ -8863,7 +9036,7 @@ bl _p_84
 .word 0xf900f7a0
 .word 0xd2800440
 .word 0xd2800440
-bl _p_33
+bl _p_40
 .word 0xfd00fba0
 .word 0xf9402bb1
 .word 0xf9479231
@@ -8887,7 +9060,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1208]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413c50
@@ -8908,7 +9081,7 @@ ldr x1, [x16, #1184]
 .word 0xd2800660
 .word 0xd2800661
 .word 0xd2800662
-bl _p_83
+bl _p_85
 .word 0xf900e7a0
 .word 0xf9402bb1
 .word 0xf9484231
@@ -8981,7 +9154,7 @@ bl _p_83
 .word 0xf9405ba0
 .word 0xf9007fa0
 .word 0x9103c3a0
-bl _p_78
+bl _p_80
 .word 0xfd00d7a0
 .word 0xf9402bb1
 .word 0xf9496631
@@ -9021,7 +9194,7 @@ bl _p_78
 .word 0xf94053a0
 .word 0xf9007fa0
 .word 0x9103c3a0
-bl _p_79
+bl _p_81
 .word 0xfd00d3a0
 .word 0xf9402bb1
 .word 0xf94a0631
@@ -9049,7 +9222,7 @@ bl _p_79
 .word 0xf90047a0
 .word 0xf9004ba0
 .word 0x910223a0
-bl _p_80
+bl _p_82
 .word 0x910223a0
 .word 0x9101a3a0
 .word 0xf94047a0
@@ -9080,7 +9253,7 @@ bl _p_80
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1240]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -9103,7 +9276,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 509 0
+.loc 5 519 0
 .word 0xf9402bb1
 .word 0xf94b3e31
 .word 0xb4000051
@@ -9112,22 +9285,22 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #856]
+ldr x1, [x16, #1248]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #1224]
+ldr x2, [x16, #1256]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x3, [x16, #1232]
+ldr x3, [x16, #1264]
 .word 0xaa1a03e0
-bl _p_41
+bl _p_46
 .word 0xf9402bb1
 .word 0xf94b7e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 511 0
+.loc 5 521 0
 .word 0xf9402bb1
 .word 0xf94b8e31
 .word 0xb4000051
@@ -9143,7 +9316,7 @@ bl _p_41
 .word 0xf94bba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 512 0
+.loc 5 522 0
 .word 0xf9402bb1
 .word 0xf94bca31
 .word 0xb4000051
@@ -9159,7 +9332,7 @@ bl _p_41
 .word 0xf94bf631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 513 0
+.loc 5 523 0
 .word 0xf9402bb1
 .word 0xf94c0631
 .word 0xb4000051
@@ -9185,7 +9358,7 @@ Lme_2e:
 	.align 4
 	.no_dead_strip WorkHeart_GameScene_addInfoLabel_string_string_string
 WorkHeart_GameScene_addInfoLabel_string_string_string:
-.loc 5 516 0 prologue_end
+.loc 5 526 0 prologue_end
 .word 0xd2805e10
 .word 0x910003f1
 .word 0xcb100231
@@ -9202,7 +9375,7 @@ WorkHeart_GameScene_addInfoLabel_string_string_string:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1272]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -9229,19 +9402,19 @@ bl _p_1
 .word 0xf940a231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 517 0
+.loc 5 527 0
 .word 0xf9402bb1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1703e0
-bl _p_62
+bl _p_66
 .word 0xf9402bb1
 .word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 520 0
+.loc 5 530 0
 .word 0xf9402bb1
 .word 0xf940de31
 .word 0xb4000051
@@ -9250,16 +9423,16 @@ bl _p_62
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1248]
+ldr x0, [x16, #1280]
 .word 0xf9401fa1
-bl _p_85
+bl _p_87
 .word 0xf90177a0
 .word 0xf9402bb1
 .word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94177a0
-bl _p_86
+bl _p_88
 .word 0xf90173a0
 .word 0xf9402bb1
 .word 0xf9412631
@@ -9279,7 +9452,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 521 0
+.loc 5 531 0
 .word 0xf9402bb1
 .word 0xf9416a31
 .word 0xb4000051
@@ -9308,7 +9481,7 @@ ldr x2, [x16, #16]
 .word 0xf94093a0
 .word 0xf9009ba0
 .word 0x9104a3a0
-bl _p_78
+bl _p_80
 .word 0xfd016fa0
 .word 0xf9402bb1
 .word 0xf941e231
@@ -9348,7 +9521,7 @@ bl _p_78
 .word 0xf9408ba0
 .word 0xf9009ba0
 .word 0x9104a3a0
-bl _p_79
+bl _p_81
 .word 0xfd016ba0
 .word 0xf9402bb1
 .word 0xf9428231
@@ -9372,7 +9545,7 @@ bl _p_79
 .word 0xf9007fa0
 .word 0xf90083a0
 .word 0x9103e3a0
-bl _p_80
+bl _p_82
 .word 0x9103e3a0
 .word 0x910223a0
 .word 0xf9407fa0
@@ -9395,7 +9568,7 @@ bl _p_80
 .word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 522 0
+.loc 5 532 0
 .word 0xf9402bb1
 .word 0xf9433631
 .word 0xb4000051
@@ -9405,7 +9578,7 @@ bl _p_80
 .word 0xf9015ba0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_87
+bl _p_89
 .word 0xf9015fa0
 .word 0xf9402bb1
 .word 0xf9436231
@@ -9441,7 +9614,7 @@ bl _p_87
 .word 0xf943da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 523 0
+.loc 5 533 0
 .word 0xf9402bb1
 .word 0xf943ea31
 .word 0xb4000051
@@ -9451,7 +9624,7 @@ bl _p_87
 .word 0xf9014fa0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0153a0
 .word 0xf9402bb1
 .word 0xf9441631
@@ -9467,7 +9640,7 @@ bl _p_33
 .word 0xf9443e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 524 0
+.loc 5 534 0
 .word 0xf9402bb1
 .word 0xf9444e31
 .word 0xb4000051
@@ -9483,7 +9656,7 @@ bl _p_33
 .word 0xf9447a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 526 0
+.loc 5 536 0
 .word 0xf9402bb1
 .word 0xf9448a31
 .word 0xb4000051
@@ -9514,7 +9687,7 @@ bl _p_33
 .word 0xf944f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 528 0
+.loc 5 538 0
 .word 0xf9402bb1
 .word 0xf9450231
 .word 0xb4000051
@@ -9523,10 +9696,10 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf90147a0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf9452e31
 .word 0xb4000051
@@ -9553,7 +9726,7 @@ bl _p_82
 .word 0xf9013ba0
 .word 0xd2800240
 .word 0xd2800240
-bl _p_33
+bl _p_40
 .word 0xfd013fa0
 .word 0xf9402bb1
 .word 0xf9459e31
@@ -9577,7 +9750,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1256]
+ldr x1, [x16, #1288]
 .word 0xaa1403e0
 .word 0xf9400282
 .word 0xf9413c50
@@ -9598,7 +9771,7 @@ ldr x1, [x16, #1256]
 .word 0xd2800660
 .word 0xd2800661
 .word 0xd2800662
-bl _p_83
+bl _p_85
 .word 0xf9012ba0
 .word 0xf9402bb1
 .word 0xf9464e31
@@ -9671,7 +9844,7 @@ bl _p_83
 .word 0xf9407ba0
 .word 0xf9009ba0
 .word 0x9104a3a0
-bl _p_78
+bl _p_80
 .word 0xfd011ba0
 .word 0xf9402bb1
 .word 0xf9477231
@@ -9711,7 +9884,7 @@ bl _p_78
 .word 0xf94073a0
 .word 0xf9009ba0
 .word 0x9104a3a0
-bl _p_79
+bl _p_81
 .word 0xfd0117a0
 .word 0xf9402bb1
 .word 0xf9481231
@@ -9735,7 +9908,7 @@ bl _p_79
 .word 0xf90067a0
 .word 0xf9006ba0
 .word 0x910323a0
-bl _p_80
+bl _p_82
 .word 0x910323a0
 .word 0x9101e3a0
 .word 0xf94067a0
@@ -9772,7 +9945,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 538 0
+.loc 5 548 0
 .word 0xf9402bb1
 .word 0xf948fa31
 .word 0xb4000051
@@ -9781,10 +9954,10 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf90107a0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf9492631
 .word 0xb4000051
@@ -9811,7 +9984,7 @@ bl _p_82
 .word 0xf900fba0
 .word 0xd2800240
 .word 0xd2800240
-bl _p_33
+bl _p_40
 .word 0xfd00ffa0
 .word 0xf9402bb1
 .word 0xf9499631
@@ -9835,7 +10008,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1256]
+ldr x1, [x16, #1288]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413c50
@@ -9856,7 +10029,7 @@ ldr x1, [x16, #1256]
 .word 0xd2800660
 .word 0xd2800661
 .word 0xd2800662
-bl _p_83
+bl _p_85
 .word 0xf900eba0
 .word 0xf9402bb1
 .word 0xf94a4631
@@ -9929,7 +10102,7 @@ bl _p_83
 .word 0xf94063a0
 .word 0xf9009ba0
 .word 0x9104a3a0
-bl _p_78
+bl _p_80
 .word 0xfd00dba0
 .word 0xf9402bb1
 .word 0xf94b6a31
@@ -9969,7 +10142,7 @@ bl _p_78
 .word 0xf9405ba0
 .word 0xf9009ba0
 .word 0x9104a3a0
-bl _p_79
+bl _p_81
 .word 0xfd00d7a0
 .word 0xf9402bb1
 .word 0xf94c0a31
@@ -9993,7 +10166,7 @@ bl _p_79
 .word 0xf9004fa0
 .word 0xf90053a0
 .word 0x910263a0
-bl _p_80
+bl _p_82
 .word 0x910263a0
 .word 0x9101a3a0
 .word 0xf9404fa0
@@ -10030,7 +10203,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 558 0
+.loc 5 559 0
 .word 0xf9402bb1
 .word 0xf94cf231
 .word 0xb4000051
@@ -10046,7 +10219,7 @@ ldr x2, [x16, #16]
 .word 0xf94d1e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 559 0
+.loc 5 560 0
 .word 0xf9402bb1
 .word 0xf94d2e31
 .word 0xb4000051
@@ -10095,7 +10268,7 @@ WorkHeart_GameScene_removeInfoLabel:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1296]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10209,6 +10382,405 @@ bl _p_1
 Lme_30:
 .text
 	.align 4
+	.no_dead_strip WorkHeart_GameScene_addSkipButton
+WorkHeart_GameScene_addSkipButton:
+.loc 5 576 0 prologue_end
+.word 0xa9ad7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1304]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2800019
+.word 0x9101e3a0
+.word 0xd2800000
+.word 0xf9003fa0
+.word 0xf90043a0
+.word 0xf94013b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 578 0
+.word 0xf94013b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #1312]
+bl _p_13
+.word 0xf90093a0
+bl _p_90
+.word 0xf94013b1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94093a0
+.word 0xf9005f40
+.word 0x9102e341
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 5 579 0
+.word 0xf94013b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #1320]
+bl _p_13
+.word 0xf9008fa0
+bl _p_91
+.word 0xf94013b1
+.word 0xf9412a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9408fa0
+.word 0xaa0003f9
+.loc 5 580 0
+.word 0xf94013b1
+.word 0xf9414231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf90077a0
+.word 0xd2800000
+.word 0xd2800000
+bl _p_40
+.word 0xfd007ba0
+.word 0xf94013b1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+bl _p_40
+.word 0xfd007fa0
+.word 0xf94013b1
+.word 0xf9418a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800640
+.word 0xd2800640
+bl _p_40
+.word 0xfd0083a0
+.word 0xf94013b1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+bl _p_40
+.word 0xfd0087a0
+.word 0xf94013b1
+.word 0xf941ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd281fb7e
+.word 0xf2a8193e
+.word 0x9e6703c0
+.word 0x1e22c000
+.word 0xfd008ba0
+.word 0xf94013b1
+.word 0xf941ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94077a2
+.word 0xfd407ba0
+.word 0xfd407fa1
+.word 0xfd4083a2
+.word 0xfd4087a3
+.word 0xfd408ba4
+.word 0xd2800020
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0x3940005e
+bl _p_92
+.word 0xf94013b1
+.word 0xf9422a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 581 0
+.word 0xf94013b1
+.word 0xf9423a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9405f42
+.word 0xaa1903e1
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9413050
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 582 0
+.word 0xf94013b1
+.word 0xf9427631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9405f40
+.word 0xf9005ba0
+.word 0xaa1a03e0
+.word 0x9101a3a0
+.word 0xf90047a0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9412c30
+.word 0xd63f0200
+.word 0xf94047be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xf94013b1
+.word 0xf942ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9101a3a0
+.word 0x9101e3a0
+.word 0xf94037a0
+.word 0xf9003fa0
+.word 0xf9403ba0
+.word 0xf90043a0
+.word 0x9101e3a0
+bl _p_80
+.word 0xfd006fa0
+.word 0xf94013b1
+.word 0xf942ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800040
+.word 0xd2800040
+bl _p_40
+.word 0xfd0073a0
+.word 0xf94013b1
+.word 0xf9430e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xfd406fa0
+.word 0xfd4073a1
+.word 0x1e611800
+.word 0xfd006ba0
+.word 0xf94013b1
+.word 0xf9432e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xfd406ba0
+.word 0x1e624000
+.word 0xfd0067a0
+.word 0xf94013b1
+.word 0xf9434a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xfd4067a0
+.word 0xfd005fa0
+.word 0xaa1a03e0
+.word 0x910163a0
+.word 0xf90047a0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9412c30
+.word 0xd63f0200
+.word 0xf94047be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xf94013b1
+.word 0xf9438a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910163a0
+.word 0x9101e3a0
+.word 0xf9402fa0
+.word 0xf9003fa0
+.word 0xf94033a0
+.word 0xf90043a0
+.word 0x9101e3a0
+bl _p_81
+.word 0xfd0063a0
+.word 0xf94013b1
+.word 0xf943be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf943ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xfd405fa0
+.word 0xfd4063a1
+.word 0xd28cccde
+.word 0xf2acccde
+.word 0xf2ccccde
+.word 0xf2e7fdde
+.word 0x9e6703c2
+.word 0x1e620821
+.word 0x1e624021
+.word 0x910123a0
+.word 0xd2800000
+.word 0xf90027a0
+.word 0xf9002ba0
+.word 0x910123a0
+bl _p_82
+.word 0x910123a0
+.word 0x9100e3a0
+.word 0xf94027a0
+.word 0xf9001fa0
+.word 0xf9402ba0
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9443231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba1
+.word 0xaa0103e0
+.word 0x9100e3a2
+.word 0xfd401fa0
+.word 0xfd4023a1
+.word 0xf9400021
+.word 0xf940ec30
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9446231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 583 0
+.word 0xf94013b1
+.word 0xf9447231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9405f40
+.word 0xf90057a0
+.word 0xd2800040
+.word 0xd2800040
+bl _p_89
+.word 0xf90053a0
+.word 0xf94013b1
+.word 0xf9449e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a1
+.word 0xf94057a2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9413850
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf944c631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 584 0
+.word 0xf94013b1
+.word 0xf944d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9405f40
+.word 0xf9004ba0
+.word 0xd29ae15e
+.word 0xf2a7847e
+.word 0x9e6703c0
+.word 0x1e22c000
+.word 0xfd004fa0
+.word 0xf94013b1
+.word 0xf9450631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba1
+.word 0xfd404fa0
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9410830
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9452e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 585 0
+.word 0xf94013b1
+.word 0xf9453e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9405f42
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #752]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940fc50
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9457231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 586 0
+.word 0xf94013b1
+.word 0xf9458231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf9405f41
+.word 0xaa1a03e0
+.word 0xf9400342
+.word 0xf9412850
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf945ae31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 587 0
+.word 0xf94013b1
+.word 0xf945be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf945ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8d37bfd
+.word 0xd65f03c0
+
+Lme_31:
+.text
+	.align 4
 	.no_dead_strip WorkHeart_Classes_LightData__ctor
 WorkHeart_Classes_LightData__ctor:
 .file 6 "/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Classes/LightData.cs"
@@ -10219,7 +10791,7 @@ WorkHeart_Classes_LightData__ctor:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1328]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10258,7 +10830,7 @@ ldr x16, [x16, #1272]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_31:
+Lme_32:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_LightData_GetCurrentLightValue
@@ -10270,7 +10842,7 @@ WorkHeart_Classes_LightData_GetCurrentLightValue:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1336]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10304,8 +10876,8 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1288]
-bl _p_88
+ldr x0, [x16, #1344]
+bl _p_33
 .word 0xf9400fb1
 .word 0xf940a631
 .word 0xb4000051
@@ -10336,7 +10908,7 @@ bl _p_12
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd402fa0
-bl _p_89
+bl _p_93
 .word 0xf9400fb1
 .word 0xf9411e31
 .word 0xb4000051
@@ -10385,7 +10957,7 @@ bl _p_12
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_33:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_DurationData__ctor
@@ -10398,7 +10970,7 @@ WorkHeart_Classes_DurationData__ctor:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1352]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10437,7 +11009,7 @@ ldr x16, [x16, #1296]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_33:
+Lme_34:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_DurationData_getDurationStatus_System_TimeSpan_double_double_double
@@ -10454,7 +11026,7 @@ WorkHeart_Classes_DurationData_getDurationStatus_System_TimeSpan_double_double_d
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1360]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -10492,7 +11064,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910083a0
-bl _p_90
+bl _p_94
 .word 0xfd0043a0
 .word 0xf94027b1
 .word 0xf940ce31
@@ -10583,7 +11155,7 @@ bl _p_90
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_35:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_NoiseData__ctor
@@ -10597,7 +11169,7 @@ WorkHeart_Classes_NoiseData__ctor:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1368]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10653,7 +11225,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_91
+bl _p_95
 .word 0xf9400fb1
 .word 0xf940f631
 .word 0xb4000051
@@ -10672,7 +11244,7 @@ bl _p_91
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_35:
+Lme_36:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_NoiseData_getNoiseStatus_double_double_double
@@ -10688,7 +11260,7 @@ WorkHeart_Classes_NoiseData_getNoiseStatus_double_double_double:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1376]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -10728,7 +11300,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_92
+bl _p_96
 .word 0xfd0043a0
 .word 0xf9401fb1
 .word 0xf940d231
@@ -10826,20 +11398,20 @@ bl _p_92
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_36:
+Lme_37:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_NoiseData_CheckNoise
 WorkHeart_Classes_NoiseData_CheckNoise:
 .loc 8 51 0 prologue_end
-.word 0xa9b57bfd
+.word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa9016bb9
 .word 0xaa0003fa
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1384]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10918,7 +11490,7 @@ bl _p_1
 .word 0xf2e80ade
 .word 0x9e6703c0
 .word 0xfd0027a0
-.word 0x14000082
+.word 0x14000056
 .loc 8 56 0
 .word 0xf94013b1
 .word 0xf9415231
@@ -10941,28 +11513,28 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400b40
-.word 0xf90053a0
+.word 0xf90043a0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_93
-.word 0xf9004fa0
+bl _p_97
+.word 0xf9003fa0
 .word 0xf94013b1
 .word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9404fa1
-.word 0xf94053a2
+.word 0xf9403fa1
+.word 0xf94043a2
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940f050
 .word 0xd63f0200
 .word 0x1e204000
-.word 0xfd004ba0
+.word 0xfd003ba0
 .word 0xf94013b1
 .word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xfd404ba0
+.word 0xfd403ba0
 .word 0x1e22c000
 .word 0xfd001fa0
 .loc 8 58 0
@@ -10972,81 +11544,33 @@ bl _p_93
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400b40
-.word 0xf90047a0
+.word 0xf90037a0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_93
-.word 0xf90043a0
+bl _p_97
+.word 0xf90033a0
 .word 0xf94013b1
 .word 0xf9422e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94043a1
-.word 0xf94047a2
+.word 0xf94033a1
+.word 0xf94037a2
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940f850
 .word 0xd63f0200
 .word 0x1e204000
-.word 0xfd003fa0
+.word 0xfd002fa0
 .word 0xf94013b1
 .word 0xf9425e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xfd403fa0
+.word 0xfd402fa0
 .word 0x1e22c000
 .word 0xfd0023a0
-.loc 8 59 0
-.word 0xf94013b1
-.word 0xf9427a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1336]
-.word 0xf9002fa0
-.word 0xfd4023a0
-.word 0xfd003ba0
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1344]
-.word 0xd2800301
-.word 0xd2800301
-bl _p_58
-.word 0xfd403ba0
-.word 0xfd000800
-.word 0xf90033a0
-.word 0xfd401fa0
-.word 0xfd0037a0
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1344]
-.word 0xd2800301
-.word 0xd2800301
-bl _p_58
-.word 0xaa0003e2
-.word 0xf9402fa0
-.word 0xf94033a1
-.word 0xfd4037a0
-.word 0xfd000840
-bl _p_94
-.word 0xf9002ba0
-.word 0xf94013b1
-.word 0xf9430231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-bl _p_88
-.word 0xf94013b1
-.word 0xf9431a31
-.word 0xb4000051
-.word 0xd63f0220
 .loc 8 61 0
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd4023a0
@@ -11062,20 +11586,20 @@ bl _p_88
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436631
+.word 0xf942b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd4027a0
 .word 0xf94013b1
-.word 0xf9437a31
+.word 0xf942ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_37:
+Lme_38:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_NoiseData_SetupAudio
@@ -11095,7 +11619,7 @@ WorkHeart_Classes_NoiseData_SetupAudio:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1392]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -11136,7 +11660,7 @@ bl _p_1
 .word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_95
+bl _p_98
 .word 0xf90087a0
 .word 0xf9402bb1
 .word 0xf940e631
@@ -11156,7 +11680,7 @@ bl _p_95
 .word 0xaa0203e0
 .word 0xd2800081
 .word 0x3940005e
-bl _p_96
+bl _p_99
 .word 0xf9007fa0
 .word 0xf9402bb1
 .word 0xf9413231
@@ -11192,10 +11716,10 @@ bl _p_96
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1360]
+ldr x0, [x16, #1400]
 .word 0xaa1803e1
 .word 0xaa1803e1
-bl _p_97
+bl _p_100
 .word 0xf9402bb1
 .word 0xf941ba31
 .word 0xb4000051
@@ -11219,7 +11743,7 @@ bl _p_97
 .word 0xaa1903e0
 .word 0xd2800021
 .word 0x3940033e
-bl _p_98
+bl _p_101
 .word 0xf9007fa0
 .word 0xf9402bb1
 .word 0xf9421631
@@ -11255,10 +11779,10 @@ bl _p_98
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1360]
+ldr x0, [x16, #1400]
 .word 0xaa1803e1
 .word 0xaa1803e1
-bl _p_97
+bl _p_100
 .word 0xf9402bb1
 .word 0xf9429e31
 .word 0xb4000051
@@ -11280,11 +11804,11 @@ bl _p_97
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1368]
+ldr x0, [x16, #1408]
 .word 0xf90103a0
 .word 0x9101a3a0
 .word 0xf9004fa0
-bl _p_55
+bl _p_60
 .word 0xf9404fbe
 .word 0xf90003c0
 .word 0xf9402bb1
@@ -11299,8 +11823,8 @@ bl _p_55
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1376]
-bl _p_99
+ldr x1, [x16, #1416]
+bl _p_102
 .word 0xf90107a0
 .word 0xf9402bb1
 .word 0xf9433a31
@@ -11308,7 +11832,7 @@ bl _p_99
 .word 0xd63f0220
 .word 0xf94103a0
 .word 0xf94107a1
-bl _p_100
+bl _p_103
 .word 0xf900ffa0
 .word 0xf9402bb1
 .word 0xf9435a31
@@ -11321,7 +11845,7 @@ bl _p_100
 .word 0xf9437231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_101
+bl _p_104
 .word 0xf900fba0
 .word 0xf9402bb1
 .word 0xf9438a31
@@ -11329,7 +11853,7 @@ bl _p_101
 .word 0xd63f0220
 .word 0xf940fba0
 .word 0xaa1703e1
-bl _p_102
+bl _p_105
 .word 0xf900f7a0
 .word 0xf9402bb1
 .word 0xf943aa31
@@ -11345,7 +11869,7 @@ bl _p_102
 .word 0xd63f0220
 .word 0xf940f3a0
 .word 0xaa0003e1
-bl _p_88
+bl _p_33
 .word 0xf9402bb1
 .word 0xf943e231
 .word 0xb4000051
@@ -11357,7 +11881,7 @@ bl _p_88
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1603e0
-bl _p_103
+bl _p_106
 .word 0xf900efa0
 .word 0xf9402bb1
 .word 0xf9441231
@@ -11386,9 +11910,9 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1424]
 .word 0xd2800081
-bl _p_104
+bl _p_107
 .word 0xf90053a0
 .word 0xf94053a0
 .word 0xf900e3a0
@@ -11398,7 +11922,7 @@ bl _p_104
 .word 0xd288801e
 .word 0xf2a8e59e
 .word 0x9e6703c0
-bl _p_105
+bl _p_108
 .word 0xf900e7a0
 .word 0xf9402bb1
 .word 0xf944aa31
@@ -11422,7 +11946,7 @@ bl _p_105
 .word 0xf2ac2c20
 .word 0xd28c6400
 .word 0xf2ac2c20
-bl _p_106
+bl _p_109
 .word 0xf900dba0
 .word 0xf9402bb1
 .word 0xf9450a31
@@ -11444,7 +11968,7 @@ bl _p_106
 .word 0xd2800040
 .word 0xd2800020
 .word 0xd2800020
-bl _p_106
+bl _p_109
 .word 0xf900cfa0
 .word 0xf9402bb1
 .word 0xf9456231
@@ -11466,7 +11990,7 @@ bl _p_106
 .word 0xd2800060
 .word 0xd2800c00
 .word 0xd2800c00
-bl _p_106
+bl _p_109
 .word 0xf900c3a0
 .word 0xf9402bb1
 .word 0xf945ba31
@@ -11490,16 +12014,16 @@ bl _p_106
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1424]
 .word 0xd2800081
-bl _p_104
+bl _p_107
 .word 0xf90063a0
 .word 0xf94063a0
 .word 0xf900b3a0
 .word 0xf94063a0
 .word 0xf900bba0
 .word 0xd2800000
-bl _p_107
+bl _p_110
 .word 0xf900b7a0
 .word 0xf9402bb1
 .word 0xf9463631
@@ -11519,7 +12043,7 @@ bl _p_107
 .word 0xf94067a0
 .word 0xf900afa0
 .word 0xd2800020
-bl _p_108
+bl _p_111
 .word 0xf900aba0
 .word 0xf9402bb1
 .word 0xf9468631
@@ -11539,7 +12063,7 @@ bl _p_108
 .word 0xf9406ba0
 .word 0xf900a3a0
 .word 0xd2800040
-bl _p_109
+bl _p_112
 .word 0xf9009fa0
 .word 0xf9402bb1
 .word 0xf946d631
@@ -11559,7 +12083,7 @@ bl _p_109
 .word 0xf9406fa0
 .word 0xf90097a0
 .word 0xd2800060
-bl _p_110
+bl _p_113
 .word 0xf90093a0
 .word 0xf9402bb1
 .word 0xf9472631
@@ -11583,7 +12107,7 @@ bl _p_110
 .word 0xaa1503e0
 .word 0xaa1403e1
 .word 0xaa1403e1
-bl _p_111
+bl _p_114
 .word 0xf9008ba0
 .word 0xf9402bb1
 .word 0xf9478231
@@ -11618,13 +12142,13 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1432]
 .word 0xd2800301
 .word 0xd2800301
-bl _p_58
+bl _p_36
 .word 0xf94087a1
 .word 0xf90083a0
-bl _p_112
+bl _p_115
 .word 0xf9402bb1
 .word 0xf9481631
 .word 0xb4000051
@@ -11632,7 +12156,7 @@ bl _p_112
 .word 0xf9407fa0
 .word 0xf94083a1
 .word 0x9101e3a2
-bl _p_113
+bl _p_116
 .word 0xf9007ba0
 .word 0xf9402bb1
 .word 0xf9483a31
@@ -11685,7 +12209,7 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa0
-bl _p_34
+bl _p_37
 .word 0xf9402bb1
 .word 0xf948fa31
 .word 0xb4000051
@@ -11738,7 +12262,7 @@ bl _p_34
 .word 0xf9400b41
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_114
+bl _p_117
 .word 0xf9402bb1
 .word 0xf949be31
 .word 0xb4000051
@@ -11775,10 +12299,10 @@ bl _p_114
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1400]
+ldr x0, [x16, #1440]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xaa0003e1
 .word 0xf9408ba2
 .word 0xeb1f035f
@@ -11800,17 +12324,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1408]
+ldr x0, [x16, #1448]
 .word 0xf9001420
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1416]
+ldr x0, [x16, #1456]
 .word 0xf9002020
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1424]
+ldr x0, [x16, #1464]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -11819,7 +12343,7 @@ ldr x0, [x16, #1424]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_115
+bl _p_118
 .word 0xf9402bb1
 .word 0xf94ae231
 .word 0xb4000051
@@ -11839,13 +12363,13 @@ bl _p_115
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1432]
 .word 0xd2800301
 .word 0xd2800301
-bl _p_58
+bl _p_36
 .word 0xf94087a1
 .word 0xf90083a0
-bl _p_112
+bl _p_115
 .word 0xf9402bb1
 .word 0xf94b4231
 .word 0xb4000051
@@ -11853,7 +12377,7 @@ bl _p_112
 .word 0xf9407fa0
 .word 0xf94083a1
 .word 0x9101e3a2
-bl _p_113
+bl _p_116
 .word 0xf9007ba0
 .word 0xf9402bb1
 .word 0xf94b6631
@@ -11922,7 +12446,7 @@ ldr x2, [x16, #16]
 .word 0xf94c5231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 8 154 0
+.loc 8 137 0
 .word 0xf9402bb1
 .word 0xf94c6231
 .word 0xb4000051
@@ -11949,7 +12473,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_38:
+Lme_39:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_NoiseData__SetupAudiob__9_0_object_AVFoundation_AVStatusEventArgs
@@ -11964,7 +12488,7 @@ WorkHeart_Classes_NoiseData__SetupAudiob__9_0_object_AVFoundation_AVStatusEventA
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1472]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11996,7 +12520,7 @@ bl _p_1
 .word 0xf9400b21
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_114
+bl _p_117
 .word 0xf94017b1
 .word 0xf940aa31
 .word 0xb4000051
@@ -12017,12 +12541,12 @@ bl _p_114
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1480]
 .word 0xf90023a0
 .word 0xf94013a1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_116
+bl _p_119
 .word 0xf90027a0
 .word 0x53001c00
 .word 0xf94017b1
@@ -12032,15 +12556,15 @@ bl _p_116
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1448]
+ldr x0, [x16, #1488]
 .word 0xd2800221
 .word 0xd2800221
-bl _p_58
+bl _p_36
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xf94027a2
 .word 0x39004022
-bl _p_97
+bl _p_100
 .word 0xf94017b1
 .word 0xf9414a31
 .word 0xb4000051
@@ -12059,7 +12583,7 @@ bl _p_97
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_39:
+Lme_3a:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_MovementData__ctor
@@ -12073,7 +12597,7 @@ WorkHeart_Classes_MovementData__ctor:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1496]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12113,7 +12637,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_117
+bl _p_120
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -12132,7 +12656,7 @@ bl _p_117
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3a:
+Lme_3b:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_MovementData_InitializeAccelerometer
@@ -12144,7 +12668,7 @@ WorkHeart_Classes_MovementData_InitializeAccelerometer:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12183,7 +12707,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_118
+bl _p_121
 .word 0xf9400fb1
 .word 0xf940b631
 .word 0xb4000051
@@ -12201,10 +12725,10 @@ bl _p_118
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1472]
+ldr x0, [x16, #1512]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xf9402ba1
 .word 0xeb1f003f
 .word 0x10000011
@@ -12225,24 +12749,24 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1480]
+ldr x1, [x16, #1520]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1488]
+ldr x1, [x16, #1528]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1496]
+ldr x1, [x16, #1536]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901c01f
-bl _p_119
+bl _p_122
 .word 0xf9400fb1
 .word 0xf9418a31
 .word 0xb4000051
@@ -12280,8 +12804,8 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1504]
-bl _p_120
+ldr x0, [x16, #1544]
+bl _p_123
 .word 0xf9400fb1
 .word 0xf9420e31
 .word 0xb4000051
@@ -12291,12 +12815,12 @@ bl _p_120
 .word 0xf9421e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_121
+bl _p_124
 .word 0xf90027a0
 .word 0xf94027a0
 .word 0xb4000060
 .word 0xf94027a0
-bl _p_122
+bl _p_125
 .word 0x14000001
 .loc 9 31 0
 .word 0xf94013b1
@@ -12321,7 +12845,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_3b:
+Lme_3c:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_MovementData_getMotionStatus_double_double_double
@@ -12337,7 +12861,7 @@ WorkHeart_Classes_MovementData_getMotionStatus_double_double_double:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1552]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -12375,7 +12899,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_123
+bl _p_126
 .word 0xfd003ba0
 .word 0xf9401fb1
 .word 0xf940ca31
@@ -12466,13 +12990,13 @@ bl _p_123
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_3c:
+Lme_3d:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_MovementData_HandleAccelerometerReadingChanged_object_Xamarin_Essentials_AccelerometerChangedEventArgs
 WorkHeart_Classes_MovementData_HandleAccelerometerReadingChanged_object_Xamarin_Essentials_AccelerometerChangedEventArgs:
 .loc 9 49 0 prologue_end
-.word 0xa9ae7bfd
+.word 0xa9b47bfd
 .word 0x910003fd
 .word 0xa9016bb9
 .word 0xaa0003f9
@@ -12481,7 +13005,7 @@ WorkHeart_Classes_MovementData_HandleAccelerometerReadingChanged_object_Xamarin_
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1560]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -12492,11 +13016,11 @@ ldr x0, [x16, #56]
 .word 0xf9400011
 .word 0xb4000051
 bl _p_1
-.word 0x910403a0
+.word 0x910283a0
 .word 0xd2800000
-.word 0xb90103bf
-.word 0xb90107bf
-.word 0xb9010bbf
+.word 0xb900a3bf
+.word 0xb900a7bf
+.word 0xb900abbf
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -12514,291 +13038,153 @@ bl _p_1
 .word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x9103c3a0
-.word 0xf9008ba0
-.word 0xaa1a03e0
-.word 0x3940035e
-bl _p_124
-.word 0xf9408bbe
-.word 0xbd0003c0
-.word 0xbd0007c1
-.word 0xbd000bc2
-.word 0xf94017b1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x9103c3a0
-.word 0x910403a0
-.word 0xb980f3a0
-.word 0xb90103a0
-.word 0xb980f7a0
-.word 0xb90107a0
-.word 0xb980fba0
-.word 0xb9010ba0
-.word 0x910403a0
-.word 0x910383a1
-.word 0xf9008ba1
-bl _p_125
-.word 0xf9408bbe
-.word 0xbd0003c0
-.word 0xbd0007c1
-.word 0xbd000bc2
-.word 0xf94017b1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910383a0
-.word 0xbd40e3a0
-bl _p_126
-.word 0xf94017b1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 9 51 0
-.word 0xf94017b1
-.word 0xf9414e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x910343a0
-.word 0xf9008ba0
-.word 0xaa1a03e0
-.word 0x3940035e
-bl _p_124
-.word 0xf9408bbe
-.word 0xbd0003c0
-.word 0xbd0007c1
-.word 0xbd000bc2
-.word 0xf94017b1
-.word 0xf9418631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910343a0
-.word 0x910403a0
-.word 0xb980d3a0
-.word 0xb90103a0
-.word 0xb980d7a0
-.word 0xb90107a0
-.word 0xb980dba0
-.word 0xb9010ba0
-.word 0x910403a0
-.word 0x910303a1
-.word 0xf9008ba1
-bl _p_125
-.word 0xf9408bbe
-.word 0xbd0003c0
-.word 0xbd0007c1
-.word 0xbd000bc2
-.word 0xf94017b1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910303a0
-.word 0xbd40c7a0
-bl _p_126
-.word 0xf94017b1
-.word 0xf941f231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 9 52 0
-.word 0xf94017b1
-.word 0xf9420231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x9102c3a0
-.word 0xf9008ba0
-.word 0xaa1a03e0
-.word 0x3940035e
-bl _p_124
-.word 0xf9408bbe
-.word 0xbd0003c0
-.word 0xbd0007c1
-.word 0xbd000bc2
-.word 0xf94017b1
-.word 0xf9423a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x9102c3a0
-.word 0x910403a0
-.word 0xb980b3a0
-.word 0xb90103a0
-.word 0xb980b7a0
-.word 0xb90107a0
-.word 0xb980bba0
-.word 0xb9010ba0
-.word 0x910403a0
-.word 0x910283a1
-.word 0xf9008ba1
-bl _p_125
-.word 0xf9408bbe
-.word 0xbd0003c0
-.word 0xbd0007c1
-.word 0xbd000bc2
-.word 0xf94017b1
-.word 0xf9428a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910283a0
-.word 0xbd40aba0
-bl _p_126
-.word 0xf94017b1
-.word 0xf942a631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 9 53 0
-.word 0xf94017b1
-.word 0xf942b631
-.word 0xb4000051
-.word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0x910243a0
-.word 0xf9008ba0
+.word 0xf9005ba0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_124
-.word 0xf9408bbe
+bl _p_127
+.word 0xf9405bbe
 .word 0xbd0003c0
 .word 0xbd0007c1
 .word 0xbd000bc2
 .word 0xf94017b1
-.word 0xf942f231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910243a0
-.word 0x910403a0
+.word 0x910283a0
 .word 0xb98093a0
-.word 0xb90103a0
+.word 0xb900a3a0
 .word 0xb98097a0
-.word 0xb90107a0
+.word 0xb900a7a0
 .word 0xb9809ba0
-.word 0xb9010ba0
-.word 0x910403a0
+.word 0xb900aba0
+.word 0x910283a0
 .word 0x910203a1
-.word 0xf9008ba1
-bl _p_125
-.word 0xf9408bbe
+.word 0xf9005ba1
+bl _p_128
+.word 0xf9405bbe
 .word 0xbd0003c0
 .word 0xbd0007c1
 .word 0xbd000bc2
 .word 0xf94017b1
-.word 0xf9434231
+.word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910203a0
 .word 0xbd4083a0
 .word 0x1e22c000
 .word 0xfd000b20
-.loc 9 54 0
+.loc 9 51 0
 .word 0xf94017b1
-.word 0xf9436231
+.word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0x9101c3a0
-.word 0xf9008ba0
+.word 0xf9005ba0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_124
-.word 0xf9408bbe
+bl _p_127
+.word 0xf9405bbe
 .word 0xbd0003c0
 .word 0xbd0007c1
 .word 0xbd000bc2
 .word 0xf94017b1
-.word 0xf9439e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9101c3a0
-.word 0x910403a0
+.word 0x910283a0
 .word 0xb98073a0
-.word 0xb90103a0
+.word 0xb900a3a0
 .word 0xb98077a0
-.word 0xb90107a0
+.word 0xb900a7a0
 .word 0xb9807ba0
-.word 0xb9010ba0
-.word 0x910403a0
+.word 0xb900aba0
+.word 0x910283a0
 .word 0x910183a1
-.word 0xf9008ba1
-bl _p_125
-.word 0xf9408bbe
+.word 0xf9005ba1
+bl _p_128
+.word 0xf9405bbe
 .word 0xbd0003c0
 .word 0xbd0007c1
 .word 0xbd000bc2
 .word 0xf94017b1
-.word 0xf943ee31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910183a0
 .word 0xbd4067a0
 .word 0x1e22c000
 .word 0xfd000f20
-.loc 9 55 0
+.loc 9 52 0
 .word 0xf94017b1
-.word 0xf9440e31
+.word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0x910143a0
-.word 0xf9008ba0
+.word 0xf9005ba0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_124
-.word 0xf9408bbe
+bl _p_127
+.word 0xf9405bbe
 .word 0xbd0003c0
 .word 0xbd0007c1
 .word 0xbd000bc2
 .word 0xf94017b1
-.word 0xf9444a31
+.word 0xf9422e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910143a0
-.word 0x910403a0
+.word 0x910283a0
 .word 0xb98053a0
-.word 0xb90103a0
+.word 0xb900a3a0
 .word 0xb98057a0
-.word 0xb90107a0
+.word 0xb900a7a0
 .word 0xb9805ba0
-.word 0xb9010ba0
-.word 0x910403a0
+.word 0xb900aba0
+.word 0x910283a0
 .word 0x910103a1
-.word 0xf9008ba1
-bl _p_125
-.word 0xf9408bbe
+.word 0xf9005ba1
+bl _p_128
+.word 0xf9405bbe
 .word 0xbd0003c0
 .word 0xbd0007c1
 .word 0xbd000bc2
 .word 0xf94017b1
-.word 0xf9449a31
+.word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910103a0
 .word 0xbd404ba0
 .word 0x1e22c000
 .word 0xfd001320
-.loc 9 56 0
+.loc 9 53 0
 .word 0xf94017b1
-.word 0xf944ba31
+.word 0xf9429e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf944ca31
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
 .word 0x910003bf
-.word 0xa8d27bfd
+.word 0xa8cc7bfd
 .word 0xd65f03c0
 
-Lme_3d:
+Lme_3e:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Classes_MovementData_GetMaxMotion
 WorkHeart_Classes_MovementData_GetMaxMotion:
-.loc 9 59 0 prologue_end
+.loc 9 56 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -12806,7 +13192,7 @@ WorkHeart_Classes_MovementData_GetMaxMotion:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1568]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12837,14 +13223,14 @@ bl _p_1
 .word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 9 60 0
+.loc 9 57 0
 .word 0xf9400fb1
 .word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xfd400b40
-bl _p_127
+bl _p_129
 .word 0xfd003fa0
 .word 0xf9400fb1
 .word 0xf940be31
@@ -12852,14 +13238,14 @@ bl _p_127
 .word 0xd63f0220
 .word 0xfd403fa0
 .word 0xfd001ba0
-.loc 9 61 0
+.loc 9 58 0
 .word 0xf9400fb1
 .word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xfd400f40
-bl _p_127
+bl _p_129
 .word 0xfd003ba0
 .word 0xf9400fb1
 .word 0xf940f631
@@ -12867,14 +13253,14 @@ bl _p_127
 .word 0xd63f0220
 .word 0xfd403ba0
 .word 0xfd001fa0
-.loc 9 62 0
+.loc 9 59 0
 .word 0xf9400fb1
 .word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xfd401340
-bl _p_127
+bl _p_129
 .word 0xfd0037a0
 .word 0xf9400fb1
 .word 0xf9412e31
@@ -12882,7 +13268,7 @@ bl _p_127
 .word 0xd63f0220
 .word 0xfd4037a0
 .word 0xfd0023a0
-.loc 9 64 0
+.loc 9 61 0
 .word 0xf9400fb1
 .word 0xf9414631
 .word 0xb4000051
@@ -12891,7 +13277,7 @@ bl _p_127
 .word 0xfd002fa0
 .word 0xfd401fa0
 .word 0xfd4023a1
-bl _p_128
+bl _p_130
 .word 0xfd0033a0
 .word 0xf9400fb1
 .word 0xf9416e31
@@ -12899,7 +13285,7 @@ bl _p_128
 .word 0xd63f0220
 .word 0xfd402fa0
 .word 0xfd4033a1
-bl _p_128
+bl _p_130
 .word 0xfd002ba0
 .word 0xf9400fb1
 .word 0xf9418e31
@@ -12907,7 +13293,7 @@ bl _p_128
 .word 0xd63f0220
 .word 0xfd402ba0
 .word 0xfd0027a0
-.loc 9 65 0
+.loc 9 62 0
 .word 0xf9400fb1
 .word 0xf941a631
 .word 0xb4000051
@@ -12922,7 +13308,7 @@ bl _p_128
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_3e:
+Lme_3f:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble__ctor
@@ -12936,7 +13322,7 @@ WorkHeart_Objects_Bubble__ctor:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1576]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12980,7 +13366,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_129
+bl _p_90
 .word 0xf9400fb1
 .word 0xf940ce31
 .word 0xb4000051
@@ -12997,7 +13383,7 @@ bl _p_129
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_130
+bl _p_131
 .word 0xf9400fb1
 .word 0xf9410a31
 .word 0xb4000051
@@ -13009,7 +13395,7 @@ bl _p_130
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_131
+bl _p_132
 .word 0xf9400fb1
 .word 0xf9413631
 .word 0xb4000051
@@ -13021,7 +13407,7 @@ bl _p_131
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_132
+bl _p_133
 .word 0xf9400fb1
 .word 0xf9416231
 .word 0xb4000051
@@ -13040,7 +13426,7 @@ bl _p_132
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3f:
+Lme_40:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SetDefaultLook
@@ -13053,7 +13439,7 @@ WorkHeart_Objects_Bubble_SetDefaultLook:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1584]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13085,10 +13471,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1552]
+ldr x0, [x16, #1320]
 bl _p_13
 .word 0xf90043a0
-bl _p_133
+bl _p_91
 .word 0xf94013b1
 .word 0xf940aa31
 .word 0xb4000051
@@ -13104,7 +13490,7 @@ bl _p_133
 .word 0xf9002ba0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd002fa0
 .word 0xf94013b1
 .word 0xf940ea31
@@ -13112,7 +13498,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd0033a0
 .word 0xf94013b1
 .word 0xf9410a31
@@ -13129,7 +13515,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd003ba0
 .word 0xf94013b1
 .word 0xf9414e31
@@ -13154,7 +13540,7 @@ bl _p_33
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_134
+bl _p_92
 .word 0xf94013b1
 .word 0xf941ae31
 .word 0xb4000051
@@ -13182,7 +13568,7 @@ bl _p_134
 .word 0xaa1a03e0
 .word 0xd2800040
 .word 0xd2800040
-bl _p_87
+bl _p_89
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9421a31
@@ -13235,7 +13621,7 @@ bl _p_87
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_40:
+Lme_41:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SetActivatedPhysics
@@ -13248,7 +13634,7 @@ WorkHeart_Objects_Bubble_SetActivatedPhysics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1592]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13290,7 +13676,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd4043a0
-bl _p_135
+bl _p_134
 .word 0xf9003fa0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -13341,7 +13727,7 @@ bl _p_135
 .word 0xf90033a0
 .word 0xd28000a0
 .word 0xd28000a0
-bl _p_33
+bl _p_40
 .word 0xfd0037a0
 .word 0xf94013b1
 .word 0xf9418e31
@@ -13366,7 +13752,7 @@ bl _p_33
 .word 0xf9002ba0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd002fa0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -13391,7 +13777,7 @@ bl _p_33
 .word 0xf90023a0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0027a0
 .word 0xf94013b1
 .word 0xf9424e31
@@ -13436,7 +13822,7 @@ bl _p_33
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_41:
+Lme_42:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SetReActivatedPhysics
@@ -13449,7 +13835,7 @@ WorkHeart_Objects_Bubble_SetReActivatedPhysics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1600]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13491,7 +13877,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd4043a0
-bl _p_135
+bl _p_134
 .word 0xf9003fa0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -13542,7 +13928,7 @@ bl _p_135
 .word 0xf90033a0
 .word 0xd28000a0
 .word 0xd28000a0
-bl _p_33
+bl _p_40
 .word 0xfd0037a0
 .word 0xf94013b1
 .word 0xf9418e31
@@ -13567,7 +13953,7 @@ bl _p_33
 .word 0xf9002ba0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd002fa0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -13592,7 +13978,7 @@ bl _p_33
 .word 0xf90023a0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0027a0
 .word 0xf94013b1
 .word 0xf9424e31
@@ -13637,7 +14023,7 @@ bl _p_33
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_42:
+Lme_43:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SetCenteredPhysics
@@ -13650,7 +14036,7 @@ WorkHeart_Objects_Bubble_SetCenteredPhysics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1608]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13688,7 +14074,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd4043a0
-bl _p_135
+bl _p_134
 .word 0xf9003fa0
 .word 0xf94013b1
 .word 0xf940be31
@@ -13739,7 +14125,7 @@ bl _p_135
 .word 0xf90033a0
 .word 0xd2800c80
 .word 0xd2800c80
-bl _p_33
+bl _p_40
 .word 0xfd0037a0
 .word 0xf94013b1
 .word 0xf9417e31
@@ -13764,7 +14150,7 @@ bl _p_33
 .word 0xf9002ba0
 .word 0xd2800140
 .word 0xd2800140
-bl _p_33
+bl _p_40
 .word 0xfd002fa0
 .word 0xf94013b1
 .word 0xf941de31
@@ -13789,7 +14175,7 @@ bl _p_33
 .word 0xf90023a0
 .word 0xd2800140
 .word 0xd2800140
-bl _p_33
+bl _p_40
 .word 0xfd0027a0
 .word 0xf94013b1
 .word 0xf9423e31
@@ -13834,20 +14220,20 @@ bl _p_33
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_43:
+Lme_44:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_AddIcon
 WorkHeart_Objects_Bubble_AddIcon:
 .loc 10 105 0 prologue_end
-.word 0xa9b97bfd
+.word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1616]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13879,14 +14265,14 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1592]
-bl _p_86
-.word 0xf90033a0
+ldr x0, [x16, #1624]
+bl _p_88
+.word 0xf9003ba0
 .word 0xf9400fb1
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a0
+.word 0xf9403ba0
 .word 0xf9001740
 .word 0x9100a341
 .word 0xd349fc21
@@ -13907,7 +14293,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9401740
-.word 0xf9002fa0
+.word 0xf90037a0
 .word 0xd280001e
 .word 0x9e6703c0
 .word 0xd280001e
@@ -13917,7 +14303,7 @@ ldr x2, [x16, #16]
 .word 0xf90023a0
 .word 0xf90027a0
 .word 0x910103a0
-bl _p_80
+bl _p_82
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -13928,7 +14314,7 @@ bl _p_80
 .word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fa1
+.word 0xf94037a1
 .word 0xaa0103e0
 .word 0x9100c3a2
 .word 0xfd401ba0
@@ -13945,26 +14331,39 @@ bl _p_80
 .word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf9002fa0
 .word 0xaa1a03e0
 .word 0xf9401741
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9413030
 .word 0xd63f0200
+.word 0xf90033a0
+.word 0xf9400fb1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa0
+.word 0xf94033a1
+bl _p_135
 .word 0xf9002ba0
 .word 0xf9400fb1
-.word 0xf941b231
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_34
+bl _p_33
 .word 0xf9400fb1
-.word 0xf941ca31
+.word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 111 0
 .word 0xf9400fb1
-.word 0xf941da31
+.word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -13975,12 +14374,12 @@ bl _p_34
 .word 0xf9412850
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf9420631
+.word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 112 0
 .word 0xf9400fb1
-.word 0xf9421631
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -13989,12 +14388,12 @@ bl _p_34
 .word 0xaa1a03e0
 bl _p_136
 .word 0xf9400fb1
-.word 0xf9423a31
+.word 0xf9426a31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 113 0
 .word 0xf9400fb1
-.word 0xf9424a31
+.word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -14003,24 +14402,24 @@ bl _p_136
 .word 0xd2800001
 bl _p_137
 .word 0xf9400fb1
-.word 0xf9426e31
+.word 0xf9429e31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 115 0
 .word 0xf9400fb1
-.word 0xf9427e31
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fb1
-.word 0xf9428e31
+.word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
 .word 0x910003bf
-.word 0xa8c77bfd
+.word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_44:
+Lme_45:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SubscribeToTracking
@@ -14033,7 +14432,7 @@ WorkHeart_Objects_Bubble_SubscribeToTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1640]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14068,10 +14467,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000da0
@@ -14091,17 +14490,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1616]
+ldr x1, [x16, #1656]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1624]
+ldr x1, [x16, #1664]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1632]
+ldr x1, [x16, #1672]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -14125,10 +14524,10 @@ bl _p_138
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000740
@@ -14148,17 +14547,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1648]
+ldr x1, [x16, #1688]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1656]
+ldr x1, [x16, #1696]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1664]
+ldr x1, [x16, #1704]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -14202,7 +14601,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_45:
+Lme_46:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SubscribeToTrackingStopped
@@ -14215,7 +14614,7 @@ WorkHeart_Objects_Bubble_SubscribeToTrackingStopped:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1712]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14250,10 +14649,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000da0
@@ -14273,17 +14672,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1648]
+ldr x1, [x16, #1688]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1656]
+ldr x1, [x16, #1696]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1664]
+ldr x1, [x16, #1704]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -14307,10 +14706,10 @@ bl _p_141
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000740
@@ -14330,17 +14729,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1616]
+ldr x1, [x16, #1656]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1624]
+ldr x1, [x16, #1664]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1632]
+ldr x1, [x16, #1672]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -14384,7 +14783,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_46:
+Lme_47:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_StartTracking
@@ -14398,7 +14797,7 @@ WorkHeart_Objects_Bubble_StartTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1720]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14485,7 +14884,7 @@ bl _p_146
 .word 0xaa1a03e0
 .word 0xd28001e0
 .word 0xd28001e0
-bl _p_33
+bl _p_40
 .word 0xfd0023a0
 .word 0xf94017b1
 .word 0xf9417231
@@ -14518,7 +14917,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd002fa0
 .word 0xf94017b1
 .word 0xf941ea31
@@ -14584,7 +14983,7 @@ bl _p_147
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_47:
+Lme_48:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_StopTracking
@@ -14598,7 +14997,7 @@ WorkHeart_Objects_Bubble_StopTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1728]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14630,7 +15029,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_130
+bl _p_131
 .word 0xf94017b1
 .word 0xf940a631
 .word 0xb4000051
@@ -14670,7 +15069,7 @@ bl _p_148
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_132
+bl _p_133
 .word 0xf94017b1
 .word 0xf9413631
 .word 0xb4000051
@@ -14685,7 +15084,7 @@ bl _p_132
 .word 0xf90027a0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd002ba0
 .word 0xf94017b1
 .word 0xf9417231
@@ -14771,7 +15170,7 @@ bl _p_146
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd0033a0
 .word 0xf94017b1
 .word 0xf942b631
@@ -14810,7 +15209,7 @@ bl _p_33
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd002fa0
 .word 0xf94017b1
 .word 0xf9434a31
@@ -14865,7 +15264,7 @@ bl _p_33
 .word 0xaa1a03e0
 .word 0xd2800040
 .word 0xd2800040
-bl _p_87
+bl _p_89
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9441631
@@ -14937,7 +15336,7 @@ bl _p_137
 .word 0xaa1a03e0
 .word 0xd2800040
 .word 0xd2800040
-bl _p_87
+bl _p_89
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9452631
@@ -15000,7 +15399,7 @@ bl _p_87
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_48:
+Lme_49:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SubscribeToBubbleCentered
@@ -15013,7 +15412,7 @@ WorkHeart_Objects_Bubble_SubscribeToBubbleCentered:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1736]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15048,10 +15447,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1704]
+ldr x0, [x16, #1744]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -15071,17 +15470,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1712]
+ldr x1, [x16, #1752]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1720]
+ldr x1, [x16, #1760]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1728]
+ldr x1, [x16, #1768]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -15105,10 +15504,10 @@ bl _p_150
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1736]
+ldr x0, [x16, #1776]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -15128,17 +15527,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1744]
+ldr x1, [x16, #1784]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1752]
+ldr x1, [x16, #1792]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1760]
+ldr x1, [x16, #1800]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -15170,7 +15569,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_49:
+Lme_4a:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SubscribeToBubbleUnCentered
@@ -15183,7 +15582,7 @@ WorkHeart_Objects_Bubble_SubscribeToBubbleUnCentered:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1808]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15218,10 +15617,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1736]
+ldr x0, [x16, #1776]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -15241,17 +15640,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1744]
+ldr x1, [x16, #1784]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1752]
+ldr x1, [x16, #1792]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1760]
+ldr x1, [x16, #1800]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -15275,10 +15674,10 @@ bl _p_152
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1704]
+ldr x0, [x16, #1744]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -15298,17 +15697,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1712]
+ldr x1, [x16, #1752]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1720]
+ldr x1, [x16, #1760]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1728]
+ldr x1, [x16, #1768]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -15340,7 +15739,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_4a:
+Lme_4b:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_bubbleCentered
@@ -15352,7 +15751,7 @@ WorkHeart_Objects_Bubble_bubbleCentered:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1816]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15399,7 +15798,7 @@ bl _p_140
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_4b:
+Lme_4c:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_bubbleUnCentered
@@ -15412,7 +15811,7 @@ WorkHeart_Objects_Bubble_bubbleUnCentered:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1824]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15484,7 +15883,7 @@ bl _p_154
 .word 0xaa1a03e0
 .word 0xd28001e0
 .word 0xd28001e0
-bl _p_33
+bl _p_40
 .word 0xfd002fa0
 .word 0xf94013b1
 .word 0xf9413631
@@ -15506,7 +15905,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_132
+bl _p_133
 .word 0xf94013b1
 .word 0xf9418631
 .word 0xb4000051
@@ -15521,7 +15920,7 @@ bl _p_132
 .word 0xf90027a0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd002ba0
 .word 0xf94013b1
 .word 0xf941c231
@@ -15625,7 +16024,7 @@ bl _p_146
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_4c:
+Lme_4d:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_CenterItem
@@ -15638,7 +16037,7 @@ WorkHeart_Objects_Bubble_CenterItem:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1832]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15679,7 +16078,7 @@ bl _p_1
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd0043a0
 .word 0xf94013b1
 .word 0xf940c631
@@ -15730,7 +16129,7 @@ bl _p_148
 .word 0xf9003ba0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd003fa0
 .word 0xf94013b1
 .word 0xf9418631
@@ -15771,7 +16170,7 @@ bl _p_149
 .word 0xaa1a03e0
 .word 0xd2800060
 .word 0xd2800060
-bl _p_33
+bl _p_40
 .word 0xfd0033a0
 .word 0xf94013b1
 .word 0xf9422631
@@ -15794,7 +16193,7 @@ bl _p_33
 .word 0xaa1a03e0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd002fa0
 .word 0xf94013b1
 .word 0xf9427e31
@@ -15816,7 +16215,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd28000a0
 .word 0xd28000a0
-bl _p_33
+bl _p_40
 .word 0xfd002ba0
 .word 0xf94013b1
 .word 0xf942d231
@@ -15896,7 +16295,7 @@ bl _p_157
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_4d:
+Lme_4e:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SetActivated
@@ -15909,7 +16308,7 @@ WorkHeart_Objects_Bubble_SetActivated:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1840]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15969,7 +16368,7 @@ bl _p_1
 .word 0xaa1a03e0
 .word 0xd2800040
 .word 0xd2800040
-bl _p_87
+bl _p_89
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9410a31
@@ -16041,7 +16440,7 @@ bl _p_137
 .word 0xaa1a03e0
 .word 0xd2800040
 .word 0xd2800040
-bl _p_87
+bl _p_89
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9421a31
@@ -16117,7 +16516,7 @@ bl _p_137
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_4e:
+Lme_4f:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SetColours_WorkHeart_Objects_Colours
@@ -16131,7 +16530,7 @@ WorkHeart_Objects_Bubble_SetColours_WorkHeart_Objects_Colours:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1848]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16162,7 +16561,7 @@ bl _p_1
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_87
+bl _p_89
 .word 0xf9002ba0
 .word 0xf94013b1
 .word 0xf940a631
@@ -16185,7 +16584,7 @@ bl _p_87
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_87
+bl _p_89
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940fe31
@@ -16238,7 +16637,7 @@ bl _p_87
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_4f:
+Lme_50:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SetIcon_string
@@ -16252,7 +16651,7 @@ WorkHeart_Objects_Bubble_SetIcon_string:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1856]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16280,16 +16679,27 @@ bl _p_1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_88
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #1864]
+.word 0xaa1a03e1
+.word 0xaa1a03e1
+bl _p_87
+.word 0xf90037a0
 .word 0xf94013b1
-.word 0xf9409e31
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+bl _p_33
+.word 0xf94013b1
+.word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 270 0
 .word 0xf94013b1
-.word 0xf940ae31
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -16298,20 +16708,20 @@ bl _p_88
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1248]
+ldr x0, [x16, #1280]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_85
+bl _p_87
 .word 0xf90033a0
 .word 0xf94013b1
-.word 0xf940e631
+.word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
 bl _p_158
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9410231
+.word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba1
@@ -16321,12 +16731,12 @@ bl _p_158
 .word 0xf9412c50
 .word 0xd63f0200
 .word 0xf94013b1
-.word 0xf9412a31
+.word 0xf9415231
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 272 0
 .word 0xf94013b1
-.word 0xf9413a31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -16337,18 +16747,18 @@ bl _p_158
 .word 0xd63f0200
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9416631
+.word 0xf9418e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
-bl _p_34
+bl _p_37
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf941a631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 273 0
 .word 0xf94013b1
-.word 0xf9418e31
+.word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -16359,26 +16769,26 @@ bl _p_34
 .word 0xd63f0200
 .word 0xfd0023a0
 .word 0xf94013b1
-.word 0xf941ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf941ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xfd4023a0
-bl _p_89
-.word 0xf94013b1
 .word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 274 0
 .word 0xf94013b1
 .word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xfd4023a0
+bl _p_93
 .word 0xf94013b1
-.word 0xf9420231
+.word 0xf9420a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 274 0
+.word 0xf94013b1
+.word 0xf9421a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9422a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -16386,7 +16796,7 @@ bl _p_89
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_50:
+Lme_51:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours
@@ -16400,7 +16810,7 @@ WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1872]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16432,7 +16842,7 @@ bl _p_1
 .word 0xf9401720
 .word 0xf9002fa0
 .word 0xb9801ba0
-bl _p_87
+bl _p_89
 .word 0xf9002ba0
 .word 0xf94013b1
 .word 0xf940aa31
@@ -16458,7 +16868,7 @@ bl _p_87
 .word 0xf90023a0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0027a0
 .word 0xf94013b1
 .word 0xf9410e31
@@ -16488,7 +16898,7 @@ bl _p_33
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_51:
+Lme_52:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_SetStatus_WorkHeart_Objects_Colours
@@ -16505,7 +16915,7 @@ WorkHeart_Objects_Bubble_SetStatus_WorkHeart_Objects_Colours:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1880]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -16599,7 +17009,7 @@ bl _p_159
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1840]
+ldr x0, [x16, #1888]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -16632,7 +17042,7 @@ bl _p_148
 .word 0xaa1903e0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0063a0
 .word 0xf9402bb1
 .word 0xf9421231
@@ -16674,7 +17084,7 @@ bl _p_147
 .word 0xf90057a0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd005ba0
 .word 0xf9402bb1
 .word 0xf942b631
@@ -16715,7 +17125,7 @@ bl _p_147
 .word 0xaa1903e0
 .word 0xd28001e0
 .word 0xd28001e0
-bl _p_33
+bl _p_40
 .word 0xfd004fa0
 .word 0xf9402bb1
 .word 0xf9435631
@@ -16740,8 +17150,8 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1848]
-bl _p_29
+ldr x1, [x16, #1896]
+bl _p_30
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9402bb1
@@ -16909,7 +17319,7 @@ bl _p_147
 .word 0xaa1903e0
 .word 0xd2800180
 .word 0xd2800180
-bl _p_33
+bl _p_40
 .word 0xfd004fa0
 .word 0xf9402bb1
 .word 0xf9463231
@@ -16934,8 +17344,8 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1848]
-bl _p_29
+ldr x1, [x16, #1896]
+bl _p_30
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9402bb1
@@ -17113,7 +17523,7 @@ bl _p_147
 .word 0xf9007ba0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd007fa0
 .word 0xf9402bb1
 .word 0xf9492e31
@@ -17156,7 +17566,7 @@ bl _p_147
 .word 0xf90067a0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0073a0
 .word 0xf9402bb1
 .word 0xf949d631
@@ -17199,7 +17609,7 @@ bl _p_147
 .word 0xf9006ba0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd006fa0
 .word 0xf9402bb1
 .word 0xf94a7e31
@@ -17265,8 +17675,8 @@ bl _p_137
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1848]
-bl _p_29
+ldr x1, [x16, #1896]
+bl _p_30
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9402bb1
@@ -17314,7 +17724,7 @@ bl _p_137
 .word 0xaa1903e0
 .word 0xd2800140
 .word 0xd2800140
-bl _p_33
+bl _p_40
 .word 0xfd0083a0
 .word 0xf9402bb1
 .word 0xf94c2a31
@@ -17364,7 +17774,7 @@ bl _p_160
 .word 0xaa1903e0
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0087a0
 .word 0xf9402bb1
 .word 0xf94ce231
@@ -17625,8 +18035,8 @@ bl _p_137
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1848]
-bl _p_29
+ldr x1, [x16, #1896]
+bl _p_30
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9402bb1
@@ -17674,7 +18084,7 @@ bl _p_137
 .word 0xaa1903e0
 .word 0xd2800100
 .word 0xd2800100
-bl _p_33
+bl _p_40
 .word 0xfd0083a0
 .word 0xf9402bb1
 .word 0xf9518231
@@ -17724,13 +18134,13 @@ bl _p_33
 .word 0xa8d17bfd
 .word 0xd65f03c0
 
-Lme_52:
+Lme_53:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_showActionView
 WorkHeart_Objects_Bubble_showActionView:
 .loc 10 363 0 prologue_end
-.word 0xa9a87bfd
+.word 0xa9a97bfd
 .word 0x910003fd
 .word 0xa9015fb6
 .word 0xa90267b8
@@ -17739,7 +18149,7 @@ WorkHeart_Objects_Bubble_showActionView:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1904]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -17779,7 +18189,7 @@ bl _p_1
 .word 0x53001c00
 .word 0xaa0003f9
 .word 0xaa1903e0
-.word 0x34005880
+.word 0x340059c0
 .word 0xf9401fb1
 .word 0xf940ca31
 .word 0xb4000051
@@ -17806,8 +18216,8 @@ bl _p_161
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1848]
-bl _p_30
+ldr x1, [x16, #1896]
+bl _p_32
 .word 0x53001c00
 .word 0xf9006ba0
 .word 0xf9401fb1
@@ -17818,7 +18228,7 @@ bl _p_30
 .word 0x53001c00
 .word 0xaa0003f8
 .word 0xaa1803e0
-.word 0x340029c0
+.word 0x34002b00
 .loc 10 369 0
 .word 0xf9401fb1
 .word 0xf9415a31
@@ -17842,15 +18252,15 @@ bl _p_30
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1312]
 bl _p_13
-.word 0xf900a3a0
-bl _p_129
+.word 0xf900a7a0
+bl _p_90
 .word 0xf9401fb1
 .word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940a3a0
+.word 0xf940a7a0
 .word 0xf9003b40
 .word 0x9101c341
 .word 0xd349fc21
@@ -17872,15 +18282,15 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1552]
+ldr x0, [x16, #1320]
 bl _p_13
-.word 0xf9009fa0
-bl _p_133
+.word 0xf900a3a0
+bl _p_91
 .word 0xf9401fb1
 .word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9409fa0
+.word 0xf940a3a0
 .word 0xaa0003f7
 .loc 10 375 0
 .word 0xf9401fb1
@@ -17888,35 +18298,35 @@ bl _p_133
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
-.word 0xf90087a0
+.word 0xf9008ba0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
-.word 0xfd008ba0
+bl _p_40
+.word 0xfd008fa0
 .word 0xf9401fb1
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
-.word 0xfd008fa0
+bl _p_40
+.word 0xfd0093a0
 .word 0xf9401fb1
 .word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800200
 .word 0xd2800200
-bl _p_33
-.word 0xfd0093a0
+bl _p_40
+.word 0xfd0097a0
 .word 0xf9401fb1
 .word 0xf942a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
-.word 0xfd0097a0
+bl _p_40
+.word 0xfd009ba0
 .word 0xf9401fb1
 .word 0xf942c231
 .word 0xb4000051
@@ -17925,22 +18335,22 @@ bl _p_33
 .word 0xf2a8193e
 .word 0x9e6703c0
 .word 0x1e22c000
-.word 0xfd009ba0
+.word 0xfd009fa0
 .word 0xf9401fb1
 .word 0xf942e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94087a2
-.word 0xfd408ba0
-.word 0xfd408fa1
-.word 0xfd4093a2
-.word 0xfd4097a3
-.word 0xfd409ba4
+.word 0xf9408ba2
+.word 0xfd408fa0
+.word 0xfd4093a1
+.word 0xfd4097a2
+.word 0xfd409ba3
+.word 0xfd409fa4
 .word 0xd2800020
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_134
+bl _p_92
 .word 0xf9401fb1
 .word 0xf9432231
 .word 0xb4000051
@@ -17968,7 +18378,7 @@ bl _p_134
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9403b40
-.word 0xf90083a0
+.word 0xf90087a0
 .word 0xd280001e
 .word 0x9e6703c0
 .word 0xd280001e
@@ -17979,7 +18389,7 @@ bl _p_134
 .word 0xf90063a0
 .word 0xf90067a0
 .word 0x910303a0
-bl _p_80
+bl _p_82
 .word 0x910303a0
 .word 0x910203a0
 .word 0xf94063a0
@@ -17990,7 +18400,7 @@ bl _p_80
 .word 0xf943ce31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94083a1
+.word 0xf94087a1
 .word 0xaa0103e0
 .word 0x910203a2
 .word 0xfd4043a0
@@ -18009,17 +18419,17 @@ bl _p_80
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9403b40
+.word 0xf90083a0
+.word 0xd2800000
+.word 0xd2800000
+bl _p_89
 .word 0xf9007fa0
-.word 0xd2800000
-.word 0xd2800000
-bl _p_87
-.word 0xf9007ba0
 .word 0xf9401fb1
 .word 0xf9443a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9407ba1
-.word 0xf9407fa2
+.word 0xf9407fa1
+.word 0xf94083a2
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413850
@@ -18066,16 +18476,27 @@ bl _p_87
 .word 0xf944ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9404b40
-bl _p_88
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #1912]
+.word 0xaa1a03e1
+.word 0xf9404b41
+bl _p_87
+.word 0xf9007ba0
 .word 0xf9401fb1
-.word 0xf9450a31
+.word 0xf9451a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba0
+bl _p_33
+.word 0xf9401fb1
+.word 0xf9453231
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 384 0
 .word 0xf9401fb1
-.word 0xf9451a31
+.word 0xf9454231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18084,20 +18505,20 @@ bl _p_88
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1248]
+ldr x0, [x16, #1280]
 .word 0xaa1a03e1
 .word 0xf9404b41
-bl _p_85
+bl _p_87
 .word 0xf90077a0
 .word 0xf9401fb1
-.word 0xf9455231
+.word 0xf9457a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a0
 bl _p_158
 .word 0xf9006fa0
 .word 0xf9401fb1
-.word 0xf9456e31
+.word 0xf9459631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406fa1
@@ -18107,12 +18528,12 @@ bl _p_158
 .word 0xf9412c50
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9459631
+.word 0xf945be31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 385 0
 .word 0xf9401fb1
-.word 0xf945a631
+.word 0xf945ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18128,7 +18549,7 @@ bl _p_158
 .word 0xf9005ba0
 .word 0xf9005fa0
 .word 0x9102c3a0
-bl _p_80
+bl _p_82
 .word 0x9102c3a0
 .word 0x9101c3a0
 .word 0xf9405ba0
@@ -18136,7 +18557,7 @@ bl _p_80
 .word 0xf9405fa0
 .word 0xf9003fa0
 .word 0xf9401fb1
-.word 0xf9460631
+.word 0xf9462e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba1
@@ -18148,12 +18569,12 @@ bl _p_80
 .word 0xf940ec30
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9463631
+.word 0xf9465e31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 386 0
 .word 0xf9401fb1
-.word 0xf9464631
+.word 0xf9466e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18162,23 +18583,23 @@ bl _p_80
 .word 0xd28000c1
 bl _p_137
 .word 0xf9401fb1
-.word 0xf9466a31
+.word 0xf9469231
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 387 0
 .word 0xf9401fb1
-.word 0xf9467a31
+.word 0xf946a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400014b
 .loc 10 389 0
 .word 0xf9401fb1
-.word 0xf9468e31
+.word 0xf946b631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 391 0
 .word 0xf9401fb1
-.word 0xf9469e31
+.word 0xf946c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18187,22 +18608,22 @@ bl _p_137
 .word 0x39036b5e
 .loc 10 393 0
 .word 0xf9401fb1
-.word 0xf946be31
+.word 0xf946e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1312]
 bl _p_13
-.word 0xf900bfa0
-bl _p_129
+.word 0xf900b7a0
+bl _p_90
 .word 0xf9401fb1
-.word 0xf946ea31
+.word 0xf9471231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940bfa0
+.word 0xf940b7a0
 .word 0xf9003b40
 .word 0x9101c341
 .word 0xd349fc21
@@ -18218,88 +18639,88 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 10 394 0
 .word 0xf9401fb1
-.word 0xf9472e31
+.word 0xf9475631
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1552]
+ldr x0, [x16, #1320]
 bl _p_13
-.word 0xf900bba0
-bl _p_133
+.word 0xf900a7a0
+bl _p_91
 .word 0xf9401fb1
-.word 0xf9475631
+.word 0xf9477e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940bba0
+.word 0xf940a7a0
 .word 0xaa0003f6
 .loc 10 395 0
 .word 0xf9401fb1
-.word 0xf9476e31
+.word 0xf9479631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf900afa0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd0093a0
 .word 0xf9401fb1
-.word 0xf9479631
+.word 0xf947be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd0097a0
 .word 0xf9401fb1
-.word 0xf947b631
+.word 0xf947de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd009ba0
 .word 0xf9401fb1
-.word 0xf947d631
+.word 0xf947fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
-.word 0xfd00b3a0
+bl _p_40
+.word 0xfd009fa0
 .word 0xf9401fb1
-.word 0xf947f631
+.word 0xf9481e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd281fb7e
 .word 0xf2a8193e
 .word 0x9e6703c0
 .word 0x1e22c000
-.word 0xfd00b7a0
+.word 0xfd00b3a0
 .word 0xf9401fb1
-.word 0xf9481a31
+.word 0xf9484231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940afa2
 .word 0xfd4093a0
 .word 0xfd4097a1
 .word 0xfd409ba2
-.word 0xfd40b3a3
-.word 0xfd40b7a4
+.word 0xfd409fa3
+.word 0xfd40b3a4
 .word 0xd2800020
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_134
+bl _p_92
 .word 0xf9401fb1
-.word 0xf9485631
+.word 0xf9487e31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 396 0
 .word 0xf9401fb1
-.word 0xf9486631
+.word 0xf9488e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18310,17 +18731,17 @@ bl _p_134
 .word 0xf9413050
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9489231
+.word 0xf948ba31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 397 0
 .word 0xf9401fb1
-.word 0xf948a231
+.word 0xf948ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9403b40
-.word 0xf900aba0
+.word 0xf9008ba0
 .word 0xd280001e
 .word 0x9e6703c0
 .word 0xd280001e
@@ -18331,7 +18752,7 @@ bl _p_134
 .word 0xf90053a0
 .word 0xf90057a0
 .word 0x910283a0
-bl _p_80
+bl _p_82
 .word 0x910283a0
 .word 0x910183a0
 .word 0xf94053a0
@@ -18339,10 +18760,10 @@ bl _p_80
 .word 0xf94057a0
 .word 0xf90037a0
 .word 0xf9401fb1
-.word 0xf9490231
+.word 0xf9492a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940aba1
+.word 0xf9408ba1
 .word 0xaa0103e0
 .word 0x910183a2
 .word 0xfd4033a0
@@ -18351,12 +18772,12 @@ bl _p_80
 .word 0xf940ec30
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9493231
+.word 0xf9495a31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 398 0
 .word 0xf9401fb1
-.word 0xf9494231
+.word 0xf9496a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18364,10 +18785,10 @@ bl _p_80
 .word 0xf90087a0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_87
+bl _p_89
 .word 0xf90083a0
 .word 0xf9401fb1
-.word 0xf9496e31
+.word 0xf9499631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94083a1
@@ -18377,12 +18798,12 @@ bl _p_87
 .word 0xf9413850
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9499631
+.word 0xf949be31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 399 0
 .word 0xf9401fb1
-.word 0xf949a631
+.word 0xf949ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18390,25 +18811,25 @@ bl _p_87
 .word 0xf9007ba0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
-.word 0xfd00a7a0
+bl _p_40
+.word 0xfd00aba0
 .word 0xf9401fb1
-.word 0xf949d231
+.word 0xf949fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba1
-.word 0xfd40a7a0
+.word 0xfd40aba0
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9410830
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf949fa31
+.word 0xf94a2231
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 400 0
 .word 0xf9401fb1
-.word 0xf94a0a31
+.word 0xf94a3231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18419,12 +18840,12 @@ bl _p_33
 .word 0xf9412850
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf94a3631
+.word 0xf94a5e31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 402 0
 .word 0xf9401fb1
-.word 0xf94a4631
+.word 0xf94a6e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18433,20 +18854,20 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1248]
+ldr x0, [x16, #1280]
 .word 0xaa1a03e1
 .word 0xf9402b41
-bl _p_85
+bl _p_87
 .word 0xf90077a0
 .word 0xf9401fb1
-.word 0xf94a7e31
+.word 0xf94aa631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a0
 bl _p_158
 .word 0xf9006fa0
 .word 0xf9401fb1
-.word 0xf94a9a31
+.word 0xf94ac231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406fa1
@@ -18456,12 +18877,12 @@ bl _p_158
 .word 0xf9412c50
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf94ac231
+.word 0xf94aea31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 403 0
 .word 0xf9401fb1
-.word 0xf94ad231
+.word 0xf94afa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18477,7 +18898,7 @@ bl _p_158
 .word 0xf9004ba0
 .word 0xf9004fa0
 .word 0x910243a0
-bl _p_80
+bl _p_82
 .word 0x910243a0
 .word 0x910143a0
 .word 0xf9404ba0
@@ -18485,7 +18906,7 @@ bl _p_80
 .word 0xf9404fa0
 .word 0xf9002fa0
 .word 0xf9401fb1
-.word 0xf94b3231
+.word 0xf94b5a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba1
@@ -18497,12 +18918,12 @@ bl _p_80
 .word 0xf940ec30
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf94b6231
+.word 0xf94b8a31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 404 0
 .word 0xf9401fb1
-.word 0xf94b7231
+.word 0xf94b9a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -18511,12 +18932,12 @@ bl _p_80
 .word 0xd28000c1
 bl _p_137
 .word 0xf9401fb1
-.word 0xf94b9631
+.word 0xf94bbe31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 405 0
 .word 0xf9401fb1
-.word 0xf94ba631
+.word 0xf94bce31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 406 0
@@ -18525,7 +18946,7 @@ bl _p_137
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf94bc631
+.word 0xf94bee31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 10 407 0
@@ -18534,21 +18955,21 @@ bl _p_137
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf94be631
+.word 0xf94c0e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf94bf631
+.word 0xf94c1e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415fb6
 .word 0xa94267b8
 .word 0xf9401bba
 .word 0x910003bf
-.word 0xa8d87bfd
+.word 0xa8d77bfd
 .word 0xd65f03c0
 
-Lme_53:
+Lme_54:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_RemoveActionView
@@ -18561,7 +18982,7 @@ WorkHeart_Objects_Bubble_RemoveActionView:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -18665,10 +19086,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1248]
+ldr x0, [x16, #1280]
 .word 0xaa1a03e1
 .word 0xf9402b41
-bl _p_85
+bl _p_87
 .word 0xf9003fa0
 .word 0xf94013b1
 .word 0xf941b631
@@ -18708,7 +19129,7 @@ bl _p_158
 .word 0xf90027a0
 .word 0xf9002ba0
 .word 0x910123a0
-bl _p_80
+bl _p_82
 .word 0x910123a0
 .word 0x9100e3a0
 .word 0xf94027a0
@@ -18768,7 +19189,7 @@ bl _p_137
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_54:
+Lme_55:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_AddActionLabels
@@ -18784,7 +19205,7 @@ WorkHeart_Objects_Bubble_AddActionLabels:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1928]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -18816,10 +19237,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf900e7a0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf940b631
 .word 0xb4000051
@@ -18847,7 +19268,7 @@ bl _p_82
 .word 0xf900dba0
 .word 0xd28000e0
 .word 0xd28000e0
-bl _p_33
+bl _p_40
 .word 0xfd00dfa0
 .word 0xf9402bb1
 .word 0xf9412a31
@@ -18871,7 +19292,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1888]
+ldr x1, [x16, #1936]
 .word 0xaa1703e0
 .word 0xf94002e2
 .word 0xf9413c50
@@ -18918,7 +19339,7 @@ bl _p_17
 .word 0xf9004fa0
 .word 0xf90053a0
 .word 0x910263a0
-bl _p_80
+bl _p_82
 .word 0x910263a0
 .word 0x9101e3a0
 .word 0xf9404fa0
@@ -18979,7 +19400,7 @@ bl _p_80
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1896]
+ldr x1, [x16, #1944]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -19011,10 +19432,10 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf900afa0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf943ae31
 .word 0xb4000051
@@ -19042,7 +19463,7 @@ bl _p_82
 .word 0xf900a3a0
 .word 0xd28000e0
 .word 0xd28000e0
-bl _p_33
+bl _p_40
 .word 0xfd00a7a0
 .word 0xf9402bb1
 .word 0xf9442231
@@ -19066,7 +19487,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1888]
+ldr x1, [x16, #1936]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413c50
@@ -19113,7 +19534,7 @@ bl _p_17
 .word 0xf90047a0
 .word 0xf9004ba0
 .word 0x910223a0
-bl _p_80
+bl _p_82
 .word 0x910223a0
 .word 0x9101a3a0
 .word 0xf94047a0
@@ -19174,7 +19595,7 @@ bl _p_80
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1904]
+ldr x1, [x16, #1952]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -19246,7 +19667,7 @@ ldr x2, [x16, #16]
 .word 0xa8dd7bfd
 .word 0xd65f03c0
 
-Lme_55:
+Lme_56:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_showCenteredView
@@ -19266,7 +19687,7 @@ WorkHeart_Objects_Bubble_showCenteredView:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1960]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19337,8 +19758,8 @@ bl _p_162
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1848]
-bl _p_30
+ldr x1, [x16, #1896]
+bl _p_32
 .word 0x53001c00
 .word 0xf9012ba0
 .word 0xf9402bb1
@@ -19364,10 +19785,10 @@ bl _p_30
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1312]
 bl _p_13
 .word 0xf901d3a0
-bl _p_129
+bl _p_90
 .word 0xf9402bb1
 .word 0xf941b631
 .word 0xb4000051
@@ -19394,10 +19815,10 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1552]
+ldr x0, [x16, #1320]
 bl _p_13
 .word 0xf901cfa0
-bl _p_133
+bl _p_91
 .word 0xf9402bb1
 .word 0xf9422231
 .word 0xb4000051
@@ -19413,7 +19834,7 @@ bl _p_133
 .word 0xf901b7a0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd01bba0
 .word 0xf9402bb1
 .word 0xf9426231
@@ -19421,7 +19842,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd01bfa0
 .word 0xf9402bb1
 .word 0xf9428231
@@ -19429,7 +19850,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800480
 .word 0xd2800480
-bl _p_33
+bl _p_40
 .word 0xfd01c3a0
 .word 0xf9402bb1
 .word 0xf942a231
@@ -19437,7 +19858,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd01c7a0
 .word 0xf9402bb1
 .word 0xf942c231
@@ -19462,7 +19883,7 @@ bl _p_33
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_134
+bl _p_92
 .word 0xf9402bb1
 .word 0xf9432231
 .word 0xb4000051
@@ -19502,7 +19923,7 @@ bl _p_134
 .word 0xf900bfa0
 .word 0xf900c3a0
 .word 0x9105e3a0
-bl _p_80
+bl _p_82
 .word 0x9105e3a0
 .word 0x9103a3a0
 .word 0xf940bfa0
@@ -19535,7 +19956,7 @@ bl _p_80
 .word 0xf901afa0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_87
+bl _p_89
 .word 0xf901aba0
 .word 0xf9402bb1
 .word 0xf9443e31
@@ -19624,10 +20045,10 @@ bl _p_87
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1312]
 bl _p_13
 .word 0xf901a3a0
-bl _p_129
+bl _p_90
 .word 0xf9402bb1
 .word 0xf9459631
 .word 0xb4000051
@@ -19681,7 +20102,7 @@ ldr x2, [x16, #16]
 .word 0xf900b7a0
 .word 0xf900bba0
 .word 0x9105a3a0
-bl _p_80
+bl _p_82
 .word 0x9105a3a0
 .word 0x910363a0
 .word 0xf940b7a0
@@ -19714,7 +20135,7 @@ bl _p_80
 .word 0xf9019ba0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_87
+bl _p_89
 .word 0xf90197a0
 .word 0xf9402bb1
 .word 0xf946e631
@@ -19833,17 +20254,17 @@ bl _p_87
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1248]
+ldr x0, [x16, #1280]
 .word 0xaa1a03e1
 .word 0xf9402b41
-bl _p_85
+bl _p_87
 .word 0xf9018ba0
 .word 0xf9402bb1
 .word 0xf948b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9418ba0
-bl _p_86
+bl _p_88
 .word 0xf90187a0
 .word 0xf9402bb1
 .word 0xf948d231
@@ -19869,7 +20290,7 @@ bl _p_86
 .word 0xf900afa0
 .word 0xf900b3a0
 .word 0x910563a0
-bl _p_80
+bl _p_82
 .word 0x910563a0
 .word 0x910323a0
 .word 0xf940afa0
@@ -19901,7 +20322,7 @@ bl _p_80
 .word 0xf9017ba0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_87
+bl _p_89
 .word 0xf90177a0
 .word 0xf9402bb1
 .word 0xf949b231
@@ -19926,7 +20347,7 @@ bl _p_87
 .word 0xf9016fa0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0173a0
 .word 0xf9402bb1
 .word 0xf94a1231
@@ -19995,8 +20416,8 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1920]
-bl _p_86
+ldr x0, [x16, #1968]
+bl _p_88
 .word 0xf90167a0
 .word 0xf9402bb1
 .word 0xf94b1a31
@@ -20023,7 +20444,7 @@ bl _p_86
 .word 0xf900a7a0
 .word 0xf900aba0
 .word 0x910523a0
-bl _p_80
+bl _p_82
 .word 0x910523a0
 .word 0x9102e3a0
 .word 0xf940a7a0
@@ -20055,7 +20476,7 @@ bl _p_80
 .word 0xf9015ba0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_87
+bl _p_89
 .word 0xf90157a0
 .word 0xf9402bb1
 .word 0xf94bfe31
@@ -20080,7 +20501,7 @@ bl _p_87
 .word 0xf9014fa0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0153a0
 .word 0xf9402bb1
 .word 0xf94c5e31
@@ -20149,8 +20570,8 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1928]
-bl _p_86
+ldr x0, [x16, #1976]
+bl _p_88
 .word 0xf90147a0
 .word 0xf9402bb1
 .word 0xf94d6631
@@ -20177,7 +20598,7 @@ bl _p_86
 .word 0xf9009fa0
 .word 0xf900a3a0
 .word 0x9104e3a0
-bl _p_80
+bl _p_82
 .word 0x9104e3a0
 .word 0x9102a3a0
 .word 0xf9409fa0
@@ -20209,7 +20630,7 @@ bl _p_80
 .word 0xf9013ba0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_87
+bl _p_89
 .word 0xf90137a0
 .word 0xf9402bb1
 .word 0xf94e4a31
@@ -20234,7 +20655,7 @@ bl _p_87
 .word 0xf9012fa0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0133a0
 .word 0xf9402bb1
 .word 0xf94eaa31
@@ -20314,17 +20735,17 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1248]
+ldr x0, [x16, #1280]
 .word 0xaa1a03e1
 .word 0xf9402b41
-bl _p_85
+bl _p_87
 .word 0xf9022ba0
 .word 0xf9402bb1
 .word 0xf94fde31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9422ba0
-bl _p_86
+bl _p_88
 .word 0xf90227a0
 .word 0xf9402bb1
 .word 0xf94ffa31
@@ -20350,7 +20771,7 @@ bl _p_86
 .word 0xf90097a0
 .word 0xf9009ba0
 .word 0x9104a3a0
-bl _p_80
+bl _p_82
 .word 0x9104a3a0
 .word 0x910263a0
 .word 0xf94097a0
@@ -20382,7 +20803,7 @@ bl _p_80
 .word 0xf9021ba0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_87
+bl _p_89
 .word 0xf90217a0
 .word 0xf9402bb1
 .word 0xf950da31
@@ -20407,7 +20828,7 @@ bl _p_87
 .word 0xf9020fa0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0213a0
 .word 0xf9402bb1
 .word 0xf9513a31
@@ -20477,10 +20898,10 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf90207a0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf9524a31
 .word 0xb4000051
@@ -20508,7 +20929,7 @@ bl _p_82
 .word 0xf901cfa0
 .word 0xd28001c0
 .word 0xd28001c0
-bl _p_33
+bl _p_40
 .word 0xfd01ffa0
 .word 0xf9402bb1
 .word 0xf952be31
@@ -20532,7 +20953,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1936]
+ldr x1, [x16, #1984]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413c50
@@ -20579,7 +21000,7 @@ bl _p_17
 .word 0xf9008fa0
 .word 0xf90093a0
 .word 0x910463a0
-bl _p_80
+bl _p_82
 .word 0x910463a0
 .word 0x910223a0
 .word 0xf9408fa0
@@ -20640,7 +21061,7 @@ bl _p_80
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1944]
+ldr x1, [x16, #1992]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -20672,10 +21093,10 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf901a3a0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf9554231
 .word 0xb4000051
@@ -20703,7 +21124,7 @@ bl _p_82
 .word 0xf90197a0
 .word 0xd28001c0
 .word 0xd28001c0
-bl _p_33
+bl _p_40
 .word 0xfd01e7a0
 .word 0xf9402bb1
 .word 0xf955b631
@@ -20727,7 +21148,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1936]
+ldr x1, [x16, #1984]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413c50
@@ -20774,7 +21195,7 @@ bl _p_17
 .word 0xf90087a0
 .word 0xf9008ba0
 .word 0x910423a0
-bl _p_80
+bl _p_82
 .word 0x910423a0
 .word 0x9101e3a0
 .word 0xf94087a0
@@ -20835,7 +21256,7 @@ bl _p_80
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1952]
+ldr x1, [x16, #2000]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -20867,10 +21288,10 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf9016ba0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf9583a31
 .word 0xb4000051
@@ -20898,7 +21319,7 @@ bl _p_82
 .word 0xf9015fa0
 .word 0xd28001c0
 .word 0xd28001c0
-bl _p_33
+bl _p_40
 .word 0xfd01dfa0
 .word 0xf9402bb1
 .word 0xf958ae31
@@ -20922,7 +21343,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1936]
+ldr x1, [x16, #1984]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413c50
@@ -20969,7 +21390,7 @@ bl _p_17
 .word 0xf9007fa0
 .word 0xf90083a0
 .word 0x9103e3a0
-bl _p_80
+bl _p_82
 .word 0x9103e3a0
 .word 0x9101a3a0
 .word 0xf9407fa0
@@ -21030,7 +21451,7 @@ bl _p_80
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1952]
+ldr x1, [x16, #2000]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -21233,7 +21654,7 @@ ldr x2, [x16, #16]
 .word 0x9100023f
 .word 0xd65f03c0
 
-Lme_56:
+Lme_57:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_RemoveCenteredView
@@ -21246,7 +21667,7 @@ WorkHeart_Objects_Bubble_RemoveCenteredView:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #2008]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -21331,7 +21752,7 @@ bl _p_1
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_57:
+Lme_58:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_AddCenteredLabels
@@ -21347,7 +21768,7 @@ WorkHeart_Objects_Bubble_AddCenteredLabels:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #2016]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -21379,10 +21800,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf900efa0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf940b631
 .word 0xb4000051
@@ -21410,7 +21831,7 @@ bl _p_82
 .word 0xf900e3a0
 .word 0xd2800800
 .word 0xd2800800
-bl _p_33
+bl _p_40
 .word 0xfd00e7a0
 .word 0xf9402bb1
 .word 0xf9412a31
@@ -21434,7 +21855,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1208]
 .word 0xaa1703e0
 .word 0xf94002e2
 .word 0xf9413c50
@@ -21481,7 +21902,7 @@ bl _p_17
 .word 0xf9004fa0
 .word 0xf90053a0
 .word 0x910263a0
-bl _p_80
+bl _p_82
 .word 0x910263a0
 .word 0x9101e3a0
 .word 0xf9404fa0
@@ -21542,7 +21963,7 @@ bl _p_80
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1896]
+ldr x1, [x16, #1944]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -21574,10 +21995,10 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf900b7a0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf943ae31
 .word 0xb4000051
@@ -21605,7 +22026,7 @@ bl _p_82
 .word 0xf900aba0
 .word 0xd2800240
 .word 0xd2800240
-bl _p_33
+bl _p_40
 .word 0xfd00afa0
 .word 0xf9402bb1
 .word 0xf9442231
@@ -21629,7 +22050,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1888]
+ldr x1, [x16, #1936]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413c50
@@ -21676,7 +22097,7 @@ bl _p_17
 .word 0xf90047a0
 .word 0xf9004ba0
 .word 0x910223a0
-bl _p_80
+bl _p_82
 .word 0x910223a0
 .word 0x9101a3a0
 .word 0xf94047a0
@@ -21737,7 +22158,7 @@ bl _p_80
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1904]
+ldr x1, [x16, #1952]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -21871,7 +22292,7 @@ ldr x2, [x16, #16]
 .word 0xa8de7bfd
 .word 0xd65f03c0
 
-Lme_58:
+Lme_59:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Bubble_UpdateCenteredLabel
@@ -21884,7 +22305,7 @@ WorkHeart_Objects_Bubble_UpdateCenteredLabel:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #2024]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -21938,7 +22359,7 @@ bl _p_1
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_59:
+Lme_5a:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TestSprite__ctor_CoreGraphics_CGPoint
@@ -21954,7 +22375,7 @@ WorkHeart_Objects_TestSprite__ctor_CoreGraphics_CGPoint:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2032]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -21988,11 +22409,11 @@ bl _p_163
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1992]
+ldr x1, [x16, #2040]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #2000]
+ldr x2, [x16, #2048]
 .word 0xaa0303e0
 .word 0xf9400063
 .word 0xf940d470
@@ -22051,13 +22472,13 @@ bl _p_164
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_5a:
+Lme_5b:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize
 WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize:
 .file 12 "/Users/paulloots/Documents/OWI/3rd Year -2019/Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Objects/TimerButton.cs"
-.loc 12 21 0 prologue_end
+.loc 12 22 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -22067,7 +22488,7 @@ WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2056]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -22092,17 +22513,17 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_129
+bl _p_90
 .word 0xf9402fb1
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 22 0
+.loc 12 23 0
 .word 0xf9402fb1
 .word 0xf940a231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 23 0
+.loc 12 24 0
 .word 0xf9402fb1
 .word 0xf940b231
 .word 0xb4000051
@@ -22115,12 +22536,12 @@ bl _p_129
 .word 0xf94013a0
 .word 0xf9003fa0
 .word 0x9101c3a0
-.word 0x91010340
+.word 0x91012340
 .word 0xf9403ba1
 .word 0xf9000001
 .word 0xf9403fa1
 .word 0xf9000401
-.loc 12 25 0
+.loc 12 26 0
 .word 0xf9402fb1
 .word 0xf940f631
 .word 0xb4000051
@@ -22132,7 +22553,7 @@ bl _p_165
 .word 0xf9411231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 27 0
+.loc 12 28 0
 .word 0xf9402fb1
 .word 0xf9412231
 .word 0xb4000051
@@ -22144,7 +22565,7 @@ bl _p_166
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 28 0
+.loc 12 29 0
 .word 0xf9402fb1
 .word 0xf9414e31
 .word 0xb4000051
@@ -22156,7 +22577,7 @@ bl _p_167
 .word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 29 0
+.loc 12 30 0
 .word 0xf9402fb1
 .word 0xf9417a31
 .word 0xb4000051
@@ -22168,7 +22589,7 @@ bl _p_168
 .word 0xf9419631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 30 0
+.loc 12 31 0
 .word 0xf9402fb1
 .word 0xf941a631
 .word 0xb4000051
@@ -22180,7 +22601,7 @@ bl _p_169
 .word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 31 0
+.loc 12 32 0
 .word 0xf9402fb1
 .word 0xf941d231
 .word 0xb4000051
@@ -22194,12 +22615,12 @@ bl _p_169
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_5b:
+Lme_5c:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_SetDefaultLook
 WorkHeart_Objects_TimerButton_SetDefaultLook:
-.loc 12 34 0 prologue_end
+.loc 12 35 0 prologue_end
 .word 0xa9b17bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -22207,7 +22628,7 @@ WorkHeart_Objects_TimerButton_SetDefaultLook:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2064]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -22231,7 +22652,7 @@ bl _p_1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 35 0
+.loc 12 36 0
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -22239,17 +22660,17 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1552]
+ldr x0, [x16, #1320]
 bl _p_13
 .word 0xf90073a0
-bl _p_133
+bl _p_91
 .word 0xf94013b1
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
 .word 0xaa0003f9
-.loc 12 36 0
+.loc 12 37 0
 .word 0xf94013b1
 .word 0xf940c231
 .word 0xb4000051
@@ -22258,7 +22679,7 @@ bl _p_133
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #776]
+ldr x1, [x16, #800]
 .word 0xaa1a03e0
 .word 0xf9400342
 .word 0xf940fc50
@@ -22267,7 +22688,7 @@ ldr x1, [x16, #776]
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 37 0
+.loc 12 38 0
 .word 0xf94013b1
 .word 0xf9410231
 .word 0xb4000051
@@ -22276,7 +22697,7 @@ ldr x1, [x16, #776]
 .word 0xf9005ba0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd005fa0
 .word 0xf94013b1
 .word 0xf9412a31
@@ -22284,7 +22705,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd0063a0
 .word 0xf94013b1
 .word 0xf9414a31
@@ -22301,7 +22722,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd006ba0
 .word 0xf94013b1
 .word 0xf9418e31
@@ -22326,12 +22747,12 @@ bl _p_33
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_134
+bl _p_92
 .word 0xf94013b1
 .word 0xf941ee31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 38 0
+.loc 12 39 0
 .word 0xf94013b1
 .word 0xf941fe31
 .word 0xb4000051
@@ -22346,7 +22767,7 @@ bl _p_134
 .word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 39 0
+.loc 12 40 0
 .word 0xf94013b1
 .word 0xf9423631
 .word 0xb4000051
@@ -22354,7 +22775,7 @@ bl _p_134
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
+bl _p_40
 .word 0xfd0057a0
 .word 0xf94013b1
 .word 0xf9425a31
@@ -22369,7 +22790,7 @@ bl _p_33
 .word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 40 0
+.loc 12 41 0
 .word 0xf94013b1
 .word 0xf9428e31
 .word 0xb4000051
@@ -22377,7 +22798,7 @@ bl _p_33
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_87
+bl _p_89
 .word 0xf90053a0
 .word 0xf94013b1
 .word 0xf942b231
@@ -22416,7 +22837,7 @@ bl _p_87
 .word 0xf9433631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 41 0
+.loc 12 42 0
 .word 0xf94013b1
 .word 0xf9434631
 .word 0xb4000051
@@ -22424,7 +22845,7 @@ bl _p_87
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_87
+bl _p_89
 .word 0xf9004ba0
 .word 0xf94013b1
 .word 0xf9436a31
@@ -22439,7 +22860,7 @@ bl _p_87
 .word 0xf9438e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 42 0
+.loc 12 43 0
 .word 0xf94013b1
 .word 0xf9439e31
 .word 0xb4000051
@@ -22449,8 +22870,8 @@ bl _p_87
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000b80
-.word 0x91010340
-bl _p_78
+.word 0x91012340
+bl _p_80
 .word 0xfd0043a0
 .word 0xf94013b1
 .word 0xf943ce31
@@ -22458,7 +22879,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0047a0
 .word 0xf94013b1
 .word 0xf943ee31
@@ -22476,8 +22897,8 @@ bl _p_33
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000820
-.word 0x91010340
-bl _p_79
+.word 0x91012340
+bl _p_81
 .word 0xfd003ba0
 .word 0xf94013b1
 .word 0xf9443a31
@@ -22485,7 +22906,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd003fa0
 .word 0xf94013b1
 .word 0xf9445a31
@@ -22528,7 +22949,7 @@ bl _p_170
 .word 0xf944ee31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 43 0
+.loc 12 44 0
 .word 0xf94013b1
 .word 0xf944fe31
 .word 0xb4000051
@@ -22545,12 +22966,12 @@ bl _p_170
 .word 0xaa1103e1
 bl _p_7
 
-Lme_5c:
+Lme_5d:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_SetCenteredPhysics
 WorkHeart_Objects_TimerButton_SetCenteredPhysics:
-.loc 12 46 0 prologue_end
+.loc 12 47 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -22558,7 +22979,7 @@ WorkHeart_Objects_TimerButton_SetCenteredPhysics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2072]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -22582,7 +23003,7 @@ bl _p_1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 47 0
+.loc 12 48 0
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -22597,7 +23018,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd4043a0
-bl _p_135
+bl _p_134
 .word 0xf9003fa0
 .word 0xf94013b1
 .word 0xf940c231
@@ -22606,7 +23027,7 @@ bl _p_135
 .word 0xf9403fa0
 .word 0xf9003ba0
 .word 0xaa0003f9
-.loc 12 48 0
+.loc 12 49 0
 .word 0xf94013b1
 .word 0xf940de31
 .word 0xb4000051
@@ -22623,7 +23044,7 @@ bl _p_135
 .word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 49 0
+.loc 12 50 0
 .word 0xf94013b1
 .word 0xf9411e31
 .word 0xb4000051
@@ -22639,7 +23060,7 @@ bl _p_135
 .word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 50 0
+.loc 12 51 0
 .word 0xf94013b1
 .word 0xf9415a31
 .word 0xb4000051
@@ -22655,7 +23076,7 @@ bl _p_135
 .word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 51 0
+.loc 12 52 0
 .word 0xf94013b1
 .word 0xf9419631
 .word 0xb4000051
@@ -22664,7 +23085,7 @@ bl _p_135
 .word 0xf90033a0
 .word 0xd2800c80
 .word 0xd2800c80
-bl _p_33
+bl _p_40
 .word 0xfd0037a0
 .word 0xf94013b1
 .word 0xf941be31
@@ -22680,7 +23101,7 @@ bl _p_33
 .word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 52 0
+.loc 12 53 0
 .word 0xf94013b1
 .word 0xf941f631
 .word 0xb4000051
@@ -22689,7 +23110,7 @@ bl _p_33
 .word 0xf9002ba0
 .word 0xd2800140
 .word 0xd2800140
-bl _p_33
+bl _p_40
 .word 0xfd002fa0
 .word 0xf94013b1
 .word 0xf9421e31
@@ -22705,7 +23126,7 @@ bl _p_33
 .word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 53 0
+.loc 12 54 0
 .word 0xf94013b1
 .word 0xf9425631
 .word 0xb4000051
@@ -22714,7 +23135,7 @@ bl _p_33
 .word 0xf90023a0
 .word 0xd2800140
 .word 0xd2800140
-bl _p_33
+bl _p_40
 .word 0xfd0027a0
 .word 0xf94013b1
 .word 0xf9427e31
@@ -22730,7 +23151,7 @@ bl _p_33
 .word 0xf942a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 55 0
+.loc 12 56 0
 .word 0xf94013b1
 .word 0xf942b631
 .word 0xb4000051
@@ -22745,7 +23166,7 @@ bl _p_33
 .word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 56 0
+.loc 12 57 0
 .word 0xf94013b1
 .word 0xf942ee31
 .word 0xb4000051
@@ -22759,12 +23180,12 @@ bl _p_33
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_5d:
+Lme_5e:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_SetLoosePhysics
 WorkHeart_Objects_TimerButton_SetLoosePhysics:
-.loc 12 59 0 prologue_end
+.loc 12 60 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -22772,7 +23193,7 @@ WorkHeart_Objects_TimerButton_SetLoosePhysics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2080]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -22796,7 +23217,7 @@ bl _p_1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 60 0
+.loc 12 61 0
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -22814,7 +23235,7 @@ bl _p_1
 .word 0xf9403fa0
 .word 0xf9003ba0
 .word 0xaa0003f9
-.loc 12 61 0
+.loc 12 62 0
 .word 0xf94013b1
 .word 0xf940c631
 .word 0xb4000051
@@ -22831,7 +23252,7 @@ bl _p_1
 .word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 62 0
+.loc 12 63 0
 .word 0xf94013b1
 .word 0xf9410631
 .word 0xb4000051
@@ -22840,7 +23261,7 @@ bl _p_1
 .word 0xf90033a0
 .word 0xd28000a0
 .word 0xd28000a0
-bl _p_33
+bl _p_40
 .word 0xfd0037a0
 .word 0xf94013b1
 .word 0xf9412e31
@@ -22856,7 +23277,7 @@ bl _p_33
 .word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 63 0
+.loc 12 64 0
 .word 0xf94013b1
 .word 0xf9416631
 .word 0xb4000051
@@ -22865,7 +23286,7 @@ bl _p_33
 .word 0xf9002ba0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd002fa0
 .word 0xf94013b1
 .word 0xf9418e31
@@ -22881,7 +23302,7 @@ bl _p_33
 .word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 64 0
+.loc 12 65 0
 .word 0xf94013b1
 .word 0xf941c631
 .word 0xb4000051
@@ -22890,7 +23311,7 @@ bl _p_33
 .word 0xf90023a0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd0027a0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -22906,7 +23327,7 @@ bl _p_33
 .word 0xf9421631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 65 0
+.loc 12 66 0
 .word 0xf94013b1
 .word 0xf9422631
 .word 0xb4000051
@@ -22921,7 +23342,7 @@ bl _p_33
 .word 0xf9424e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 66 0
+.loc 12 67 0
 .word 0xf94013b1
 .word 0xf9425e31
 .word 0xb4000051
@@ -22935,12 +23356,12 @@ bl _p_33
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_5e:
+Lme_5f:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_AddTimerLabels
 WorkHeart_Objects_TimerButton_AddTimerLabels:
-.loc 12 69 0 prologue_end
+.loc 12 70 0 prologue_end
 .word 0xa9a27bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -22951,7 +23372,7 @@ WorkHeart_Objects_TimerButton_AddTimerLabels:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2088]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -22980,7 +23401,7 @@ bl _p_1
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 70 0
+.loc 12 71 0
 .word 0xf9402bb1
 .word 0xf940a231
 .word 0xb4000051
@@ -22988,10 +23409,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf900efa0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf940ca31
 .word 0xb4000051
@@ -23004,7 +23425,7 @@ bl _p_82
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2048]
+ldr x1, [x16, #2096]
 .word 0xaa1703e0
 .word 0xf94002e2
 .word 0xf9413050
@@ -23021,7 +23442,7 @@ ldr x1, [x16, #2048]
 .word 0xf900e3a0
 .word 0xd28001a0
 .word 0xd28001a0
-bl _p_33
+bl _p_40
 .word 0xfd00e7a0
 .word 0xf9402bb1
 .word 0xf9414231
@@ -23045,7 +23466,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1208]
 .word 0xaa1503e0
 .word 0xf94002a2
 .word 0xf9413c50
@@ -23060,7 +23481,7 @@ ldr x1, [x16, #1184]
 .word 0xf900cfa0
 .word 0xaa1403e0
 .word 0xf900d7a0
-bl _p_61
+bl _p_65
 .word 0xf900d3a0
 .word 0xf9402bb1
 .word 0xf941da31
@@ -23120,7 +23541,7 @@ bl _p_61
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #776]
+ldr x1, [x16, #800]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -23131,7 +23552,7 @@ ldr x1, [x16, #776]
 .word 0xd63f0220
 .word 0xf940c3a0
 .word 0xaa0003f9
-.loc 12 81 0
+.loc 12 82 0
 .word 0xf9402bb1
 .word 0xf942ea31
 .word 0xb4000051
@@ -23139,10 +23560,10 @@ ldr x1, [x16, #776]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
 .word 0xf900bfa0
-bl _p_82
+bl _p_84
 .word 0xf9402bb1
 .word 0xf9431231
 .word 0xb4000051
@@ -23155,7 +23576,7 @@ bl _p_82
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2056]
+ldr x1, [x16, #2104]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413050
@@ -23191,7 +23612,7 @@ ldr x1, [x16, #2056]
 .word 0xf94053a0
 .word 0xf9005ba0
 .word 0x9102a3a0
-bl _p_31
+bl _p_38
 .word 0xfd00aba0
 .word 0xf9402bb1
 .word 0xf943d631
@@ -23218,7 +23639,7 @@ bl _p_31
 .word 0xf9404ba0
 .word 0xf9005ba0
 .word 0x9102a3a0
-bl _p_32
+bl _p_39
 .word 0xfd00b3a0
 .word 0xf9402bb1
 .word 0xf9444231
@@ -23226,7 +23647,7 @@ bl _p_32
 .word 0xd63f0220
 .word 0xd28001e0
 .word 0xd28001e0
-bl _p_33
+bl _p_40
 .word 0xfd00b7a0
 .word 0xf9402bb1
 .word 0xf9446231
@@ -23278,7 +23699,7 @@ bl _p_170
 .word 0xf9009ba0
 .word 0xd28001a0
 .word 0xd28001a0
-bl _p_33
+bl _p_40
 .word 0xfd009fa0
 .word 0xf9402bb1
 .word 0xf9453231
@@ -23302,7 +23723,7 @@ bl _p_33
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1208]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413c50
@@ -23317,7 +23738,7 @@ ldr x1, [x16, #1184]
 .word 0xf90087a0
 .word 0xf9407ba0
 .word 0xf9008fa0
-bl _p_61
+bl _p_65
 .word 0xf9008ba0
 .word 0xf9402bb1
 .word 0xf945ca31
@@ -23341,7 +23762,7 @@ bl _p_61
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #776]
+ldr x1, [x16, #800]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -23352,7 +23773,7 @@ ldr x1, [x16, #776]
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0xaa0003f8
-.loc 12 91 0
+.loc 12 92 0
 .word 0xf9402bb1
 .word 0xf9464a31
 .word 0xb4000051
@@ -23367,7 +23788,7 @@ ldr x1, [x16, #776]
 .word 0xf9467231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 92 0
+.loc 12 93 0
 .word 0xf9402bb1
 .word 0xf9468231
 .word 0xb4000051
@@ -23382,7 +23803,7 @@ ldr x1, [x16, #776]
 .word 0xf946aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 93 0
+.loc 12 94 0
 .word 0xf9402bb1
 .word 0xf946ba31
 .word 0xb4000051
@@ -23399,26 +23820,26 @@ ldr x1, [x16, #776]
 .word 0xa8de7bfd
 .word 0xd65f03c0
 
-Lme_5f:
+Lme_60:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_AddTimingElements
 WorkHeart_Objects_TimerButton_AddTimingElements:
-.loc 12 96 0 prologue_end
-.word 0xa9ab7bfd
+.loc 12 97 0 prologue_end
+.word 0xa9ad7bfd
 .word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
+.word 0xa90157b4
+.word 0xa9025fb6
+.word 0xa90367b8
+.word 0xf90023ba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2064]
-.word 0xf9002bb0
+ldr x16, [x16, #2112]
+.word 0xf90027b0
 .word 0xf9400a11
-.word 0xf9002fb1
+.word 0xf9002bb1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
@@ -23426,173 +23847,172 @@ ldr x0, [x16, #56]
 .word 0xf9400011
 .word 0xb4000051
 bl _p_1
-.word 0xd2800019
-.word 0xf9402bb1
-.word 0xf9405e31
+.word 0xf94027b1
+.word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fb1
+.word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9407e31
+.word 0xf94027b1
+.word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 97 0
-.word 0xf9402bb1
-.word 0xf9408e31
+.loc 12 98 0
+.word 0xf94027b1
+.word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1192]
 bl _p_13
-.word 0xf900a3a0
-bl _p_82
-.word 0xf9402bb1
-.word 0xf940ba31
+.word 0xf90097a0
+bl _p_84
+.word 0xf94027b1
+.word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940a3a0
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xf9009fa0
-.word 0xaa1803e0
+.word 0xf94097a0
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0xf90093a0
+.word 0xaa1903e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2072]
-.word 0xaa1803e0
-.word 0xf9400302
+ldr x1, [x16, #2120]
+.word 0xaa1903e0
+.word 0xf9400322
 .word 0xf9413050
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf940fa31
+.word 0xf94027b1
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9409fa0
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xf90093a0
-.word 0xaa1703e0
-.word 0xf90097a0
+.word 0xf94093a0
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xf90087a0
+.word 0xaa1803e0
+.word 0xf9008ba0
 .word 0xd28001e0
 .word 0xd28001e0
-bl _p_33
-.word 0xfd009ba0
-.word 0xf9402bb1
-.word 0xf9413231
+bl _p_40
+.word 0xfd008fa0
+.word 0xf94027b1
+.word 0xf9412e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94097a1
-.word 0xfd409ba0
+.word 0xf9408ba1
+.word 0xfd408fa0
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9413830
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf9415a31
+.word 0xf94027b1
+.word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94093a0
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xf9008fa0
-.word 0xaa1603e0
+.word 0xf94087a0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xf90083a0
+.word 0xaa1703e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #1184]
-.word 0xaa1603e0
-.word 0xf94002c2
+ldr x1, [x16, #1208]
+.word 0xaa1703e0
+.word 0xf94002e2
 .word 0xf9413c50
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf9419a31
+.word 0xf94027b1
+.word 0xf9419631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9408fa0
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xf90083a0
-.word 0xaa1503e0
-.word 0xf9008ba0
-bl _p_61
-.word 0xf90087a0
-.word 0xf9402bb1
-.word 0xf941ca31
+.word 0xf94083a0
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xf90077a0
+.word 0xaa1603e0
+.word 0xf9007fa0
+bl _p_65
+.word 0xf9007ba0
+.word 0xf94027b1
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94087a1
-.word 0xf9408ba2
+.word 0xf9407ba1
+.word 0xf9407fa2
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9414050
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf941f231
+.word 0xf94027b1
+.word 0xf941ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94083a0
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xf9007ba0
-.word 0xaa1403e0
-.word 0xf9007fa0
+.word 0xf94077a0
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xf9006fa0
+.word 0xaa1503e0
+.word 0xf90073a0
 .word 0xd280001e
 .word 0x9e6703c0
 .word 0xd280001e
 .word 0xf2a8141e
 .word 0x9e6703c1
-.word 0x910263a0
+.word 0x910243a0
 .word 0xd2800000
+.word 0xf9004ba0
 .word 0xf9004fa0
-.word 0xf90053a0
-.word 0x910263a0
-bl _p_80
-.word 0x910263a0
-.word 0x9101e3a0
+.word 0x910243a0
+bl _p_82
+.word 0x910243a0
+.word 0x9101c3a0
+.word 0xf9404ba0
+.word 0xf9003ba0
 .word 0xf9404fa0
 .word 0xf9003fa0
-.word 0xf94053a0
-.word 0xf90043a0
-.word 0xf9402bb1
-.word 0xf9425e31
+.word 0xf94027b1
+.word 0xf9425a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9407fa1
+.word 0xf94073a1
 .word 0xaa0103e0
-.word 0x9101e3a2
-.word 0xfd403fa0
-.word 0xfd4043a1
+.word 0x9101c3a2
+.word 0xfd403ba0
+.word 0xfd403fa1
 .word 0xf9400021
 .word 0xf940ec30
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf9428e31
+.word 0xf94027b1
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9407ba0
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xf90077a0
-.word 0xaa1303e0
+.word 0xf9406fa0
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xf9006ba0
+.word 0xaa1403e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #776]
-.word 0xaa1303e0
-.word 0xf9400262
+ldr x1, [x16, #800]
+.word 0xaa1403e0
+.word 0xf9400282
 .word 0xf940fc50
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf942ce31
+.word 0xf94027b1
+.word 0xf942ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94077a0
+.word 0xf9406ba0
 .word 0xf9001740
 .word 0x9100a341
 .word 0xd349fc21
@@ -23606,9 +24026,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 12 107 0
-.word 0xf9402bb1
-.word 0xf9431231
+.loc 12 108 0
+.word 0xf94027b1
+.word 0xf9430e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -23618,154 +24038,170 @@ ldr x2, [x16, #16]
 .word 0xf9400342
 .word 0xf9412850
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf9433e31
+.word 0xf94027b1
+.word 0xf9433a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 109 0
-.word 0xf9402bb1
-.word 0xf9434e31
+.loc 12 110 0
+.word 0xf94027b1
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1a03e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2080]
-bl _p_86
-.word 0xf90073a0
-.word 0xf9402bb1
+ldr x0, [x16, #2128]
+bl _p_88
+.word 0xf90067a0
+.word 0xf94027b1
 .word 0xf9437231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94073a0
-.word 0xf9006fa0
-.word 0xaa0003f9
-.loc 12 110 0
-.word 0xf9402bb1
-.word 0xf9438e31
+.word 0xf94067a0
+.word 0xf9002340
+.word 0x91010341
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 12 111 0
+.word 0xf94027b1
+.word 0xf943b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406fa0
-.word 0xf9006ba0
+.word 0xaa1a03e0
+.word 0xf9402340
+.word 0xf90063a0
 .word 0xd280001e
 .word 0x9e6703c0
 .word 0xd280001e
 .word 0xf2b8341e
 .word 0x9e6703c1
-.word 0x910223a0
+.word 0x910203a0
 .word 0xd2800000
+.word 0xf90043a0
 .word 0xf90047a0
-.word 0xf9004ba0
-.word 0x910223a0
-bl _p_80
-.word 0x910223a0
-.word 0x9101a3a0
+.word 0x910203a0
+bl _p_82
+.word 0x910203a0
+.word 0x910183a0
+.word 0xf94043a0
+.word 0xf90033a0
 .word 0xf94047a0
 .word 0xf90037a0
-.word 0xf9404ba0
-.word 0xf9003ba0
-.word 0xf9402bb1
-.word 0xf943ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba1
-.word 0xaa0103e0
-.word 0x9101a3a2
-.word 0xfd4037a0
-.word 0xfd403ba1
-.word 0xf9400021
-.word 0xf940ec30
-.word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf9441a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 111 0
-.word 0xf9402bb1
-.word 0xf9442a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf90067a0
-bl _p_61
-.word 0xf90063a0
-.word 0xf9402bb1
-.word 0xf9444a31
+.word 0xf94027b1
+.word 0xf9441631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94063a1
-.word 0xf94067a2
+.word 0xaa0103e0
+.word 0x910183a2
+.word 0xfd4033a0
+.word 0xfd4037a1
+.word 0xf9400021
+.word 0xf940ec30
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf9444631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 112 0
+.word 0xf94027b1
+.word 0xf9445631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9402340
+.word 0xf9005fa0
+bl _p_65
+.word 0xf9005ba0
+.word 0xf94027b1
+.word 0xf9447a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba1
+.word 0xf9405fa2
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413c50
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf9447231
+.word 0xf94027b1
+.word 0xf944a231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 112 0
-.word 0xf9402bb1
-.word 0xf9448231
+.loc 12 113 0
+.word 0xf94027b1
+.word 0xf944b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9005ba0
+.word 0xaa1a03e0
+.word 0xf9402340
+.word 0xf90053a0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
-.word 0xfd005fa0
-.word 0xf9402bb1
-.word 0xf944aa31
+bl _p_40
+.word 0xfd0057a0
+.word 0xf94027b1
+.word 0xf944de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405ba1
-.word 0xfd405fa0
+.word 0xf94053a1
+.word 0xfd4057a0
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9413430
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf944d231
+.word 0xf94027b1
+.word 0xf9450631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 114 0
-.word 0xf9402bb1
-.word 0xf944e231
+.loc 12 115 0
+.word 0xf94027b1
+.word 0xf9451631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xaa1903e1
+.word 0xaa1a03e0
+.word 0xf9402341
 .word 0xaa1a03e0
 .word 0xf9400342
 .word 0xf9412850
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf9450a31
+.word 0xf94027b1
+.word 0xf9454231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 115 0
-.word 0xf9402bb1
-.word 0xf9451a31
+.loc 12 116 0
+.word 0xf94027b1
+.word 0xf9455231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9452a31
+.word 0xf94027b1
+.word 0xf9456231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
+.word 0xa94157b4
+.word 0xa9425fb6
+.word 0xa94367b8
+.word 0xf94023ba
 .word 0x910003bf
-.word 0xa8d57bfd
+.word 0xa8d37bfd
 .word 0xd65f03c0
 
-Lme_60:
+Lme_61:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_AddRing
 WorkHeart_Objects_TimerButton_AddRing:
-.loc 12 118 0 prologue_end
+.loc 12 119 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -23773,7 +24209,7 @@ WorkHeart_Objects_TimerButton_AddRing:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2136]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -23796,7 +24232,7 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 119 0
+.loc 12 120 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -23805,8 +24241,8 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2096]
-bl _p_86
+ldr x0, [x16, #2144]
+bl _p_88
 .word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -23826,7 +24262,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 12 120 0
+.loc 12 121 0
 .word 0xf9400fb1
 .word 0xf940ea31
 .word 0xb4000051
@@ -23843,7 +24279,7 @@ ldr x2, [x16, #16]
 .word 0xf90023a0
 .word 0xf90027a0
 .word 0x910103a0
-bl _p_80
+bl _p_82
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -23866,7 +24302,7 @@ bl _p_80
 .word 0xf9417631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 121 0
+.loc 12 122 0
 .word 0xf9400fb1
 .word 0xf9418631
 .word 0xb4000051
@@ -23882,7 +24318,7 @@ bl _p_80
 .word 0xf941b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 122 0
+.loc 12 123 0
 .word 0xf9400fb1
 .word 0xf941c231
 .word 0xb4000051
@@ -23892,7 +24328,7 @@ bl _p_80
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #768]
+ldr x1, [x16, #792]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -23901,7 +24337,7 @@ ldr x1, [x16, #768]
 .word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 124 0
+.loc 12 125 0
 .word 0xf9400fb1
 .word 0xf9420631
 .word 0xb4000051
@@ -23932,7 +24368,7 @@ ldr x1, [x16, #768]
 .word 0xf9426e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 125 0
+.loc 12 126 0
 .word 0xf9400fb1
 .word 0xf9427e31
 .word 0xb4000051
@@ -23946,12 +24382,12 @@ ldr x1, [x16, #768]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_61:
+Lme_62:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribeToTracking
 WorkHeart_Objects_TimerButton_SubscribeToTracking:
-.loc 12 130 0 prologue_end
+.loc 12 131 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -23959,7 +24395,7 @@ WorkHeart_Objects_TimerButton_SubscribeToTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2152]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -23982,7 +24418,7 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 131 0
+.loc 12 132 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -23994,10 +24430,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000da0
@@ -24017,17 +24453,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2112]
+ldr x1, [x16, #2160]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2120]
+ldr x1, [x16, #2168]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2128]
+ldr x1, [x16, #2176]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -24039,7 +24475,7 @@ bl _p_138
 .word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 132 0
+.loc 12 133 0
 .word 0xf9400fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -24051,10 +24487,10 @@ bl _p_138
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000740
@@ -24074,17 +24510,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2136]
+ldr x1, [x16, #2184]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2144]
+ldr x1, [x16, #2192]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2152]
+ldr x1, [x16, #2200]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -24096,7 +24532,7 @@ bl _p_139
 .word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 134 0
+.loc 12 135 0
 .word 0xf9400fb1
 .word 0xf9421631
 .word 0xb4000051
@@ -24108,189 +24544,7 @@ bl _p_171
 .word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 135 0
-.word 0xf9400fb1
-.word 0xf9424231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9425231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-.word 0xd28012c0
-.word 0xaa1103e1
-bl _p_7
-.word 0xd28008c0
-.word 0xaa1103e1
-bl _p_7
-
-Lme_62:
-.text
-	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped
-WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped:
-.loc 12 138 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2160]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 139 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xeb1f035f
-.word 0x10000011
-.word 0x54000f20
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
-.word 0xd2801001
-.word 0xd2801001
-bl _p_58
-.word 0xeb1f035f
-.word 0x10000011
-.word 0x54000da0
-.word 0xf900101a
-.word 0x91008001
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2136]
-.word 0xf9001401
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2144]
-.word 0xf9002001
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2152]
-.word 0xf9401422
-.word 0xf9000c02
-.word 0xf9401021
-.word 0xf9000801
-.word 0xd2800001
-.word 0x3901c01f
-bl _p_141
-.word 0xf9400fb1
-.word 0xf9413a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 140 0
-.word 0xf9400fb1
-.word 0xf9414a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xeb1f035f
-.word 0x10000011
-.word 0x540008c0
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
-.word 0xd2801001
-.word 0xd2801001
-bl _p_58
-.word 0xeb1f035f
-.word 0x10000011
-.word 0x54000740
-.word 0xf900101a
-.word 0x91008001
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2112]
-.word 0xf9001401
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2120]
-.word 0xf9002001
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2128]
-.word 0xf9401422
-.word 0xf9000c02
-.word 0xf9401021
-.word 0xf9000801
-.word 0xd2800001
-.word 0x3901c01f
-bl _p_142
-.word 0xf9400fb1
-.word 0xf9420631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 142 0
-.word 0xf9400fb1
-.word 0xf9421631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_172
-.word 0xf9400fb1
-.word 0xf9423231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 143 0
+.loc 12 136 0
 .word 0xf9400fb1
 .word 0xf9424231
 .word 0xb4000051
@@ -24313,267 +24567,9 @@ bl _p_7
 Lme_63:
 .text
 	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton_StartTracking
-WorkHeart_Objects_TimerButton_StartTracking:
-.loc 12 146 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2168]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 147 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_173
-.word 0xf9400fb1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 149 0
-.word 0xf9400fb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd28001e0
-.word 0xd28001e0
-bl _p_33
-.word 0xfd001ba0
-.word 0xf9400fb1
-.word 0xf940ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xfd401ba0
-.word 0xaa1a03e0
-.word 0xf9400341
-.word 0xf9413430
-.word 0xd63f0200
-.word 0xf9400fb1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 150 0
-.word 0xf9400fb1
-.word 0xf9410231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xf9400341
-.word 0xf9412030
-.word 0xd63f0200
-.word 0xf9400fb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 151 0
-.word 0xf9400fb1
-.word 0xf9413631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_174
-.word 0xf9400fb1
-.word 0xf9415231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 152 0
-.word 0xf9400fb1
-.word 0xf9416231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9417231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_64:
-.text
-	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton_StopTracking
-WorkHeart_Objects_TimerButton_StopTracking:
-.loc 12 155 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2176]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 156 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_165
-.word 0xf9400fb1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 158 0
-.word 0xf9400fb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xd2800000
-bl _p_33
-.word 0xfd001ba0
-.word 0xf9400fb1
-.word 0xf940ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xfd401ba0
-.word 0xaa1a03e0
-.word 0xf9400341
-.word 0xf9413430
-.word 0xd63f0200
-.word 0xf9400fb1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 159 0
-.word 0xf9400fb1
-.word 0xf9410231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xf9400341
-.word 0xf9412030
-.word 0xd63f0200
-.word 0xf9400fb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 160 0
-.word 0xf9400fb1
-.word 0xf9413631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_168
-.word 0xf9400fb1
-.word 0xf9415231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 161 0
-.word 0xf9400fb1
-.word 0xf9416231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_169
-.word 0xf9400fb1
-.word 0xf9417e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 163 0
-.word 0xf9400fb1
-.word 0xf9418e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_175
-.word 0xf9400fb1
-.word 0xf941aa31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 164 0
-.word 0xf9400fb1
-.word 0xf941ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_167
-.word 0xf9400fb1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 165 0
-.word 0xf9400fb1
-.word 0xf941e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf941f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_65:
-.text
-	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered
-WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered:
-.loc 12 170 0 prologue_end
+	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped
+WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped:
+.loc 12 139 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -24581,7 +24577,7 @@ WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2208]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24604,7 +24600,7 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 171 0
+.loc 12 140 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -24612,17 +24608,17 @@ bl _p_1
 .word 0xaa1a03e0
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54000dc0
+.word 0x54000f20
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1704]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54000c40
+.word 0x54000da0
 .word 0xf900101a
 .word 0x91008001
 .word 0xd349fc21
@@ -24639,29 +24635,29 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2192]
+ldr x1, [x16, #2184]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2200]
+ldr x1, [x16, #2192]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2208]
+ldr x1, [x16, #2200]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901c01f
-bl _p_150
+bl _p_141
 .word 0xf9400fb1
 .word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 172 0
+.loc 12 141 0
 .word 0xf9400fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -24669,17 +24665,17 @@ bl _p_150
 .word 0xaa1a03e0
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54000760
+.word 0x540008c0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1736]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x540005e0
+.word 0x54000740
 .word 0xf900101a
 .word 0x91008001
 .word 0xd349fc21
@@ -24696,35 +24692,47 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2216]
+ldr x1, [x16, #2160]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2224]
+ldr x1, [x16, #2168]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2232]
+ldr x1, [x16, #2176]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901c01f
-bl _p_151
+bl _p_142
 .word 0xf9400fb1
 .word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 173 0
+.loc 12 143 0
 .word 0xf9400fb1
 .word 0xf9421631
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_172
 .word 0xf9400fb1
-.word 0xf9422631
+.word 0xf9423231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 144 0
+.word 0xf9400fb1
+.word 0xf9424231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -24738,20 +24746,20 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_66:
+Lme_64:
 .text
 	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered
-WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered:
-.loc 12 176 0 prologue_end
-.word 0xa9bd7bfd
+	.no_dead_strip WorkHeart_Objects_TimerButton_StartTracking
+WorkHeart_Objects_TimerButton_StartTracking:
+.loc 12 147 0 prologue_end
+.word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2216]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24774,7 +24782,358 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 177 0
+.loc 12 148 0
+.word 0xf9400fb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_173
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 150 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd28001e0
+.word 0xd28001e0
+bl _p_40
+.word 0xfd001ba0
+.word 0xf9400fb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xfd401ba0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9413430
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 151 0
+.word 0xf9400fb1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9412030
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 152 0
+.word 0xf9400fb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_174
+.word 0xf9400fb1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 153 0
+.word 0xf9400fb1
+.word 0xf9416231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9417231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_65:
+.text
+	.align 4
+	.no_dead_strip WorkHeart_Objects_TimerButton_StopTracking
+WorkHeart_Objects_TimerButton_StopTracking:
+.loc 12 156 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #2224]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 157 0
+.word 0xf9400fb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_165
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 159 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xd2800000
+bl _p_40
+.word 0xfd002ba0
+.word 0xf9400fb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xfd402ba0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9413430
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 160 0
+.word 0xf9400fb1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9412030
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 161 0
+.word 0xf9400fb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xd2800020
+bl _p_40
+.word 0xfd0027a0
+.word 0xf9400fb1
+.word 0xf9415a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xfd4027a0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9410c30
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf9417e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 162 0
+.word 0xf9400fb1
+.word 0xf9418e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xd2800000
+bl _p_89
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf941b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd293335e
+.word 0xf2b3333e
+.word 0xf2d3333e
+.word 0xf2e7f73e
+.word 0x9e6703c0
+.word 0xf9400fb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xaa0103e0
+.word 0xd293335e
+.word 0xf2b3333e
+.word 0xf2d3333e
+.word 0xf2e7f73e
+.word 0x9e6703c0
+.word 0xf9400021
+.word 0xf940d830
+.word 0xd63f0200
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf9421231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa1
+.word 0xaa1a03e0
+.word 0xf9400342
+.word 0xf9412c50
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf9423631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 163 0
+.word 0xf9400fb1
+.word 0xf9424631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xd2800000
+bl _p_89
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9426a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba1
+.word 0xaa1a03e0
+.word 0xf9400342
+.word 0xf9413850
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf9428e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 165 0
+.word 0xf9400fb1
+.word 0xf9429e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_168
+.word 0xf9400fb1
+.word 0xf942ba31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 166 0
+.word 0xf9400fb1
+.word 0xf942ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_169
+.word 0xf9400fb1
+.word 0xf942e631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 168 0
+.word 0xf9400fb1
+.word 0xf942f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_175
+.word 0xf9400fb1
+.word 0xf9431231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 169 0
+.word 0xf9400fb1
+.word 0xf9432231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_167
+.word 0xf9400fb1
+.word 0xf9433e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 170 0
+.word 0xf9400fb1
+.word 0xf9434e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9435e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_66:
+.text
+	.align 4
+	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered
+WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered:
+.loc 12 175 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #2232]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 176 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -24786,10 +25145,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1736]
+ldr x0, [x16, #1744]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -24809,29 +25168,29 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2216]
+ldr x1, [x16, #2240]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2224]
+ldr x1, [x16, #2248]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2232]
+ldr x1, [x16, #2256]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901c01f
-bl _p_152
+bl _p_150
 .word 0xf9400fb1
 .word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 178 0
+.loc 12 177 0
 .word 0xf9400fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -24843,10 +25202,10 @@ bl _p_152
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1704]
+ldr x0, [x16, #1776]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -24866,29 +25225,29 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2192]
+ldr x1, [x16, #2264]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2200]
+ldr x1, [x16, #2272]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2208]
+ldr x1, [x16, #2280]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901c01f
-bl _p_153
+bl _p_151
 .word 0xf9400fb1
 .word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 179 0
+.loc 12 178 0
 .word 0xf9400fb1
 .word 0xf9421631
 .word 0xb4000051
@@ -24911,9 +25270,9 @@ bl _p_7
 Lme_67:
 .text
 	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton_bubbleCentered
-WorkHeart_Objects_TimerButton_bubbleCentered:
-.loc 12 182 0 prologue_end
+	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered
+WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered:
+.loc 12 181 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -24921,7 +25280,7 @@ WorkHeart_Objects_TimerButton_bubbleCentered:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2288]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24944,167 +25303,7 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 183 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_171
-.word 0xf9400fb1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 185 0
-.word 0xf9400fb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_176
-.word 0xf9400fb1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 186 0
-.word 0xf9400fb1
-.word 0xf940d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_68:
-.text
-	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton_bubbleUnCentered
-WorkHeart_Objects_TimerButton_bubbleUnCentered:
-.loc 12 189 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2256]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 190 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_172
-.word 0xf9400fb1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 192 0
-.word 0xf9400fb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_175
-.word 0xf9400fb1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 194 0
-.word 0xf9400fb1
-.word 0xf940d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_167
-.word 0xf9400fb1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 195 0
-.word 0xf9400fb1
-.word 0xf9410231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9411231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_69:
-.text
-	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribePaused
-WorkHeart_Objects_TimerButton_SubscribePaused:
-.loc 12 200 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2264]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 12 201 0
+.loc 12 182 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -25116,10 +25315,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2272]
+ldr x0, [x16, #1776]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -25139,29 +25338,29 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2280]
+ldr x1, [x16, #2264]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2288]
+ldr x1, [x16, #2272]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2296]
+ldr x1, [x16, #2280]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901c01f
-bl _p_177
+bl _p_152
 .word 0xf9400fb1
 .word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 202 0
+.loc 12 183 0
 .word 0xf9400fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -25173,10 +25372,10 @@ bl _p_177
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2304]
+ldr x0, [x16, #1744]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -25196,29 +25395,29 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2312]
+ldr x1, [x16, #2240]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2320]
+ldr x1, [x16, #2248]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2328]
+ldr x1, [x16, #2256]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901c01f
-bl _p_178
+bl _p_153
 .word 0xf9400fb1
 .word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 203 0
+.loc 12 184 0
 .word 0xf9400fb1
 .word 0xf9421631
 .word 0xb4000051
@@ -25238,12 +25437,12 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_6a:
+Lme_68:
 .text
 	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribeToPlayed
-WorkHeart_Objects_TimerButton_SubscribeToPlayed:
-.loc 12 206 0 prologue_end
+	.no_dead_strip WorkHeart_Objects_TimerButton_bubbleCentered
+WorkHeart_Objects_TimerButton_bubbleCentered:
+.loc 12 187 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -25251,7 +25450,7 @@ WorkHeart_Objects_TimerButton_SubscribeToPlayed:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2296]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -25274,7 +25473,167 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 207 0
+.loc 12 188 0
+.word 0xf9400fb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_171
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 190 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_176
+.word 0xf9400fb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 191 0
+.word 0xf9400fb1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_69:
+.text
+	.align 4
+	.no_dead_strip WorkHeart_Objects_TimerButton_bubbleUnCentered
+WorkHeart_Objects_TimerButton_bubbleUnCentered:
+.loc 12 194 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #2304]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 195 0
+.word 0xf9400fb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_172
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 197 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_175
+.word 0xf9400fb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 199 0
+.word 0xf9400fb1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_167
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 200 0
+.word 0xf9400fb1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_6a:
+.text
+	.align 4
+	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribePaused
+WorkHeart_Objects_TimerButton_SubscribePaused:
+.loc 12 205 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #2312]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 206 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -25286,10 +25645,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2304]
+ldr x0, [x16, #2320]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -25309,29 +25668,29 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2312]
+ldr x1, [x16, #2328]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2320]
+ldr x1, [x16, #2336]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2328]
+ldr x1, [x16, #2344]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901c01f
-bl _p_179
+bl _p_177
 .word 0xf9400fb1
 .word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 208 0
+.loc 12 207 0
 .word 0xf9400fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -25343,10 +25702,10 @@ bl _p_179
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2272]
+ldr x0, [x16, #2352]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -25366,29 +25725,29 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2280]
+ldr x1, [x16, #2360]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2288]
+ldr x1, [x16, #2368]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2296]
+ldr x1, [x16, #2376]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901c01f
-bl _p_180
+bl _p_178
 .word 0xf9400fb1
 .word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 209 0
+.loc 12 208 0
 .word 0xf9400fb1
 .word 0xf9421631
 .word 0xb4000051
@@ -25411,17 +25770,17 @@ bl _p_7
 Lme_6b:
 .text
 	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton_TrackingPaused
-WorkHeart_Objects_TimerButton_TrackingPaused:
-.loc 12 212 0 prologue_end
-.word 0xa9bc7bfd
+	.no_dead_strip WorkHeart_Objects_TimerButton_SubscribeToPlayed
+WorkHeart_Objects_TimerButton_SubscribeToPlayed:
+.loc 12 211 0 prologue_end
+.word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2384]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -25444,7 +25803,177 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
+.loc 12 212 0
+.word 0xf9400fb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54000dc0
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #2352]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_36
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54000c40
+.word 0xf900101a
+.word 0x91008001
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #2360]
+.word 0xf9001401
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #2368]
+.word 0xf9002001
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #2376]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0xd2800001
+.word 0x3901c01f
+bl _p_179
+.word 0xf9400fb1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
 .loc 12 213 0
+.word 0xf9400fb1
+.word 0xf9414a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54000760
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #2320]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_36
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x540005e0
+.word 0xf900101a
+.word 0x91008001
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #2328]
+.word 0xf9001401
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #2336]
+.word 0xf9002001
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x1, [x16, #2344]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0xd2800001
+.word 0x3901c01f
+bl _p_180
+.word 0xf9400fb1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 214 0
+.word 0xf9400fb1
+.word 0xf9421631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+.word 0xd28012c0
+.word 0xaa1103e1
+bl _p_7
+.word 0xd28008c0
+.word 0xaa1103e1
+bl _p_7
+
+Lme_6c:
+.text
+	.align 4
+	.no_dead_strip WorkHeart_Objects_TimerButton_TrackingPaused
+WorkHeart_Objects_TimerButton_TrackingPaused:
+.loc 12 217 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #2392]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 218 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -25456,7 +25985,7 @@ bl _p_181
 .word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 214 0
+.loc 12 219 0
 .word 0xf9400fb1
 .word 0xf940aa31
 .word 0xb4000051
@@ -25468,7 +25997,7 @@ bl _p_182
 .word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 216 0
+.loc 12 221 0
 .word 0xf9400fb1
 .word 0xf940d631
 .word 0xb4000051
@@ -25476,7 +26005,7 @@ bl _p_182
 .word 0xaa1a03e0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_33
+bl _p_40
 .word 0xfd001fa0
 .word 0xf9400fb1
 .word 0xf940fa31
@@ -25491,7 +26020,7 @@ bl _p_33
 .word 0xf9411e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 217 0
+.loc 12 222 0
 .word 0xf9400fb1
 .word 0xf9412e31
 .word 0xb4000051
@@ -25536,7 +26065,7 @@ bl _p_147
 .word 0xf941ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 219 0
+.loc 12 224 0
 .word 0xf9400fb1
 .word 0xf941de31
 .word 0xb4000051
@@ -25548,7 +26077,7 @@ bl _p_183
 .word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 220 0
+.loc 12 225 0
 .word 0xf9400fb1
 .word 0xf9420a31
 .word 0xb4000051
@@ -25562,20 +26091,20 @@ bl _p_183
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6c:
+Lme_6d:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_TrackingPlayed
 WorkHeart_Objects_TimerButton_TrackingPlayed:
-.loc 12 223 0 prologue_end
-.word 0xa9bc7bfd
+.loc 12 228 0 prologue_end
+.word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2400]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -25598,7 +26127,7 @@ bl _p_1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 224 0
+.loc 12 229 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -25610,18 +26139,88 @@ bl _p_173
 .word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 226 0
+.loc 12 231 0
 .word 0xf9400fb1
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xd2800020
-.word 0xd2800020
-bl _p_33
-.word 0xfd001fa0
+.word 0xd2800000
+.word 0xd2800000
+bl _p_89
+.word 0xf9002ba0
 .word 0xf9400fb1
 .word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd293335e
+.word 0xf2b3333e
+.word 0xf2d3333e
+.word 0xf2e7f73e
+.word 0x9e6703c0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xaa0103e0
+.word 0xd293335e
+.word 0xf2b3333e
+.word 0xf2d3333e
+.word 0xf2e7f73e
+.word 0x9e6703c0
+.word 0xf9400021
+.word 0xf940d830
+.word 0xd63f0200
+.word 0xf90027a0
+.word 0xf9400fb1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a1
+.word 0xaa1a03e0
+.word 0xf9400342
+.word 0xf9412c50
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 232 0
+.word 0xf9400fb1
+.word 0xf9416231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xd2800000
+bl _p_89
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xaa1a03e0
+.word 0xf9400342
+.word 0xf9413850
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 233 0
+.word 0xf9400fb1
+.word 0xf941ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xd2800020
+bl _p_40
+.word 0xfd001fa0
+.word 0xf9400fb1
+.word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd401fa0
@@ -25638,7 +26237,7 @@ bl _p_33
 bl _p_147
 .word 0xf9001ba0
 .word 0xf9400fb1
-.word 0xf9411231
+.word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba1
@@ -25647,40 +26246,53 @@ bl _p_147
 .word 0xf9411050
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf9413631
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 227 0
+.loc 12 234 0
 .word 0xf9400fb1
-.word 0xf9414631
+.word 0xf9425631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_184
+.word 0xf9400fb1
+.word 0xf9427231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 235 0
+.word 0xf9400fb1
+.word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fb1
-.word 0xf9415631
+.word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
 .word 0x910003bf
-.word 0xa8c47bfd
+.word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_6d:
+Lme_6e:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_ShowTrackingPaused
 WorkHeart_Objects_TimerButton_ShowTrackingPaused:
-.loc 12 230 0 prologue_end
-.word 0xa9b47bfd
+.loc 12 238 0 prologue_end
+.word 0xa9a67bfd
 .word 0x910003fd
-.word 0xa9016bb9
+.word 0xa90163b7
+.word 0xa9026bb9
 .word 0xaa0003fa
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2360]
-.word 0xf90013b0
+ldr x16, [x16, #2408]
+.word 0xf9001bb0
 .word 0xf9400a11
-.word 0xf90017b1
+.word 0xf9001fb1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
@@ -25689,36 +26301,190 @@ ldr x0, [x16, #56]
 .word 0xb4000051
 bl _p_1
 .word 0xd2800019
-.word 0xf94013b1
-.word 0xf9405231
+.word 0xd2800018
+.word 0xd2800017
+.word 0xf9401bb1
+.word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
+.word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9407231
+.word 0xf9401bb1
+.word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 232 0
-.word 0xf94013b1
-.word 0xf9408231
+.loc 12 239 0
+.word 0xf9401bb1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9402341
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9411c30
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 240 0
+.word 0xf9401bb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9401740
+.word 0xf900cfa0
+.word 0xd280001e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2a8401e
+.word 0x9e6703c1
+.word 0x9102e3a0
+.word 0xd2800000
+.word 0xf9005fa0
+.word 0xf90063a0
+.word 0x9102e3a0
+bl _p_82
+.word 0x9102e3a0
+.word 0x9101e3a0
+.word 0xf9405fa0
+.word 0xf9003fa0
+.word 0xf94063a0
+.word 0xf90043a0
+.word 0xf9401bb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf940cfa1
+.word 0xaa0103e0
+.word 0x9101e3a2
+.word 0xfd403fa0
+.word 0xfd4043a1
+.word 0xf9400021
+.word 0xf940ec30
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 241 0
+.word 0xf9401bb1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9401740
+.word 0xf900cba0
+.word 0xd2800000
+.word 0xd2800000
+bl _p_89
+.word 0xf900c7a0
+.word 0xf9401bb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf940c7a1
+.word 0xf940cba2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9414050
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf941ba31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 243 0
+.word 0xf9401bb1
+.word 0xf941ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xd2800020
+bl _p_89
+.word 0xf900c3a0
+.word 0xf9401bb1
+.word 0xf941ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf940c3a1
+.word 0xaa1a03e0
+.word 0xf9400342
+.word 0xf9413850
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9421231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 244 0
+.word 0xf9401bb1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xd2800020
+bl _p_89
+.word 0xf900bfa0
+.word 0xf9401bb1
+.word 0xf9424631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd293335e
+.word 0xf2b3333e
+.word 0xf2d3333e
+.word 0xf2e7f73e
+.word 0x9e6703c0
+.word 0xf9401bb1
+.word 0xf9426a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf940bfa1
+.word 0xaa0103e0
+.word 0xd293335e
+.word 0xf2b3333e
+.word 0xf2d3333e
+.word 0xf2e7f73e
+.word 0x9e6703c0
+.word 0xf9400021
+.word 0xf940d830
+.word 0xd63f0200
+.word 0xf900bba0
+.word 0xf9401bb1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf940bba1
+.word 0xaa1a03e0
+.word 0xf9400342
+.word 0xf9412c50
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf942ca31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 247 0
+.word 0xf9401bb1
+.word 0xf942da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1312]
 bl _p_13
-.word 0xf9005ba0
-bl _p_129
-.word 0xf94013b1
-.word 0xf940ae31
+.word 0xf900b7a0
+bl _p_90
+.word 0xf9401bb1
+.word 0xf9430631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405ba0
+.word 0xf940b7a0
 .word 0xf9001f40
 .word 0x9100e341
 .word 0xd349fc21
@@ -25732,90 +26498,90 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 12 233 0
-.word 0xf94013b1
-.word 0xf940f231
+.loc 12 248 0
+.word 0xf9401bb1
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1552]
+ldr x0, [x16, #1320]
 bl _p_13
-.word 0xf90057a0
-bl _p_133
-.word 0xf94013b1
-.word 0xf9411a31
+.word 0xf900b3a0
+bl _p_91
+.word 0xf9401bb1
+.word 0xf9437231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94057a0
+.word 0xf940b3a0
 .word 0xaa0003f9
-.loc 12 234 0
-.word 0xf94013b1
-.word 0xf9413231
+.loc 12 249 0
+.word 0xf9401bb1
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-.word 0xf9003fa0
+.word 0xf9009ba0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
-.word 0xfd0043a0
-.word 0xf94013b1
-.word 0xf9415a31
+bl _p_40
+.word 0xfd009fa0
+.word 0xf9401bb1
+.word 0xf943b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
-.word 0xfd0047a0
-.word 0xf94013b1
-.word 0xf9417a31
+bl _p_40
+.word 0xfd00a3a0
+.word 0xf9401bb1
+.word 0xf943d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800480
 .word 0xd2800480
-bl _p_33
-.word 0xfd004ba0
-.word 0xf94013b1
-.word 0xf9419a31
+bl _p_40
+.word 0xfd00a7a0
+.word 0xf9401bb1
+.word 0xf943f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_33
-.word 0xfd004fa0
-.word 0xf94013b1
-.word 0xf941ba31
+bl _p_40
+.word 0xfd00aba0
+.word 0xf9401bb1
+.word 0xf9441231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd281fb7e
 .word 0xf2a8193e
 .word 0x9e6703c0
 .word 0x1e22c000
-.word 0xfd0053a0
-.word 0xf94013b1
-.word 0xf941de31
+.word 0xfd00afa0
+.word 0xf9401bb1
+.word 0xf9443631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403fa2
-.word 0xfd4043a0
-.word 0xfd4047a1
-.word 0xfd404ba2
-.word 0xfd404fa3
-.word 0xfd4053a4
+.word 0xf9409ba2
+.word 0xfd409fa0
+.word 0xfd40a3a1
+.word 0xfd40a7a2
+.word 0xfd40aba3
+.word 0xfd40afa4
 .word 0xd2800020
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_134
-.word 0xf94013b1
-.word 0xf9421a31
+bl _p_92
+.word 0xf9401bb1
+.word 0xf9447231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 235 0
-.word 0xf94013b1
-.word 0xf9422a31
+.loc 12 250 0
+.word 0xf9401bb1
+.word 0xf9448231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -25825,79 +26591,79 @@ bl _p_134
 .word 0xf9400042
 .word 0xf9413050
 .word 0xd63f0200
-.word 0xf94013b1
-.word 0xf9425631
+.word 0xf9401bb1
+.word 0xf944ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 236 0
-.word 0xf94013b1
-.word 0xf9426631
+.loc 12 251 0
+.word 0xf9401bb1
+.word 0xf944be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9401f40
-.word 0xf9003ba0
+.word 0xf90097a0
 .word 0xd280001e
 .word 0x9e6703c0
 .word 0xd280001e
 .word 0x9e6703c1
-.word 0x910123a0
+.word 0x9102a3a0
 .word 0xd2800000
-.word 0xf90027a0
-.word 0xf9002ba0
-.word 0x910123a0
-bl _p_80
-.word 0x910123a0
-.word 0x9100e3a0
-.word 0xf94027a0
-.word 0xf9001fa0
-.word 0xf9402ba0
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf942c231
+.word 0xf90057a0
+.word 0xf9005ba0
+.word 0x9102a3a0
+bl _p_82
+.word 0x9102a3a0
+.word 0x9101a3a0
+.word 0xf94057a0
+.word 0xf90037a0
+.word 0xf9405ba0
+.word 0xf9003ba0
+.word 0xf9401bb1
+.word 0xf9451a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403ba1
+.word 0xf94097a1
 .word 0xaa0103e0
-.word 0x9100e3a2
-.word 0xfd401fa0
-.word 0xfd4023a1
+.word 0x9101a3a2
+.word 0xfd4037a0
+.word 0xfd403ba1
 .word 0xf9400021
 .word 0xf940ec30
 .word 0xd63f0200
-.word 0xf94013b1
-.word 0xf942f231
+.word 0xf9401bb1
+.word 0xf9454a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 237 0
-.word 0xf94013b1
-.word 0xf9430231
+.loc 12 252 0
+.word 0xf9401bb1
+.word 0xf9455a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9401f40
-.word 0xf90037a0
-.word 0xd2800020
-.word 0xd2800020
-bl _p_87
-.word 0xf90033a0
-.word 0xf94013b1
-.word 0xf9432e31
+.word 0xf90093a0
+.word 0xd2800000
+.word 0xd2800000
+bl _p_89
+.word 0xf9008fa0
+.word 0xf9401bb1
+.word 0xf9458631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a1
-.word 0xf94037a2
+.word 0xf9408fa1
+.word 0xf94093a2
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.word 0xf94013b1
-.word 0xf9435631
+.word 0xf9401bb1
+.word 0xf945ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 238 0
-.word 0xf94013b1
-.word 0xf9436631
+.loc 12 253 0
+.word 0xf9401bb1
+.word 0xf945be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -25905,18 +26671,18 @@ bl _p_87
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #784]
+ldr x1, [x16, #808]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
 .word 0xd63f0200
-.word 0xf94013b1
-.word 0xf9439a31
+.word 0xf9401bb1
+.word 0xf945f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 239 0
-.word 0xf94013b1
-.word 0xf943aa31
+.loc 12 254 0
+.word 0xf9401bb1
+.word 0xf9460231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -25926,30 +26692,267 @@ ldr x1, [x16, #784]
 .word 0xf9400342
 .word 0xf9412850
 .word 0xd63f0200
-.word 0xf94013b1
-.word 0xf943d631
+.word 0xf9401bb1
+.word 0xf9462e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 242 0
-.word 0xf94013b1
-.word 0xf943e631
+.loc 12 256 0
+.word 0xf9401bb1
+.word 0xf9463e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94013b1
-.word 0xf943f631
+.word 0xaa1a03e0
+.word 0xf9401f40
+.word 0xf9008ba0
+.word 0xd28cccde
+.word 0xf2acccde
+.word 0xf2ccccde
+.word 0xf2e7fcde
+.word 0x9e6703c0
+.word 0xf9401bb1
+.word 0xf9466e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa9416bb9
+.word 0xf9408ba1
+.word 0xaa0103e0
+.word 0xd28cccde
+.word 0xf2acccde
+.word 0xf2ccccde
+.word 0xf2e7fcde
+.word 0x9e6703c0
+.word 0xf9400021
+.word 0xf9410c30
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf946a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 258 0
+.word 0xf9401bb1
+.word 0xf946b631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #2416]
+bl _p_88
+.word 0xf90087a0
+.word 0xf9401bb1
+.word 0xf946da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94087a0
+.word 0xf90083a0
+.word 0xaa0003f8
+.loc 12 259 0
+.word 0xf9401bb1
+.word 0xf946f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94083a0
+.word 0xf9007fa0
+.word 0xd280001e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0x9e6703c1
+.word 0x910263a0
+.word 0xd2800000
+.word 0xf9004fa0
+.word 0xf90053a0
+.word 0x910263a0
+bl _p_82
+.word 0x910263a0
+.word 0x910163a0
+.word 0xf9404fa0
+.word 0xf9002fa0
+.word 0xf94053a0
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf9474e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407fa1
+.word 0xaa0103e0
+.word 0x910163a2
+.word 0xfd402fa0
+.word 0xfd4033a1
+.word 0xf9400021
+.word 0xf940ec30
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9477e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 261 0
+.word 0xf9401bb1
+.word 0xf9478e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1803e1
+.word 0xaa1a03e0
+.word 0xf9400342
+.word 0xf9412850
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf947b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 262 0
+.word 0xf9401bb1
+.word 0xf947c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf9007ba0
+.word 0xd286667e
+.word 0xf2a6667e
+.word 0xf2c6667e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xf9401bb1
+.word 0xf947f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba1
+.word 0xaa0103e0
+.word 0xd286667e
+.word 0xf2a6667e
+.word 0xf2c6667e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xf9400021
+.word 0xf9410c30
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9482a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 264 0
+.word 0xf9401bb1
+.word 0xf9483a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #2424]
+bl _p_88
+.word 0xf90077a0
+.word 0xf9401bb1
+.word 0xf9485e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94077a0
+.word 0xf90073a0
+.word 0xaa0003f7
+.loc 12 265 0
+.word 0xf9401bb1
+.word 0xf9487a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94073a0
+.word 0xf9006fa0
+.word 0xd280001e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b8441e
+.word 0x9e6703c1
+.word 0x910223a0
+.word 0xd2800000
+.word 0xf90047a0
+.word 0xf9004ba0
+.word 0x910223a0
+bl _p_82
+.word 0x910223a0
+.word 0x910123a0
+.word 0xf94047a0
+.word 0xf90027a0
+.word 0xf9404ba0
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf948d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406fa1
+.word 0xaa0103e0
+.word 0x910123a2
+.word 0xfd4027a0
+.word 0xfd402ba1
+.word 0xf9400021
+.word 0xf940ec30
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9490631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 267 0
+.word 0xf9401bb1
+.word 0xf9491631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1703e1
+.word 0xaa1a03e0
+.word 0xf9400342
+.word 0xf9412850
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9493e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 268 0
+.word 0xf9401bb1
+.word 0xf9494e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xf9006ba0
+.word 0xd286667e
+.word 0xf2a6667e
+.word 0xf2c6667e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xf9401bb1
+.word 0xf9497a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406ba1
+.word 0xaa0103e0
+.word 0xd286667e
+.word 0xf2a6667e
+.word 0xf2c6667e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xf9400021
+.word 0xf9410c30
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf949b231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 269 0
+.word 0xf9401bb1
+.word 0xf949c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf949d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94163b7
+.word 0xa9426bb9
 .word 0x910003bf
-.word 0xa8cc7bfd
+.word 0xa8da7bfd
 .word 0xd65f03c0
 
-Lme_6e:
+Lme_6f:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_SetColours_WorkHeart_Objects_Colours
 WorkHeart_Objects_TimerButton_SetColours_WorkHeart_Objects_Colours:
-.loc 12 245 0 prologue_end
+.loc 12 272 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -25958,7 +26961,7 @@ WorkHeart_Objects_TimerButton_SetColours_WorkHeart_Objects_Colours:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2432]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -25981,7 +26984,7 @@ bl _p_1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 246 0
+.loc 12 273 0
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -25989,7 +26992,7 @@ bl _p_1
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_87
+bl _p_89
 .word 0xf9002ba0
 .word 0xf94013b1
 .word 0xf940a631
@@ -26004,7 +27007,7 @@ bl _p_87
 .word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 247 0
+.loc 12 274 0
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -26012,7 +27015,7 @@ bl _p_87
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_87
+bl _p_89
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940fe31
@@ -26051,7 +27054,7 @@ bl _p_87
 .word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 248 0
+.loc 12 275 0
 .word 0xf94013b1
 .word 0xf9419231
 .word 0xb4000051
@@ -26065,12 +27068,12 @@ bl _p_87
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_6f:
+Lme_70:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_CenterItemContents
 WorkHeart_Objects_TimerButton_CenterItemContents:
-.loc 12 251 0 prologue_end
+.loc 12 278 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -26078,7 +27081,7 @@ WorkHeart_Objects_TimerButton_CenterItemContents:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2440]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26102,7 +27105,7 @@ bl _p_1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 252 0
+.loc 12 279 0
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -26111,8 +27114,8 @@ bl _p_1
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000ec0
-.word 0x91010340
-bl _p_78
+.word 0x91012340
+bl _p_80
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf940ae31
@@ -26120,7 +27123,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd004fa0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -26138,8 +27141,8 @@ bl _p_33
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000b60
-.word 0x91010340
-bl _p_79
+.word 0x91012340
+bl _p_81
 .word 0xfd0043a0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -26147,7 +27150,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0047a0
 .word 0xf94013b1
 .word 0xf9413a31
@@ -26192,7 +27195,7 @@ bl _p_170
 .word 0xf2c6667e
 .word 0xf2e7fa7e
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -26201,7 +27204,7 @@ bl _p_184
 .word 0xf94037a0
 .word 0xf90033a0
 .word 0xaa0003f9
-.loc 12 253 0
+.loc 12 280 0
 .word 0xf94013b1
 .word 0xf9420a31
 .word 0xb4000051
@@ -26217,7 +27220,7 @@ bl _p_184
 .word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 254 0
+.loc 12 281 0
 .word 0xf94013b1
 .word 0xf9424631
 .word 0xb4000051
@@ -26234,7 +27237,7 @@ bl _p_184
 .word 0xaa1103e1
 bl _p_7
 
-Lme_70:
+Lme_71:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan
@@ -26248,7 +27251,7 @@ WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2448]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -26267,12 +27270,12 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2392]
+ldr x0, [x16, #2456]
 .word 0xd2800401
 .word 0xd2800401
-bl _p_58
+bl _p_36
 .word 0xf9002fa0
-bl _p_185
+bl _p_186
 .word 0xf9401bb1
 .word 0xf9408631
 .word 0xb4000051
@@ -26280,9 +27283,18 @@ bl _p_185
 .word 0xf9402fa0
 .word 0xaa0003f9
 .word 0xaa1903e0
-.word 0xaa1a03e1
+.word 0x910083a1
+.word 0x910123a1
+.word 0xf94013a1
+.word 0xf90027a1
+.word 0x910123a1
+.word 0x91006000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0xaa1903e0
+.word 0xaa1a03e0
 .word 0xf9000b3a
-.word 0x91004000
+.word 0x91004320
 .word 0xd349fc00
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -26294,21 +27306,12 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.word 0xaa1903e0
-.word 0x910083a0
-.word 0x910123a0
-.word 0xf94013a0
-.word 0xf90027a0
-.word 0x910123a0
-.word 0x91006320
-.word 0xf94027a1
-.word 0xf9000001
-.loc 12 257 0
+.loc 12 284 0
 .word 0xf9401bb1
 .word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 258 0
+.loc 12 285 0
 .word 0xf9401bb1
 .word 0xf9410a31
 .word 0xb4000051
@@ -26322,10 +27325,10 @@ ldr x1, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2400]
+ldr x0, [x16, #2464]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xeb1f001f
@@ -26347,17 +27350,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2408]
+ldr x0, [x16, #2472]
 .word 0xf9001420
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2416]
+ldr x0, [x16, #2480]
 .word 0xf9002020
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2424]
+ldr x0, [x16, #2488]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -26365,12 +27368,12 @@ ldr x0, [x16, #2424]
 .word 0xd2800000
 .word 0x3901c03f
 .word 0xaa1a03e0
-bl _p_186
+bl _p_187
 .word 0xf9401bb1
 .word 0xf941da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 261 0
+.loc 12 306 0
 .word 0xf9401bb1
 .word 0xf941ea31
 .word 0xb4000051
@@ -26390,7 +27393,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_71:
+Lme_72:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Colors_GetColor_WorkHeart_Objects_Colours
@@ -26405,7 +27408,7 @@ WorkHeart_Objects_Colors_GetColor_WorkHeart_Objects_Colours:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2496]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -26449,7 +27452,7 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2440]
+ldr x0, [x16, #2504]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -26464,7 +27467,7 @@ ldr x0, [x16, #2440]
 .word 0xd2801fe0
 .word 0xd2801fe1
 .word 0xd2801fe2
-bl _p_83
+bl _p_85
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9410e31
@@ -26484,7 +27487,7 @@ bl _p_83
 .word 0xd2800660
 .word 0xd2800661
 .word 0xd2800662
-bl _p_83
+bl _p_85
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9415a31
@@ -26504,7 +27507,7 @@ bl _p_83
 .word 0xd28009e0
 .word 0xd28009e1
 .word 0xd28009e2
-bl _p_83
+bl _p_85
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf941a631
@@ -26524,7 +27527,7 @@ bl _p_83
 .word 0xd2800ac0
 .word 0xd2801981
 .word 0xd2801e42
-bl _p_83
+bl _p_85
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf941f231
@@ -26544,7 +27547,7 @@ bl _p_83
 .word 0xd28004e0
 .word 0xd28015c1
 .word 0xd2800c02
-bl _p_83
+bl _p_85
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9423e31
@@ -26564,7 +27567,7 @@ bl _p_83
 .word 0xd2801e40
 .word 0xd2801321
 .word 0xd2800942
-bl _p_83
+bl _p_85
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9428a31
@@ -26584,7 +27587,7 @@ bl _p_83
 .word 0xd2801e40
 .word 0xd2801921
 .word 0xd2800982
-bl _p_83
+bl _p_85
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf942d631
@@ -26604,7 +27607,7 @@ bl _p_83
 .word 0xd2801d60
 .word 0xd2800ae1
 .word 0xd2800ae2
-bl _p_83
+bl _p_85
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9432231
@@ -26624,7 +27627,7 @@ bl _p_83
 .word 0xd2800000
 .word 0xd2800001
 .word 0xd2800002
-bl _p_83
+bl _p_85
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9436e31
@@ -26653,7 +27656,7 @@ bl _p_83
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_72:
+Lme_73:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_Colors__ctor
@@ -26664,7 +27667,7 @@ WorkHeart_Objects_Colors__ctor:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2512]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26685,7 +27688,7 @@ ldr x16, [x16, #2448]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_73:
+Lme_74:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_LightBubble__ctor_CoreGraphics_CGSize
@@ -26701,7 +27704,7 @@ WorkHeart_Objects_LightBubble__ctor_CoreGraphics_CGSize:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2520]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -26726,7 +27729,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_187
+bl _p_188
 .word 0xf9402fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -26765,7 +27768,7 @@ bl _p_187
 .word 0x10000011
 .word 0x54001640
 .word 0x91038340
-bl _p_78
+bl _p_80
 .word 0xfd007ba0
 .word 0xf9402fb1
 .word 0xf9412631
@@ -26773,7 +27776,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd007fa0
 .word 0xf9402fb1
 .word 0xf9414631
@@ -26789,7 +27792,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800780
 .word 0xd2800780
-bl _p_33
+bl _p_40
 .word 0xfd0077a0
 .word 0xf9402fb1
 .word 0xf9418631
@@ -26808,7 +27811,7 @@ bl _p_33
 .word 0x10000011
 .word 0x540010e0
 .word 0x91038340
-bl _p_79
+bl _p_81
 .word 0xfd006ba0
 .word 0xf9402fb1
 .word 0xf941d231
@@ -26816,7 +27819,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd006fa0
 .word 0xf9402fb1
 .word 0xf941f231
@@ -26832,7 +27835,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800c80
 .word 0xd2800c80
-bl _p_33
+bl _p_40
 .word 0xfd0067a0
 .word 0xf9402fb1
 .word 0xf9423231
@@ -26877,7 +27880,7 @@ bl _p_170
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_188
+bl _p_189
 .word 0xf9402fb1
 .word 0xf942de31
 .word 0xb4000051
@@ -26891,7 +27894,7 @@ bl _p_188
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #856]
+ldr x1, [x16, #880]
 .word 0xaa1a03e0
 bl _p_136
 .word 0xf9402fb1
@@ -26905,7 +27908,7 @@ bl _p_136
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_189
+bl _p_190
 .word 0xf9402fb1
 .word 0xf9434231
 .word 0xb4000051
@@ -26951,7 +27954,7 @@ bl _p_189
 .word 0xaa1103e1
 bl _p_7
 
-Lme_74:
+Lme_75:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_LightBubble_SetDefaultCharateristics
@@ -26964,7 +27967,7 @@ WorkHeart_Objects_LightBubble_SetDefaultCharateristics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26997,7 +28000,7 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2472]
+ldr x1, [x16, #2536]
 .word 0xaa1a03e0
 .word 0xf9400342
 .word 0xf940fc50
@@ -27016,7 +28019,7 @@ ldr x1, [x16, #2472]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2472]
+ldr x1, [x16, #2536]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940fc50
@@ -27034,7 +28037,7 @@ ldr x1, [x16, #2472]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #856]
+ldr x0, [x16, #880]
 .word 0xf9002b40
 .word 0x91014341
 .word 0xd349fc21
@@ -27126,7 +28129,7 @@ bl _p_137
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_75:
+Lme_76:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_LightBubble_SubscribeToTracking
@@ -27139,7 +28142,7 @@ WorkHeart_Objects_LightBubble_SubscribeToTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2544]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27174,10 +28177,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -27197,17 +28200,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2488]
+ldr x1, [x16, #2552]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2496]
+ldr x1, [x16, #2560]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2504]
+ldr x1, [x16, #2568]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -27231,10 +28234,10 @@ bl _p_138
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -27254,17 +28257,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2512]
+ldr x1, [x16, #2576]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2520]
+ldr x1, [x16, #2584]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2528]
+ldr x1, [x16, #2592]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -27296,7 +28299,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_76:
+Lme_77:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_LightBubble_SubscribeToTrackingStopped
@@ -27309,7 +28312,7 @@ WorkHeart_Objects_LightBubble_SubscribeToTrackingStopped:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2600]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27344,10 +28347,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -27367,17 +28370,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2512]
+ldr x1, [x16, #2576]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2520]
+ldr x1, [x16, #2584]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2528]
+ldr x1, [x16, #2592]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -27401,10 +28404,10 @@ bl _p_141
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -27424,17 +28427,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2488]
+ldr x1, [x16, #2552]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2496]
+ldr x1, [x16, #2560]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2504]
+ldr x1, [x16, #2568]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -27466,7 +28469,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_77:
+Lme_78:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_LightBubble_StartTracking
@@ -27479,7 +28482,7 @@ WorkHeart_Objects_LightBubble_StartTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2608]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27509,7 +28512,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_190
+bl _p_191
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -27542,7 +28545,7 @@ bl _p_137
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_78:
+Lme_79:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_LightBubble_StopTracking
@@ -27555,7 +28558,7 @@ WorkHeart_Objects_LightBubble_StopTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2616]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27586,7 +28589,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_188
+bl _p_189
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -27598,7 +28601,7 @@ bl _p_188
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_189
+bl _p_190
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -27628,7 +28631,7 @@ bl _p_189
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9414231
@@ -27667,7 +28670,7 @@ bl _p_184
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_79:
+Lme_7a:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_LightBubble_CenterItemContents
@@ -27680,7 +28683,7 @@ WorkHeart_Objects_LightBubble_CenterItemContents:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2624]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27714,7 +28717,7 @@ bl _p_1
 .word 0x10000011
 .word 0x54000ec0
 .word 0x91038340
-bl _p_78
+bl _p_80
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf940ae31
@@ -27722,7 +28725,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd004fa0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -27741,7 +28744,7 @@ bl _p_33
 .word 0x10000011
 .word 0x54000b60
 .word 0x91038340
-bl _p_79
+bl _p_81
 .word 0xfd0043a0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -27749,7 +28752,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0047a0
 .word 0xf94013b1
 .word 0xf9413a31
@@ -27794,7 +28797,7 @@ bl _p_170
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -27836,7 +28839,7 @@ bl _p_184
 .word 0xaa1103e1
 bl _p_7
 
-Lme_7a:
+Lme_7b:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_NoiseBubble__ctor_CoreGraphics_CGSize
@@ -27852,7 +28855,7 @@ WorkHeart_Objects_NoiseBubble__ctor_CoreGraphics_CGSize:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2632]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -27895,12 +28898,12 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2576]
+ldr x0, [x16, #2640]
 .word 0xd2800801
 .word 0xd2800801
-bl _p_58
+bl _p_36
 .word 0xf90083a0
-bl _p_191
+bl _p_192
 .word 0xf9402fb1
 .word 0xf940e231
 .word 0xb4000051
@@ -27934,7 +28937,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_187
+bl _p_188
 .word 0xf9402fb1
 .word 0xf9415e31
 .word 0xb4000051
@@ -27953,7 +28956,7 @@ bl _p_187
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2584]
+ldr x0, [x16, #2648]
 .word 0xf9002f40
 .word 0x91016341
 .word 0xd349fc21
@@ -27976,7 +28979,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2592]
+ldr x0, [x16, #2656]
 .word 0xf9003340
 .word 0x91018341
 .word 0xd349fc21
@@ -27999,7 +29002,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2600]
+ldr x0, [x16, #2664]
 .word 0xf9003740
 .word 0x9101a341
 .word 0xd349fc21
@@ -28022,7 +29025,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2608]
+ldr x0, [x16, #2672]
 .word 0xf9005f40
 .word 0x9102e341
 .word 0xd349fc21
@@ -28045,7 +29048,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2616]
+ldr x0, [x16, #2680]
 .word 0xf9006340
 .word 0x91030341
 .word 0xd349fc21
@@ -28068,7 +29071,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2624]
+ldr x0, [x16, #2688]
 .word 0xf9006740
 .word 0x91032341
 .word 0xd349fc21
@@ -28091,7 +29094,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2632]
+ldr x0, [x16, #2696]
 .word 0xf9002340
 .word 0x91010341
 .word 0xd349fc21
@@ -28114,7 +29117,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2640]
+ldr x0, [x16, #2704]
 .word 0xf9002740
 .word 0x91012341
 .word 0xd349fc21
@@ -28157,7 +29160,7 @@ ldr x2, [x16, #16]
 .word 0x10000011
 .word 0x54001640
 .word 0x91048340
-bl _p_78
+bl _p_80
 .word 0xfd007ba0
 .word 0xf9402fb1
 .word 0xf9447231
@@ -28165,7 +29168,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd007fa0
 .word 0xf9402fb1
 .word 0xf9449231
@@ -28181,7 +29184,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800780
 .word 0xd2800780
-bl _p_33
+bl _p_40
 .word 0xfd0077a0
 .word 0xf9402fb1
 .word 0xf944d231
@@ -28200,7 +29203,7 @@ bl _p_33
 .word 0x10000011
 .word 0x540010e0
 .word 0x91048340
-bl _p_79
+bl _p_81
 .word 0xfd006ba0
 .word 0xf9402fb1
 .word 0xf9451e31
@@ -28208,7 +29211,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd006fa0
 .word 0xf9402fb1
 .word 0xf9453e31
@@ -28224,7 +29227,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800c80
 .word 0xd2800c80
-bl _p_33
+bl _p_40
 .word 0xfd0067a0
 .word 0xf9402fb1
 .word 0xf9457e31
@@ -28269,7 +29272,7 @@ bl _p_170
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_192
+bl _p_193
 .word 0xf9402fb1
 .word 0xf9462a31
 .word 0xb4000051
@@ -28283,7 +29286,7 @@ bl _p_192
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #880]
+ldr x1, [x16, #904]
 .word 0xaa1a03e0
 bl _p_136
 .word 0xf9402fb1
@@ -28297,7 +29300,7 @@ bl _p_136
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_193
+bl _p_194
 .word 0xf9402fb1
 .word 0xf9468e31
 .word 0xb4000051
@@ -28343,7 +29346,7 @@ bl _p_193
 .word 0xaa1103e1
 bl _p_7
 
-Lme_7b:
+Lme_7c:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_NoiseBubble_SetDefaultCharateristics
@@ -28356,7 +29359,7 @@ WorkHeart_Objects_NoiseBubble_SetDefaultCharateristics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2712]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -28426,7 +29429,7 @@ ldr x1, [x16, #712]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #880]
+ldr x0, [x16, #904]
 .word 0xf9002b40
 .word 0x91014341
 .word 0xd349fc21
@@ -28518,7 +29521,7 @@ bl _p_137
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_7c:
+Lme_7d:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_NoiseBubble_SubscribeToTracking
@@ -28531,7 +29534,7 @@ WorkHeart_Objects_NoiseBubble_SubscribeToTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2720]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28566,10 +29569,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -28589,17 +29592,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2664]
+ldr x1, [x16, #2728]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2672]
+ldr x1, [x16, #2736]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2680]
+ldr x1, [x16, #2744]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -28623,10 +29626,10 @@ bl _p_138
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -28646,17 +29649,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2688]
+ldr x1, [x16, #2752]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2696]
+ldr x1, [x16, #2760]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2704]
+ldr x1, [x16, #2768]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -28688,7 +29691,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_7d:
+Lme_7e:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_NoiseBubble_SubscribeToTrackingStopped
@@ -28701,7 +29704,7 @@ WorkHeart_Objects_NoiseBubble_SubscribeToTrackingStopped:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28736,10 +29739,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -28759,17 +29762,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2688]
+ldr x1, [x16, #2752]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2696]
+ldr x1, [x16, #2760]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2704]
+ldr x1, [x16, #2768]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -28793,10 +29796,10 @@ bl _p_141
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -28816,17 +29819,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2664]
+ldr x1, [x16, #2728]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2672]
+ldr x1, [x16, #2736]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2680]
+ldr x1, [x16, #2744]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -28858,7 +29861,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_7e:
+Lme_7f:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_NoiseBubble_StartTracking
@@ -28871,7 +29874,7 @@ WorkHeart_Objects_NoiseBubble_StartTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2784]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28901,7 +29904,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_194
+bl _p_195
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -28934,7 +29937,7 @@ bl _p_137
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_7f:
+Lme_80:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_NoiseBubble_StopTracking
@@ -28947,7 +29950,7 @@ WorkHeart_Objects_NoiseBubble_StopTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2792]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -28978,7 +29981,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_192
+bl _p_193
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -28990,7 +29993,7 @@ bl _p_192
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_193
+bl _p_194
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -29020,7 +30023,7 @@ bl _p_193
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9414231
@@ -29059,7 +30062,7 @@ bl _p_184
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_80:
+Lme_81:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_NoiseBubble_CenterItemContents
@@ -29072,7 +30075,7 @@ WorkHeart_Objects_NoiseBubble_CenterItemContents:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2800]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29106,7 +30109,7 @@ bl _p_1
 .word 0x10000011
 .word 0x54000ec0
 .word 0x91048340
-bl _p_78
+bl _p_80
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf940ae31
@@ -29114,7 +30117,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd004fa0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -29133,7 +30136,7 @@ bl _p_33
 .word 0x10000011
 .word 0x54000b60
 .word 0x91048340
-bl _p_79
+bl _p_81
 .word 0xfd0043a0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -29141,7 +30144,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0047a0
 .word 0xf94013b1
 .word 0xf9413a31
@@ -29186,7 +30189,7 @@ bl _p_170
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -29228,7 +30231,7 @@ bl _p_184
 .word 0xaa1103e1
 bl _p_7
 
-Lme_81:
+Lme_82:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_NoiseBubble_CheckNoise
@@ -29242,7 +30245,7 @@ WorkHeart_Objects_NoiseBubble_CheckNoise:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2808]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -29315,7 +30318,7 @@ bl _p_1
 .word 0xf2e80ade
 .word 0x9e6703c2
 .word 0x3940003e
-bl _p_195
+bl _p_196
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf9401bb1
@@ -29334,7 +30337,7 @@ bl _p_195
 .word 0xf9408b41
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_92
+bl _p_96
 .word 0xfd0033a0
 .word 0xf9401bb1
 .word 0xf9418e31
@@ -29366,7 +30369,7 @@ bl _p_146
 .word 0x10000011
 .word 0x54000b00
 .word 0x91046340
-bl _p_196
+bl _p_197
 .word 0xf9002fa0
 .word 0xf9401bb1
 .word 0xf9420631
@@ -29379,7 +30382,7 @@ bl _p_196
 .word 0xd2800001
 .word 0xd2800082
 .word 0x3940007e
-bl _p_197
+bl _p_198
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf9423a31
@@ -29422,7 +30425,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_198
+bl _p_199
 .word 0xf9401bb1
 .word 0xf942d231
 .word 0xb4000051
@@ -29463,7 +30466,7 @@ bl _p_198
 .word 0xaa1103e1
 bl _p_7
 
-Lme_82:
+Lme_83:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_NoiseBubble_GetNoiseLevel
@@ -29475,7 +30478,7 @@ WorkHeart_Objects_NoiseBubble_GetNoiseLevel:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2816]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29515,7 +30518,7 @@ ldr x16, [x16, #2752]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_83:
+Lme_84:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_DurationBubble__ctor_CoreGraphics_CGSize
@@ -29531,7 +30534,7 @@ WorkHeart_Objects_DurationBubble__ctor_CoreGraphics_CGSize:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2824]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -29558,12 +30561,12 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2768]
+ldr x0, [x16, #2832]
 .word 0xd2800201
 .word 0xd2800201
-bl _p_58
+bl _p_36
 .word 0xf9007ba0
-bl _p_199
+bl _p_200
 .word 0xf9402fb1
 .word 0xf940aa31
 .word 0xb4000051
@@ -29589,7 +30592,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_187
+bl _p_188
 .word 0xf9402fb1
 .word 0xf9410a31
 .word 0xb4000051
@@ -29628,7 +30631,7 @@ bl _p_187
 .word 0x10000011
 .word 0x54001440
 .word 0x9103a340
-bl _p_78
+bl _p_80
 .word 0xfd0073a0
 .word 0xf9402fb1
 .word 0xf9419e31
@@ -29636,7 +30639,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0077a0
 .word 0xf9402fb1
 .word 0xf941be31
@@ -29652,7 +30655,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800e40
 .word 0xd2800e40
-bl _p_33
+bl _p_40
 .word 0xfd006fa0
 .word 0xf9402fb1
 .word 0xf941fe31
@@ -29671,7 +30674,7 @@ bl _p_33
 .word 0x10000011
 .word 0x54000ee0
 .word 0x9103a340
-bl _p_79
+bl _p_81
 .word 0xfd0063a0
 .word 0xf9402fb1
 .word 0xf9424a31
@@ -29679,7 +30682,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0067a0
 .word 0xf9402fb1
 .word 0xf9426a31
@@ -29724,7 +30727,7 @@ bl _p_170
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_200
+bl _p_201
 .word 0xf9402fb1
 .word 0xf9431631
 .word 0xb4000051
@@ -29738,7 +30741,7 @@ bl _p_200
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #904]
+ldr x1, [x16, #928]
 .word 0xaa1a03e0
 bl _p_136
 .word 0xf9402fb1
@@ -29752,7 +30755,7 @@ bl _p_136
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_201
+bl _p_202
 .word 0xf9402fb1
 .word 0xf9437a31
 .word 0xb4000051
@@ -29798,7 +30801,7 @@ bl _p_201
 .word 0xaa1103e1
 bl _p_7
 
-Lme_84:
+Lme_85:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_DurationBubble_SetDefaultCharateristics
@@ -29811,7 +30814,7 @@ WorkHeart_Objects_DurationBubble_SetDefaultCharateristics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2840]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29881,7 +30884,7 @@ ldr x1, [x16, #720]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #928]
 .word 0xf9002b40
 .word 0x91014341
 .word 0xd349fc21
@@ -29973,7 +30976,7 @@ bl _p_137
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_85:
+Lme_86:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_DurationBubble_SubscribeToTracking
@@ -29986,7 +30989,7 @@ WorkHeart_Objects_DurationBubble_SubscribeToTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2848]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30021,10 +31024,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -30044,17 +31047,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2792]
+ldr x1, [x16, #2856]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2800]
+ldr x1, [x16, #2864]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2808]
+ldr x1, [x16, #2872]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -30078,10 +31081,10 @@ bl _p_138
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -30101,17 +31104,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2816]
+ldr x1, [x16, #2880]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2824]
+ldr x1, [x16, #2888]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2832]
+ldr x1, [x16, #2896]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -30143,7 +31146,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_86:
+Lme_87:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_DurationBubble_SubscribeToTrackingStopped
@@ -30156,7 +31159,7 @@ WorkHeart_Objects_DurationBubble_SubscribeToTrackingStopped:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2904]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30191,10 +31194,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -30214,17 +31217,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2816]
+ldr x1, [x16, #2880]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2824]
+ldr x1, [x16, #2888]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2832]
+ldr x1, [x16, #2896]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -30248,10 +31251,10 @@ bl _p_141
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -30271,17 +31274,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2792]
+ldr x1, [x16, #2856]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2800]
+ldr x1, [x16, #2864]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2808]
+ldr x1, [x16, #2872]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -30313,7 +31316,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_87:
+Lme_88:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_DurationBubble_StartTracking
@@ -30326,7 +31329,7 @@ WorkHeart_Objects_DurationBubble_StartTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2912]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30356,7 +31359,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_202
+bl _p_203
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -30389,7 +31392,7 @@ bl _p_137
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_88:
+Lme_89:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_DurationBubble_StopTracking
@@ -30402,7 +31405,7 @@ WorkHeart_Objects_DurationBubble_StopTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -30433,7 +31436,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_200
+bl _p_201
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -30445,7 +31448,7 @@ bl _p_200
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_201
+bl _p_202
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -30475,7 +31478,7 @@ bl _p_201
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9414231
@@ -30514,7 +31517,7 @@ bl _p_184
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_89:
+Lme_8a:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_DurationBubble_CenterItemContents
@@ -30527,7 +31530,7 @@ WorkHeart_Objects_DurationBubble_CenterItemContents:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #2928]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -30561,7 +31564,7 @@ bl _p_1
 .word 0x10000011
 .word 0x54000ec0
 .word 0x9103a340
-bl _p_78
+bl _p_80
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf940ae31
@@ -30569,7 +31572,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd004fa0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -30588,7 +31591,7 @@ bl _p_33
 .word 0x10000011
 .word 0x54000b60
 .word 0x9103a340
-bl _p_79
+bl _p_81
 .word 0xfd0043a0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -30596,7 +31599,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0047a0
 .word 0xf94013b1
 .word 0xf9413a31
@@ -30641,7 +31644,7 @@ bl _p_170
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -30683,7 +31686,7 @@ bl _p_184
 .word 0xaa1103e1
 bl _p_7
 
-Lme_8a:
+Lme_8b:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_DurationBubble_UpdateDuration_System_TimeSpan
@@ -30698,7 +31701,7 @@ WorkHeart_Objects_DurationBubble_UpdateDuration_System_TimeSpan:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2936]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -30733,7 +31736,7 @@ bl _p_1
 .word 0x53001c00
 .word 0xaa0003f9
 .word 0xaa1903e0
-.word 0x34000840
+.word 0x340008c0
 .loc 16 92 0
 .word 0xf9401fb1
 .word 0xf940b631
@@ -30751,34 +31754,38 @@ bl _p_1
 .word 0xf94017a0
 .word 0xf9002ba0
 .word 0xd280001e
-.word 0xf2e807de
+.word 0xf2c3001e
+.word 0xf2e818be
 .word 0x9e6703c0
 .word 0xd280001e
-.word 0xf2e809de
+.word 0xf2c3001e
+.word 0xf2e81abe
 .word 0x9e6703c0
 .word 0xd280001e
-.word 0xf2c8001e
-.word 0xf2e80ffe
+.word 0xf2c4001e
+.word 0xf2e81b9e
 .word 0x9e6703c0
 .word 0xaa0203e0
 .word 0x910143a1
 .word 0xf9402ba1
 .word 0xd280001e
-.word 0xf2e807de
+.word 0xf2c3001e
+.word 0xf2e818be
 .word 0x9e6703c0
 .word 0xd280001e
-.word 0xf2e809de
+.word 0xf2c3001e
+.word 0xf2e81abe
 .word 0x9e6703c1
 .word 0xd280001e
-.word 0xf2c8001e
-.word 0xf2e80ffe
+.word 0xf2c4001e
+.word 0xf2e81b9e
 .word 0x9e6703c2
 .word 0x3940005e
-bl _p_203
+bl _p_204
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf9401fb1
-.word 0xf9415a31
+.word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -30786,7 +31793,7 @@ bl _p_203
 .word 0xaa0003f8
 .loc 16 95 0
 .word 0xf9401fb1
-.word 0xf9417631
+.word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
@@ -30795,12 +31802,12 @@ bl _p_203
 .word 0xaa1a03e0
 bl _p_146
 .word 0xf9401fb1
-.word 0xf9419a31
+.word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 16 96 0
 .word 0xf9401fb1
-.word 0xf941aa31
+.word 0xf941ba31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 16 97 0
@@ -30809,11 +31816,11 @@ bl _p_146
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf941ca31
+.word 0xf941da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf941da31
+.word 0xf941ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94167b8
@@ -30822,7 +31829,7 @@ bl _p_146
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_8b:
+Lme_8c:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble__ctor_CoreGraphics_CGSize
@@ -30838,7 +31845,7 @@ WorkHeart_Objects_WaterBubble__ctor_CoreGraphics_CGSize:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2944]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -30862,8 +31869,8 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xd2800280
-.word 0xd280029e
+.word 0xd281a900
+.word 0xd281a91e
 .word 0xb900eb5e
 .loc 17 16 0
 .word 0xf9402fb1
@@ -30883,12 +31890,12 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2768]
+ldr x0, [x16, #2832]
 .word 0xd2800201
 .word 0xd2800201
-bl _p_58
+bl _p_36
 .word 0xf9007ba0
-bl _p_199
+bl _p_200
 .word 0xf9402fb1
 .word 0xf940ea31
 .word 0xb4000051
@@ -30914,7 +31921,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_187
+bl _p_188
 .word 0xf9402fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -30933,7 +31940,7 @@ bl _p_187
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1848]
+ldr x0, [x16, #1896]
 .word 0xf9002f40
 .word 0x91016341
 .word 0xd349fc21
@@ -30956,7 +31963,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2888]
+ldr x0, [x16, #2952]
 .word 0xf9003340
 .word 0x91018341
 .word 0xd349fc21
@@ -30979,7 +31986,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2896]
+ldr x0, [x16, #2960]
 .word 0xf9003740
 .word 0x9101a341
 .word 0xd349fc21
@@ -31002,7 +32009,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #816]
 .word 0xf9004b40
 .word 0x91024341
 .word 0xd349fc21
@@ -31025,7 +32032,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #824]
 .word 0xf9004f40
 .word 0x91026341
 .word 0xd349fc21
@@ -31048,7 +32055,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2632]
+ldr x0, [x16, #2696]
 .word 0xf9002340
 .word 0x91010341
 .word 0xd349fc21
@@ -31071,7 +32078,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2904]
+ldr x0, [x16, #2968]
 .word 0xf9002740
 .word 0x91012341
 .word 0xd349fc21
@@ -31114,7 +32121,7 @@ ldr x2, [x16, #16]
 .word 0x10000011
 .word 0x54001440
 .word 0x9103c340
-bl _p_78
+bl _p_80
 .word 0xfd0073a0
 .word 0xf9402fb1
 .word 0xf9440e31
@@ -31122,7 +32129,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0077a0
 .word 0xf9402fb1
 .word 0xf9442e31
@@ -31138,7 +32145,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800e40
 .word 0xd2800e40
-bl _p_33
+bl _p_40
 .word 0xfd006fa0
 .word 0xf9402fb1
 .word 0xf9446e31
@@ -31157,7 +32164,7 @@ bl _p_33
 .word 0x10000011
 .word 0x54000ee0
 .word 0x9103c340
-bl _p_79
+bl _p_81
 .word 0xfd0063a0
 .word 0xf9402fb1
 .word 0xf944ba31
@@ -31165,7 +32172,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0067a0
 .word 0xf9402fb1
 .word 0xf944da31
@@ -31210,7 +32217,7 @@ bl _p_170
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_204
+bl _p_205
 .word 0xf9402fb1
 .word 0xf9458631
 .word 0xb4000051
@@ -31224,7 +32231,7 @@ bl _p_204
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #928]
+ldr x1, [x16, #952]
 .word 0xaa1a03e0
 bl _p_136
 .word 0xf9402fb1
@@ -31238,7 +32245,7 @@ bl _p_136
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_205
+bl _p_206
 .word 0xf9402fb1
 .word 0xf945ea31
 .word 0xb4000051
@@ -31284,7 +32291,7 @@ bl _p_205
 .word 0xaa1103e1
 bl _p_7
 
-Lme_8c:
+Lme_8d:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble_SetDefaultCharateristics
@@ -31297,7 +32304,7 @@ WorkHeart_Objects_WaterBubble_SetDefaultCharateristics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #2976]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -31367,7 +32374,7 @@ ldr x1, [x16, #728]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #952]
 .word 0xf9002b40
 .word 0x91014341
 .word 0xd349fc21
@@ -31459,7 +32466,7 @@ bl _p_137
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8d:
+Lme_8e:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble_SubscribeToTracking
@@ -31472,7 +32479,7 @@ WorkHeart_Objects_WaterBubble_SubscribeToTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2984]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31507,10 +32514,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -31530,17 +32537,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2928]
+ldr x1, [x16, #2992]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2936]
+ldr x1, [x16, #3000]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2944]
+ldr x1, [x16, #3008]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -31564,10 +32571,10 @@ bl _p_138
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -31587,17 +32594,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2952]
+ldr x1, [x16, #3016]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2960]
+ldr x1, [x16, #3024]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2968]
+ldr x1, [x16, #3032]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -31629,7 +32636,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_8e:
+Lme_8f:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble_SubscribeToTrackingStopped
@@ -31642,7 +32649,7 @@ WorkHeart_Objects_WaterBubble_SubscribeToTrackingStopped:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #3040]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31677,10 +32684,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -31700,17 +32707,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2952]
+ldr x1, [x16, #3016]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2960]
+ldr x1, [x16, #3024]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2968]
+ldr x1, [x16, #3032]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -31734,10 +32741,10 @@ bl _p_141
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -31757,17 +32764,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2928]
+ldr x1, [x16, #2992]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2936]
+ldr x1, [x16, #3000]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #2944]
+ldr x1, [x16, #3008]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -31799,7 +32806,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_8f:
+Lme_90:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble_StartTracking
@@ -31812,7 +32819,7 @@ WorkHeart_Objects_WaterBubble_StartTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #3048]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31842,7 +32849,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_206
+bl _p_207
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -31884,7 +32891,7 @@ bl _p_137
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_90:
+Lme_91:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble_StopTracking
@@ -31897,7 +32904,7 @@ WorkHeart_Objects_WaterBubble_StopTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3056]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -31928,7 +32935,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_204
+bl _p_205
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -31940,7 +32947,7 @@ bl _p_204
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_205
+bl _p_206
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -31970,7 +32977,7 @@ bl _p_205
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9414231
@@ -32009,7 +33016,7 @@ bl _p_184
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_91:
+Lme_92:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble_CenterItemContents
@@ -32022,7 +33029,7 @@ WorkHeart_Objects_WaterBubble_CenterItemContents:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #3064]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32056,7 +33063,7 @@ bl _p_1
 .word 0x10000011
 .word 0x54000ec0
 .word 0x9103c340
-bl _p_78
+bl _p_80
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf940ae31
@@ -32064,7 +33071,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd004fa0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -32083,7 +33090,7 @@ bl _p_33
 .word 0x10000011
 .word 0x54000b60
 .word 0x9103c340
-bl _p_79
+bl _p_81
 .word 0xfd0043a0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -32091,7 +33098,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0047a0
 .word 0xf94013b1
 .word 0xf9413a31
@@ -32136,7 +33143,7 @@ bl _p_170
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -32178,7 +33185,7 @@ bl _p_184
 .word 0xaa1103e1
 bl _p_7
 
-Lme_92:
+Lme_93:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble_UpdateDuration_System_TimeSpan
@@ -32193,7 +33200,7 @@ WorkHeart_Objects_WaterBubble_UpdateDuration_System_TimeSpan:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3008]
+ldr x16, [x16, #3072]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -32287,7 +33294,7 @@ bl _p_1
 .word 0x910163a1
 .word 0xf9402fa1
 .word 0x3940005e
-bl _p_203
+bl _p_204
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf94023b1
@@ -32335,7 +33342,7 @@ bl _p_146
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_93:
+Lme_94:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble_addWater
@@ -32348,7 +33355,7 @@ WorkHeart_Objects_WaterBubble_addWater:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #3080]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32403,7 +33410,7 @@ bl _p_1
 .word 0xf2d3333e
 .word 0xf2e7f93e
 .word 0x9e6703c1
-bl _p_207
+bl _p_208
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9410231
@@ -32439,7 +33446,7 @@ bl _p_207
 .word 0x51000400
 .word 0xb9003ba0
 .word 0x9100e3a0
-bl _p_208
+bl _p_209
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9418a31
@@ -32482,7 +33489,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_198
+bl _p_199
 .word 0xf94013b1
 .word 0xf9422231
 .word 0xb4000051
@@ -32510,7 +33517,7 @@ bl _p_198
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_94:
+Lme_95:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble_removeWater
@@ -32524,7 +33531,7 @@ WorkHeart_Objects_WaterBubble_removeWater:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3088]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -32591,7 +33598,7 @@ bl _p_1
 .word 0x51000400
 .word 0xb90043a0
 .word 0x910103a0
-bl _p_208
+bl _p_209
 .word 0xf9002ba0
 .word 0xf94017b1
 .word 0xf9412a31
@@ -32634,7 +33641,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_198
+bl _p_199
 .word 0xf94017b1
 .word 0xf941c231
 .word 0xb4000051
@@ -32672,7 +33679,7 @@ bl _p_198
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_95:
+Lme_96:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_WaterBubble_GetGlasses
@@ -32685,7 +33692,7 @@ WorkHeart_Objects_WaterBubble_GetGlasses:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3032]
+ldr x16, [x16, #3096]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32726,7 +33733,7 @@ ldr x16, [x16, #3032]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_96:
+Lme_97:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_FoodBubble__ctor_CoreGraphics_CGSize
@@ -32742,7 +33749,7 @@ WorkHeart_Objects_FoodBubble__ctor_CoreGraphics_CGSize:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #3104]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -32766,8 +33773,8 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xd2800300
-.word 0xd280031e
+.word 0xd2870800
+.word 0xd287081e
 .word 0xb900eb5e
 .loc 18 16 0
 .word 0xf9402fb1
@@ -32787,12 +33794,12 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2768]
+ldr x0, [x16, #2832]
 .word 0xd2800201
 .word 0xd2800201
-bl _p_58
+bl _p_36
 .word 0xf90083a0
-bl _p_199
+bl _p_200
 .word 0xf9402fb1
 .word 0xf940ea31
 .word 0xb4000051
@@ -32818,7 +33825,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_187
+bl _p_188
 .word 0xf9402fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -32837,7 +33844,7 @@ bl _p_187
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1848]
+ldr x0, [x16, #1896]
 .word 0xf9002f40
 .word 0x91016341
 .word 0xd349fc21
@@ -32860,7 +33867,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3048]
+ldr x0, [x16, #3112]
 .word 0xf9003340
 .word 0x91018341
 .word 0xd349fc21
@@ -32883,7 +33890,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3056]
+ldr x0, [x16, #3120]
 .word 0xf9003740
 .word 0x9101a341
 .word 0xd349fc21
@@ -32906,7 +33913,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #808]
+ldr x0, [x16, #832]
 .word 0xf9004b40
 .word 0x91024341
 .word 0xd349fc21
@@ -32929,7 +33936,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #840]
 .word 0xf9004f40
 .word 0x91026341
 .word 0xd349fc21
@@ -32952,7 +33959,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2632]
+ldr x0, [x16, #2696]
 .word 0xf9002340
 .word 0x91010341
 .word 0xd349fc21
@@ -32975,7 +33982,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3064]
+ldr x0, [x16, #3128]
 .word 0xf9002740
 .word 0x91012341
 .word 0xd349fc21
@@ -33018,7 +34025,7 @@ ldr x2, [x16, #16]
 .word 0x10000011
 .word 0x54001640
 .word 0x9103c340
-bl _p_78
+bl _p_80
 .word 0xfd007ba0
 .word 0xf9402fb1
 .word 0xf9440e31
@@ -33026,7 +34033,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd007fa0
 .word 0xf9402fb1
 .word 0xf9442e31
@@ -33042,7 +34049,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800780
 .word 0xd2800780
-bl _p_33
+bl _p_40
 .word 0xfd0077a0
 .word 0xf9402fb1
 .word 0xf9446e31
@@ -33061,7 +34068,7 @@ bl _p_33
 .word 0x10000011
 .word 0x540010e0
 .word 0x9103c340
-bl _p_79
+bl _p_81
 .word 0xfd006ba0
 .word 0xf9402fb1
 .word 0xf944ba31
@@ -33069,7 +34076,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd006fa0
 .word 0xf9402fb1
 .word 0xf944da31
@@ -33085,7 +34092,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800c80
 .word 0xd2800c80
-bl _p_33
+bl _p_40
 .word 0xfd0067a0
 .word 0xf9402fb1
 .word 0xf9451a31
@@ -33130,7 +34137,7 @@ bl _p_170
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_209
+bl _p_210
 .word 0xf9402fb1
 .word 0xf945c631
 .word 0xb4000051
@@ -33144,7 +34151,7 @@ bl _p_209
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #952]
+ldr x1, [x16, #976]
 .word 0xaa1a03e0
 bl _p_136
 .word 0xf9402fb1
@@ -33158,7 +34165,7 @@ bl _p_136
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_210
+bl _p_211
 .word 0xf9402fb1
 .word 0xf9462a31
 .word 0xb4000051
@@ -33204,7 +34211,7 @@ bl _p_210
 .word 0xaa1103e1
 bl _p_7
 
-Lme_97:
+Lme_98:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_FoodBubble_SetDefaultCharateristics
@@ -33217,7 +34224,7 @@ WorkHeart_Objects_FoodBubble_SetDefaultCharateristics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3072]
+ldr x16, [x16, #3136]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -33287,7 +34294,7 @@ ldr x1, [x16, #736]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #952]
+ldr x0, [x16, #976]
 .word 0xf9002b40
 .word 0x91014341
 .word 0xd349fc21
@@ -33379,7 +34386,7 @@ bl _p_137
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_98:
+Lme_99:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_FoodBubble_SubscribeToTracking
@@ -33392,7 +34399,7 @@ WorkHeart_Objects_FoodBubble_SubscribeToTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #3144]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -33427,10 +34434,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -33450,17 +34457,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3088]
+ldr x1, [x16, #3152]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3096]
+ldr x1, [x16, #3160]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3104]
+ldr x1, [x16, #3168]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -33484,10 +34491,10 @@ bl _p_138
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -33507,17 +34514,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3112]
+ldr x1, [x16, #3176]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3120]
+ldr x1, [x16, #3184]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3128]
+ldr x1, [x16, #3192]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -33549,7 +34556,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_99:
+Lme_9a:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_FoodBubble_SubscribeToTrackingStopped
@@ -33562,7 +34569,7 @@ WorkHeart_Objects_FoodBubble_SubscribeToTrackingStopped:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3136]
+ldr x16, [x16, #3200]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -33597,10 +34604,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -33620,17 +34627,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3112]
+ldr x1, [x16, #3176]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3120]
+ldr x1, [x16, #3184]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3128]
+ldr x1, [x16, #3192]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -33654,10 +34661,10 @@ bl _p_141
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -33677,17 +34684,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3088]
+ldr x1, [x16, #3152]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3096]
+ldr x1, [x16, #3160]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3104]
+ldr x1, [x16, #3168]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -33719,7 +34726,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_9a:
+Lme_9b:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_FoodBubble_StartTracking
@@ -33732,7 +34739,7 @@ WorkHeart_Objects_FoodBubble_StartTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3144]
+ldr x16, [x16, #3208]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -33762,7 +34769,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_211
+bl _p_212
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -33804,7 +34811,7 @@ bl _p_137
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_9b:
+Lme_9c:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_FoodBubble_StopTracking
@@ -33817,7 +34824,7 @@ WorkHeart_Objects_FoodBubble_StopTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3152]
+ldr x16, [x16, #3216]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -33848,7 +34855,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_209
+bl _p_210
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -33860,7 +34867,7 @@ bl _p_209
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_210
+bl _p_211
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -33890,7 +34897,7 @@ bl _p_210
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9414231
@@ -33929,7 +34936,7 @@ bl _p_184
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_9c:
+Lme_9d:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_FoodBubble_CenterItemContents
@@ -33942,7 +34949,7 @@ WorkHeart_Objects_FoodBubble_CenterItemContents:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3160]
+ldr x16, [x16, #3224]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -33976,7 +34983,7 @@ bl _p_1
 .word 0x10000011
 .word 0x54000ec0
 .word 0x9103c340
-bl _p_78
+bl _p_80
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf940ae31
@@ -33984,7 +34991,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd004fa0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -34003,7 +35010,7 @@ bl _p_33
 .word 0x10000011
 .word 0x54000b60
 .word 0x9103c340
-bl _p_79
+bl _p_81
 .word 0xfd0043a0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -34011,7 +35018,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0047a0
 .word 0xf94013b1
 .word 0xf9413a31
@@ -34056,7 +35063,7 @@ bl _p_170
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -34098,7 +35105,7 @@ bl _p_184
 .word 0xaa1103e1
 bl _p_7
 
-Lme_9d:
+Lme_9e:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_FoodBubble_UpdateDuration_System_TimeSpan
@@ -34113,7 +35120,7 @@ WorkHeart_Objects_FoodBubble_UpdateDuration_System_TimeSpan:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3168]
+ldr x16, [x16, #3232]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -34207,7 +35214,7 @@ bl _p_1
 .word 0x910163a1
 .word 0xf9402fa1
 .word 0x3940005e
-bl _p_203
+bl _p_204
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf94023b1
@@ -34255,7 +35262,7 @@ bl _p_146
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_9e:
+Lme_9f:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_FoodBubble_addFood
@@ -34268,7 +35275,7 @@ WorkHeart_Objects_FoodBubble_addFood:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3176]
+ldr x16, [x16, #3240]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -34314,7 +35321,7 @@ bl _p_1
 .word 0x51000400
 .word 0xb9003ba0
 .word 0x9100e3a0
-bl _p_208
+bl _p_209
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940da31
@@ -34357,7 +35364,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_198
+bl _p_199
 .word 0xf94013b1
 .word 0xf9417231
 .word 0xb4000051
@@ -34385,7 +35392,7 @@ bl _p_198
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_9f:
+Lme_a0:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_FoodBubble_removeFood
@@ -34399,7 +35406,7 @@ WorkHeart_Objects_FoodBubble_removeFood:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #3248]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -34466,7 +35473,7 @@ bl _p_1
 .word 0x51000400
 .word 0xb90043a0
 .word 0x910103a0
-bl _p_208
+bl _p_209
 .word 0xf9002ba0
 .word 0xf94017b1
 .word 0xf9412a31
@@ -34509,7 +35516,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_198
+bl _p_199
 .word 0xf94017b1
 .word 0xf941c231
 .word 0xb4000051
@@ -34547,7 +35554,7 @@ bl _p_198
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_a0:
+Lme_a1:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_StandBubble__ctor_CoreGraphics_CGSize
@@ -34563,7 +35570,7 @@ WorkHeart_Objects_StandBubble__ctor_CoreGraphics_CGSize:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3192]
+ldr x16, [x16, #3256]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -34587,8 +35594,8 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xd2800340
-.word 0xd280035e
+.word 0xd282a300
+.word 0xd282a31e
 .word 0xb900eb5e
 .loc 19 16 0
 .word 0xf9402fb1
@@ -34608,12 +35615,12 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2768]
+ldr x0, [x16, #2832]
 .word 0xd2800201
 .word 0xd2800201
-bl _p_58
+bl _p_36
 .word 0xf90083a0
-bl _p_199
+bl _p_200
 .word 0xf9402fb1
 .word 0xf940ea31
 .word 0xb4000051
@@ -34639,7 +35646,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_187
+bl _p_188
 .word 0xf9402fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -34658,7 +35665,7 @@ bl _p_187
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1848]
+ldr x0, [x16, #1896]
 .word 0xf9002f40
 .word 0x91016341
 .word 0xd349fc21
@@ -34681,7 +35688,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3200]
+ldr x0, [x16, #3264]
 .word 0xf9003340
 .word 0x91018341
 .word 0xd349fc21
@@ -34704,7 +35711,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3208]
+ldr x0, [x16, #3272]
 .word 0xf9003740
 .word 0x9101a341
 .word 0xd349fc21
@@ -34727,7 +35734,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #824]
+ldr x0, [x16, #848]
 .word 0xf9004b40
 .word 0x91024341
 .word 0xd349fc21
@@ -34750,7 +35757,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #856]
 .word 0xf9004f40
 .word 0x91026341
 .word 0xd349fc21
@@ -34773,7 +35780,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2632]
+ldr x0, [x16, #2696]
 .word 0xf9002340
 .word 0x91010341
 .word 0xd349fc21
@@ -34796,7 +35803,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3216]
+ldr x0, [x16, #3280]
 .word 0xf9002740
 .word 0x91012341
 .word 0xd349fc21
@@ -34839,7 +35846,7 @@ ldr x2, [x16, #16]
 .word 0x10000011
 .word 0x54001640
 .word 0x9103c340
-bl _p_78
+bl _p_80
 .word 0xfd007ba0
 .word 0xf9402fb1
 .word 0xf9440e31
@@ -34847,7 +35854,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd007fa0
 .word 0xf9402fb1
 .word 0xf9442e31
@@ -34863,7 +35870,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800780
 .word 0xd2800780
-bl _p_33
+bl _p_40
 .word 0xfd0077a0
 .word 0xf9402fb1
 .word 0xf9446e31
@@ -34882,7 +35889,7 @@ bl _p_33
 .word 0x10000011
 .word 0x540010e0
 .word 0x9103c340
-bl _p_79
+bl _p_81
 .word 0xfd006ba0
 .word 0xf9402fb1
 .word 0xf944ba31
@@ -34890,7 +35897,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd006fa0
 .word 0xf9402fb1
 .word 0xf944da31
@@ -34906,7 +35913,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800c80
 .word 0xd2800c80
-bl _p_33
+bl _p_40
 .word 0xfd0067a0
 .word 0xf9402fb1
 .word 0xf9451a31
@@ -34951,7 +35958,7 @@ bl _p_170
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_212
+bl _p_213
 .word 0xf9402fb1
 .word 0xf945c631
 .word 0xb4000051
@@ -34965,7 +35972,7 @@ bl _p_212
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #976]
+ldr x1, [x16, #1000]
 .word 0xaa1a03e0
 bl _p_136
 .word 0xf9402fb1
@@ -34979,7 +35986,7 @@ bl _p_136
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_213
+bl _p_214
 .word 0xf9402fb1
 .word 0xf9462a31
 .word 0xb4000051
@@ -35025,7 +36032,7 @@ bl _p_213
 .word 0xaa1103e1
 bl _p_7
 
-Lme_a1:
+Lme_a2:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_StandBubble_SetDefaultCharateristics
@@ -35038,7 +36045,7 @@ WorkHeart_Objects_StandBubble_SetDefaultCharateristics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3224]
+ldr x16, [x16, #3288]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35108,7 +36115,7 @@ ldr x1, [x16, #744]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #976]
+ldr x0, [x16, #1000]
 .word 0xf9002b40
 .word 0x91014341
 .word 0xd349fc21
@@ -35200,7 +36207,7 @@ bl _p_137
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a2:
+Lme_a3:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_StandBubble_SubscribeToTracking
@@ -35213,7 +36220,7 @@ WorkHeart_Objects_StandBubble_SubscribeToTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3232]
+ldr x16, [x16, #3296]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -35248,10 +36255,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -35271,17 +36278,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3240]
+ldr x1, [x16, #3304]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3248]
+ldr x1, [x16, #3312]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3256]
+ldr x1, [x16, #3320]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -35305,10 +36312,10 @@ bl _p_138
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -35328,17 +36335,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3264]
+ldr x1, [x16, #3328]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3272]
+ldr x1, [x16, #3336]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3280]
+ldr x1, [x16, #3344]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -35370,7 +36377,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_a3:
+Lme_a4:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_StandBubble_SubscribeToTrackingStopped
@@ -35383,7 +36390,7 @@ WorkHeart_Objects_StandBubble_SubscribeToTrackingStopped:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3288]
+ldr x16, [x16, #3352]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -35418,10 +36425,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -35441,17 +36448,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3264]
+ldr x1, [x16, #3328]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3272]
+ldr x1, [x16, #3336]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3280]
+ldr x1, [x16, #3344]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -35475,10 +36482,10 @@ bl _p_141
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -35498,17 +36505,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3240]
+ldr x1, [x16, #3304]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3248]
+ldr x1, [x16, #3312]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3256]
+ldr x1, [x16, #3320]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -35540,7 +36547,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_a4:
+Lme_a5:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_StandBubble_StartTracking
@@ -35553,7 +36560,7 @@ WorkHeart_Objects_StandBubble_StartTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3296]
+ldr x16, [x16, #3360]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -35583,7 +36590,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_214
+bl _p_215
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -35625,7 +36632,7 @@ bl _p_137
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a5:
+Lme_a6:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_StandBubble_StopTracking
@@ -35638,7 +36645,7 @@ WorkHeart_Objects_StandBubble_StopTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3304]
+ldr x16, [x16, #3368]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35669,7 +36676,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_212
+bl _p_213
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -35681,7 +36688,7 @@ bl _p_212
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_213
+bl _p_214
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -35711,7 +36718,7 @@ bl _p_213
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9414231
@@ -35750,7 +36757,7 @@ bl _p_184
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_a6:
+Lme_a7:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_StandBubble_CenterItemContents
@@ -35763,7 +36770,7 @@ WorkHeart_Objects_StandBubble_CenterItemContents:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3312]
+ldr x16, [x16, #3376]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35797,7 +36804,7 @@ bl _p_1
 .word 0x10000011
 .word 0x54000ec0
 .word 0x9103c340
-bl _p_78
+bl _p_80
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf940ae31
@@ -35805,7 +36812,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd004fa0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -35824,7 +36831,7 @@ bl _p_33
 .word 0x10000011
 .word 0x54000b60
 .word 0x9103c340
-bl _p_79
+bl _p_81
 .word 0xfd0043a0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -35832,7 +36839,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0047a0
 .word 0xf94013b1
 .word 0xf9413a31
@@ -35877,7 +36884,7 @@ bl _p_170
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -35919,7 +36926,7 @@ bl _p_184
 .word 0xaa1103e1
 bl _p_7
 
-Lme_a7:
+Lme_a8:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_StandBubble_UpdateDuration_System_TimeSpan
@@ -35934,7 +36941,7 @@ WorkHeart_Objects_StandBubble_UpdateDuration_System_TimeSpan:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3320]
+ldr x16, [x16, #3384]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -36003,10 +37010,10 @@ bl _p_1
 .word 0xaa1a03e0
 .word 0xb980eb40
 .word 0x1e620001
-.word 0xd29999be
-.word 0xf2b9999e
-.word 0xf2d9999e
-.word 0xf2e7fc9e
+.word 0xd290a3fe
+.word 0xf2aa3d7e
+.word 0xf2c3d71e
+.word 0xf2e7fcbe
 .word 0x9e6703c2
 .word 0x1e620821
 .word 0x1e613800
@@ -36015,10 +37022,10 @@ bl _p_1
 .word 0xaa1a03e0
 .word 0xb980eb40
 .word 0x1e620002
-.word 0xd28cccde
-.word 0xf2acccde
-.word 0xf2ccccde
-.word 0xf2e7fade
+.word 0xd290a3fe
+.word 0xf2aa3d7e
+.word 0xf2c3d71e
+.word 0xf2e7fabe
 .word 0x9e6703c3
 .word 0x1e630842
 .word 0x1e623821
@@ -36028,7 +37035,7 @@ bl _p_1
 .word 0x910163a1
 .word 0xf9402fa1
 .word 0x3940005e
-bl _p_203
+bl _p_204
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf94023b1
@@ -36076,7 +37083,7 @@ bl _p_146
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_a8:
+Lme_a9:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_StandBubble_addStand
@@ -36089,7 +37096,7 @@ WorkHeart_Objects_StandBubble_addStand:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3328]
+ldr x16, [x16, #3392]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -36135,7 +37142,7 @@ bl _p_1
 .word 0x51000400
 .word 0xb9003ba0
 .word 0x9100e3a0
-bl _p_208
+bl _p_209
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940da31
@@ -36178,7 +37185,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_198
+bl _p_199
 .word 0xf94013b1
 .word 0xf9417231
 .word 0xb4000051
@@ -36206,7 +37213,7 @@ bl _p_198
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_a9:
+Lme_aa:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_StandBubble_removeStand
@@ -36220,7 +37227,7 @@ WorkHeart_Objects_StandBubble_removeStand:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3336]
+ldr x16, [x16, #3400]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -36287,7 +37294,7 @@ bl _p_1
 .word 0x51000400
 .word 0xb90043a0
 .word 0x910103a0
-bl _p_208
+bl _p_209
 .word 0xf9002ba0
 .word 0xf94017b1
 .word 0xf9412a31
@@ -36330,7 +37337,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_198
+bl _p_199
 .word 0xf94017b1
 .word 0xf941c231
 .word 0xb4000051
@@ -36368,7 +37375,7 @@ bl _p_198
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_aa:
+Lme_ab:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_MotionBubble__ctor_CoreGraphics_CGSize
@@ -36384,7 +37391,7 @@ WorkHeart_Objects_MotionBubble__ctor_CoreGraphics_CGSize:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3344]
+ldr x16, [x16, #3408]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -36411,12 +37418,12 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3352]
+ldr x0, [x16, #3416]
 .word 0xd2800501
 .word 0xd2800501
-bl _p_58
+bl _p_36
 .word 0xf90083a0
-bl _p_215
+bl _p_216
 .word 0xf9402fb1
 .word 0xf940aa31
 .word 0xb4000051
@@ -36474,7 +37481,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_187
+bl _p_188
 .word 0xf9402fb1
 .word 0xf9417a31
 .word 0xb4000051
@@ -36493,7 +37500,7 @@ bl _p_187
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2584]
+ldr x0, [x16, #2648]
 .word 0xf9002f40
 .word 0x91016341
 .word 0xd349fc21
@@ -36516,7 +37523,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3360]
+ldr x0, [x16, #3424]
 .word 0xf9003340
 .word 0x91018341
 .word 0xd349fc21
@@ -36539,7 +37546,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3368]
+ldr x0, [x16, #3432]
 .word 0xf9003740
 .word 0x9101a341
 .word 0xd349fc21
@@ -36562,7 +37569,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2608]
+ldr x0, [x16, #3440]
 .word 0xf9005f40
 .word 0x9102e341
 .word 0xd349fc21
@@ -36585,7 +37592,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2616]
+ldr x0, [x16, #3440]
 .word 0xf9006340
 .word 0x91030341
 .word 0xd349fc21
@@ -36608,7 +37615,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2624]
+ldr x0, [x16, #3440]
 .word 0xf9006740
 .word 0x91032341
 .word 0xd349fc21
@@ -36631,7 +37638,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #2632]
+ldr x0, [x16, #2696]
 .word 0xf9002340
 .word 0x91010341
 .word 0xd349fc21
@@ -36654,7 +37661,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3376]
+ldr x0, [x16, #3448]
 .word 0xf9002740
 .word 0x91012341
 .word 0xd349fc21
@@ -36697,7 +37704,7 @@ ldr x2, [x16, #16]
 .word 0x10000011
 .word 0x54001640
 .word 0x91042340
-bl _p_78
+bl _p_80
 .word 0xfd007ba0
 .word 0xf9402fb1
 .word 0xf9448e31
@@ -36705,7 +37712,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd007fa0
 .word 0xf9402fb1
 .word 0xf944ae31
@@ -36721,7 +37728,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800780
 .word 0xd2800780
-bl _p_33
+bl _p_40
 .word 0xfd0077a0
 .word 0xf9402fb1
 .word 0xf944ee31
@@ -36740,7 +37747,7 @@ bl _p_33
 .word 0x10000011
 .word 0x540010e0
 .word 0x91042340
-bl _p_79
+bl _p_81
 .word 0xfd006ba0
 .word 0xf9402fb1
 .word 0xf9453a31
@@ -36748,7 +37755,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd006fa0
 .word 0xf9402fb1
 .word 0xf9455a31
@@ -36764,7 +37771,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xd2800c80
 .word 0xd2800c80
-bl _p_33
+bl _p_40
 .word 0xfd0067a0
 .word 0xf9402fb1
 .word 0xf9459a31
@@ -36809,7 +37816,7 @@ bl _p_170
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_216
+bl _p_217
 .word 0xf9402fb1
 .word 0xf9464631
 .word 0xb4000051
@@ -36823,7 +37830,7 @@ bl _p_216
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3368]
+ldr x1, [x16, #3432]
 .word 0xaa1a03e0
 bl _p_136
 .word 0xf9402fb1
@@ -36837,7 +37844,7 @@ bl _p_136
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_217
+bl _p_218
 .word 0xf9402fb1
 .word 0xf946aa31
 .word 0xb4000051
@@ -36883,7 +37890,7 @@ bl _p_217
 .word 0xaa1103e1
 bl _p_7
 
-Lme_ab:
+Lme_ac:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_MotionBubble_SetDefaultCharateristics
@@ -36896,7 +37903,7 @@ WorkHeart_Objects_MotionBubble_SetDefaultCharateristics:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3384]
+ldr x16, [x16, #3456]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -36966,7 +37973,7 @@ ldr x1, [x16, #704]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3368]
+ldr x0, [x16, #3432]
 .word 0xf9002b40
 .word 0x91014341
 .word 0xd349fc21
@@ -37058,7 +38065,7 @@ bl _p_137
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_ac:
+Lme_ad:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_MotionBubble_SubscribeToTracking
@@ -37071,7 +38078,7 @@ WorkHeart_Objects_MotionBubble_SubscribeToTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3392]
+ldr x16, [x16, #3464]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37106,10 +38113,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -37129,17 +38136,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3400]
+ldr x1, [x16, #3472]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3408]
+ldr x1, [x16, #3480]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3416]
+ldr x1, [x16, #3488]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -37163,10 +38170,10 @@ bl _p_138
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -37186,17 +38193,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3424]
+ldr x1, [x16, #3496]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3432]
+ldr x1, [x16, #3504]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3440]
+ldr x1, [x16, #3512]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -37228,7 +38235,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_ad:
+Lme_ae:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_MotionBubble_SubscribeToTrackingStopped
@@ -37241,7 +38248,7 @@ WorkHeart_Objects_MotionBubble_SubscribeToTrackingStopped:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3448]
+ldr x16, [x16, #3520]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37276,10 +38283,10 @@ bl _p_1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1680]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000c40
@@ -37299,17 +38306,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3424]
+ldr x1, [x16, #3496]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3432]
+ldr x1, [x16, #3504]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3440]
+ldr x1, [x16, #3512]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -37333,10 +38340,10 @@ bl _p_141
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1648]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_58
+bl _p_36
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
@@ -37356,17 +38363,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3400]
+ldr x1, [x16, #3472]
 .word 0xf9001401
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3408]
+ldr x1, [x16, #3480]
 .word 0xf9002001
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x1, [x16, #3416]
+ldr x1, [x16, #3488]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -37398,7 +38405,7 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_7
 
-Lme_ae:
+Lme_af:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_MotionBubble_StartTracking
@@ -37411,7 +38418,7 @@ WorkHeart_Objects_MotionBubble_StartTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3456]
+ldr x16, [x16, #3528]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37441,7 +38448,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_218
+bl _p_219
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -37474,7 +38481,7 @@ bl _p_137
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_af:
+Lme_b0:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_MotionBubble_StopTracking
@@ -37487,7 +38494,7 @@ WorkHeart_Objects_MotionBubble_StopTracking:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3464]
+ldr x16, [x16, #3536]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -37518,7 +38525,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_216
+bl _p_217
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -37530,7 +38537,7 @@ bl _p_216
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_217
+bl _p_218
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -37560,7 +38567,7 @@ bl _p_217
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9414231
@@ -37599,7 +38606,7 @@ bl _p_184
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_b0:
+Lme_b1:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_MotionBubble_CenterItemContents
@@ -37612,7 +38619,7 @@ WorkHeart_Objects_MotionBubble_CenterItemContents:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3472]
+ldr x16, [x16, #3544]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -37646,7 +38653,7 @@ bl _p_1
 .word 0x10000011
 .word 0x54000ec0
 .word 0x91042340
-bl _p_78
+bl _p_80
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf940ae31
@@ -37654,7 +38661,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd004fa0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -37673,7 +38680,7 @@ bl _p_33
 .word 0x10000011
 .word 0x54000b60
 .word 0x91042340
-bl _p_79
+bl _p_81
 .word 0xfd0043a0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -37681,7 +38688,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_33
+bl _p_40
 .word 0xfd0047a0
 .word 0xf94013b1
 .word 0xf9413a31
@@ -37726,7 +38733,7 @@ bl _p_170
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_184
+bl _p_185
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf941ee31
@@ -37768,7 +38775,7 @@ bl _p_184
 .word 0xaa1103e1
 bl _p_7
 
-Lme_b1:
+Lme_b2:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_MotionBubble_CheckMotion
@@ -37782,7 +38789,7 @@ WorkHeart_Objects_MotionBubble_CheckMotion:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3480]
+ldr x16, [x16, #3552]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -37859,7 +38866,7 @@ bl _p_1
 .word 0xf2e7ff1e
 .word 0x9e6703c2
 .word 0x3940003e
-bl _p_219
+bl _p_220
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf9401bb1
@@ -37878,7 +38885,7 @@ bl _p_219
 .word 0xf9407341
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_123
+bl _p_126
 .word 0xfd0033a0
 .word 0xf9401bb1
 .word 0xf9419e31
@@ -37910,7 +38917,7 @@ bl _p_146
 .word 0x10000011
 .word 0x54000c60
 .word 0x9103a340
-bl _p_196
+bl _p_197
 .word 0xf9002fa0
 .word 0xf9401bb1
 .word 0xf9421631
@@ -37923,7 +38930,7 @@ bl _p_196
 .word 0xd2800001
 .word 0xd2800082
 .word 0x3940007e
-bl _p_197
+bl _p_198
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf9424a31
@@ -37950,7 +38957,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9402340
-bl _p_220
+bl _p_221
 .word 0xf9401bb1
 .word 0xf942aa31
 .word 0xb4000051
@@ -37978,7 +38985,7 @@ bl _p_220
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_198
+bl _p_199
 .word 0xf9401bb1
 .word 0xf9430e31
 .word 0xb4000051
@@ -38019,7 +39026,7 @@ bl _p_198
 .word 0xaa1103e1
 bl _p_7
 
-Lme_b2:
+Lme_b3:
 .text
 	.align 4
 	.no_dead_strip WorkHeart_Objects_MotionBubble_GetMaxMotion
@@ -38031,7 +39038,7 @@ WorkHeart_Objects_MotionBubble_GetMaxMotion:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3488]
+ldr x16, [x16, #3560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38071,7 +39078,7 @@ ldr x16, [x16, #3488]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_b3:
+Lme_b4:
 .text
 	.align 4
 	.no_dead_strip _PrivateImplementationDetails_ComputeStringHash_string
@@ -38084,7 +39091,7 @@ _PrivateImplementationDetails_ComputeStringHash_string:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3496]
+ldr x16, [x16, #3568]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -38165,18 +39172,18 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_7
 
-Lme_b4:
+Lme_b5:
 .text
 	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton__c__DisplayClass27_0__ctor
-WorkHeart_Objects_TimerButton__c__DisplayClass27_0__ctor:
+	.no_dead_strip WorkHeart_Objects_TimerButton__c__DisplayClass28_0__ctor
+WorkHeart_Objects_TimerButton__c__DisplayClass28_0__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3504]
+ldr x16, [x16, #3576]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38197,25 +39204,26 @@ ldr x16, [x16, #3504]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_cd:
+Lme_ce:
 .text
 	.align 4
-	.no_dead_strip WorkHeart_Objects_TimerButton__c__DisplayClass27_0__UpdateTimeb__0
-WorkHeart_Objects_TimerButton__c__DisplayClass27_0__UpdateTimeb__0:
-.loc 12 258 0 prologue_end
-.word 0xa9b27bfd
+	.no_dead_strip WorkHeart_Objects_TimerButton__c__DisplayClass28_0__UpdateTimeb__0
+WorkHeart_Objects_TimerButton__c__DisplayClass28_0__UpdateTimeb__0:
+.loc 12 285 0 prologue_end
+.word 0xa9b37bfd
 .word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xa9036bb9
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
 .word 0xaa0003fa
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3512]
-.word 0xf90023b0
+ldr x16, [x16, #3584]
+.word 0xf9002bb0
 .word 0xf9400a11
-.word 0xf90027b1
+.word 0xf9002fb1
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
@@ -38223,206 +39231,399 @@ ldr x0, [x16, #56]
 .word 0xf9400011
 .word 0xb4000051
 bl _p_1
-.word 0xb9005bbf
-.word 0xf94023b1
-.word 0xf9405a31
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xb9006bbf
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
+.word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9407a31
+.word 0xf9402bb1
+.word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 259 0
-.word 0xf94023b1
-.word 0xf9408a31
+.loc 12 286 0
+.word 0xf9402bb1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54002a60
+.word 0x91006340
+bl _p_222
+.word 0x93407c00
+.word 0xf90057a0
+.word 0xf9402bb1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a0
+.word 0xb9006ba0
+.word 0x9101a3a0
+bl _p_209
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xf9004fa0
+.word 0xaa0003f9
+.loc 12 287 0
+.word 0xf9402bb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xaa0003e1
+.word 0xb9801000
+.word 0xf9004ba0
+.word 0xf9402bb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0xd2800041
+.word 0xd280005e
+.word 0x6b1e001f
+.word 0x9a9fa7e0
+.word 0x53001c00
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0x34000340
+.loc 12 288 0
+.word 0xf9402bb1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 289 0
+.word 0xf9402bb1
+.word 0xf9417a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #2696]
+.word 0xaa1903e1
+.word 0xaa1903e1
+bl _p_87
+.word 0xf9004ba0
+.word 0xf9402bb1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0xaa0003f9
+.loc 12 290 0
+.word 0xf9402bb1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 292 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf941de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x540020a0
+.word 0x91006340
+bl _p_223
+.word 0x93407c00
+.word 0xf90057a0
+.word 0xf9402bb1
+.word 0xf9420e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a0
+.word 0xb9006ba0
+.word 0x9101a3a0
+bl _p_209
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf9423231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xf9004fa0
+.word 0xaa0003f8
+.loc 12 293 0
+.word 0xf9402bb1
+.word 0xf9424e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xaa0003e1
+.word 0xb9801000
+.word 0xf9004ba0
+.word 0xf9402bb1
+.word 0xf9426e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0xd2800041
+.word 0xd280005e
+.word 0x6b1e001f
+.word 0x9a9fa7e0
+.word 0x53001c00
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0x34000340
+.loc 12 294 0
+.word 0xf9402bb1
+.word 0xf942a231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 295 0
+.word 0xf9402bb1
+.word 0xf942b231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #2696]
+.word 0xaa1803e1
+.word 0xaa1803e1
+bl _p_87
+.word 0xf9004ba0
+.word 0xf9402bb1
+.word 0xf942de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0xaa0003f8
+.loc 12 296 0
+.word 0xf9402bb1
+.word 0xf942f631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 298 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9431631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x540016e0
+.word 0x91006340
+bl _p_224
+.word 0x93407c00
+.word 0xf90057a0
+.word 0xf9402bb1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a0
+.word 0xb9006ba0
+.word 0x9101a3a0
+bl _p_209
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf9436a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xf9004fa0
+.word 0xaa0003f7
+.loc 12 299 0
+.word 0xf9402bb1
+.word 0xf9438631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xaa0003e1
+.word 0xb9801000
+.word 0xf9004ba0
+.word 0xf9402bb1
+.word 0xf943a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0xd2800041
+.word 0xd280005e
+.word 0x6b1e001f
+.word 0x9a9fa7e0
+.word 0x53001c00
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0x34000340
+.loc 12 300 0
+.word 0xf9402bb1
+.word 0xf943da31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 301 0
+.word 0xf9402bb1
+.word 0xf943ea31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #2696]
+.word 0xaa1703e1
+.word 0xaa1703e1
+bl _p_87
+.word 0xf9004ba0
+.word 0xf9402bb1
+.word 0xf9441631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0xaa0003f7
+.loc 12 302 0
+.word 0xf9402bb1
+.word 0xf9442e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 304 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9444e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400b40
 .word 0xf9401400
-.word 0xf90037a0
+.word 0xf9004fa0
 .word 0xd28000a0
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #3520]
+ldr x0, [x16, #3592]
 .word 0xd28000a1
-bl _p_104
-.word 0xaa0003f9
-.word 0xaa1903e0
+bl _p_107
+.word 0xaa0003f3
+.word 0xaa1303e0
 .word 0xf90063a0
-.word 0xaa1903e0
-.word 0xf9006ba0
+.word 0xaa1303e0
 .word 0xd2800000
-.word 0xaa1a03e0
-.word 0xeb1f035f
-.word 0x10000011
-.word 0x54001340
-.word 0x91006340
-bl _p_221
-.word 0x93407c00
-.word 0xf9006fa0
-.word 0xf94023b1
-.word 0xf940fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406fa0
-.word 0xb9005ba0
-.word 0x910163a0
-bl _p_208
-.word 0xf90067a0
-.word 0xf94023b1
-.word 0xf9411e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94067a2
-.word 0xf9406ba3
-.word 0xaa0303e0
+.word 0xaa1903e0
+.word 0xaa1303e0
 .word 0xd2800001
-.word 0xf9400063
+.word 0xaa1903e2
+.word 0xf9400263
 .word 0xf9404870
 .word 0xd63f0200
 .word 0xf94063a0
-.word 0xaa0003f8
-.word 0xaa1803e0
+.word 0xf9003ba0
+.word 0xf9403ba0
 .word 0xf9005fa0
-.word 0xaa1803e0
+.word 0xf9403ba3
 .word 0xd2800020
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #3528]
-.word 0xaa1803e0
-.word 0xd2800021
-.word 0xf9400303
-.word 0xf9404870
-.word 0xd63f0200
-.word 0xf9405fa0
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xf9004fa0
-.word 0xaa1703e0
-.word 0xf90057a0
-.word 0xd2800040
-.word 0xaa1a03e0
-.word 0xeb1f035f
-.word 0x10000011
-.word 0x54000d20
-.word 0x91006340
-bl _p_222
-.word 0x93407c00
-.word 0xf9005ba0
-.word 0xf94023b1
-.word 0xf941be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9405ba0
-.word 0xb9005ba0
-.word 0x910163a0
-bl _p_208
-.word 0xf90053a0
-.word 0xf94023b1
-.word 0xf941e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a2
-.word 0xf94057a3
+ldr x2, [x16, #3600]
 .word 0xaa0303e0
-.word 0xd2800041
+.word 0xd2800021
 .word 0xf9400063
 .word 0xf9404870
 .word 0xd63f0200
-.word 0xf9404fa0
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xf9004ba0
-.word 0xaa1603e0
+.word 0xf9405fa0
+.word 0xf9003fa0
+.word 0xf9403fa0
+.word 0xf9005ba0
+.word 0xf9403fa3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9404870
+.word 0xd63f0200
+.word 0xf9405ba0
+.word 0xf90043a0
+.word 0xf94043a0
+.word 0xf90057a0
+.word 0xf94043a3
 .word 0xd2800060
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x2, [x16, #3528]
-.word 0xaa1603e0
-.word 0xd2800061
-.word 0xf94002c3
-.word 0xf9404870
-.word 0xd63f0200
-.word 0xf9404ba0
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xf9003ba0
-.word 0xaa1503e0
-.word 0xf90043a0
-.word 0xd2800080
-.word 0xaa1a03e0
-.word 0xeb1f035f
-.word 0x10000011
-.word 0x54000700
-.word 0x91006340
-bl _p_223
-.word 0x93407c00
-.word 0xf90047a0
-.word 0xf94023b1
-.word 0xf9428231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94047a0
-.word 0xb9005ba0
-.word 0x910163a0
-bl _p_208
-.word 0xf9003fa0
-.word 0xf94023b1
-.word 0xf942a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403fa2
-.word 0xf94043a3
+ldr x2, [x16, #3600]
 .word 0xaa0303e0
-.word 0xd2800081
+.word 0xd2800061
 .word 0xf9400063
 .word 0xf9404870
 .word 0xd63f0200
-.word 0xf9403ba0
-bl _p_224
-.word 0xf90033a0
-.word 0xf94023b1
-.word 0xf942de31
+.word 0xf94057a0
+.word 0xf90047a0
+.word 0xf94047a0
+.word 0xf90053a0
+.word 0xf94047a3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9404870
+.word 0xd63f0200
+.word 0xf94053a0
+bl _p_225
+.word 0xf9004ba0
+.word 0xf9402bb1
+.word 0xf9459a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a1
-.word 0xf94037a2
+.word 0xf9404ba1
+.word 0xf9404fa2
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9413050
 .word 0xd63f0200
-.word 0xf94023b1
-.word 0xf9430631
+.word 0xf9402bb1
+.word 0xf945c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 260 0
-.word 0xf94023b1
-.word 0xf9431631
+.loc 12 305 0
+.word 0xf9402bb1
+.word 0xf945d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9432631
+.word 0xf9402bb1
+.word 0xf945e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xa9436bb9
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8ce7bfd
+.word 0xa8cd7bfd
 .word 0xd65f03c0
 .word 0xd28012c0
 .word 0xaa1103e1
 bl _p_7
 
-Lme_ce:
+Lme_cf:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_AVFoundation_AVStatusEventArgs_invoke_void_object_TEventArgs_object_AVFoundation_AVStatusEventArgs
@@ -38439,7 +39640,7 @@ wrapper_delegate_invoke_System_EventHandler_1_AVFoundation_AVStatusEventArgs_inv
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3536]
+ldr x16, [x16, #3608]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -38465,7 +39666,7 @@ add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_225
+bl _p_226
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -38479,165 +39680,7 @@ bl _p_225
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_226
-.word 0xf9403ba0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9101e300
-.word 0xf9403f00
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb5000440
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91008300
-.word 0xf9401300
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xb40001e0
-.word 0xaa1303e0
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xf9400b03
-.word 0xaa1303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xd63f0060
-.word 0x14000038
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xf9400b02
-.word 0xaa1903e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x1400002c
-.word 0xaa1503e0
-.word 0xb9801aa0
-.word 0xaa0003f6
-.word 0xd2800017
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xaa1503e0
-.word 0xaa1703e0
-.word 0x93407ee0
-.word 0xb9801aa1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x540004c9
-.word 0xd37df000
-.word 0x8b0002a0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f4
-.word 0xaa1403e3
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa0303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xf90043a3
-.word 0xf9400c70
-.word 0xd63f0200
-.word 0xf94043a0
-.word 0xf9402bb1
-.word 0xf941fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0x110006e0
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xaa1603e1
-.word 0x6b16001f
-.word 0x54fffb4b
-.word 0xf9402bb1
-.word 0xf9422631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801060
-.word 0xaa1103e1
-bl _p_7
-
-Lme_d0:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Essentials_AccelerometerChangedEventArgs
-wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Essentials_AccelerometerChangedEventArgs:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xaa0203fa
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3544]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #56]
-.word 0xf9400011
-.word 0xb4000051
-bl _p_1
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9407631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x0, [x16, #48]
-.word 0xb9400000
-.word 0x34000220
-bl _p_225
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000140
-.word 0xf9403ba0
-.word 0xf9003fa0
-.word 0xf9403fa0
-.word 0xf9403fa1
-.word 0x91022021
-.word 0xd2800022
-.word 0xd280003e
-.word 0xb900003e
-bl _p_226
+bl _p_227
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -38741,6 +39784,164 @@ bl _p_7
 Lme_d1:
 .text
 	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Essentials_AccelerometerChangedEventArgs
+wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Essentials_AccelerometerChangedEventArgs:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #3616]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000220
+bl _p_226
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000140
+.word 0xf9403ba0
+.word 0xf9003fa0
+.word 0xf9403fa0
+.word 0xf9403fa1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_227
+.word 0xf9403ba0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9101e300
+.word 0xf9403f00
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb5000440
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91008300
+.word 0xf9401300
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xb40001e0
+.word 0xaa1303e0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xf9400b03
+.word 0xaa1303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x14000038
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400002c
+.word 0xaa1503e0
+.word 0xb9801aa0
+.word 0xaa0003f6
+.word 0xd2800017
+
+adrp x16, mono_aot_WorkHeart_got@PAGE+0
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0x93407ee0
+.word 0xb9801aa1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540004c9
+.word 0xd37df000
+.word 0x8b0002a0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f4
+.word 0xaa1403e3
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90043a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0xf94043a0
+.word 0xf9402bb1
+.word 0xf941fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0x110006e0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xaa1603e1
+.word 0x6b16001f
+.word 0x54fffb4b
+.word 0xf9402bb1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801060
+.word 0xaa1103e1
+bl _p_7
+
+Lme_d2:
+.text
+	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void
 wrapper_delegate_invoke__Module_invoke_void:
 .word 0xa9b87bfd
@@ -38753,7 +39954,7 @@ wrapper_delegate_invoke__Module_invoke_void:
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3552]
+ldr x16, [x16, #3624]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -38779,7 +39980,7 @@ add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_225
+bl _p_226
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0xaa1403e1
@@ -38793,7 +39994,7 @@ bl _p_225
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_226
+bl _p_227
 .word 0xaa1303e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -38882,7 +40083,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_7
 
-Lme_d2:
+Lme_d3:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
@@ -38897,7 +40098,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCal
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3560]
+ldr x16, [x16, #3632]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -38950,7 +40151,7 @@ bl _p_1
 .word 0xf9401ba0
 .word 0xaa1603e1
 .word 0xaa1603e1
-bl _p_227
+bl _p_228
 .word 0xf94027b1
 .word 0xf9410631
 .word 0xb4000051
@@ -38961,7 +40162,7 @@ bl _p_227
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_d3:
+Lme_d4:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
@@ -38975,7 +40176,7 @@ wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_
 
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3568]
+ldr x16, [x16, #3640]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -39020,7 +40221,7 @@ bl _p_1
 .word 0xf9401ba0
 .word 0xaa1603e1
 .word 0xaa1603e1
-bl _p_228
+bl _p_229
 .word 0xf94023b1
 .word 0xf940e231
 .word 0xb4000051
@@ -39031,7 +40232,7 @@ bl _p_228
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_d4:
+Lme_d5:
 .text
 	.align 3
 jit_code_end:
@@ -39090,6 +40291,7 @@ bl WorkHeart_GameScene_setBGColour_UIKit_UIColor
 bl WorkHeart_GameScene_AddHeadingLabels
 bl WorkHeart_GameScene_addInfoLabel_string_string_string
 bl WorkHeart_GameScene_removeInfoLabel
+bl WorkHeart_GameScene_addSkipButton
 bl WorkHeart_Classes_LightData__ctor
 bl WorkHeart_Classes_LightData_GetCurrentLightValue
 bl WorkHeart_Classes_DurationData__ctor
@@ -39246,8 +40448,8 @@ bl method_addresses
 bl method_addresses
 bl method_addresses
 bl method_addresses
-bl WorkHeart_Objects_TimerButton__c__DisplayClass27_0__ctor
-bl WorkHeart_Objects_TimerButton__c__DisplayClass27_0__UpdateTimeb__0
+bl WorkHeart_Objects_TimerButton__c__DisplayClass28_0__ctor
+bl WorkHeart_Objects_TimerButton__c__DisplayClass28_0__UpdateTimeb__0
 bl method_addresses
 bl wrapper_delegate_invoke_System_EventHandler_1_AVFoundation_AVStatusEventArgs_invoke_void_object_TEventArgs_object_AVFoundation_AVStatusEventArgs
 bl wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Essentials_AccelerometerChangedEventArgs
@@ -39276,40 +40478,40 @@ unwind_info:
 	.byte 68,153,8,154,7,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,18,12,31,0,68,14,80,157,10,158
 	.byte 9,68,13,29,68,153,8,154,7,26,12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153
 	.byte 7,68,154,6,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,17,12,31,0,68,14,128,2,157,32
-	.byte 158,31,68,13,29,68,154,30,32,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150
-	.byte 25,68,151,24,152,23,68,153,22,32,12,31,0,68,14,192,2,157,40,158,39,68,13,29,68,147,38,148,37,68,149,36
+	.byte 158,31,68,13,29,68,154,30,32,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68,149,32,150
+	.byte 31,68,151,30,152,29,68,153,28,32,12,31,0,68,14,192,2,157,40,158,39,68,13,29,68,147,38,148,37,68,149,36
 	.byte 150,35,68,151,34,152,33,68,153,32,32,12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149
 	.byte 42,150,41,68,151,40,152,39,68,153,38,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,17,12,31,0
 	.byte 68,14,160,1,157,20,158,19,68,13,29,68,153,18,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,22
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29,68,154,28,34,12,31,0,84,14,160,5,157,84
 	.byte 158,83,68,13,29,68,147,82,148,81,68,149,80,150,79,68,151,78,152,77,68,153,76,154,75,27,12,31,0,84,14,240
 	.byte 5,157,94,158,93,68,13,29,68,147,92,148,91,68,149,90,150,89,68,151,88,18,12,31,0,68,14,64,157,8,158,7
-	.byte 68,13,29,68,153,6,154,5,13,12,31,0,68,14,112,157,14,158,13,68,13,29,17,12,31,0,68,14,144,1,157,18
-	.byte 158,17,68,13,29,68,154,16,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,17,12,31,0,68,14,144
-	.byte 1,157,18,158,17,68,13,29,68,153,16,19,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,153,20,154,19,34
-	.byte 12,31,0,84,14,144,4,157,66,158,65,68,13,29,68,147,64,148,63,68,149,62,150,61,68,151,60,152,59,68,153,58
-	.byte 154,57,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,13,12,31,0,68,14,96,157,12,158,11,68,13
-	.byte 29,19,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,153,34,154,33,17,12,31,0,68,14,128,1,157,16,158
-	.byte 15,68,13,29,68,154,14,19,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15,16,12,31,0,68
-	.byte 14,112,157,14,158,13,68,13,29,68,154,12,21,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68
-	.byte 154,8,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10,18,12,31,0,68,14,96,157
-	.byte 12,158,11,68,13,29,68,153,10,154,9,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11,34,12
-	.byte 31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,148,31,68,149,30,150,29,68,151,28,152,27,68,153,26,154
-	.byte 25,27,12,31,0,68,14,128,3,157,48,158,47,68,13,29,68,150,46,151,45,68,152,44,153,43,68,154,42,19,12,31
-	.byte 0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13,34,12,31,0,68,14,208,3,157,58,158,57,68,13,29
-	.byte 68,147,56,148,55,68,149,54,150,53,68,151,52,152,51,68,153,50,154,49,44,12,31,0,84,14,224,8,157,140,1,158
-	.byte 139,1,68,13,29,68,147,138,1,148,137,1,68,149,136,1,150,135,1,68,151,134,1,152,133,1,68,153,132,1,154,131
-	.byte 1,34,12,31,0,68,14,224,3,157,60,158,59,68,13,29,68,147,58,148,57,68,149,56,150,55,68,151,54,152,53,68
-	.byte 153,52,154,51,19,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,153,28,154,27,34,12,31,0,68,14,208,2
-	.byte 157,42,158,41,68,13,29,68,147,40,148,39,68,149,38,150,37,68,151,36,152,35,68,153,34,154,33,19,12,31,0,68
-	.byte 14,192,1,157,24,158,23,68,13,29,68,153,22,154,21,19,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153
-	.byte 18,154,17,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,17,12,31,0,68
-	.byte 14,144,2,157,34,158,33,68,13,29,68,154,32,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11
-	.byte 68,153,10,154,9,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,21,12,31,0,68,14,80,157,10,158
-	.byte 9,68,13,29,68,152,8,153,7,68,154,6,29,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,149,26,150,25
-	.byte 68,151,24,152,23,68,153,22,154,21,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149
-	.byte 14,150,13,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148
-	.byte 13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
+	.byte 68,13,29,68,153,6,154,5,19,12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,153,36,154,35,13,12,31,0
+	.byte 68,14,112,157,14,158,13,68,13,29,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16,16,12,31,0
+	.byte 68,14,48,157,6,158,5,68,13,29,68,154,4,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,19
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15,34,12,31,0,84,14,144,4,157,66,158,65,68
+	.byte 13,29,68,147,64,148,63,68,149,62,150,61,68,151,60,152,59,68,153,58,154,57,16,12,31,0,68,14,80,157,10,158
+	.byte 9,68,13,29,68,153,8,13,12,31,0,68,14,96,157,12,158,11,68,13,29,19,12,31,0,68,14,192,1,157,24,158
+	.byte 23,68,13,29,68,153,22,154,21,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,21,12,31,0,68
+	.byte 14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68
+	.byte 152,12,153,11,68,154,10,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9,18,12,31,0,68,14
+	.byte 112,157,14,158,13,68,13,29,68,153,12,154,11,34,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,148
+	.byte 31,68,149,30,150,29,68,151,28,152,27,68,153,26,154,25,27,12,31,0,68,14,240,2,157,46,158,45,68,13,29,68
+	.byte 150,44,151,43,68,152,42,153,41,68,154,40,19,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
+	.byte 34,12,31,0,68,14,208,3,157,58,158,57,68,13,29,68,147,56,148,55,68,149,54,150,53,68,151,52,152,51,68,153
+	.byte 50,154,49,44,12,31,0,84,14,224,8,157,140,1,158,139,1,68,13,29,68,147,138,1,148,137,1,68,149,136,1,150
+	.byte 135,1,68,151,134,1,152,133,1,68,153,132,1,154,131,1,34,12,31,0,68,14,224,3,157,60,158,59,68,13,29,68
+	.byte 147,58,148,57,68,149,56,150,55,68,151,54,152,53,68,153,52,154,51,19,12,31,0,68,14,240,1,157,30,158,29,68
+	.byte 13,29,68,153,28,154,27,32,12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,148,36,149,35,68,150,34,151,33
+	.byte 68,152,32,153,31,68,154,30,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,24,12,31,0,68,14,160
+	.byte 3,157,52,158,51,68,13,29,68,151,50,152,49,68,153,48,154,47,19,12,31,0,68,14,160,1,157,20,158,19,68,13
+	.byte 29,68,153,18,154,17,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,17,12
+	.byte 31,0,68,14,144,2,157,34,158,33,68,13,29,68,154,32,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151
+	.byte 12,152,11,68,153,10,154,9,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,21,12,31,0,68,14,80
+	.byte 157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,34,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147
+	.byte 24,148,23,68,149,22,150,21,68,151,20,152,19,68,153,18,154,17,34,12,31,0,68,14,144,1,157,18,158,17,68,13
+	.byte 29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,128,1,157,16,158
+	.byte 15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 
 .text
 	.align 4
@@ -39320,1829 +40522,1837 @@ plt__jit_icall_mono_threads_state_poll:
 _p_1:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3584]
+ldr x16, [x16, #3656]
 br x16
-.word 3394
+.word 3455
 	.no_dead_strip plt_UIKit_UIApplication_Main_string___string_string
 plt_UIKit_UIApplication_Main_string___string_string:
 _p_2:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3592]
+ldr x16, [x16, #3664]
 br x16
-.word 3420
+.word 3481
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_3:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3600]
+ldr x16, [x16, #3672]
 br x16
-.word 3425
+.word 3486
 	.no_dead_strip plt_UIKit_UIViewController__ctor_intptr
 plt_UIKit_UIViewController__ctor_intptr:
 _p_4:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3608]
+ldr x16, [x16, #3680]
 br x16
-.word 3430
+.word 3491
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_5:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3616]
+ldr x16, [x16, #3688]
 br x16
-.word 3435
+.word 3496
 	.no_dead_strip plt_SpriteKit_SKNode_FromFile_WorkHeart_GameScene_string
 plt_SpriteKit_SKNode_FromFile_WorkHeart_GameScene_string:
 _p_6:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3624]
+ldr x16, [x16, #3696]
 br x16
-.word 3440
+.word 3501
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_7:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3632]
+ldr x16, [x16, #3704]
 br x16
-.word 3452
+.word 3513
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_8:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3640]
+ldr x16, [x16, #3712]
 br x16
-.word 3487
+.word 3548
 	.no_dead_strip plt_UIKit_UIViewController_DidReceiveMemoryWarning
 plt_UIKit_UIViewController_DidReceiveMemoryWarning:
 _p_9:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3648]
+ldr x16, [x16, #3720]
 br x16
-.word 3492
+.word 3553
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_10:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3656]
+ldr x16, [x16, #3728]
 br x16
-.word 3497
+.word 3558
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_11:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3664]
+ldr x16, [x16, #3736]
 br x16
-.word 3500
+.word 3561
 	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
 plt_UIKit_UIScreen_get_MainScreen:
 _p_12:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3672]
+ldr x16, [x16, #3744]
 br x16
-.word 3503
+.word 3564
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_13:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3680]
+ldr x16, [x16, #3752]
 br x16
-.word 3508
+.word 3569
 	.no_dead_strip plt_System_Timers_Timer__ctor
 plt_System_Timers_Timer__ctor:
 _p_14:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3688]
+ldr x16, [x16, #3760]
 br x16
-.word 3540
+.word 3601
 	.no_dead_strip plt_SpriteKit_SKScene__ctor_intptr
 plt_SpriteKit_SKScene__ctor_intptr:
 _p_15:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3696]
+ldr x16, [x16, #3768]
 br x16
-.word 3545
+.word 3606
 	.no_dead_strip plt_WorkHeart_GameScene_CreateSceneContents
 plt_WorkHeart_GameScene_CreateSceneContents:
 _p_16:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3704]
+ldr x16, [x16, #3776]
 br x16
-.word 3550
+.word 3611
 	.no_dead_strip plt_UIKit_UIColor_get_White
 plt_UIKit_UIColor_get_White:
 _p_17:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3712]
+ldr x16, [x16, #3784]
 br x16
-.word 3555
+.word 3616
 	.no_dead_strip plt_WorkHeart_GameScene_setBGColour_UIKit_UIColor
 plt_WorkHeart_GameScene_setBGColour_UIKit_UIColor:
 _p_18:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3720]
+ldr x16, [x16, #3792]
 br x16
-.word 3560
+.word 3621
 	.no_dead_strip plt_WorkHeart_GameScene_AddHeadingLabels
 plt_WorkHeart_GameScene_AddHeadingLabels:
 _p_19:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3728]
+ldr x16, [x16, #3800]
 br x16
-.word 3565
+.word 3626
 	.no_dead_strip plt_WorkHeart_GameScene_CreateGravityNode
 plt_WorkHeart_GameScene_CreateGravityNode:
 _p_20:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3736]
-br x16
-.word 3570
-	.no_dead_strip plt_WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize
-plt_WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize:
-_p_21:
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3744]
-br x16
-.word 3575
-	.no_dead_strip plt_WorkHeart_Objects_MotionBubble__ctor_CoreGraphics_CGSize
-plt_WorkHeart_Objects_MotionBubble__ctor_CoreGraphics_CGSize:
-_p_22:
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3752]
-br x16
-.word 3580
-	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble__ctor_CoreGraphics_CGSize
-plt_WorkHeart_Objects_NoiseBubble__ctor_CoreGraphics_CGSize:
-_p_23:
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3760]
-br x16
-.word 3585
-	.no_dead_strip plt_WorkHeart_Objects_DurationBubble__ctor_CoreGraphics_CGSize
-plt_WorkHeart_Objects_DurationBubble__ctor_CoreGraphics_CGSize:
-_p_24:
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3768]
-br x16
-.word 3590
-	.no_dead_strip plt_WorkHeart_Objects_WaterBubble__ctor_CoreGraphics_CGSize
-plt_WorkHeart_Objects_WaterBubble__ctor_CoreGraphics_CGSize:
-_p_25:
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3776]
-br x16
-.word 3595
-	.no_dead_strip plt_WorkHeart_Objects_FoodBubble__ctor_CoreGraphics_CGSize
-plt_WorkHeart_Objects_FoodBubble__ctor_CoreGraphics_CGSize:
-_p_26:
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3784]
-br x16
-.word 3600
-	.no_dead_strip plt_WorkHeart_Objects_StandBubble__ctor_CoreGraphics_CGSize
-plt_WorkHeart_Objects_StandBubble__ctor_CoreGraphics_CGSize:
-_p_27:
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3792]
-br x16
-.word 3605
-	.no_dead_strip plt_SpriteKit_SKNodeTouches_UITouch_LocationInNode_UIKit_UITouch_SpriteKit_SKNode
-plt_SpriteKit_SKNodeTouches_UITouch_LocationInNode_UIKit_UITouch_SpriteKit_SKNode:
-_p_28:
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #3800]
-br x16
-.word 3610
-	.no_dead_strip plt_string_op_Inequality_string_string
-plt_string_op_Inequality_string_string:
-_p_29:
-adrp x16, mono_aot_WorkHeart_got@PAGE+0
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 3615
-	.no_dead_strip plt_string_op_Equality_string_string
-plt_string_op_Equality_string_string:
-_p_30:
+.word 3631
+	.no_dead_strip plt_WorkHeart_GameScene_addSkipButton
+plt_WorkHeart_GameScene_addSkipButton:
+_p_21:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 3618
-	.no_dead_strip plt_CoreGraphics_CGPoint_get_X
-plt_CoreGraphics_CGPoint_get_X:
-_p_31:
+.word 3636
+	.no_dead_strip plt_WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize
+plt_WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize:
+_p_22:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 3621
-	.no_dead_strip plt_CoreGraphics_CGPoint_get_Y
-plt_CoreGraphics_CGPoint_get_Y:
-_p_32:
+.word 3641
+	.no_dead_strip plt_WorkHeart_Objects_MotionBubble__ctor_CoreGraphics_CGSize
+plt_WorkHeart_Objects_MotionBubble__ctor_CoreGraphics_CGSize:
+_p_23:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 3626
-	.no_dead_strip plt_System_nfloat_op_Implicit_int
-plt_System_nfloat_op_Implicit_int:
-_p_33:
+.word 3646
+	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble__ctor_CoreGraphics_CGSize
+plt_WorkHeart_Objects_NoiseBubble__ctor_CoreGraphics_CGSize:
+_p_24:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 3631
-	.no_dead_strip plt_System_Console_WriteLine_object
-plt_System_Console_WriteLine_object:
-_p_34:
+.word 3651
+	.no_dead_strip plt_WorkHeart_Objects_DurationBubble__ctor_CoreGraphics_CGSize
+plt_WorkHeart_Objects_DurationBubble__ctor_CoreGraphics_CGSize:
+_p_25:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 3636
-	.no_dead_strip plt__PrivateImplementationDetails_ComputeStringHash_string
-plt__PrivateImplementationDetails_ComputeStringHash_string:
-_p_35:
+.word 3656
+	.no_dead_strip plt_WorkHeart_Objects_WaterBubble__ctor_CoreGraphics_CGSize
+plt_WorkHeart_Objects_WaterBubble__ctor_CoreGraphics_CGSize:
+_p_26:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 3639
-	.no_dead_strip plt_WorkHeart_GameScene_StartTracking
-plt_WorkHeart_GameScene_StartTracking:
-_p_36:
+.word 3661
+	.no_dead_strip plt_WorkHeart_Objects_FoodBubble__ctor_CoreGraphics_CGSize
+plt_WorkHeart_Objects_FoodBubble__ctor_CoreGraphics_CGSize:
+_p_27:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 3644
-	.no_dead_strip plt_WorkHeart_GameScene_PauseTracking
-plt_WorkHeart_GameScene_PauseTracking:
-_p_37:
+.word 3666
+	.no_dead_strip plt_WorkHeart_Objects_StandBubble__ctor_CoreGraphics_CGSize
+plt_WorkHeart_Objects_StandBubble__ctor_CoreGraphics_CGSize:
+_p_28:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 3649
-	.no_dead_strip plt_WorkHeart_GameScene_ResumeTracking
-plt_WorkHeart_GameScene_ResumeTracking:
-_p_38:
+.word 3671
+	.no_dead_strip plt_SpriteKit_SKNodeTouches_UITouch_LocationInNode_UIKit_UITouch_SpriteKit_SKNode
+plt_SpriteKit_SKNodeTouches_UITouch_LocationInNode_UIKit_UITouch_SpriteKit_SKNode:
+_p_29:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 3654
-	.no_dead_strip plt_WorkHeart_GameScene_StopTracking
-plt_WorkHeart_GameScene_StopTracking:
-_p_39:
+.word 3676
+	.no_dead_strip plt_string_op_Inequality_string_string
+plt_string_op_Inequality_string_string:
+_p_30:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 3659
-	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetActivated
-plt_WorkHeart_Objects_Bubble_SetActivated:
-_p_40:
+.word 3681
+	.no_dead_strip plt__PrivateImplementationDetails_ComputeStringHash_string
+plt__PrivateImplementationDetails_ComputeStringHash_string:
+_p_31:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 3664
-	.no_dead_strip plt_WorkHeart_GameScene_addInfoLabel_string_string_string
-plt_WorkHeart_GameScene_addInfoLabel_string_string_string:
-_p_41:
+.word 3684
+	.no_dead_strip plt_string_op_Equality_string_string
+plt_string_op_Equality_string_string:
+_p_32:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 3669
-	.no_dead_strip plt_WorkHeart_Objects_Bubble_CenterItem
-plt_WorkHeart_Objects_Bubble_CenterItem:
-_p_42:
+.word 3689
+	.no_dead_strip plt_System_Console_WriteLine_string
+plt_System_Console_WriteLine_string:
+_p_33:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 3674
-	.no_dead_strip plt_WorkHeart_Objects_MotionBubble_CenterItemContents
-plt_WorkHeart_Objects_MotionBubble_CenterItemContents:
-_p_43:
+.word 3692
+	.no_dead_strip plt_System_TimeSpan__ctor_long
+plt_System_TimeSpan__ctor_long:
+_p_34:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 3679
-	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble_CenterItemContents
-plt_WorkHeart_Objects_NoiseBubble_CenterItemContents:
-_p_44:
+.word 3695
+	.no_dead_strip plt_System_TimeSpan_op_Subtraction_System_TimeSpan_System_TimeSpan
+plt_System_TimeSpan_op_Subtraction_System_TimeSpan_System_TimeSpan:
+_p_35:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 3684
-	.no_dead_strip plt_WorkHeart_Objects_DurationBubble_CenterItemContents
-plt_WorkHeart_Objects_DurationBubble_CenterItemContents:
-_p_45:
+.word 3698
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_36:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 3689
-	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_CenterItemContents
-plt_WorkHeart_Objects_WaterBubble_CenterItemContents:
-_p_46:
+.word 3701
+	.no_dead_strip plt_System_Console_WriteLine_object
+plt_System_Console_WriteLine_object:
+_p_37:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 3694
-	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_addWater
-plt_WorkHeart_Objects_WaterBubble_addWater:
-_p_47:
+.word 3709
+	.no_dead_strip plt_CoreGraphics_CGPoint_get_X
+plt_CoreGraphics_CGPoint_get_X:
+_p_38:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 3699
-	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_removeWater
-plt_WorkHeart_Objects_WaterBubble_removeWater:
-_p_48:
+.word 3712
+	.no_dead_strip plt_CoreGraphics_CGPoint_get_Y
+plt_CoreGraphics_CGPoint_get_Y:
+_p_39:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 3704
-	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_CenterItemContents
-plt_WorkHeart_Objects_FoodBubble_CenterItemContents:
-_p_49:
+.word 3717
+	.no_dead_strip plt_System_nfloat_op_Implicit_int
+plt_System_nfloat_op_Implicit_int:
+_p_40:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 3709
-	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_addFood
-plt_WorkHeart_Objects_FoodBubble_addFood:
-_p_50:
+.word 3722
+	.no_dead_strip plt_WorkHeart_GameScene_StartTracking
+plt_WorkHeart_GameScene_StartTracking:
+_p_41:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 3714
-	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_removeFood
-plt_WorkHeart_Objects_FoodBubble_removeFood:
-_p_51:
+.word 3727
+	.no_dead_strip plt_WorkHeart_GameScene_PauseTracking
+plt_WorkHeart_GameScene_PauseTracking:
+_p_42:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 3719
-	.no_dead_strip plt_WorkHeart_Objects_StandBubble_CenterItemContents
-plt_WorkHeart_Objects_StandBubble_CenterItemContents:
-_p_52:
+.word 3732
+	.no_dead_strip plt_WorkHeart_GameScene_ResumeTracking
+plt_WorkHeart_GameScene_ResumeTracking:
+_p_43:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 3724
-	.no_dead_strip plt_WorkHeart_Objects_StandBubble_addStand
-plt_WorkHeart_Objects_StandBubble_addStand:
-_p_53:
+.word 3737
+	.no_dead_strip plt_WorkHeart_GameScene_StopTracking
+plt_WorkHeart_GameScene_StopTracking:
+_p_44:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 3729
-	.no_dead_strip plt_WorkHeart_Objects_StandBubble_removeStand
-plt_WorkHeart_Objects_StandBubble_removeStand:
-_p_54:
+.word 3742
+	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetActivated
+plt_WorkHeart_Objects_Bubble_SetActivated:
+_p_45:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 3734
-	.no_dead_strip plt_System_DateTime_get_Now
-plt_System_DateTime_get_Now:
-_p_55:
+.word 3747
+	.no_dead_strip plt_WorkHeart_GameScene_addInfoLabel_string_string_string
+plt_WorkHeart_GameScene_addInfoLabel_string_string_string:
+_p_46:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 3739
-	.no_dead_strip plt_System_Timers_Timer_set_Interval_double
-plt_System_Timers_Timer_set_Interval_double:
-_p_56:
+.word 3752
+	.no_dead_strip plt_WorkHeart_Objects_Bubble_CenterItem
+plt_WorkHeart_Objects_Bubble_CenterItem:
+_p_47:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 3742
-	.no_dead_strip plt_System_Timers_Timer_set_Enabled_bool
-plt_System_Timers_Timer_set_Enabled_bool:
-_p_57:
+.word 3757
+	.no_dead_strip plt_WorkHeart_Objects_MotionBubble_CenterItemContents
+plt_WorkHeart_Objects_MotionBubble_CenterItemContents:
+_p_48:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 3747
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
-_p_58:
+.word 3762
+	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble_CenterItemContents
+plt_WorkHeart_Objects_NoiseBubble_CenterItemContents:
+_p_49:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 3752
-	.no_dead_strip plt_System_Timers_Timer_add_Elapsed_System_Timers_ElapsedEventHandler
-plt_System_Timers_Timer_add_Elapsed_System_Timers_ElapsedEventHandler:
-_p_59:
+.word 3767
+	.no_dead_strip plt_WorkHeart_Objects_DurationBubble_CenterItemContents
+plt_WorkHeart_Objects_DurationBubble_CenterItemContents:
+_p_50:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 3760
-	.no_dead_strip plt_System_Timers_Timer_Start
-plt_System_Timers_Timer_Start:
-_p_60:
+.word 3772
+	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_CenterItemContents
+plt_WorkHeart_Objects_WaterBubble_CenterItemContents:
+_p_51:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 3765
-	.no_dead_strip plt_UIKit_UIColor_get_Black
-plt_UIKit_UIColor_get_Black:
-_p_61:
+.word 3777
+	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_addWater
+plt_WorkHeart_Objects_WaterBubble_addWater:
+_p_52:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 3770
-	.no_dead_strip plt_WorkHeart_GameScene_removeInfoLabel
-plt_WorkHeart_GameScene_removeInfoLabel:
-_p_62:
+.word 3782
+	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_removeWater
+plt_WorkHeart_Objects_WaterBubble_removeWater:
+_p_53:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 3775
-	.no_dead_strip plt_System_TimeSpan__ctor_long
-plt_System_TimeSpan__ctor_long:
-_p_63:
+.word 3787
+	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_CenterItemContents
+plt_WorkHeart_Objects_FoodBubble_CenterItemContents:
+_p_54:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 3780
-	.no_dead_strip plt_System_Timers_Timer_Stop
-plt_System_Timers_Timer_Stop:
-_p_64:
+.word 3792
+	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_addFood
+plt_WorkHeart_Objects_FoodBubble_addFood:
+_p_55:
 adrp x16, mono_aot_WorkHeart_got@PAGE+0
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 3783
-	.no_dead_strip plt_WorkHeart_GameScene_PausedTime
-plt_WorkHeart_GameScene_PausedTime:
-_p_65:
+.word 3797
+	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_removeFood
+plt_WorkHeart_Objects_FoodBubble_removeFood:
+_p_56:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 3788
-	.no_dead_strip plt_System_TimeSpan_op_Addition_System_TimeSpan_System_TimeSpan
-plt_System_TimeSpan_op_Addition_System_TimeSpan_System_TimeSpan:
-_p_66:
+.word 3802
+	.no_dead_strip plt_WorkHeart_Objects_StandBubble_CenterItemContents
+plt_WorkHeart_Objects_StandBubble_CenterItemContents:
+_p_57:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 3793
-	.no_dead_strip plt_System_Timers_ElapsedEventArgs_get_SignalTime
-plt_System_Timers_ElapsedEventArgs_get_SignalTime:
-_p_67:
+.word 3807
+	.no_dead_strip plt_WorkHeart_Objects_StandBubble_addStand
+plt_WorkHeart_Objects_StandBubble_addStand:
+_p_58:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 3796
-	.no_dead_strip plt_System_DateTime_op_Subtraction_System_DateTime_System_DateTime
-plt_System_DateTime_op_Subtraction_System_DateTime_System_DateTime:
-_p_68:
+.word 3812
+	.no_dead_strip plt_WorkHeart_Objects_StandBubble_removeStand
+plt_WorkHeart_Objects_StandBubble_removeStand:
+_p_59:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 3801
-	.no_dead_strip plt_System_TimeSpan_op_Subtraction_System_TimeSpan_System_TimeSpan
-plt_System_TimeSpan_op_Subtraction_System_TimeSpan_System_TimeSpan:
-_p_69:
+.word 3817
+	.no_dead_strip plt_System_DateTime_get_Now
+plt_System_DateTime_get_Now:
+_p_60:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 3804
-	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble_CheckNoise
-plt_WorkHeart_Objects_NoiseBubble_CheckNoise:
-_p_70:
+.word 3822
+	.no_dead_strip plt_System_Timers_Timer_set_Interval_double
+plt_System_Timers_Timer_set_Interval_double:
+_p_61:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 3807
-	.no_dead_strip plt_WorkHeart_Objects_MotionBubble_CheckMotion
-plt_WorkHeart_Objects_MotionBubble_CheckMotion:
-_p_71:
+.word 3825
+	.no_dead_strip plt_System_Timers_Timer_set_Enabled_bool
+plt_System_Timers_Timer_set_Enabled_bool:
+_p_62:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 3812
-	.no_dead_strip plt_WorkHeart_Objects_DurationBubble_UpdateDuration_System_TimeSpan
-plt_WorkHeart_Objects_DurationBubble_UpdateDuration_System_TimeSpan:
-_p_72:
+.word 3830
+	.no_dead_strip plt_System_Timers_Timer_add_Elapsed_System_Timers_ElapsedEventHandler
+plt_System_Timers_Timer_add_Elapsed_System_Timers_ElapsedEventHandler:
+_p_63:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 3817
-	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_UpdateDuration_System_TimeSpan
-plt_WorkHeart_Objects_WaterBubble_UpdateDuration_System_TimeSpan:
-_p_73:
+.word 3835
+	.no_dead_strip plt_System_Timers_Timer_Start
+plt_System_Timers_Timer_Start:
+_p_64:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 3822
-	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_UpdateDuration_System_TimeSpan
-plt_WorkHeart_Objects_FoodBubble_UpdateDuration_System_TimeSpan:
-_p_74:
+.word 3840
+	.no_dead_strip plt_UIKit_UIColor_get_Black
+plt_UIKit_UIColor_get_Black:
+_p_65:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 3827
-	.no_dead_strip plt_WorkHeart_Objects_StandBubble_UpdateDuration_System_TimeSpan
-plt_WorkHeart_Objects_StandBubble_UpdateDuration_System_TimeSpan:
-_p_75:
+.word 3845
+	.no_dead_strip plt_WorkHeart_GameScene_removeInfoLabel
+plt_WorkHeart_GameScene_removeInfoLabel:
+_p_66:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 3832
-	.no_dead_strip plt_WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan
-plt_WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan:
-_p_76:
+.word 3850
+	.no_dead_strip plt_System_Timers_Timer_Stop
+plt_System_Timers_Timer_Stop:
+_p_67:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 3837
-	.no_dead_strip plt_SpriteKit_SKFieldNode_CreateRadialGravityField
-plt_SpriteKit_SKFieldNode_CreateRadialGravityField:
-_p_77:
+.word 3855
+	.no_dead_strip plt_WorkHeart_GameScene_PausedTime
+plt_WorkHeart_GameScene_PausedTime:
+_p_68:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 3842
-	.no_dead_strip plt_CoreGraphics_CGSize_get_Width
-plt_CoreGraphics_CGSize_get_Width:
-_p_78:
+.word 3860
+	.no_dead_strip plt_System_TimeSpan_op_Addition_System_TimeSpan_System_TimeSpan
+plt_System_TimeSpan_op_Addition_System_TimeSpan_System_TimeSpan:
+_p_69:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 3847
-	.no_dead_strip plt_CoreGraphics_CGSize_get_Height
-plt_CoreGraphics_CGSize_get_Height:
-_p_79:
+.word 3865
+	.no_dead_strip plt_System_Timers_ElapsedEventArgs_get_SignalTime
+plt_System_Timers_ElapsedEventArgs_get_SignalTime:
+_p_70:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 3852
-	.no_dead_strip plt_CoreGraphics_CGPoint__ctor_single_single
-plt_CoreGraphics_CGPoint__ctor_single_single:
-_p_80:
+.word 3868
+	.no_dead_strip plt_System_DateTime_op_Subtraction_System_DateTime_System_DateTime
+plt_System_DateTime_op_Subtraction_System_DateTime_System_DateTime:
+_p_71:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 3857
-	.no_dead_strip plt_System_DateTime_get_Hour
-plt_System_DateTime_get_Hour:
-_p_81:
+.word 3873
+	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble_CheckNoise
+plt_WorkHeart_Objects_NoiseBubble_CheckNoise:
+_p_72:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 3862
-	.no_dead_strip plt_SpriteKit_SKLabelNode__ctor
-plt_SpriteKit_SKLabelNode__ctor:
-_p_82:
+.word 3876
+	.no_dead_strip plt_WorkHeart_Objects_MotionBubble_CheckMotion
+plt_WorkHeart_Objects_MotionBubble_CheckMotion:
+_p_73:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 3865
-	.no_dead_strip plt_UIKit_UIColor_FromRGB_int_int_int
-plt_UIKit_UIColor_FromRGB_int_int_int:
-_p_83:
+.word 3881
+	.no_dead_strip plt_WorkHeart_Objects_DurationBubble_UpdateDuration_System_TimeSpan
+plt_WorkHeart_Objects_DurationBubble_UpdateDuration_System_TimeSpan:
+_p_74:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 3870
-	.no_dead_strip plt_string_Concat_string_string_string
-plt_string_Concat_string_string_string:
-_p_84:
+.word 3886
+	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_UpdateDuration_System_TimeSpan
+plt_WorkHeart_Objects_WaterBubble_UpdateDuration_System_TimeSpan:
+_p_75:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 3875
-	.no_dead_strip plt_string_Concat_string_string
-plt_string_Concat_string_string:
-_p_85:
+.word 3891
+	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_UpdateDuration_System_TimeSpan
+plt_WorkHeart_Objects_FoodBubble_UpdateDuration_System_TimeSpan:
+_p_76:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 3878
-	.no_dead_strip plt_SpriteKit_SKSpriteNode_FromImageNamed_string
-plt_SpriteKit_SKSpriteNode_FromImageNamed_string:
-_p_86:
+.word 3896
+	.no_dead_strip plt_WorkHeart_Objects_StandBubble_UpdateDuration_System_TimeSpan
+plt_WorkHeart_Objects_StandBubble_UpdateDuration_System_TimeSpan:
+_p_77:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 3881
-	.no_dead_strip plt_WorkHeart_Objects_Colors_GetColor_WorkHeart_Objects_Colours
-plt_WorkHeart_Objects_Colors_GetColor_WorkHeart_Objects_Colours:
-_p_87:
+.word 3901
+	.no_dead_strip plt_WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan
+plt_WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan:
+_p_78:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 3886
-	.no_dead_strip plt_System_Console_WriteLine_string
-plt_System_Console_WriteLine_string:
-_p_88:
+.word 3906
+	.no_dead_strip plt_SpriteKit_SKFieldNode_CreateRadialGravityField
+plt_SpriteKit_SKFieldNode_CreateRadialGravityField:
+_p_79:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 3891
-	.no_dead_strip plt_System_Console_WriteLine_double
-plt_System_Console_WriteLine_double:
-_p_89:
+.word 3911
+	.no_dead_strip plt_CoreGraphics_CGSize_get_Width
+plt_CoreGraphics_CGSize_get_Width:
+_p_80:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 3894
-	.no_dead_strip plt_System_TimeSpan_get_TotalSeconds
-plt_System_TimeSpan_get_TotalSeconds:
-_p_90:
+.word 3916
+	.no_dead_strip plt_CoreGraphics_CGSize_get_Height
+plt_CoreGraphics_CGSize_get_Height:
+_p_81:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 3897
-	.no_dead_strip plt_WorkHeart_Classes_NoiseData_SetupAudio
-plt_WorkHeart_Classes_NoiseData_SetupAudio:
-_p_91:
+.word 3921
+	.no_dead_strip plt_CoreGraphics_CGPoint__ctor_single_single
+plt_CoreGraphics_CGPoint__ctor_single_single:
+_p_82:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 3900
-	.no_dead_strip plt_WorkHeart_Classes_NoiseData_CheckNoise
-plt_WorkHeart_Classes_NoiseData_CheckNoise:
-_p_92:
+.word 3926
+	.no_dead_strip plt_System_DateTime_get_Hour
+plt_System_DateTime_get_Hour:
+_p_83:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 3905
-	.no_dead_strip plt_System_nuint_op_Implicit_byte
-plt_System_nuint_op_Implicit_byte:
-_p_93:
+.word 3931
+	.no_dead_strip plt_SpriteKit_SKLabelNode__ctor
+plt_SpriteKit_SKLabelNode__ctor:
+_p_84:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 3910
-	.no_dead_strip plt_string_Format_string_object_object
-plt_string_Format_string_object_object:
-_p_94:
+.word 3934
+	.no_dead_strip plt_UIKit_UIColor_FromRGB_int_int_int
+plt_UIKit_UIColor_FromRGB_int_int_int:
+_p_85:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 3915
-	.no_dead_strip plt_AVFoundation_AVAudioSession_SharedInstance
-plt_AVFoundation_AVAudioSession_SharedInstance:
-_p_95:
+.word 3939
+	.no_dead_strip plt_string_Concat_string_string_string
+plt_string_Concat_string_string_string:
+_p_86:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 3918
-	.no_dead_strip plt_AVFoundation_AVAudioSession_SetCategory_AVFoundation_AVAudioSessionCategory
-plt_AVFoundation_AVAudioSession_SetCategory_AVFoundation_AVAudioSessionCategory:
-_p_96:
+.word 3944
+	.no_dead_strip plt_string_Concat_string_string
+plt_string_Concat_string_string:
+_p_87:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 3923
-	.no_dead_strip plt_System_Console_WriteLine_string_object
-plt_System_Console_WriteLine_string_object:
-_p_97:
+.word 3947
+	.no_dead_strip plt_SpriteKit_SKSpriteNode_FromImageNamed_string
+plt_SpriteKit_SKSpriteNode_FromImageNamed_string:
+_p_88:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 3928
-	.no_dead_strip plt_AVFoundation_AVAudioSession_SetActive_bool
-plt_AVFoundation_AVAudioSession_SetActive_bool:
-_p_98:
+.word 3950
+	.no_dead_strip plt_WorkHeart_Objects_Colors_GetColor_WorkHeart_Objects_Colours
+plt_WorkHeart_Objects_Colors_GetColor_WorkHeart_Objects_Colours:
+_p_89:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 3931
-	.no_dead_strip plt_System_DateTime_ToString_string
-plt_System_DateTime_ToString_string:
-_p_99:
+.word 3955
+	.no_dead_strip plt_SpriteKit_SKShapeNode__ctor
+plt_SpriteKit_SKShapeNode__ctor:
+_p_90:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 3936
-	.no_dead_strip plt_string_Format_string_object
-plt_string_Format_string_object:
-_p_100:
+.word 3960
+	.no_dead_strip plt_CoreGraphics_CGPath__ctor
+plt_CoreGraphics_CGPath__ctor:
+_p_91:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 3939
-	.no_dead_strip plt_System_IO_Path_GetTempPath
-plt_System_IO_Path_GetTempPath:
-_p_101:
+.word 3965
+	.no_dead_strip plt_CoreGraphics_CGPath_AddArc_System_nfloat_System_nfloat_System_nfloat_System_nfloat_System_nfloat_bool
+plt_CoreGraphics_CGPath_AddArc_System_nfloat_System_nfloat_System_nfloat_System_nfloat_System_nfloat_bool:
+_p_92:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 3942
-	.no_dead_strip plt_System_IO_Path_Combine_string_string
-plt_System_IO_Path_Combine_string_string:
-_p_102:
+.word 3970
+	.no_dead_strip plt_System_Console_WriteLine_double
+plt_System_Console_WriteLine_double:
+_p_93:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 3945
-	.no_dead_strip plt_Foundation_NSUrl_FromFilename_string
-plt_Foundation_NSUrl_FromFilename_string:
-_p_103:
+.word 3975
+	.no_dead_strip plt_System_TimeSpan_get_TotalSeconds
+plt_System_TimeSpan_get_TotalSeconds:
+_p_94:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 3948
-	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
-plt_wrapper_alloc_object_AllocVector_intptr_intptr:
-_p_104:
+.word 3978
+	.no_dead_strip plt_WorkHeart_Classes_NoiseData_SetupAudio
+plt_WorkHeart_Classes_NoiseData_SetupAudio:
+_p_95:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 3953
-	.no_dead_strip plt_Foundation_NSNumber_FromFloat_single
-plt_Foundation_NSNumber_FromFloat_single:
-_p_105:
+.word 3981
+	.no_dead_strip plt_WorkHeart_Classes_NoiseData_CheckNoise
+plt_WorkHeart_Classes_NoiseData_CheckNoise:
+_p_96:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 3961
-	.no_dead_strip plt_Foundation_NSNumber_FromInt32_int
-plt_Foundation_NSNumber_FromInt32_int:
-_p_106:
+.word 3986
+	.no_dead_strip plt_System_nuint_op_Implicit_byte
+plt_System_nuint_op_Implicit_byte:
+_p_97:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 3966
-	.no_dead_strip plt_AVFoundation_AVAudioSettings_get_AVSampleRateKey
-plt_AVFoundation_AVAudioSettings_get_AVSampleRateKey:
-_p_107:
+.word 3991
+	.no_dead_strip plt_AVFoundation_AVAudioSession_SharedInstance
+plt_AVFoundation_AVAudioSession_SharedInstance:
+_p_98:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 3971
-	.no_dead_strip plt_AVFoundation_AVAudioSettings_get_AVFormatIDKey
-plt_AVFoundation_AVAudioSettings_get_AVFormatIDKey:
-_p_108:
+.word 3996
+	.no_dead_strip plt_AVFoundation_AVAudioSession_SetCategory_AVFoundation_AVAudioSessionCategory
+plt_AVFoundation_AVAudioSession_SetCategory_AVFoundation_AVAudioSessionCategory:
+_p_99:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 3976
-	.no_dead_strip plt_AVFoundation_AVAudioSettings_get_AVNumberOfChannelsKey
-plt_AVFoundation_AVAudioSettings_get_AVNumberOfChannelsKey:
-_p_109:
+.word 4001
+	.no_dead_strip plt_System_Console_WriteLine_string_object
+plt_System_Console_WriteLine_string_object:
+_p_100:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 3981
-	.no_dead_strip plt_AVFoundation_AVAudioSettings_get_AVEncoderAudioQualityKey
-plt_AVFoundation_AVAudioSettings_get_AVEncoderAudioQualityKey:
-_p_110:
+.word 4006
+	.no_dead_strip plt_AVFoundation_AVAudioSession_SetActive_bool
+plt_AVFoundation_AVAudioSession_SetActive_bool:
+_p_101:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 3986
-	.no_dead_strip plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__
-plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__:
-_p_111:
+.word 4009
+	.no_dead_strip plt_System_DateTime_ToString_string
+plt_System_DateTime_ToString_string:
+_p_102:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 3991
-	.no_dead_strip plt_AVFoundation_AudioSettings__ctor_Foundation_NSDictionary
-plt_AVFoundation_AudioSettings__ctor_Foundation_NSDictionary:
-_p_112:
+.word 4014
+	.no_dead_strip plt_string_Format_string_object
+plt_string_Format_string_object:
+_p_103:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 3996
-	.no_dead_strip plt_AVFoundation_AVAudioRecorder_Create_Foundation_NSUrl_AVFoundation_AudioSettings_Foundation_NSError_
-plt_AVFoundation_AVAudioRecorder_Create_Foundation_NSUrl_AVFoundation_AudioSettings_Foundation_NSError_:
-_p_113:
+.word 4017
+	.no_dead_strip plt_System_IO_Path_GetTempPath
+plt_System_IO_Path_GetTempPath:
+_p_104:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 4001
-	.no_dead_strip plt_Foundation_NSObject_Dispose
-plt_Foundation_NSObject_Dispose:
-_p_114:
+.word 4020
+	.no_dead_strip plt_System_IO_Path_Combine_string_string
+plt_System_IO_Path_Combine_string_string:
+_p_105:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 4006
-	.no_dead_strip plt_AVFoundation_AVAudioRecorder_add_FinishedRecording_System_EventHandler_1_AVFoundation_AVStatusEventArgs
-plt_AVFoundation_AVAudioRecorder_add_FinishedRecording_System_EventHandler_1_AVFoundation_AVStatusEventArgs:
-_p_115:
+.word 4023
+	.no_dead_strip plt_Foundation_NSUrl_FromFilename_string
+plt_Foundation_NSUrl_FromFilename_string:
+_p_106:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 4011
-	.no_dead_strip plt_AVFoundation_AVStatusEventArgs_get_Status
-plt_AVFoundation_AVStatusEventArgs_get_Status:
-_p_116:
+.word 4026
+	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
+plt_wrapper_alloc_object_AllocVector_intptr_intptr:
+_p_107:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 4016
-	.no_dead_strip plt_WorkHeart_Classes_MovementData_InitializeAccelerometer
-plt_WorkHeart_Classes_MovementData_InitializeAccelerometer:
-_p_117:
+.word 4031
+	.no_dead_strip plt_Foundation_NSNumber_FromFloat_single
+plt_Foundation_NSNumber_FromFloat_single:
+_p_108:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 4021
-	.no_dead_strip plt_Xamarin_Essentials_Accelerometer_Start_Xamarin_Essentials_SensorSpeed
-plt_Xamarin_Essentials_Accelerometer_Start_Xamarin_Essentials_SensorSpeed:
-_p_118:
+.word 4039
+	.no_dead_strip plt_Foundation_NSNumber_FromInt32_int
+plt_Foundation_NSNumber_FromInt32_int:
+_p_109:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 4026
-	.no_dead_strip plt_Xamarin_Essentials_Accelerometer_add_ReadingChanged_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs
-plt_Xamarin_Essentials_Accelerometer_add_ReadingChanged_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs:
-_p_119:
+.word 4044
+	.no_dead_strip plt_AVFoundation_AVAudioSettings_get_AVSampleRateKey
+plt_AVFoundation_AVAudioSettings_get_AVSampleRateKey:
+_p_110:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 4031
-	.no_dead_strip plt_System_Diagnostics_Debug_WriteLine_string
-plt_System_Diagnostics_Debug_WriteLine_string:
-_p_120:
+.word 4049
+	.no_dead_strip plt_AVFoundation_AVAudioSettings_get_AVFormatIDKey
+plt_AVFoundation_AVAudioSettings_get_AVFormatIDKey:
+_p_111:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 4036
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
-_p_121:
+.word 4054
+	.no_dead_strip plt_AVFoundation_AVAudioSettings_get_AVNumberOfChannelsKey
+plt_AVFoundation_AVAudioSettings_get_AVNumberOfChannelsKey:
+_p_112:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 4041
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_122:
+.word 4059
+	.no_dead_strip plt_AVFoundation_AVAudioSettings_get_AVEncoderAudioQualityKey
+plt_AVFoundation_AVAudioSettings_get_AVEncoderAudioQualityKey:
+_p_113:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 4080
-	.no_dead_strip plt_WorkHeart_Classes_MovementData_GetMaxMotion
-plt_WorkHeart_Classes_MovementData_GetMaxMotion:
-_p_123:
+.word 4064
+	.no_dead_strip plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__
+plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__:
+_p_114:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 4108
-	.no_dead_strip plt_Xamarin_Essentials_AccelerometerChangedEventArgs_get_Reading
-plt_Xamarin_Essentials_AccelerometerChangedEventArgs_get_Reading:
-_p_124:
+.word 4069
+	.no_dead_strip plt_AVFoundation_AudioSettings__ctor_Foundation_NSDictionary
+plt_AVFoundation_AudioSettings__ctor_Foundation_NSDictionary:
+_p_115:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 4113
-	.no_dead_strip plt_Xamarin_Essentials_AccelerometerData_get_Acceleration
-plt_Xamarin_Essentials_AccelerometerData_get_Acceleration:
-_p_125:
+.word 4074
+	.no_dead_strip plt_AVFoundation_AVAudioRecorder_Create_Foundation_NSUrl_AVFoundation_AudioSettings_Foundation_NSError_
+plt_AVFoundation_AVAudioRecorder_Create_Foundation_NSUrl_AVFoundation_AudioSettings_Foundation_NSError_:
+_p_116:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 4118
-	.no_dead_strip plt_System_Console_WriteLine_single
-plt_System_Console_WriteLine_single:
-_p_126:
+.word 4079
+	.no_dead_strip plt_Foundation_NSObject_Dispose
+plt_Foundation_NSObject_Dispose:
+_p_117:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 4123
-	.no_dead_strip plt_System_Math_Abs_double
-plt_System_Math_Abs_double:
-_p_127:
+.word 4084
+	.no_dead_strip plt_AVFoundation_AVAudioRecorder_add_FinishedRecording_System_EventHandler_1_AVFoundation_AVStatusEventArgs
+plt_AVFoundation_AVAudioRecorder_add_FinishedRecording_System_EventHandler_1_AVFoundation_AVStatusEventArgs:
+_p_118:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 4126
-	.no_dead_strip plt_System_Math_Max_double_double
-plt_System_Math_Max_double_double:
-_p_128:
+.word 4089
+	.no_dead_strip plt_AVFoundation_AVStatusEventArgs_get_Status
+plt_AVFoundation_AVStatusEventArgs_get_Status:
+_p_119:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 4129
-	.no_dead_strip plt_SpriteKit_SKShapeNode__ctor
-plt_SpriteKit_SKShapeNode__ctor:
-_p_129:
+.word 4094
+	.no_dead_strip plt_WorkHeart_Classes_MovementData_InitializeAccelerometer
+plt_WorkHeart_Classes_MovementData_InitializeAccelerometer:
+_p_120:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 4132
-	.no_dead_strip plt_WorkHeart_Objects_Bubble_SubscribeToTracking
-plt_WorkHeart_Objects_Bubble_SubscribeToTracking:
-_p_130:
+.word 4099
+	.no_dead_strip plt_Xamarin_Essentials_Accelerometer_Start_Xamarin_Essentials_SensorSpeed
+plt_Xamarin_Essentials_Accelerometer_Start_Xamarin_Essentials_SensorSpeed:
+_p_121:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 4137
-	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetDefaultLook
-plt_WorkHeart_Objects_Bubble_SetDefaultLook:
-_p_131:
+.word 4104
+	.no_dead_strip plt_Xamarin_Essentials_Accelerometer_add_ReadingChanged_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs
+plt_Xamarin_Essentials_Accelerometer_add_ReadingChanged_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs:
+_p_122:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 4142
-	.no_dead_strip plt_WorkHeart_Objects_Bubble_AddIcon
-plt_WorkHeart_Objects_Bubble_AddIcon:
-_p_132:
+.word 4109
+	.no_dead_strip plt_System_Diagnostics_Debug_WriteLine_string
+plt_System_Diagnostics_Debug_WriteLine_string:
+_p_123:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 4147
-	.no_dead_strip plt_CoreGraphics_CGPath__ctor
-plt_CoreGraphics_CGPath__ctor:
-_p_133:
+.word 4114
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
+_p_124:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 4152
-	.no_dead_strip plt_CoreGraphics_CGPath_AddArc_System_nfloat_System_nfloat_System_nfloat_System_nfloat_System_nfloat_bool
-plt_CoreGraphics_CGPath_AddArc_System_nfloat_System_nfloat_System_nfloat_System_nfloat_System_nfloat_bool:
-_p_134:
+.word 4119
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_125:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 4157
-	.no_dead_strip plt_SpriteKit_SKPhysicsBody_CreateCircularBody_System_nfloat
-plt_SpriteKit_SKPhysicsBody_CreateCircularBody_System_nfloat:
-_p_135:
+.word 4158
+	.no_dead_strip plt_WorkHeart_Classes_MovementData_GetMaxMotion
+plt_WorkHeart_Classes_MovementData_GetMaxMotion:
+_p_126:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 4162
+.word 4186
+	.no_dead_strip plt_Xamarin_Essentials_AccelerometerChangedEventArgs_get_Reading
+plt_Xamarin_Essentials_AccelerometerChangedEventArgs_get_Reading:
+_p_127:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #568]
+br x16
+.word 4191
+	.no_dead_strip plt_Xamarin_Essentials_AccelerometerData_get_Acceleration
+plt_Xamarin_Essentials_AccelerometerData_get_Acceleration:
+_p_128:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #576]
+br x16
+.word 4196
+	.no_dead_strip plt_System_Math_Abs_double
+plt_System_Math_Abs_double:
+_p_129:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #584]
+br x16
+.word 4201
+	.no_dead_strip plt_System_Math_Max_double_double
+plt_System_Math_Max_double_double:
+_p_130:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #592]
+br x16
+.word 4204
+	.no_dead_strip plt_WorkHeart_Objects_Bubble_SubscribeToTracking
+plt_WorkHeart_Objects_Bubble_SubscribeToTracking:
+_p_131:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #600]
+br x16
+.word 4207
+	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetDefaultLook
+plt_WorkHeart_Objects_Bubble_SetDefaultLook:
+_p_132:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #608]
+br x16
+.word 4212
+	.no_dead_strip plt_WorkHeart_Objects_Bubble_AddIcon
+plt_WorkHeart_Objects_Bubble_AddIcon:
+_p_133:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #616]
+br x16
+.word 4217
+	.no_dead_strip plt_SpriteKit_SKPhysicsBody_CreateCircularBody_System_nfloat
+plt_SpriteKit_SKPhysicsBody_CreateCircularBody_System_nfloat:
+_p_134:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #624]
+br x16
+.word 4222
+	.no_dead_strip plt_string_Concat_object_object
+plt_string_Concat_object_object:
+_p_135:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #632]
+br x16
+.word 4227
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetIcon_string
 plt_WorkHeart_Objects_Bubble_SetIcon_string:
 _p_136:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #640]
 br x16
-.word 4167
+.word 4230
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours
 plt_WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours:
 _p_137:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #648]
 br x16
-.word 4172
+.word 4235
 	.no_dead_strip plt_WorkHeart_GameScene_remove_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction
 plt_WorkHeart_GameScene_remove_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction:
 _p_138:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #656]
 br x16
-.word 4177
+.word 4240
 	.no_dead_strip plt_WorkHeart_GameScene_add_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction
 plt_WorkHeart_GameScene_add_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction:
 _p_139:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #664]
 br x16
-.word 4182
+.word 4245
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_SubscribeToBubbleUnCentered
 plt_WorkHeart_Objects_Bubble_SubscribeToBubbleUnCentered:
 _p_140:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #672]
 br x16
-.word 4187
+.word 4250
 	.no_dead_strip plt_WorkHeart_GameScene_remove_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction
 plt_WorkHeart_GameScene_remove_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction:
 _p_141:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #680]
 br x16
-.word 4192
+.word 4255
 	.no_dead_strip plt_WorkHeart_GameScene_add_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction
 plt_WorkHeart_GameScene_add_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction:
 _p_142:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #688]
 br x16
-.word 4197
+.word 4260
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_SubscribeToBubbleCentered
 plt_WorkHeart_Objects_Bubble_SubscribeToBubbleCentered:
 _p_143:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #696]
 br x16
-.word 4202
+.word 4265
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_SubscribeToTrackingStopped
 plt_WorkHeart_Objects_Bubble_SubscribeToTrackingStopped:
 _p_144:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #704]
 br x16
-.word 4207
+.word 4270
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetActivatedPhysics
 plt_WorkHeart_Objects_Bubble_SetActivatedPhysics:
 _p_145:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #712]
 br x16
-.word 4212
+.word 4275
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetStatus_WorkHeart_Objects_Colours
 plt_WorkHeart_Objects_Bubble_SetStatus_WorkHeart_Objects_Colours:
 _p_146:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #720]
 br x16
-.word 4217
+.word 4280
 	.no_dead_strip plt_SpriteKit_SKAction_ScaleTo_System_nfloat_double
 plt_SpriteKit_SKAction_ScaleTo_System_nfloat_double:
 _p_147:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #728]
 br x16
-.word 4222
+.word 4285
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_RemoveActionView
 plt_WorkHeart_Objects_Bubble_RemoveActionView:
 _p_148:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #736]
 br x16
-.word 4227
+.word 4290
 	.no_dead_strip plt_SpriteKit_SKAction_FadeAlphaTo_System_nfloat_double
 plt_SpriteKit_SKAction_FadeAlphaTo_System_nfloat_double:
 _p_149:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #744]
 br x16
-.word 4232
+.word 4295
 	.no_dead_strip plt_WorkHeart_GameScene_remove_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction
 plt_WorkHeart_GameScene_remove_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction:
 _p_150:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #752]
 br x16
-.word 4237
+.word 4300
 	.no_dead_strip plt_WorkHeart_GameScene_add_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction
 plt_WorkHeart_GameScene_add_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction:
 _p_151:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #760]
 br x16
-.word 4242
+.word 4305
 	.no_dead_strip plt_WorkHeart_GameScene_remove_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction
 plt_WorkHeart_GameScene_remove_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction:
 _p_152:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #768]
 br x16
-.word 4247
+.word 4310
 	.no_dead_strip plt_WorkHeart_GameScene_add_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction
 plt_WorkHeart_GameScene_add_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction:
 _p_153:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #776]
 br x16
-.word 4252
+.word 4315
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_RemoveCenteredView
 plt_WorkHeart_Objects_Bubble_RemoveCenteredView:
 _p_154:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #784]
 br x16
-.word 4257
+.word 4320
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetReActivatedPhysics
 plt_WorkHeart_Objects_Bubble_SetReActivatedPhysics:
 _p_155:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #792]
 br x16
-.word 4262
+.word 4325
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetCenteredPhysics
 plt_WorkHeart_Objects_Bubble_SetCenteredPhysics:
 _p_156:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #800]
 br x16
-.word 4267
+.word 4330
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_showCenteredView
 plt_WorkHeart_Objects_Bubble_showCenteredView:
 _p_157:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #808]
 br x16
-.word 4272
+.word 4335
 	.no_dead_strip plt_SpriteKit_SKTexture_FromImageNamed_string
 plt_SpriteKit_SKTexture_FromImageNamed_string:
 _p_158:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #816]
 br x16
-.word 4277
+.word 4340
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_SetColours_WorkHeart_Objects_Colours
 plt_WorkHeart_Objects_Bubble_SetColours_WorkHeart_Objects_Colours:
 _p_159:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #824]
 br x16
-.word 4282
+.word 4345
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_showActionView
 plt_WorkHeart_Objects_Bubble_showActionView:
 _p_160:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #832]
 br x16
-.word 4287
+.word 4350
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_AddActionLabels
 plt_WorkHeart_Objects_Bubble_AddActionLabels:
 _p_161:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #840]
 br x16
-.word 4292
+.word 4355
 	.no_dead_strip plt_WorkHeart_Objects_Bubble_AddCenteredLabels
 plt_WorkHeart_Objects_Bubble_AddCenteredLabels:
 _p_162:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #848]
 br x16
-.word 4297
+.word 4360
 	.no_dead_strip plt_Foundation_NSBundle_get_MainBundle
 plt_Foundation_NSBundle_get_MainBundle:
 _p_163:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #856]
 br x16
-.word 4302
+.word 4365
 	.no_dead_strip plt_SpriteKit_SKSpriteNode__ctor_string
 plt_SpriteKit_SKSpriteNode__ctor_string:
 _p_164:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #864]
 br x16
-.word 4307
+.word 4370
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_SubscribeToTracking
 plt_WorkHeart_Objects_TimerButton_SubscribeToTracking:
 _p_165:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #872]
 br x16
-.word 4312
+.word 4375
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_SetDefaultLook
 plt_WorkHeart_Objects_TimerButton_SetDefaultLook:
 _p_166:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #880]
 br x16
-.word 4317
+.word 4380
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_SetCenteredPhysics
 plt_WorkHeart_Objects_TimerButton_SetCenteredPhysics:
 _p_167:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #888]
 br x16
-.word 4322
+.word 4385
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_AddTimerLabels
 plt_WorkHeart_Objects_TimerButton_AddTimerLabels:
 _p_168:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #896]
 br x16
-.word 4327
+.word 4390
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_AddRing
 plt_WorkHeart_Objects_TimerButton_AddRing:
 _p_169:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #904]
 br x16
-.word 4332
+.word 4395
 	.no_dead_strip plt_CoreGraphics_CGPoint__ctor_System_nfloat_System_nfloat
 plt_CoreGraphics_CGPoint__ctor_System_nfloat_System_nfloat:
 _p_170:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #912]
 br x16
-.word 4337
+.word 4400
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered
 plt_WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered:
 _p_171:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #920]
 br x16
-.word 4342
+.word 4405
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered
 plt_WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered:
 _p_172:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #928]
 br x16
-.word 4347
+.word 4410
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_SubscribePaused
 plt_WorkHeart_Objects_TimerButton_SubscribePaused:
 _p_173:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #936]
 br x16
-.word 4352
+.word 4415
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_AddTimingElements
 plt_WorkHeart_Objects_TimerButton_AddTimingElements:
 _p_174:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #944]
 br x16
-.word 4357
+.word 4420
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_CenterItemContents
 plt_WorkHeart_Objects_TimerButton_CenterItemContents:
 _p_175:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #952]
 br x16
-.word 4362
+.word 4425
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_SetLoosePhysics
 plt_WorkHeart_Objects_TimerButton_SetLoosePhysics:
 _p_176:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #960]
 br x16
-.word 4367
+.word 4430
 	.no_dead_strip plt_WorkHeart_GameScene_remove_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction
 plt_WorkHeart_GameScene_remove_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction:
 _p_177:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #968]
 br x16
-.word 4372
+.word 4435
 	.no_dead_strip plt_WorkHeart_GameScene_add_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction
 plt_WorkHeart_GameScene_add_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction:
 _p_178:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #976]
 br x16
-.word 4377
+.word 4440
 	.no_dead_strip plt_WorkHeart_GameScene_remove_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction
 plt_WorkHeart_GameScene_remove_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction:
 _p_179:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #984]
 br x16
-.word 4382
+.word 4445
 	.no_dead_strip plt_WorkHeart_GameScene_add_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction
 plt_WorkHeart_GameScene_add_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction:
 _p_180:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #992]
 br x16
-.word 4387
+.word 4450
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_SubscribeToPlayed
 plt_WorkHeart_Objects_TimerButton_SubscribeToPlayed:
 _p_181:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #1000]
 br x16
-.word 4392
+.word 4455
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped
 plt_WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped:
 _p_182:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #1008]
 br x16
-.word 4397
+.word 4460
 	.no_dead_strip plt_WorkHeart_Objects_TimerButton_ShowTrackingPaused
 plt_WorkHeart_Objects_TimerButton_ShowTrackingPaused:
 _p_183:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #944]
-br x16
-.word 4402
-	.no_dead_strip plt_SpriteKit_SKAction_MoveTo_CoreGraphics_CGPoint_double
-plt_SpriteKit_SKAction_MoveTo_CoreGraphics_CGPoint_double:
-_p_184:
-adrp x16, mono_aot_WorkHeart_got@PAGE+4096
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #952]
-br x16
-.word 4407
-	.no_dead_strip plt_WorkHeart_Objects_TimerButton__c__DisplayClass27_0__ctor
-plt_WorkHeart_Objects_TimerButton__c__DisplayClass27_0__ctor:
-_p_185:
-adrp x16, mono_aot_WorkHeart_got@PAGE+4096
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #960]
-br x16
-.word 4412
-	.no_dead_strip plt_Foundation_NSObject_InvokeOnMainThread_System_Action
-plt_Foundation_NSObject_InvokeOnMainThread_System_Action:
-_p_186:
-adrp x16, mono_aot_WorkHeart_got@PAGE+4096
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #968]
-br x16
-.word 4417
-	.no_dead_strip plt_WorkHeart_Objects_Bubble__ctor
-plt_WorkHeart_Objects_Bubble__ctor:
-_p_187:
-adrp x16, mono_aot_WorkHeart_got@PAGE+4096
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #976]
-br x16
-.word 4422
-	.no_dead_strip plt_WorkHeart_Objects_LightBubble_SubscribeToTracking
-plt_WorkHeart_Objects_LightBubble_SubscribeToTracking:
-_p_188:
-adrp x16, mono_aot_WorkHeart_got@PAGE+4096
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #984]
-br x16
-.word 4427
-	.no_dead_strip plt_WorkHeart_Objects_LightBubble_SetDefaultCharateristics
-plt_WorkHeart_Objects_LightBubble_SetDefaultCharateristics:
-_p_189:
-adrp x16, mono_aot_WorkHeart_got@PAGE+4096
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #992]
-br x16
-.word 4432
-	.no_dead_strip plt_WorkHeart_Objects_LightBubble_SubscribeToTrackingStopped
-plt_WorkHeart_Objects_LightBubble_SubscribeToTrackingStopped:
-_p_190:
-adrp x16, mono_aot_WorkHeart_got@PAGE+4096
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1000]
-br x16
-.word 4437
-	.no_dead_strip plt_WorkHeart_Classes_NoiseData__ctor
-plt_WorkHeart_Classes_NoiseData__ctor:
-_p_191:
-adrp x16, mono_aot_WorkHeart_got@PAGE+4096
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
-ldr x16, [x16, #1008]
-br x16
-.word 4442
-	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble_SubscribeToTracking
-plt_WorkHeart_Objects_NoiseBubble_SubscribeToTracking:
-_p_192:
-adrp x16, mono_aot_WorkHeart_got@PAGE+4096
-add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 4447
-	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble_SetDefaultCharateristics
-plt_WorkHeart_Objects_NoiseBubble_SetDefaultCharateristics:
-_p_193:
+.word 4465
+	.no_dead_strip plt_WorkHeart_Objects_TimerButton_StartTracking
+plt_WorkHeart_Objects_TimerButton_StartTracking:
+_p_184:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 4452
-	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble_SubscribeToTrackingStopped
-plt_WorkHeart_Objects_NoiseBubble_SubscribeToTrackingStopped:
-_p_194:
+.word 4470
+	.no_dead_strip plt_SpriteKit_SKAction_MoveTo_CoreGraphics_CGPoint_double
+plt_SpriteKit_SKAction_MoveTo_CoreGraphics_CGPoint_double:
+_p_185:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 4457
-	.no_dead_strip plt_WorkHeart_Classes_NoiseData_getNoiseStatus_double_double_double
-plt_WorkHeart_Classes_NoiseData_getNoiseStatus_double_double_double:
-_p_195:
+.word 4475
+	.no_dead_strip plt_WorkHeart_Objects_TimerButton__c__DisplayClass28_0__ctor
+plt_WorkHeart_Objects_TimerButton__c__DisplayClass28_0__ctor:
+_p_186:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 4462
-	.no_dead_strip plt_double_ToString
-plt_double_ToString:
-_p_196:
+.word 4480
+	.no_dead_strip plt_Foundation_NSObject_InvokeOnMainThread_System_Action
+plt_Foundation_NSObject_InvokeOnMainThread_System_Action:
+_p_187:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 4467
-	.no_dead_strip plt_string_Substring_int_int
-plt_string_Substring_int_int:
-_p_197:
+.word 4485
+	.no_dead_strip plt_WorkHeart_Objects_Bubble__ctor
+plt_WorkHeart_Objects_Bubble__ctor:
+_p_188:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 4470
-	.no_dead_strip plt_WorkHeart_Objects_Bubble_UpdateCenteredLabel
-plt_WorkHeart_Objects_Bubble_UpdateCenteredLabel:
-_p_198:
+.word 4490
+	.no_dead_strip plt_WorkHeart_Objects_LightBubble_SubscribeToTracking
+plt_WorkHeart_Objects_LightBubble_SubscribeToTracking:
+_p_189:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 4473
-	.no_dead_strip plt_WorkHeart_Classes_DurationData__ctor
-plt_WorkHeart_Classes_DurationData__ctor:
-_p_199:
+.word 4495
+	.no_dead_strip plt_WorkHeart_Objects_LightBubble_SetDefaultCharateristics
+plt_WorkHeart_Objects_LightBubble_SetDefaultCharateristics:
+_p_190:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 4478
-	.no_dead_strip plt_WorkHeart_Objects_DurationBubble_SubscribeToTracking
-plt_WorkHeart_Objects_DurationBubble_SubscribeToTracking:
-_p_200:
+.word 4500
+	.no_dead_strip plt_WorkHeart_Objects_LightBubble_SubscribeToTrackingStopped
+plt_WorkHeart_Objects_LightBubble_SubscribeToTrackingStopped:
+_p_191:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 4483
-	.no_dead_strip plt_WorkHeart_Objects_DurationBubble_SetDefaultCharateristics
-plt_WorkHeart_Objects_DurationBubble_SetDefaultCharateristics:
-_p_201:
+.word 4505
+	.no_dead_strip plt_WorkHeart_Classes_NoiseData__ctor
+plt_WorkHeart_Classes_NoiseData__ctor:
+_p_192:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 4488
-	.no_dead_strip plt_WorkHeart_Objects_DurationBubble_SubscribeToTrackingStopped
-plt_WorkHeart_Objects_DurationBubble_SubscribeToTrackingStopped:
-_p_202:
+.word 4510
+	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble_SubscribeToTracking
+plt_WorkHeart_Objects_NoiseBubble_SubscribeToTracking:
+_p_193:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 4493
-	.no_dead_strip plt_WorkHeart_Classes_DurationData_getDurationStatus_System_TimeSpan_double_double_double
-plt_WorkHeart_Classes_DurationData_getDurationStatus_System_TimeSpan_double_double_double:
-_p_203:
+.word 4515
+	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble_SetDefaultCharateristics
+plt_WorkHeart_Objects_NoiseBubble_SetDefaultCharateristics:
+_p_194:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 4498
-	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_SubscribeToTracking
-plt_WorkHeart_Objects_WaterBubble_SubscribeToTracking:
-_p_204:
+.word 4520
+	.no_dead_strip plt_WorkHeart_Objects_NoiseBubble_SubscribeToTrackingStopped
+plt_WorkHeart_Objects_NoiseBubble_SubscribeToTrackingStopped:
+_p_195:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 4503
-	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_SetDefaultCharateristics
-plt_WorkHeart_Objects_WaterBubble_SetDefaultCharateristics:
-_p_205:
+.word 4525
+	.no_dead_strip plt_WorkHeart_Classes_NoiseData_getNoiseStatus_double_double_double
+plt_WorkHeart_Classes_NoiseData_getNoiseStatus_double_double_double:
+_p_196:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 4508
-	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_SubscribeToTrackingStopped
-plt_WorkHeart_Objects_WaterBubble_SubscribeToTrackingStopped:
-_p_206:
+.word 4530
+	.no_dead_strip plt_double_ToString
+plt_double_ToString:
+_p_197:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 4513
-	.no_dead_strip plt_SpriteKit_SKAction_ScaleBy_System_nfloat_double
-plt_SpriteKit_SKAction_ScaleBy_System_nfloat_double:
-_p_207:
+.word 4535
+	.no_dead_strip plt_string_Substring_int_int
+plt_string_Substring_int_int:
+_p_198:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 4518
-	.no_dead_strip plt_int_ToString
-plt_int_ToString:
-_p_208:
+.word 4538
+	.no_dead_strip plt_WorkHeart_Objects_Bubble_UpdateCenteredLabel
+plt_WorkHeart_Objects_Bubble_UpdateCenteredLabel:
+_p_199:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 4523
-	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_SubscribeToTracking
-plt_WorkHeart_Objects_FoodBubble_SubscribeToTracking:
-_p_209:
+.word 4541
+	.no_dead_strip plt_WorkHeart_Classes_DurationData__ctor
+plt_WorkHeart_Classes_DurationData__ctor:
+_p_200:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 4526
-	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_SetDefaultCharateristics
-plt_WorkHeart_Objects_FoodBubble_SetDefaultCharateristics:
-_p_210:
+.word 4546
+	.no_dead_strip plt_WorkHeart_Objects_DurationBubble_SubscribeToTracking
+plt_WorkHeart_Objects_DurationBubble_SubscribeToTracking:
+_p_201:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 4531
-	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_SubscribeToTrackingStopped
-plt_WorkHeart_Objects_FoodBubble_SubscribeToTrackingStopped:
-_p_211:
+.word 4551
+	.no_dead_strip plt_WorkHeart_Objects_DurationBubble_SetDefaultCharateristics
+plt_WorkHeart_Objects_DurationBubble_SetDefaultCharateristics:
+_p_202:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 4536
-	.no_dead_strip plt_WorkHeart_Objects_StandBubble_SubscribeToTracking
-plt_WorkHeart_Objects_StandBubble_SubscribeToTracking:
-_p_212:
+.word 4556
+	.no_dead_strip plt_WorkHeart_Objects_DurationBubble_SubscribeToTrackingStopped
+plt_WorkHeart_Objects_DurationBubble_SubscribeToTrackingStopped:
+_p_203:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 4541
-	.no_dead_strip plt_WorkHeart_Objects_StandBubble_SetDefaultCharateristics
-plt_WorkHeart_Objects_StandBubble_SetDefaultCharateristics:
-_p_213:
+.word 4561
+	.no_dead_strip plt_WorkHeart_Classes_DurationData_getDurationStatus_System_TimeSpan_double_double_double
+plt_WorkHeart_Classes_DurationData_getDurationStatus_System_TimeSpan_double_double_double:
+_p_204:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 4546
-	.no_dead_strip plt_WorkHeart_Objects_StandBubble_SubscribeToTrackingStopped
-plt_WorkHeart_Objects_StandBubble_SubscribeToTrackingStopped:
-_p_214:
+.word 4566
+	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_SubscribeToTracking
+plt_WorkHeart_Objects_WaterBubble_SubscribeToTracking:
+_p_205:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 4551
-	.no_dead_strip plt_WorkHeart_Classes_MovementData__ctor
-plt_WorkHeart_Classes_MovementData__ctor:
-_p_215:
+.word 4571
+	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_SetDefaultCharateristics
+plt_WorkHeart_Objects_WaterBubble_SetDefaultCharateristics:
+_p_206:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 4556
-	.no_dead_strip plt_WorkHeart_Objects_MotionBubble_SubscribeToTracking
-plt_WorkHeart_Objects_MotionBubble_SubscribeToTracking:
-_p_216:
+.word 4576
+	.no_dead_strip plt_WorkHeart_Objects_WaterBubble_SubscribeToTrackingStopped
+plt_WorkHeart_Objects_WaterBubble_SubscribeToTrackingStopped:
+_p_207:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 4561
-	.no_dead_strip plt_WorkHeart_Objects_MotionBubble_SetDefaultCharateristics
-plt_WorkHeart_Objects_MotionBubble_SetDefaultCharateristics:
-_p_217:
+.word 4581
+	.no_dead_strip plt_SpriteKit_SKAction_ScaleBy_System_nfloat_double
+plt_SpriteKit_SKAction_ScaleBy_System_nfloat_double:
+_p_208:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 4566
-	.no_dead_strip plt_WorkHeart_Objects_MotionBubble_SubscribeToTrackingStopped
-plt_WorkHeart_Objects_MotionBubble_SubscribeToTrackingStopped:
-_p_218:
+.word 4586
+	.no_dead_strip plt_int_ToString
+plt_int_ToString:
+_p_209:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 4571
-	.no_dead_strip plt_WorkHeart_Classes_MovementData_getMotionStatus_double_double_double
-plt_WorkHeart_Classes_MovementData_getMotionStatus_double_double_double:
-_p_219:
+.word 4591
+	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_SubscribeToTracking
+plt_WorkHeart_Objects_FoodBubble_SubscribeToTracking:
+_p_210:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 4576
-	.no_dead_strip plt_System_Diagnostics_Debug_Write_string
-plt_System_Diagnostics_Debug_Write_string:
-_p_220:
+.word 4594
+	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_SetDefaultCharateristics
+plt_WorkHeart_Objects_FoodBubble_SetDefaultCharateristics:
+_p_211:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 4581
-	.no_dead_strip plt_System_TimeSpan_get_Hours
-plt_System_TimeSpan_get_Hours:
-_p_221:
+.word 4599
+	.no_dead_strip plt_WorkHeart_Objects_FoodBubble_SubscribeToTrackingStopped
+plt_WorkHeart_Objects_FoodBubble_SubscribeToTrackingStopped:
+_p_212:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 4586
-	.no_dead_strip plt_System_TimeSpan_get_Minutes
-plt_System_TimeSpan_get_Minutes:
-_p_222:
+.word 4604
+	.no_dead_strip plt_WorkHeart_Objects_StandBubble_SubscribeToTracking
+plt_WorkHeart_Objects_StandBubble_SubscribeToTracking:
+_p_213:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 4589
-	.no_dead_strip plt_System_TimeSpan_get_Seconds
-plt_System_TimeSpan_get_Seconds:
-_p_223:
+.word 4609
+	.no_dead_strip plt_WorkHeart_Objects_StandBubble_SetDefaultCharateristics
+plt_WorkHeart_Objects_StandBubble_SetDefaultCharateristics:
+_p_214:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 4592
-	.no_dead_strip plt_string_Concat_string__
-plt_string_Concat_string__:
-_p_224:
+.word 4614
+	.no_dead_strip plt_WorkHeart_Objects_StandBubble_SubscribeToTrackingStopped
+plt_WorkHeart_Objects_StandBubble_SubscribeToTrackingStopped:
+_p_215:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 4595
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_225:
+.word 4619
+	.no_dead_strip plt_WorkHeart_Classes_MovementData__ctor
+plt_WorkHeart_Classes_MovementData__ctor:
+_p_216:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 4598
-	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
-plt__jit_icall_mono_arch_rethrow_exception:
-_p_226:
+.word 4624
+	.no_dead_strip plt_WorkHeart_Objects_MotionBubble_SubscribeToTracking
+plt_WorkHeart_Objects_MotionBubble_SubscribeToTracking:
+_p_217:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 4636
-	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
-plt__jit_icall_mono_delegate_begin_invoke:
-_p_227:
+.word 4629
+	.no_dead_strip plt_WorkHeart_Objects_MotionBubble_SetDefaultCharateristics
+plt_WorkHeart_Objects_MotionBubble_SetDefaultCharateristics:
+_p_218:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 4666
-	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
-plt__jit_icall_mono_delegate_end_invoke:
-_p_228:
+.word 4634
+	.no_dead_strip plt_WorkHeart_Objects_MotionBubble_SubscribeToTrackingStopped
+plt_WorkHeart_Objects_MotionBubble_SubscribeToTrackingStopped:
+_p_219:
 adrp x16, mono_aot_WorkHeart_got@PAGE+4096
 add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 4695
+.word 4639
+	.no_dead_strip plt_WorkHeart_Classes_MovementData_getMotionStatus_double_double_double
+plt_WorkHeart_Classes_MovementData_getMotionStatus_double_double_double:
+_p_220:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1312]
+br x16
+.word 4644
+	.no_dead_strip plt_System_Diagnostics_Debug_Write_string
+plt_System_Diagnostics_Debug_Write_string:
+_p_221:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1320]
+br x16
+.word 4649
+	.no_dead_strip plt_System_TimeSpan_get_Hours
+plt_System_TimeSpan_get_Hours:
+_p_222:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1328]
+br x16
+.word 4654
+	.no_dead_strip plt_System_TimeSpan_get_Minutes
+plt_System_TimeSpan_get_Minutes:
+_p_223:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1336]
+br x16
+.word 4657
+	.no_dead_strip plt_System_TimeSpan_get_Seconds
+plt_System_TimeSpan_get_Seconds:
+_p_224:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1344]
+br x16
+.word 4660
+	.no_dead_strip plt_string_Concat_string__
+plt_string_Concat_string__:
+_p_225:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1352]
+br x16
+.word 4663
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_226:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1360]
+br x16
+.word 4666
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
+_p_227:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1368]
+br x16
+.word 4704
+	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
+plt__jit_icall_mono_delegate_begin_invoke:
+_p_228:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1376]
+br x16
+.word 4734
+	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
+plt__jit_icall_mono_delegate_end_invoke:
+_p_229:
+adrp x16, mono_aot_WorkHeart_got@PAGE+4096
+add x16, x16, mono_aot_WorkHeart_got@PAGEOFF
+ldr x16, [x16, #1384]
+br x16
+.word 4763
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_WorkHeart_got, 5408
+.lcomm mono_aot_WorkHeart_got, 5488
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -41165,7 +42375,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "DD6F799C-DD12-4172-852C-63270B8ADE08"
+	.asciz "C21F4BC9-430D-42F5-A046-7E3448950320"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -41252,14 +42462,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 447,5408,229,213,5,102,391195135,0
-	.long 59078,128,8,8,8,9,8388607,0
-	.long 28,61496,0,0,2408,1976,520,0
-	.long 1448,1904,848,0,472,304,2400,0
+	.long 456,5488,230,214,5,102,391195135,0
+	.long 60783,128,8,8,8,9,8388607,0
+	.long 28,63208,0,0,2416,1984,520,0
+	.long 1456,1912,840,0,472,304,2408,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 7,208,214,65,165,181,94,232,64,213,110,241,244,154,165,150
+	.byte 133,246,142,77,189,205,146,250,24,240,104,18,3,246,197,99
 	.globl _mono_aot_module_WorkHeart_info
 	.align 3
 _mono_aot_module_WorkHeart_info:
@@ -42297,7 +43507,7 @@ LTDIE_21:
 	.byte 5
 	.asciz "WorkHeart_Objects_TimerButton"
 
-	.byte 80,16
+	.byte 88,16
 LDIFF_SYM145=LTDIE_22 - Ldebug_info_start
 	.long LDIFF_SYM145
 	.byte 2,35,0,6
@@ -42305,7 +43515,7 @@ LDIFF_SYM145=LTDIE_22 - Ldebug_info_start
 
 LDIFF_SYM146=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM146
-	.byte 2,35,64,6
+	.byte 2,35,72,6
 	.asciz "timerLabel"
 
 LDIFF_SYM147=LTDIE_23_REFERENCE - Ldebug_info_start
@@ -42320,57 +43530,62 @@ LDIFF_SYM148=LTDIE_24_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM149=LTDIE_22_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM149
-	.byte 2,35,56,0,7
+	.byte 2,35,56,6
+	.asciz "pauseIcon"
+
+LDIFF_SYM150=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM150
+	.byte 2,35,64,0,7
 	.asciz "WorkHeart_Objects_TimerButton"
 
-LDIFF_SYM150=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM150
+LDIFF_SYM151=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM151
 LTDIE_21_POINTER:
 
 	.byte 13
-LDIFF_SYM151=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM151
+LDIFF_SYM152=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM152
 LTDIE_21_REFERENCE:
 
 	.byte 14
-LDIFF_SYM152=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM152
+LDIFF_SYM153=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM153
 LTDIE_27:
 
 	.byte 5
 	.asciz "System_Single"
 
 	.byte 20,16
-LDIFF_SYM153=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM153
+LDIFF_SYM154=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM154
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM154=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM154
+LDIFF_SYM155=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM155
 	.byte 2,35,16,0,7
 	.asciz "System_Single"
 
-LDIFF_SYM155=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM155
+LDIFF_SYM156=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM156
 LTDIE_27_POINTER:
 
 	.byte 13
-LDIFF_SYM156=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM156
+LDIFF_SYM157=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM157
 LTDIE_27_REFERENCE:
 
 	.byte 14
-LDIFF_SYM157=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM157
+LDIFF_SYM158=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM158
 LTDIE_28:
 
 	.byte 8
 	.asciz "WorkHeart_Objects_Colours"
 
 	.byte 4
-LDIFF_SYM158=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM158
+LDIFF_SYM159=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM159
 	.byte 9
 	.asciz "White"
 
@@ -42398,822 +43613,822 @@ LDIFF_SYM158=LDIE_I4 - Ldebug_info_start
 	.byte 7,0,7
 	.asciz "WorkHeart_Objects_Colours"
 
-LDIFF_SYM159=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM159
+LDIFF_SYM160=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM160
 LTDIE_28_POINTER:
 
 	.byte 13
-LDIFF_SYM160=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM160
+LDIFF_SYM161=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM161
 LTDIE_28_REFERENCE:
 
 	.byte 14
-LDIFF_SYM161=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM161
+LDIFF_SYM162=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM162
 LTDIE_26:
 
 	.byte 5
 	.asciz "WorkHeart_Objects_Bubble"
 
 	.byte 224,1,16
-LDIFF_SYM162=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM162
+LDIFF_SYM163=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM163
 	.byte 2,35,0,6
 	.asciz "currentSize"
 
-LDIFF_SYM163=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM163
+LDIFF_SYM164=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM164
 	.byte 3,35,208,1,6
 	.asciz "iconSprite"
 
-LDIFF_SYM164=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM164
+LDIFF_SYM165=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM165
 	.byte 2,35,40,6
 	.asciz "currentColor"
 
-LDIFF_SYM165=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM165
+LDIFF_SYM166=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM166
 	.byte 3,35,212,1,6
 	.asciz "activated"
 
-LDIFF_SYM166=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM166
+LDIFF_SYM167=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM167
 	.byte 3,35,216,1,6
 	.asciz "centered"
 
-LDIFF_SYM167=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM167
+LDIFF_SYM168=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM168
 	.byte 3,35,217,1,6
 	.asciz "centeredLabel1Text"
 
-LDIFF_SYM168=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM168
+LDIFF_SYM169=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM169
 	.byte 2,35,48,6
 	.asciz "centeredLabel2Text"
 
-LDIFF_SYM169=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM169
+LDIFF_SYM170=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM170
 	.byte 2,35,56,6
 	.asciz "centerLabel1"
 
-LDIFF_SYM170=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM170
+LDIFF_SYM171=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM171
 	.byte 2,35,64,6
 	.asciz "centerLabel2"
 
-LDIFF_SYM171=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM171
+LDIFF_SYM172=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM172
 	.byte 2,35,72,6
 	.asciz "iconName"
 
-LDIFF_SYM172=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM172
+LDIFF_SYM173=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM173
 	.byte 2,35,80,6
 	.asciz "bubbleType"
 
-LDIFF_SYM173=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM173
+LDIFF_SYM174=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM174
 	.byte 2,35,88,6
 	.asciz "actionLabel1"
 
-LDIFF_SYM174=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM174
+LDIFF_SYM175=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM175
 	.byte 2,35,96,6
 	.asciz "actionLabel2"
 
-LDIFF_SYM175=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM175
+LDIFF_SYM176=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM176
 	.byte 2,35,104,6
 	.asciz "actionButton"
 
-LDIFF_SYM176=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM176
+LDIFF_SYM177=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM177
 	.byte 2,35,112,6
 	.asciz "actionButtonMinus"
 
-LDIFF_SYM177=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM177
+LDIFF_SYM178=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM178
 	.byte 2,35,120,6
 	.asciz "actionLabel1Text"
 
-LDIFF_SYM178=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM178
+LDIFF_SYM179=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM179
 	.byte 3,35,128,1,6
 	.asciz "actionLabel2Text"
 
-LDIFF_SYM179=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM179
+LDIFF_SYM180=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM180
 	.byte 3,35,136,1,6
 	.asciz "actionButtonAdded"
 
-LDIFF_SYM180=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM180
+LDIFF_SYM181=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM181
 	.byte 3,35,218,1,6
 	.asciz "actionName"
 
-LDIFF_SYM181=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM181
+LDIFF_SYM182=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM182
 	.byte 3,35,144,1,6
 	.asciz "minusActionName"
 
-LDIFF_SYM182=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM182
+LDIFF_SYM183=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM183
 	.byte 3,35,152,1,6
 	.asciz "actionInfoLabel1Text"
 
-LDIFF_SYM183=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM183
+LDIFF_SYM184=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM184
 	.byte 3,35,160,1,6
 	.asciz "actionInfoLabel2Text"
 
-LDIFF_SYM184=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM184
+LDIFF_SYM185=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM185
 	.byte 3,35,168,1,6
 	.asciz "actionInfoLabel3Text"
 
-LDIFF_SYM185=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM185
+LDIFF_SYM186=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM186
 	.byte 3,35,176,1,6
 	.asciz "actionInfoLabel1"
 
-LDIFF_SYM186=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM186
+LDIFF_SYM187=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM187
 	.byte 3,35,184,1,6
 	.asciz "actionInfoLabel2"
 
-LDIFF_SYM187=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM187
+LDIFF_SYM188=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM188
 	.byte 3,35,192,1,6
 	.asciz "actionInfoLabel3"
 
-LDIFF_SYM188=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM188
+LDIFF_SYM189=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM189
 	.byte 3,35,200,1,0,7
 	.asciz "WorkHeart_Objects_Bubble"
 
-LDIFF_SYM189=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM189
+LDIFF_SYM190=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM190
 LTDIE_26_POINTER:
 
 	.byte 13
-LDIFF_SYM190=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM190
+LDIFF_SYM191=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM191
 LTDIE_26_REFERENCE:
 
 	.byte 14
-LDIFF_SYM191=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM191
+LDIFF_SYM192=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM192
 LTDIE_30:
 
 	.byte 5
 	.asciz "System_Double"
 
 	.byte 24,16
-LDIFF_SYM192=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM192
+LDIFF_SYM193=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM193
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM193=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM193
+LDIFF_SYM194=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM194
 	.byte 2,35,16,0,7
 	.asciz "System_Double"
 
-LDIFF_SYM194=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM194
+LDIFF_SYM195=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM195
 LTDIE_30_POINTER:
 
 	.byte 13
-LDIFF_SYM195=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM195
+LDIFF_SYM196=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM196
 LTDIE_30_REFERENCE:
 
 	.byte 14
-LDIFF_SYM196=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM196
+LDIFF_SYM197=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM197
 LTDIE_29:
 
 	.byte 5
 	.asciz "WorkHeart_Classes_MovementData"
 
 	.byte 40,16
-LDIFF_SYM197=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM197
+LDIFF_SYM198=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM198
 	.byte 2,35,0,6
 	.asciz "currentMotionX"
 
-LDIFF_SYM198=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM198
+LDIFF_SYM199=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM199
 	.byte 2,35,16,6
 	.asciz "currentMotionY"
 
-LDIFF_SYM199=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM199
+LDIFF_SYM200=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM200
 	.byte 2,35,24,6
 	.asciz "currentMotionZ"
 
-LDIFF_SYM200=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM200
+LDIFF_SYM201=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM201
 	.byte 2,35,32,0,7
 	.asciz "WorkHeart_Classes_MovementData"
 
-LDIFF_SYM201=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM201
+LDIFF_SYM202=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM202
 LTDIE_29_POINTER:
 
 	.byte 13
-LDIFF_SYM202=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM202
+LDIFF_SYM203=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM203
 LTDIE_29_REFERENCE:
 
 	.byte 14
-LDIFF_SYM203=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM203
+LDIFF_SYM204=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM204
 LTDIE_25:
 
 	.byte 5
 	.asciz "WorkHeart_Objects_MotionBubble"
 
 	.byte 168,2,16
-LDIFF_SYM204=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM204
+LDIFF_SYM205=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM205
 	.byte 2,35,0,6
 	.asciz "motionDataController"
 
-LDIFF_SYM205=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM205
+LDIFF_SYM206=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM206
 	.byte 3,35,224,1,6
 	.asciz "currentMaxMotion"
 
-LDIFF_SYM206=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM206
+LDIFF_SYM207=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM207
 	.byte 3,35,232,1,6
 	.asciz "currentMotionX"
 
-LDIFF_SYM207=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM207
+LDIFF_SYM208=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM208
 	.byte 3,35,240,1,6
 	.asciz "currentMotionY"
 
-LDIFF_SYM208=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM208
+LDIFF_SYM209=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM209
 	.byte 3,35,248,1,6
 	.asciz "currentMotionZ"
 
-LDIFF_SYM209=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM209
+LDIFF_SYM210=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM210
 	.byte 3,35,128,2,6
 	.asciz "parentSize"
 
-LDIFF_SYM210=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM210
+LDIFF_SYM211=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM211
 	.byte 3,35,136,2,6
 	.asciz "defaultPosition"
 
-LDIFF_SYM211=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM211
+LDIFF_SYM212=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM212
 	.byte 3,35,152,2,0,7
 	.asciz "WorkHeart_Objects_MotionBubble"
 
-LDIFF_SYM212=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM212
+LDIFF_SYM213=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM213
 LTDIE_25_POINTER:
 
 	.byte 13
-LDIFF_SYM213=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM213
+LDIFF_SYM214=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM214
 LTDIE_25_REFERENCE:
 
 	.byte 14
-LDIFF_SYM214=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM214
+LDIFF_SYM215=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM215
 LTDIE_32:
 
 	.byte 5
 	.asciz "AVFoundation_AVAudioRecorder"
 
 	.byte 48,16
-LDIFF_SYM215=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM215
+LDIFF_SYM216=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM216
 	.byte 2,35,0,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM216=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM216
+LDIFF_SYM217=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM217
 	.byte 2,35,40,0,7
 	.asciz "AVFoundation_AVAudioRecorder"
 
-LDIFF_SYM217=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM217
+LDIFF_SYM218=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM218
 LTDIE_32_POINTER:
 
 	.byte 13
-LDIFF_SYM218=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM218
+LDIFF_SYM219=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM219
 LTDIE_32_REFERENCE:
 
 	.byte 14
-LDIFF_SYM219=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM219
+LDIFF_SYM220=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM220
 LTDIE_33:
 
 	.byte 5
 	.asciz "AVFoundation_AVPlayer"
 
 	.byte 40,16
-LDIFF_SYM220=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM220
+LDIFF_SYM221=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM221
 	.byte 2,35,0,0,7
 	.asciz "AVFoundation_AVPlayer"
 
-LDIFF_SYM221=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM221
+LDIFF_SYM222=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM222
 LTDIE_33_POINTER:
 
 	.byte 13
-LDIFF_SYM222=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM222
+LDIFF_SYM223=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM223
 LTDIE_33_REFERENCE:
 
 	.byte 14
-LDIFF_SYM223=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM223
+LDIFF_SYM224=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM224
 LTDIE_35:
 
 	.byte 5
 	.asciz "System_Int64"
 
 	.byte 24,16
-LDIFF_SYM224=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM224
+LDIFF_SYM225=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM225
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM225=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM225
+LDIFF_SYM226=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM226
 	.byte 2,35,16,0,7
 	.asciz "System_Int64"
 
-LDIFF_SYM226=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM226
+LDIFF_SYM227=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM227
 LTDIE_35_POINTER:
 
 	.byte 13
-LDIFF_SYM227=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM227
+LDIFF_SYM228=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM228
 LTDIE_35_REFERENCE:
 
 	.byte 14
-LDIFF_SYM228=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM228
+LDIFF_SYM229=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM229
 LTDIE_34:
 
 	.byte 5
 	.asciz "System_Diagnostics_Stopwatch"
 
 	.byte 40,16
-LDIFF_SYM229=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM229
+LDIFF_SYM230=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM230
 	.byte 2,35,0,6
 	.asciz "elapsed"
 
-LDIFF_SYM230=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM230
+LDIFF_SYM231=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM231
 	.byte 2,35,16,6
 	.asciz "started"
 
-LDIFF_SYM231=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM231
+LDIFF_SYM232=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM232
 	.byte 2,35,24,6
 	.asciz "is_running"
 
-LDIFF_SYM232=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM232
+LDIFF_SYM233=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM233
 	.byte 2,35,32,0,7
 	.asciz "System_Diagnostics_Stopwatch"
 
-LDIFF_SYM233=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM233
+LDIFF_SYM234=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM234
 LTDIE_34_POINTER:
 
 	.byte 13
-LDIFF_SYM234=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM234
+LDIFF_SYM235=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM235
 LTDIE_34_REFERENCE:
 
 	.byte 14
-LDIFF_SYM235=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM235
+LDIFF_SYM236=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM236
 LTDIE_36:
 
 	.byte 5
 	.asciz "Foundation_NSUrl"
 
 	.byte 40,16
-LDIFF_SYM236=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM236
+LDIFF_SYM237=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM237
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSUrl"
 
-LDIFF_SYM237=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM237
+LDIFF_SYM238=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM238
 LTDIE_36_POINTER:
 
 	.byte 13
-LDIFF_SYM238=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM238
+LDIFF_SYM239=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM239
 LTDIE_36_REFERENCE:
 
 	.byte 14
-LDIFF_SYM239=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM239
+LDIFF_SYM240=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM240
 LTDIE_37:
 
 	.byte 5
 	.asciz "WorkHeart_Classes_NoiseData"
 
 	.byte 64,16
-LDIFF_SYM240=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM240
+LDIFF_SYM241=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM241
 	.byte 2,35,0,6
 	.asciz "recorder"
 
-LDIFF_SYM241=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM241
+LDIFF_SYM242=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM242
 	.byte 2,35,16,6
 	.asciz "player"
 
-LDIFF_SYM242=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM242
+LDIFF_SYM243=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM243
 	.byte 2,35,24,6
 	.asciz "settings"
 
-LDIFF_SYM243=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM243
+LDIFF_SYM244=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM244
 	.byte 2,35,32,6
 	.asciz "stopwatch"
 
-LDIFF_SYM244=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM244
+LDIFF_SYM245=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM245
 	.byte 2,35,40,6
 	.asciz "audioFilePath"
 
-LDIFF_SYM245=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM245
+LDIFF_SYM246=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM246
 	.byte 2,35,48,6
 	.asciz "observer"
 
-LDIFF_SYM246=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM246
+LDIFF_SYM247=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM247
 	.byte 2,35,56,0,7
 	.asciz "WorkHeart_Classes_NoiseData"
 
-LDIFF_SYM247=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM247
+LDIFF_SYM248=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM248
 LTDIE_37_POINTER:
 
 	.byte 13
-LDIFF_SYM248=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM248
+LDIFF_SYM249=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM249
 LTDIE_37_REFERENCE:
 
 	.byte 14
-LDIFF_SYM249=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM249
+LDIFF_SYM250=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM250
 LTDIE_31:
 
 	.byte 5
 	.asciz "WorkHeart_Objects_NoiseBubble"
 
 	.byte 192,2,16
-LDIFF_SYM250=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM250
+LDIFF_SYM251=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM251
 	.byte 2,35,0,6
 	.asciz "recorder"
 
-LDIFF_SYM251=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM251
+LDIFF_SYM252=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM252
 	.byte 3,35,224,1,6
 	.asciz "player"
 
-LDIFF_SYM252=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM252
+LDIFF_SYM253=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM253
 	.byte 3,35,232,1,6
 	.asciz "settings"
 
-LDIFF_SYM253=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM253
+LDIFF_SYM254=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM254
 	.byte 3,35,240,1,6
 	.asciz "stopwatch"
 
-LDIFF_SYM254=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM254
+LDIFF_SYM255=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM255
 	.byte 3,35,248,1,6
 	.asciz "audioFilePath"
 
-LDIFF_SYM255=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM255
+LDIFF_SYM256=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM256
 	.byte 3,35,128,2,6
 	.asciz "observer"
 
-LDIFF_SYM256=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM256
+LDIFF_SYM257=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM257
 	.byte 3,35,136,2,6
 	.asciz "noiseDataController"
 
-LDIFF_SYM257=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM257
+LDIFF_SYM258=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM258
 	.byte 3,35,144,2,6
 	.asciz "currentNoise"
 
-LDIFF_SYM258=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM258
+LDIFF_SYM259=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM259
 	.byte 3,35,152,2,6
 	.asciz "parentSize"
 
-LDIFF_SYM259=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM259
+LDIFF_SYM260=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM260
 	.byte 3,35,160,2,6
 	.asciz "defaultPosition"
 
-LDIFF_SYM260=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM260
+LDIFF_SYM261=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM261
 	.byte 3,35,176,2,0,7
 	.asciz "WorkHeart_Objects_NoiseBubble"
 
-LDIFF_SYM261=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM261
+LDIFF_SYM262=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM262
 LTDIE_31_POINTER:
 
 	.byte 13
-LDIFF_SYM262=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM262
+LDIFF_SYM263=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM263
 LTDIE_31_REFERENCE:
 
 	.byte 14
-LDIFF_SYM263=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM263
+LDIFF_SYM264=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM264
 LTDIE_39:
 
 	.byte 5
 	.asciz "WorkHeart_Classes_DurationData"
 
 	.byte 16,16
-LDIFF_SYM264=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM264
+LDIFF_SYM265=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM265
 	.byte 2,35,0,0,7
 	.asciz "WorkHeart_Classes_DurationData"
 
-LDIFF_SYM265=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM265
+LDIFF_SYM266=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM266
 LTDIE_39_POINTER:
 
 	.byte 13
-LDIFF_SYM266=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM266
+LDIFF_SYM267=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM267
 LTDIE_39_REFERENCE:
 
 	.byte 14
-LDIFF_SYM267=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM267
+LDIFF_SYM268=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM268
 LTDIE_38:
 
 	.byte 5
 	.asciz "WorkHeart_Objects_DurationBubble"
 
 	.byte 136,2,16
-LDIFF_SYM268=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM268
+LDIFF_SYM269=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM269
 	.byte 2,35,0,6
 	.asciz "parentSize"
 
-LDIFF_SYM269=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM269
+LDIFF_SYM270=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM270
 	.byte 3,35,232,1,6
 	.asciz "defaultPosition"
 
-LDIFF_SYM270=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM270
+LDIFF_SYM271=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM271
 	.byte 3,35,248,1,6
 	.asciz "durationDataController"
 
-LDIFF_SYM271=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM271
+LDIFF_SYM272=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM272
 	.byte 3,35,224,1,0,7
 	.asciz "WorkHeart_Objects_DurationBubble"
 
-LDIFF_SYM272=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM272
+LDIFF_SYM273=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM273
 LTDIE_38_POINTER:
 
 	.byte 13
-LDIFF_SYM273=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM273
+LDIFF_SYM274=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM274
 LTDIE_38_REFERENCE:
 
 	.byte 14
-LDIFF_SYM274=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM274
+LDIFF_SYM275=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM275
 LTDIE_41:
 
 	.byte 5
 	.asciz "System_Int32"
 
 	.byte 20,16
-LDIFF_SYM275=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM275
+LDIFF_SYM276=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM276
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM276=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM276
+LDIFF_SYM277=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM277
 	.byte 2,35,16,0,7
 	.asciz "System_Int32"
 
-LDIFF_SYM277=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM277
+LDIFF_SYM278=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM278
 LTDIE_41_POINTER:
 
 	.byte 13
-LDIFF_SYM278=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM278
+LDIFF_SYM279=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM279
 LTDIE_41_REFERENCE:
 
 	.byte 14
-LDIFF_SYM279=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM279
+LDIFF_SYM280=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM280
 LTDIE_40:
 
 	.byte 5
 	.asciz "WorkHeart_Objects_WaterBubble"
 
 	.byte 144,2,16
-LDIFF_SYM280=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM280
+LDIFF_SYM281=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM281
 	.byte 2,35,0,6
 	.asciz "waterInterval"
 
-LDIFF_SYM281=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM281
+LDIFF_SYM282=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM282
 	.byte 3,35,232,1,6
 	.asciz "glasses"
 
-LDIFF_SYM282=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM282
+LDIFF_SYM283=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM283
 	.byte 3,35,236,1,6
 	.asciz "parentSize"
 
-LDIFF_SYM283=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM283
+LDIFF_SYM284=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM284
 	.byte 3,35,240,1,6
 	.asciz "defaultPosition"
 
-LDIFF_SYM284=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM284
+LDIFF_SYM285=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM285
 	.byte 3,35,128,2,6
 	.asciz "durationDataController"
 
-LDIFF_SYM285=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM285
+LDIFF_SYM286=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM286
 	.byte 3,35,224,1,0,7
 	.asciz "WorkHeart_Objects_WaterBubble"
 
-LDIFF_SYM286=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM286
+LDIFF_SYM287=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM287
 LTDIE_40_POINTER:
 
 	.byte 13
-LDIFF_SYM287=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM287
+LDIFF_SYM288=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM288
 LTDIE_40_REFERENCE:
 
 	.byte 14
-LDIFF_SYM288=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM288
+LDIFF_SYM289=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM289
 LTDIE_42:
 
 	.byte 5
 	.asciz "WorkHeart_Objects_FoodBubble"
 
 	.byte 144,2,16
-LDIFF_SYM289=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM289
+LDIFF_SYM290=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM290
 	.byte 2,35,0,6
 	.asciz "foodInterval"
 
-LDIFF_SYM290=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM290
+LDIFF_SYM291=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM291
 	.byte 3,35,232,1,6
 	.asciz "glasses"
 
-LDIFF_SYM291=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM291
+LDIFF_SYM292=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM292
 	.byte 3,35,236,1,6
 	.asciz "parentSize"
 
-LDIFF_SYM292=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM292
+LDIFF_SYM293=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM293
 	.byte 3,35,240,1,6
 	.asciz "defaultPosition"
 
-LDIFF_SYM293=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM293
+LDIFF_SYM294=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM294
 	.byte 3,35,128,2,6
 	.asciz "durationDataController"
 
-LDIFF_SYM294=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM294
+LDIFF_SYM295=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM295
 	.byte 3,35,224,1,0,7
 	.asciz "WorkHeart_Objects_FoodBubble"
 
-LDIFF_SYM295=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM295
+LDIFF_SYM296=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM296
 LTDIE_42_POINTER:
 
 	.byte 13
-LDIFF_SYM296=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM296
+LDIFF_SYM297=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM297
 LTDIE_42_REFERENCE:
 
 	.byte 14
-LDIFF_SYM297=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM297
+LDIFF_SYM298=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM298
 LTDIE_43:
 
 	.byte 5
 	.asciz "WorkHeart_Objects_StandBubble"
 
 	.byte 144,2,16
-LDIFF_SYM298=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM298
+LDIFF_SYM299=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM299
 	.byte 2,35,0,6
 	.asciz "standInterval"
 
-LDIFF_SYM299=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM299
+LDIFF_SYM300=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM300
 	.byte 3,35,232,1,6
 	.asciz "glasses"
 
-LDIFF_SYM300=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM300
+LDIFF_SYM301=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM301
 	.byte 3,35,236,1,6
 	.asciz "parentSize"
 
-LDIFF_SYM301=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM301
+LDIFF_SYM302=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM302
 	.byte 3,35,240,1,6
 	.asciz "defaultPosition"
 
-LDIFF_SYM302=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM302
+LDIFF_SYM303=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM303
 	.byte 3,35,128,2,6
 	.asciz "durationDataController"
 
-LDIFF_SYM303=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM303
+LDIFF_SYM304=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM304
 	.byte 3,35,224,1,0,7
 	.asciz "WorkHeart_Objects_StandBubble"
 
-LDIFF_SYM304=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM304
+LDIFF_SYM305=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM305
 LTDIE_43_POINTER:
 
 	.byte 13
-LDIFF_SYM305=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM305
+LDIFF_SYM306=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM306
 LTDIE_43_REFERENCE:
 
 	.byte 14
-LDIFF_SYM306=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM306
+LDIFF_SYM307=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM307
 LTDIE_46:
 
 	.byte 5
 	.asciz "System_MarshalByRefObject"
 
 	.byte 24,16
-LDIFF_SYM307=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM307
+LDIFF_SYM308=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM308
 	.byte 2,35,0,6
 	.asciz "_identity"
 
-LDIFF_SYM308=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM308
+LDIFF_SYM309=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM309
 	.byte 2,35,16,0,7
 	.asciz "System_MarshalByRefObject"
 
-LDIFF_SYM309=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM309
+LDIFF_SYM310=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM310
 LTDIE_46_POINTER:
 
 	.byte 13
-LDIFF_SYM310=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM310
+LDIFF_SYM311=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM311
 LTDIE_46_REFERENCE:
 
 	.byte 14
-LDIFF_SYM311=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM311
+LDIFF_SYM312=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM312
 LTDIE_47:
 
 	.byte 17
@@ -43222,396 +44437,396 @@ LTDIE_47:
 	.byte 16,7
 	.asciz "System_ComponentModel_ISite"
 
-LDIFF_SYM312=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM312
+LDIFF_SYM313=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM313
 LTDIE_47_POINTER:
 
 	.byte 13
-LDIFF_SYM313=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM313
+LDIFF_SYM314=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM314
 LTDIE_47_REFERENCE:
 
 	.byte 14
-LDIFF_SYM314=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM314
+LDIFF_SYM315=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM315
 LTDIE_53:
 
 	.byte 5
 	.asciz "System_Reflection_MemberInfo"
 
 	.byte 16,16
-LDIFF_SYM315=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM315
+LDIFF_SYM316=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM316
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MemberInfo"
 
-LDIFF_SYM316=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM316
+LDIFF_SYM317=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM317
 LTDIE_53_POINTER:
 
 	.byte 13
-LDIFF_SYM317=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM317
+LDIFF_SYM318=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM318
 LTDIE_53_REFERENCE:
 
 	.byte 14
-LDIFF_SYM318=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM318
+LDIFF_SYM319=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM319
 LTDIE_52:
 
 	.byte 5
 	.asciz "System_Reflection_MethodBase"
 
 	.byte 16,16
-LDIFF_SYM319=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM319
+LDIFF_SYM320=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM320
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MethodBase"
 
-LDIFF_SYM320=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM320
+LDIFF_SYM321=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM321
 LTDIE_52_POINTER:
 
 	.byte 13
-LDIFF_SYM321=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM321
+LDIFF_SYM322=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM322
 LTDIE_52_REFERENCE:
 
 	.byte 14
-LDIFF_SYM322=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM322
+LDIFF_SYM323=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM323
 LTDIE_51:
 
 	.byte 5
 	.asciz "System_Reflection_MethodInfo"
 
 	.byte 16,16
-LDIFF_SYM323=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM323
+LDIFF_SYM324=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM324
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MethodInfo"
 
-LDIFF_SYM324=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM324
+LDIFF_SYM325=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM325
 LTDIE_51_POINTER:
 
 	.byte 13
-LDIFF_SYM325=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM325
+LDIFF_SYM326=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM326
 LTDIE_51_REFERENCE:
 
 	.byte 14
-LDIFF_SYM326=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM326
+LDIFF_SYM327=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM327
 LTDIE_55:
 
 	.byte 5
 	.asciz "System_Type"
 
 	.byte 24,16
-LDIFF_SYM327=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM327
+LDIFF_SYM328=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM328
 	.byte 2,35,0,6
 	.asciz "_impl"
 
-LDIFF_SYM328=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM328
+LDIFF_SYM329=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM329
 	.byte 2,35,16,0,7
 	.asciz "System_Type"
 
-LDIFF_SYM329=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM329
+LDIFF_SYM330=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM330
 LTDIE_55_POINTER:
 
 	.byte 13
-LDIFF_SYM330=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM330
+LDIFF_SYM331=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM331
 LTDIE_55_REFERENCE:
 
 	.byte 14
-LDIFF_SYM331=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM331
+LDIFF_SYM332=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM332
 LTDIE_54:
 
 	.byte 5
 	.asciz "System_DelegateData"
 
 	.byte 40,16
-LDIFF_SYM332=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM332
+LDIFF_SYM333=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM333
 	.byte 2,35,0,6
 	.asciz "target_type"
 
-LDIFF_SYM333=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM333
+LDIFF_SYM334=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM334
 	.byte 2,35,16,6
 	.asciz "method_name"
 
-LDIFF_SYM334=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM334
+LDIFF_SYM335=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM335
 	.byte 2,35,24,6
 	.asciz "curried_first_arg"
 
-LDIFF_SYM335=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM336=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM336
 	.byte 2,35,32,0,7
 	.asciz "System_DelegateData"
 
-LDIFF_SYM336=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM336
+LDIFF_SYM337=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM337
 LTDIE_54_POINTER:
 
 	.byte 13
-LDIFF_SYM337=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM337
+LDIFF_SYM338=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM338
 LTDIE_54_REFERENCE:
 
 	.byte 14
-LDIFF_SYM338=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM338
+LDIFF_SYM339=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM339
 LTDIE_50:
 
 	.byte 5
 	.asciz "System_Delegate"
 
 	.byte 120,16
-LDIFF_SYM339=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM339
+LDIFF_SYM340=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM340
 	.byte 2,35,0,6
 	.asciz "method_ptr"
 
-LDIFF_SYM340=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM340
+LDIFF_SYM341=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM341
 	.byte 2,35,16,6
 	.asciz "invoke_impl"
 
-LDIFF_SYM341=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM341
+LDIFF_SYM342=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM342
 	.byte 2,35,24,6
 	.asciz "m_target"
 
-LDIFF_SYM342=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM342
+LDIFF_SYM343=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM343
 	.byte 2,35,32,6
 	.asciz "method"
 
-LDIFF_SYM343=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM343
+LDIFF_SYM344=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM344
 	.byte 2,35,40,6
 	.asciz "delegate_trampoline"
 
-LDIFF_SYM344=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM344
+LDIFF_SYM345=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM345
 	.byte 2,35,48,6
 	.asciz "extra_arg"
 
-LDIFF_SYM345=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM345
+LDIFF_SYM346=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM346
 	.byte 2,35,56,6
 	.asciz "method_code"
 
-LDIFF_SYM346=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM346
+LDIFF_SYM347=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM347
 	.byte 2,35,64,6
 	.asciz "interp_method"
 
-LDIFF_SYM347=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM347
+LDIFF_SYM348=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM348
 	.byte 2,35,72,6
 	.asciz "interp_invoke_impl"
 
-LDIFF_SYM348=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM348
+LDIFF_SYM349=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM349
 	.byte 2,35,80,6
 	.asciz "method_info"
 
-LDIFF_SYM349=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM349
+LDIFF_SYM350=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM350
 	.byte 2,35,88,6
 	.asciz "original_method_info"
 
-LDIFF_SYM350=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM350
+LDIFF_SYM351=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM351
 	.byte 2,35,96,6
 	.asciz "data"
 
-LDIFF_SYM351=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM351
+LDIFF_SYM352=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM352
 	.byte 2,35,104,6
 	.asciz "method_is_virtual"
 
-LDIFF_SYM352=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM352
+LDIFF_SYM353=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM353
 	.byte 2,35,112,0,7
 	.asciz "System_Delegate"
 
-LDIFF_SYM353=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM353
+LDIFF_SYM354=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM354
 LTDIE_50_POINTER:
 
 	.byte 13
-LDIFF_SYM354=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM354
+LDIFF_SYM355=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM355
 LTDIE_50_REFERENCE:
 
 	.byte 14
-LDIFF_SYM355=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM355
+LDIFF_SYM356=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM356
 LTDIE_49:
 
 	.byte 5
 	.asciz "_ListEntry"
 
 	.byte 40,16
-LDIFF_SYM356=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM356
+LDIFF_SYM357=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM357
 	.byte 2,35,0,6
 	.asciz "_next"
 
-LDIFF_SYM357=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM357
+LDIFF_SYM358=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM358
 	.byte 2,35,16,6
 	.asciz "_key"
 
-LDIFF_SYM358=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM358
+LDIFF_SYM359=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM359
 	.byte 2,35,24,6
 	.asciz "_handler"
 
-LDIFF_SYM359=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM359
+LDIFF_SYM360=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM360
 	.byte 2,35,32,0,7
 	.asciz "_ListEntry"
 
-LDIFF_SYM360=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM360
+LDIFF_SYM361=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM361
 LTDIE_49_POINTER:
 
 	.byte 13
-LDIFF_SYM361=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM361
+LDIFF_SYM362=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM362
 LTDIE_49_REFERENCE:
 
 	.byte 14
-LDIFF_SYM362=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM362
+LDIFF_SYM363=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM363
 LTDIE_48:
 
 	.byte 5
 	.asciz "System_ComponentModel_EventHandlerList"
 
 	.byte 32,16
-LDIFF_SYM363=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM363
+LDIFF_SYM364=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM364
 	.byte 2,35,0,6
 	.asciz "_head"
 
-LDIFF_SYM364=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM364
+LDIFF_SYM365=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM365
 	.byte 2,35,16,6
 	.asciz "_parent"
 
-LDIFF_SYM365=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM365
+LDIFF_SYM366=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM366
 	.byte 2,35,24,0,7
 	.asciz "System_ComponentModel_EventHandlerList"
 
-LDIFF_SYM366=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM366
+LDIFF_SYM367=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM367
 LTDIE_48_POINTER:
 
 	.byte 13
-LDIFF_SYM367=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM367
+LDIFF_SYM368=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM368
 LTDIE_48_REFERENCE:
 
 	.byte 14
-LDIFF_SYM368=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM368
+LDIFF_SYM369=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM369
 LTDIE_45:
 
 	.byte 5
 	.asciz "System_ComponentModel_Component"
 
 	.byte 40,16
-LDIFF_SYM369=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM369
+LDIFF_SYM370=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM370
 	.byte 2,35,0,6
 	.asciz "site"
 
-LDIFF_SYM370=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM370
+LDIFF_SYM371=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM371
 	.byte 2,35,24,6
 	.asciz "events"
 
-LDIFF_SYM371=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM371
+LDIFF_SYM372=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM372
 	.byte 2,35,32,0,7
 	.asciz "System_ComponentModel_Component"
 
-LDIFF_SYM372=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM372
+LDIFF_SYM373=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM373
 LTDIE_45_POINTER:
 
 	.byte 13
-LDIFF_SYM373=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM373
+LDIFF_SYM374=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM374
 LTDIE_45_REFERENCE:
 
 	.byte 14
-LDIFF_SYM374=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM374
+LDIFF_SYM375=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM375
 LTDIE_57:
 
 	.byte 5
 	.asciz "System_MulticastDelegate"
 
 	.byte 128,1,16
-LDIFF_SYM375=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM375
+LDIFF_SYM376=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM376
 	.byte 2,35,0,6
 	.asciz "delegates"
 
-LDIFF_SYM376=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM376
+LDIFF_SYM377=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM377
 	.byte 2,35,120,0,7
 	.asciz "System_MulticastDelegate"
 
-LDIFF_SYM377=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM377
+LDIFF_SYM378=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM378
 LTDIE_57_POINTER:
 
 	.byte 13
-LDIFF_SYM378=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM378
+LDIFF_SYM379=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM379
 LTDIE_57_REFERENCE:
 
 	.byte 14
-LDIFF_SYM379=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM379
+LDIFF_SYM380=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM380
 LTDIE_56:
 
 	.byte 5
 	.asciz "System_Timers_ElapsedEventHandler"
 
 	.byte 128,1,16
-LDIFF_SYM380=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM380
+LDIFF_SYM381=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM381
 	.byte 2,35,0,0,7
 	.asciz "System_Timers_ElapsedEventHandler"
 
-LDIFF_SYM381=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM381
+LDIFF_SYM382=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM382
 LTDIE_56_POINTER:
 
 	.byte 13
-LDIFF_SYM382=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM382
+LDIFF_SYM383=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM383
 LTDIE_56_REFERENCE:
 
 	.byte 14
-LDIFF_SYM383=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM383
+LDIFF_SYM384=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM384
 LTDIE_58:
 
 	.byte 17
@@ -43620,335 +44835,340 @@ LTDIE_58:
 	.byte 16,7
 	.asciz "System_ComponentModel_ISynchronizeInvoke"
 
-LDIFF_SYM384=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM384
+LDIFF_SYM385=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM385
 LTDIE_58_POINTER:
 
 	.byte 13
-LDIFF_SYM385=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM385
+LDIFF_SYM386=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM386
 LTDIE_58_REFERENCE:
 
 	.byte 14
-LDIFF_SYM386=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM386
+LDIFF_SYM387=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM387
 LTDIE_60:
 
 	.byte 5
 	.asciz "System_Threading_TimerCallback"
 
 	.byte 128,1,16
-LDIFF_SYM387=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM387
+LDIFF_SYM388=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM388
 	.byte 2,35,0,0,7
 	.asciz "System_Threading_TimerCallback"
 
-LDIFF_SYM388=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM388
+LDIFF_SYM389=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM389
 LTDIE_60_POINTER:
 
 	.byte 13
-LDIFF_SYM389=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM389
+LDIFF_SYM390=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM390
 LTDIE_60_REFERENCE:
 
 	.byte 14
-LDIFF_SYM390=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM390
+LDIFF_SYM391=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM391
 LTDIE_59:
 
 	.byte 5
 	.asciz "System_Threading_Timer"
 
 	.byte 72,16
-LDIFF_SYM391=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM391
+LDIFF_SYM392=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM392
 	.byte 2,35,0,6
 	.asciz "callback"
 
-LDIFF_SYM392=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM392
+LDIFF_SYM393=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM393
 	.byte 2,35,24,6
 	.asciz "state"
 
-LDIFF_SYM393=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM393
+LDIFF_SYM394=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM394
 	.byte 2,35,32,6
 	.asciz "due_time_ms"
 
-LDIFF_SYM394=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM394
+LDIFF_SYM395=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM395
 	.byte 2,35,40,6
 	.asciz "period_ms"
 
-LDIFF_SYM395=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM395
+LDIFF_SYM396=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM396
 	.byte 2,35,48,6
 	.asciz "next_run"
 
-LDIFF_SYM396=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM396
+LDIFF_SYM397=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM397
 	.byte 2,35,56,6
 	.asciz "disposed"
 
-LDIFF_SYM397=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM397
+LDIFF_SYM398=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM398
 	.byte 2,35,64,6
 	.asciz "is_dead"
 
-LDIFF_SYM398=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM398
+LDIFF_SYM399=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM399
 	.byte 2,35,65,6
 	.asciz "is_added"
 
-LDIFF_SYM399=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM399
+LDIFF_SYM400=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM400
 	.byte 2,35,66,0,7
 	.asciz "System_Threading_Timer"
 
-LDIFF_SYM400=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM400
+LDIFF_SYM401=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM401
 LTDIE_59_POINTER:
 
 	.byte 13
-LDIFF_SYM401=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM401
+LDIFF_SYM402=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM402
 LTDIE_59_REFERENCE:
 
 	.byte 14
-LDIFF_SYM402=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM402
+LDIFF_SYM403=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM403
 LTDIE_44:
 
 	.byte 5
 	.asciz "System_Timers_Timer"
 
 	.byte 96,16
-LDIFF_SYM403=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM403
+LDIFF_SYM404=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM404
 	.byte 2,35,0,6
 	.asciz "interval"
 
-LDIFF_SYM404=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM404
+LDIFF_SYM405=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM405
 	.byte 2,35,80,6
 	.asciz "enabled"
 
-LDIFF_SYM405=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM405
+LDIFF_SYM406=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM406
 	.byte 2,35,88,6
 	.asciz "initializing"
 
-LDIFF_SYM406=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM406
+LDIFF_SYM407=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM407
 	.byte 2,35,89,6
 	.asciz "delayedEnable"
 
-LDIFF_SYM407=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM407
+LDIFF_SYM408=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM408
 	.byte 2,35,90,6
 	.asciz "onIntervalElapsed"
 
-LDIFF_SYM408=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM408
+LDIFF_SYM409=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM409
 	.byte 2,35,40,6
 	.asciz "autoReset"
 
-LDIFF_SYM409=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM409
+LDIFF_SYM410=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM410
 	.byte 2,35,91,6
 	.asciz "synchronizingObject"
 
-LDIFF_SYM410=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM410
+LDIFF_SYM411=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM411
 	.byte 2,35,48,6
 	.asciz "disposed"
 
-LDIFF_SYM411=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM411
+LDIFF_SYM412=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM412
 	.byte 2,35,92,6
 	.asciz "timer"
 
-LDIFF_SYM412=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM412
+LDIFF_SYM413=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM413
 	.byte 2,35,56,6
 	.asciz "callback"
 
-LDIFF_SYM413=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM413
+LDIFF_SYM414=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM414
 	.byte 2,35,64,6
 	.asciz "cookie"
 
-LDIFF_SYM414=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM414
+LDIFF_SYM415=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM415
 	.byte 2,35,72,0,7
 	.asciz "System_Timers_Timer"
 
-LDIFF_SYM415=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM415
+LDIFF_SYM416=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM416
 LTDIE_44_POINTER:
 
 	.byte 13
-LDIFF_SYM416=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM416
+LDIFF_SYM417=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM417
 LTDIE_44_REFERENCE:
 
 	.byte 14
-LDIFF_SYM417=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM417
+LDIFF_SYM418=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM418
 LTDIE_16:
 
 	.byte 5
 	.asciz "WorkHeart_GameScene"
 
-	.byte 144,2,16
-LDIFF_SYM418=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM418
+	.byte 152,2,16
+LDIFF_SYM419=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM419
 	.byte 2,35,0,6
 	.asciz "screenSize"
 
-LDIFF_SYM419=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM419
-	.byte 3,35,184,1,6
+LDIFF_SYM420=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM420
+	.byte 3,35,192,1,6
 	.asciz "gravityNode"
 
-LDIFF_SYM420=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM420
+LDIFF_SYM421=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM421
 	.byte 2,35,40,6
 	.asciz "timerButton"
 
-LDIFF_SYM421=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM421
+LDIFF_SYM422=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM422
 	.byte 2,35,48,6
 	.asciz "motionBubble"
 
-LDIFF_SYM422=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM422
+LDIFF_SYM423=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM423
 	.byte 2,35,56,6
 	.asciz "noiseBubble"
 
-LDIFF_SYM423=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM423
+LDIFF_SYM424=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM424
 	.byte 2,35,64,6
 	.asciz "durationBubble"
 
-LDIFF_SYM424=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM424
+LDIFF_SYM425=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM425
 	.byte 2,35,72,6
 	.asciz "waterBubble"
 
-LDIFF_SYM425=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM425
+LDIFF_SYM426=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM426
 	.byte 2,35,80,6
 	.asciz "foodBubble"
 
-LDIFF_SYM426=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM426
+LDIFF_SYM427=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM427
 	.byte 2,35,88,6
 	.asciz "standBubble"
 
-LDIFF_SYM427=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM427
+LDIFF_SYM428=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM428
 	.byte 2,35,96,6
 	.asciz "timer"
 
-LDIFF_SYM428=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM428
+LDIFF_SYM429=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM429
 	.byte 2,35,104,6
 	.asciz "pausedTimer"
 
-LDIFF_SYM429=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM429
+LDIFF_SYM430=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM430
 	.byte 2,35,112,6
 	.asciz "TrackingState"
 
-LDIFF_SYM430=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM430
+LDIFF_SYM431=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM431
 	.byte 2,35,120,6
 	.asciz "pausedTimeElapsed"
-
-LDIFF_SYM431=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM431
-	.byte 3,35,216,1,6
-	.asciz "totalPausedTime"
 
 LDIFF_SYM432=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM432
 	.byte 3,35,224,1,6
-	.asciz "CenteredState"
+	.asciz "totalPausedTime"
 
-LDIFF_SYM433=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM433=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM433
 	.byte 3,35,232,1,6
+	.asciz "CenteredState"
+
+LDIFF_SYM434=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM434
+	.byte 3,35,240,1,6
 	.asciz "currentBubble"
 
-LDIFF_SYM434=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM434
+LDIFF_SYM435=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM435
 	.byte 3,35,128,1,6
 	.asciz "isDragging"
 
-LDIFF_SYM435=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM435
-	.byte 3,35,233,1,6
-	.asciz "headingLabel1"
-
-LDIFF_SYM436=LTDIE_23_REFERENCE - Ldebug_info_start
+LDIFF_SYM436=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM436
-	.byte 3,35,136,1,6
-	.asciz "headingLabel2"
+	.byte 3,35,241,1,6
+	.asciz "headingLabel1"
 
 LDIFF_SYM437=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM437
+	.byte 3,35,136,1,6
+	.asciz "headingLabel2"
+
+LDIFF_SYM438=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM438
 	.byte 3,35,144,1,6
 	.asciz "infoIcon"
 
-LDIFF_SYM438=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM438
+LDIFF_SYM439=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM439
 	.byte 3,35,152,1,6
 	.asciz "infoText1"
 
-LDIFF_SYM439=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM439
+LDIFF_SYM440=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM440
 	.byte 3,35,160,1,6
 	.asciz "infoText2"
 
-LDIFF_SYM440=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM440
+LDIFF_SYM441=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM441
 	.byte 3,35,168,1,6
 	.asciz "infoText3"
 
-LDIFF_SYM441=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM441
+LDIFF_SYM442=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM442
 	.byte 3,35,176,1,6
 	.asciz "touchBeginPos"
 
-LDIFF_SYM442=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM442
-	.byte 3,35,240,1,6
-	.asciz "timerBeginTime"
-
 LDIFF_SYM443=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM443
-	.byte 3,35,128,2,6
-	.asciz "pausedTimerBeginTime"
+	.byte 3,35,248,1,6
+	.asciz "timerBeginTime"
 
 LDIFF_SYM444=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM444
-	.byte 3,35,136,2,0,7
+	.byte 3,35,136,2,6
+	.asciz "pausedTimerBeginTime"
+
+LDIFF_SYM445=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM445
+	.byte 3,35,144,2,6
+	.asciz "skipButton"
+
+LDIFF_SYM446=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM446
+	.byte 3,35,184,1,0,7
 	.asciz "WorkHeart_GameScene"
 
-LDIFF_SYM445=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM445
+LDIFF_SYM447=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM447
 LTDIE_16_POINTER:
 
 	.byte 13
-LDIFF_SYM446=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM446
+LDIFF_SYM448=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM448
 LTDIE_16_REFERENCE:
 
 	.byte 14
-LDIFF_SYM447=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM447
+LDIFF_SYM449=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM449
 	.byte 2
 	.asciz "WorkHeart.GameViewController:ViewDidLoad"
 	.asciz "WorkHeart_GameViewController_ViewDidLoad"
@@ -43960,32 +45180,32 @@ LDIFF_SYM447=LTDIE_16 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM448=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM448
+LDIFF_SYM450=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM450
 	.byte 1,106,11
 	.asciz "skView"
 
-LDIFF_SYM449=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM449
+LDIFF_SYM451=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM451
 	.byte 1,105,11
 	.asciz "scene"
 
-LDIFF_SYM450=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM450
+LDIFF_SYM452=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM452
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM451=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM451
+LDIFF_SYM453=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM453
 Lfde12_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameViewController_ViewDidLoad
 
-LDIFF_SYM452=Lme_c - WorkHeart_GameViewController_ViewDidLoad
-	.long LDIFF_SYM452
+LDIFF_SYM454=Lme_c - WorkHeart_GameViewController_ViewDidLoad
+	.long LDIFF_SYM454
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 	.align 3
@@ -44004,27 +45224,27 @@ Lfde12_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM453=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM453
+LDIFF_SYM455=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM455
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM454=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM454
+LDIFF_SYM456=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM456
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM455=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM455
+LDIFF_SYM457=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM457
 Lfde13_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameViewController_ShouldAutorotate
 
-LDIFF_SYM456=Lme_d - WorkHeart_GameViewController_ShouldAutorotate
-	.long LDIFF_SYM456
+LDIFF_SYM458=Lme_d - WorkHeart_GameViewController_ShouldAutorotate
+	.long LDIFF_SYM458
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -44037,8 +45257,8 @@ LTDIE_61:
 	.asciz "UIKit_UIInterfaceOrientationMask"
 
 	.byte 8
-LDIFF_SYM457=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM457
+LDIFF_SYM459=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM459
 	.byte 9
 	.asciz "Portrait"
 
@@ -44063,18 +45283,18 @@ LDIFF_SYM457=LDIE_U8 - Ldebug_info_start
 	.byte 26,0,7
 	.asciz "UIKit_UIInterfaceOrientationMask"
 
-LDIFF_SYM458=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM458
+LDIFF_SYM460=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM460
 LTDIE_61_POINTER:
 
 	.byte 13
-LDIFF_SYM459=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM459
+LDIFF_SYM461=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM461
 LTDIE_61_REFERENCE:
 
 	.byte 14
-LDIFF_SYM460=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM460
+LDIFF_SYM462=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM462
 	.byte 2
 	.asciz "WorkHeart.GameViewController:GetSupportedInterfaceOrientations"
 	.asciz "WorkHeart_GameViewController_GetSupportedInterfaceOrientations"
@@ -44086,27 +45306,27 @@ LDIFF_SYM460=LTDIE_61 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM461=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM461
+LDIFF_SYM463=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM463
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM462=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM462
+LDIFF_SYM464=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM464
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM463=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM463
+LDIFF_SYM465=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM465
 Lfde14_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameViewController_GetSupportedInterfaceOrientations
 
-LDIFF_SYM464=Lme_e - WorkHeart_GameViewController_GetSupportedInterfaceOrientations
-	.long LDIFF_SYM464
+LDIFF_SYM466=Lme_e - WorkHeart_GameViewController_GetSupportedInterfaceOrientations
+	.long LDIFF_SYM466
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -44125,22 +45345,22 @@ Lfde14_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM465=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM465
+LDIFF_SYM467=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM467
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM466=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM466
+LDIFF_SYM468=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM468
 Lfde15_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM467=Lme_f - WorkHeart_GameViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM467
+LDIFF_SYM469=Lme_f - WorkHeart_GameViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM469
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -44159,27 +45379,27 @@ Lfde15_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM468=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM468
+LDIFF_SYM470=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM470
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM469=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM469
+LDIFF_SYM471=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM471
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM470=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM470
+LDIFF_SYM472=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM472
 Lfde16_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameViewController_PrefersStatusBarHidden
 
-LDIFF_SYM471=Lme_10 - WorkHeart_GameViewController_PrefersStatusBarHidden
-	.long LDIFF_SYM471
+LDIFF_SYM473=Lme_10 - WorkHeart_GameViewController_PrefersStatusBarHidden
+	.long LDIFF_SYM473
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -44198,22 +45418,22 @@ Lfde16_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM472=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM472
+LDIFF_SYM474=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM474
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM473=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM473
+LDIFF_SYM475=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM475
 Lfde17_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM474=Lme_11 - WorkHeart_GameViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM474
+LDIFF_SYM476=Lme_11 - WorkHeart_GameViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM476
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -44226,23 +45446,23 @@ LTDIE_62:
 	.asciz "_TrackingStartedAction"
 
 	.byte 128,1,16
-LDIFF_SYM475=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM475
+LDIFF_SYM477=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM477
 	.byte 2,35,0,0,7
 	.asciz "_TrackingStartedAction"
 
-LDIFF_SYM476=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM476
+LDIFF_SYM478=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM478
 LTDIE_62_POINTER:
 
 	.byte 13
-LDIFF_SYM477=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM477
+LDIFF_SYM479=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM479
 LTDIE_62_REFERENCE:
 
 	.byte 14
-LDIFF_SYM478=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM478
+LDIFF_SYM480=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM480
 	.byte 2
 	.asciz "WorkHeart.GameScene:add_OnTrackingStarted"
 	.asciz "WorkHeart_GameScene_add_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction"
@@ -44254,37 +45474,37 @@ LDIFF_SYM478=LTDIE_62 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM479=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM479
+LDIFF_SYM481=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM481
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM480=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM480
+LDIFF_SYM482=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM482
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM481=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM481
+LDIFF_SYM483=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM483
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM482=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM482
+LDIFF_SYM484=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM484
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM483=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM483
+LDIFF_SYM485=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM485
 Lfde18_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_add_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction
 
-LDIFF_SYM484=Lme_12 - WorkHeart_GameScene_add_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction
-	.long LDIFF_SYM484
+LDIFF_SYM486=Lme_12 - WorkHeart_GameScene_add_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction
+	.long LDIFF_SYM486
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44303,37 +45523,37 @@ Lfde18_end:
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM485=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM485
+LDIFF_SYM487=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM487
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM486=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM486
+LDIFF_SYM488=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM488
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM487=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM487
+LDIFF_SYM489=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM489
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM488=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM488
+LDIFF_SYM490=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM490
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM489=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM489
+LDIFF_SYM491=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM491
 Lfde19_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_remove_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction
 
-LDIFF_SYM490=Lme_13 - WorkHeart_GameScene_remove_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction
-	.long LDIFF_SYM490
+LDIFF_SYM492=Lme_13 - WorkHeart_GameScene_remove_OnTrackingStarted_WorkHeart_GameScene_TrackingStartedAction
+	.long LDIFF_SYM492
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44346,23 +45566,23 @@ LTDIE_63:
 	.asciz "_TrackingStoppedAction"
 
 	.byte 128,1,16
-LDIFF_SYM491=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM491
+LDIFF_SYM493=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM493
 	.byte 2,35,0,0,7
 	.asciz "_TrackingStoppedAction"
 
-LDIFF_SYM492=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM492
+LDIFF_SYM494=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM494
 LTDIE_63_POINTER:
 
 	.byte 13
-LDIFF_SYM493=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM493
+LDIFF_SYM495=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM495
 LTDIE_63_REFERENCE:
 
 	.byte 14
-LDIFF_SYM494=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM494
+LDIFF_SYM496=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM496
 	.byte 2
 	.asciz "WorkHeart.GameScene:add_OnTrackingStopped"
 	.asciz "WorkHeart_GameScene_add_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction"
@@ -44374,37 +45594,37 @@ LDIFF_SYM494=LTDIE_63 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM495=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM495
+LDIFF_SYM497=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM497
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM496=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM496
+LDIFF_SYM498=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM498
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM497=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM497
+LDIFF_SYM499=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM499
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM498=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM498
+LDIFF_SYM500=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM500
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM499=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM499
+LDIFF_SYM501=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM501
 Lfde20_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_add_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction
 
-LDIFF_SYM500=Lme_14 - WorkHeart_GameScene_add_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction
-	.long LDIFF_SYM500
+LDIFF_SYM502=Lme_14 - WorkHeart_GameScene_add_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction
+	.long LDIFF_SYM502
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44423,37 +45643,37 @@ Lfde20_end:
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM501=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM501
+LDIFF_SYM503=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM503
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM502=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM502
+LDIFF_SYM504=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM504
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM503=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM503
+LDIFF_SYM505=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM505
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM504=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM504
+LDIFF_SYM506=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM506
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM505=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM505
+LDIFF_SYM507=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM507
 Lfde21_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_remove_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction
 
-LDIFF_SYM506=Lme_15 - WorkHeart_GameScene_remove_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction
-	.long LDIFF_SYM506
+LDIFF_SYM508=Lme_15 - WorkHeart_GameScene_remove_OnTrackingStopped_WorkHeart_GameScene_TrackingStoppedAction
+	.long LDIFF_SYM508
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44466,23 +45686,23 @@ LTDIE_64:
 	.asciz "_TrackingPausedAction"
 
 	.byte 128,1,16
-LDIFF_SYM507=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM507
+LDIFF_SYM509=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM509
 	.byte 2,35,0,0,7
 	.asciz "_TrackingPausedAction"
 
-LDIFF_SYM508=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM508
+LDIFF_SYM510=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM510
 LTDIE_64_POINTER:
 
 	.byte 13
-LDIFF_SYM509=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM509
+LDIFF_SYM511=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM511
 LTDIE_64_REFERENCE:
 
 	.byte 14
-LDIFF_SYM510=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM510
+LDIFF_SYM512=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM512
 	.byte 2
 	.asciz "WorkHeart.GameScene:add_OnTrackingPaused"
 	.asciz "WorkHeart_GameScene_add_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction"
@@ -44494,37 +45714,37 @@ LDIFF_SYM510=LTDIE_64 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM511=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM511
+LDIFF_SYM513=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM513
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM512=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM512
+LDIFF_SYM514=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM514
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM513=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM513
+LDIFF_SYM515=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM515
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM514=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM514
+LDIFF_SYM516=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM516
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM515=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM515
+LDIFF_SYM517=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM517
 Lfde22_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_add_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction
 
-LDIFF_SYM516=Lme_16 - WorkHeart_GameScene_add_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction
-	.long LDIFF_SYM516
+LDIFF_SYM518=Lme_16 - WorkHeart_GameScene_add_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction
+	.long LDIFF_SYM518
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44543,37 +45763,37 @@ Lfde22_end:
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM517=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM517
+LDIFF_SYM519=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM519
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM518=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM518
+LDIFF_SYM520=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM520
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM519=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM519
+LDIFF_SYM521=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM521
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM520=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM520
+LDIFF_SYM522=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM522
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM521=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM521
+LDIFF_SYM523=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM523
 Lfde23_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_remove_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction
 
-LDIFF_SYM522=Lme_17 - WorkHeart_GameScene_remove_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction
-	.long LDIFF_SYM522
+LDIFF_SYM524=Lme_17 - WorkHeart_GameScene_remove_OnTrackingPaused_WorkHeart_GameScene_TrackingPausedAction
+	.long LDIFF_SYM524
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44586,23 +45806,23 @@ LTDIE_65:
 	.asciz "_TrackingPlayedAction"
 
 	.byte 128,1,16
-LDIFF_SYM523=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM523
+LDIFF_SYM525=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM525
 	.byte 2,35,0,0,7
 	.asciz "_TrackingPlayedAction"
 
-LDIFF_SYM524=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM524
+LDIFF_SYM526=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM526
 LTDIE_65_POINTER:
 
 	.byte 13
-LDIFF_SYM525=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM525
+LDIFF_SYM527=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM527
 LTDIE_65_REFERENCE:
 
 	.byte 14
-LDIFF_SYM526=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM526
+LDIFF_SYM528=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM528
 	.byte 2
 	.asciz "WorkHeart.GameScene:add_OnTrackingPlayed"
 	.asciz "WorkHeart_GameScene_add_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction"
@@ -44614,37 +45834,37 @@ LDIFF_SYM526=LTDIE_65 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM527=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM527
+LDIFF_SYM529=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM529
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM528=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM528
+LDIFF_SYM530=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM530
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM529=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM529
+LDIFF_SYM531=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM531
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM530=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM530
+LDIFF_SYM532=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM532
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM531=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM531
+LDIFF_SYM533=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM533
 Lfde24_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_add_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction
 
-LDIFF_SYM532=Lme_18 - WorkHeart_GameScene_add_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction
-	.long LDIFF_SYM532
+LDIFF_SYM534=Lme_18 - WorkHeart_GameScene_add_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction
+	.long LDIFF_SYM534
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44663,37 +45883,37 @@ Lfde24_end:
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM533=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM533
+LDIFF_SYM535=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM535
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM534=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM534
+LDIFF_SYM536=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM536
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM535=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM535
+LDIFF_SYM537=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM537
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM536=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM536
+LDIFF_SYM538=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM538
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM537=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM537
+LDIFF_SYM539=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM539
 Lfde25_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_remove_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction
 
-LDIFF_SYM538=Lme_19 - WorkHeart_GameScene_remove_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction
-	.long LDIFF_SYM538
+LDIFF_SYM540=Lme_19 - WorkHeart_GameScene_remove_OnTrackingPlayed_WorkHeart_GameScene_TrackingPlayedAction
+	.long LDIFF_SYM540
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44706,23 +45926,23 @@ LTDIE_66:
 	.asciz "_BubbleCenterdAction"
 
 	.byte 128,1,16
-LDIFF_SYM539=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM539
+LDIFF_SYM541=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM541
 	.byte 2,35,0,0,7
 	.asciz "_BubbleCenterdAction"
 
-LDIFF_SYM540=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM540
+LDIFF_SYM542=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM542
 LTDIE_66_POINTER:
 
 	.byte 13
-LDIFF_SYM541=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM541
+LDIFF_SYM543=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM543
 LTDIE_66_REFERENCE:
 
 	.byte 14
-LDIFF_SYM542=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM542
+LDIFF_SYM544=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM544
 	.byte 2
 	.asciz "WorkHeart.GameScene:add_OnBubbleCenterd"
 	.asciz "WorkHeart_GameScene_add_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction"
@@ -44734,37 +45954,37 @@ LDIFF_SYM542=LTDIE_66 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM543=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM543
+LDIFF_SYM545=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM545
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM544=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM544
+LDIFF_SYM546=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM546
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM545=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM545
+LDIFF_SYM547=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM547
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM546=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM546
+LDIFF_SYM548=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM548
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM547=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM547
+LDIFF_SYM549=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM549
 Lfde26_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_add_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction
 
-LDIFF_SYM548=Lme_1a - WorkHeart_GameScene_add_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction
-	.long LDIFF_SYM548
+LDIFF_SYM550=Lme_1a - WorkHeart_GameScene_add_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction
+	.long LDIFF_SYM550
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44783,37 +46003,37 @@ Lfde26_end:
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM549=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM549
+LDIFF_SYM551=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM551
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM550=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM550
+LDIFF_SYM552=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM552
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM551=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM551
+LDIFF_SYM553=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM553
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM552=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM552
+LDIFF_SYM554=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM554
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM553=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM553
+LDIFF_SYM555=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM555
 Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_remove_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction
 
-LDIFF_SYM554=Lme_1b - WorkHeart_GameScene_remove_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction
-	.long LDIFF_SYM554
+LDIFF_SYM556=Lme_1b - WorkHeart_GameScene_remove_OnBubbleCenterd_WorkHeart_GameScene_BubbleCenterdAction
+	.long LDIFF_SYM556
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44826,23 +46046,23 @@ LTDIE_67:
 	.asciz "_BubbleUnCenterdAction"
 
 	.byte 128,1,16
-LDIFF_SYM555=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM555
+LDIFF_SYM557=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM557
 	.byte 2,35,0,0,7
 	.asciz "_BubbleUnCenterdAction"
 
-LDIFF_SYM556=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM556
+LDIFF_SYM558=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM558
 LTDIE_67_POINTER:
 
 	.byte 13
-LDIFF_SYM557=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM557
+LDIFF_SYM559=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM559
 LTDIE_67_REFERENCE:
 
 	.byte 14
-LDIFF_SYM558=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM558
+LDIFF_SYM560=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM560
 	.byte 2
 	.asciz "WorkHeart.GameScene:add_OnBubbleUnCenterd"
 	.asciz "WorkHeart_GameScene_add_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction"
@@ -44854,37 +46074,37 @@ LDIFF_SYM558=LTDIE_67 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM559=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM559
+LDIFF_SYM561=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM561
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM560=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM560
+LDIFF_SYM562=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM562
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM561=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM561
+LDIFF_SYM563=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM563
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM562=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM562
+LDIFF_SYM564=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM564
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM563=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM563
+LDIFF_SYM565=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM565
 Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_add_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction
 
-LDIFF_SYM564=Lme_1c - WorkHeart_GameScene_add_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction
-	.long LDIFF_SYM564
+LDIFF_SYM566=Lme_1c - WorkHeart_GameScene_add_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction
+	.long LDIFF_SYM566
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44903,37 +46123,37 @@ Lfde28_end:
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM565=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM565
+LDIFF_SYM567=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM567
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM566=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM566
+LDIFF_SYM568=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM568
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM567=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM567
+LDIFF_SYM569=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM569
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM568=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM568
+LDIFF_SYM570=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM570
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM569=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM569
+LDIFF_SYM571=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM571
 Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_remove_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction
 
-LDIFF_SYM570=Lme_1d - WorkHeart_GameScene_remove_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction
-	.long LDIFF_SYM570
+LDIFF_SYM572=Lme_1d - WorkHeart_GameScene_remove_OnBubbleUnCenterd_WorkHeart_GameScene_BubbleUnCenterdAction
+	.long LDIFF_SYM572
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -44952,27 +46172,27 @@ Lfde29_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM571=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM571
+LDIFF_SYM573=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM573
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM572=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM572
+LDIFF_SYM574=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM574
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM573=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM573
+LDIFF_SYM575=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM575
 Lfde30_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene__ctor_intptr
 
-LDIFF_SYM574=Lme_1e - WorkHeart_GameScene__ctor_intptr
-	.long LDIFF_SYM574
+LDIFF_SYM576=Lme_1e - WorkHeart_GameScene__ctor_intptr
+	.long LDIFF_SYM576
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14
 	.align 3
@@ -44984,34 +46204,34 @@ Lfde30_end:
 	.asciz "WorkHeart.GameScene:DidMoveToView"
 	.asciz "WorkHeart_GameScene_DidMoveToView_SpriteKit_SKView"
 
-	.byte 5,82
+	.byte 5,85
 	.quad WorkHeart_GameScene_DidMoveToView_SpriteKit_SKView
 	.quad Lme_1f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM575=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM575
+LDIFF_SYM577=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM577
 	.byte 2,141,16,3
 	.asciz "view"
 
-LDIFF_SYM576=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM576
+LDIFF_SYM578=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM578
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM577=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM577
+LDIFF_SYM579=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM579
 Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_DidMoveToView_SpriteKit_SKView
 
-LDIFF_SYM578=Lme_1f - WorkHeart_GameScene_DidMoveToView_SpriteKit_SKView
-	.long LDIFF_SYM578
+LDIFF_SYM580=Lme_1f - WorkHeart_GameScene_DidMoveToView_SpriteKit_SKView
+	.long LDIFF_SYM580
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -45023,29 +46243,29 @@ Lfde31_end:
 	.asciz "WorkHeart.GameScene:CreateSceneContents"
 	.asciz "WorkHeart_GameScene_CreateSceneContents"
 
-	.byte 5,87
+	.byte 5,90
 	.quad WorkHeart_GameScene_CreateSceneContents
 	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM579=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM579
+LDIFF_SYM581=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM581
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM580=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM580
+LDIFF_SYM582=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM582
 Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_CreateSceneContents
 
-LDIFF_SYM581=Lme_20 - WorkHeart_GameScene_CreateSceneContents
-	.long LDIFF_SYM581
+LDIFF_SYM583=Lme_20 - WorkHeart_GameScene_CreateSceneContents
+	.long LDIFF_SYM583
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,154,30
 	.align 3
@@ -45058,138 +46278,171 @@ LTDIE_68:
 	.asciz "Foundation_NSSet"
 
 	.byte 40,16
-LDIFF_SYM582=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM582
+LDIFF_SYM584=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM584
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSSet"
 
-LDIFF_SYM583=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM583
+LDIFF_SYM585=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM585
 LTDIE_68_POINTER:
 
 	.byte 13
-LDIFF_SYM584=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM584
+LDIFF_SYM586=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM586
 LTDIE_68_REFERENCE:
 
 	.byte 14
-LDIFF_SYM585=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM585
+LDIFF_SYM587=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM587
 LTDIE_69:
 
 	.byte 5
 	.asciz "UIKit_UIEvent"
 
 	.byte 40,16
-LDIFF_SYM586=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM586
+LDIFF_SYM588=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM588
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIEvent"
 
-LDIFF_SYM587=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM587
+LDIFF_SYM589=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM589
 LTDIE_69_POINTER:
 
 	.byte 13
-LDIFF_SYM588=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM588
+LDIFF_SYM590=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM590
 LTDIE_69_REFERENCE:
 
 	.byte 14
-LDIFF_SYM589=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM589
+LDIFF_SYM591=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM591
 LTDIE_70:
 
 	.byte 5
 	.asciz "UIKit_UITouch"
 
 	.byte 40,16
-LDIFF_SYM590=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM590
+LDIFF_SYM592=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM592
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UITouch"
 
-LDIFF_SYM591=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM591
+LDIFF_SYM593=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM593
 LTDIE_70_POINTER:
 
 	.byte 13
-LDIFF_SYM592=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM592
+LDIFF_SYM594=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM594
 LTDIE_70_REFERENCE:
 
 	.byte 14
-LDIFF_SYM593=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM593
+LDIFF_SYM595=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM595
+LTDIE_71:
+
+	.byte 5
+	.asciz "System_UInt32"
+
+	.byte 20,16
+LDIFF_SYM596=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM596
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM597=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM597
+	.byte 2,35,16,0,7
+	.asciz "System_UInt32"
+
+LDIFF_SYM598=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM598
+LTDIE_71_POINTER:
+
+	.byte 13
+LDIFF_SYM599=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM599
+LTDIE_71_REFERENCE:
+
+	.byte 14
+LDIFF_SYM600=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM600
 	.byte 2
 	.asciz "WorkHeart.GameScene:TouchesBegan"
 	.asciz "WorkHeart_GameScene_TouchesBegan_Foundation_NSSet_UIKit_UIEvent"
 
-	.byte 5,120
+	.byte 5,125
 	.quad WorkHeart_GameScene_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
 	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM594=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM594
+LDIFF_SYM601=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM601
 	.byte 1,105,3
 	.asciz "touches"
 
-LDIFF_SYM595=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM595
+LDIFF_SYM602=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM602
 	.byte 3,141,200,0,3
 	.asciz "evt"
 
-LDIFF_SYM596=LTDIE_69_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM596
+LDIFF_SYM603=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM603
 	.byte 3,141,208,0,11
 	.asciz "touch"
 
-LDIFF_SYM597=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM597
+LDIFF_SYM604=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM604
 	.byte 1,104,11
 	.asciz "pt"
 
-LDIFF_SYM598=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM598
-	.byte 3,141,160,1,11
+LDIFF_SYM605=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM605
+	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM599=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM599
+LDIFF_SYM606=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM606
 	.byte 1,103,11
 	.asciz "touchedNode"
 
-LDIFF_SYM600=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM600
+LDIFF_SYM607=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM607
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM601=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM601
+LDIFF_SYM608=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM608
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM602=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM602
-	.byte 1,100,0
+LDIFF_SYM609=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM609
+	.byte 1,100,11
+	.asciz "V_6"
+
+LDIFF_SYM610=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM610
+	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM603=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM603
+LDIFF_SYM611=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM611
 Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
 
-LDIFF_SYM604=Lme_21 - WorkHeart_GameScene_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
-	.long LDIFF_SYM604
+LDIFF_SYM612=Lme_21 - WorkHeart_GameScene_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
+	.long LDIFF_SYM612
 	.long 0
-	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22
+	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68,149,32,150,31,68,151,30,152,29,68,153,28
 	.align 3
 Lfde33_end:
 
@@ -45199,270 +46452,243 @@ Lfde33_end:
 	.asciz "WorkHeart.GameScene:TouchesMoved"
 	.asciz "WorkHeart_GameScene_TouchesMoved_Foundation_NSSet_UIKit_UIEvent"
 
-	.byte 5,159,1
+	.byte 5,169,1
 	.quad WorkHeart_GameScene_TouchesMoved_Foundation_NSSet_UIKit_UIEvent
 	.quad Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM605=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM605
+LDIFF_SYM613=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM613
 	.byte 1,105,3
 	.asciz "touches"
 
-LDIFF_SYM606=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM606
+LDIFF_SYM614=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM614
 	.byte 3,141,200,0,3
 	.asciz "evt"
 
-LDIFF_SYM607=LTDIE_69_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM607
+LDIFF_SYM615=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM615
 	.byte 3,141,208,0,11
 	.asciz "touch"
 
-LDIFF_SYM608=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM608
+LDIFF_SYM616=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM616
 	.byte 1,104,11
 	.asciz "pt"
 
-LDIFF_SYM609=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM609
+LDIFF_SYM617=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM617
 	.byte 3,141,144,1,11
 	.asciz "xDifference"
 
-LDIFF_SYM610=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM610
+LDIFF_SYM618=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM618
 	.byte 3,141,160,1,11
 	.asciz "yDifference"
 
-LDIFF_SYM611=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM611
+LDIFF_SYM619=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM619
 	.byte 3,141,168,1,11
 	.asciz "V_4"
 
-LDIFF_SYM612=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM612
+LDIFF_SYM620=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM620
 	.byte 1,103,11
 	.asciz "V_5"
 
-LDIFF_SYM613=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM613
+LDIFF_SYM621=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM621
 	.byte 1,102,11
 	.asciz "V_6"
 
-LDIFF_SYM614=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM614
+LDIFF_SYM622=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM622
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM615=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM615
+LDIFF_SYM623=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM623
 Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_TouchesMoved_Foundation_NSSet_UIKit_UIEvent
 
-LDIFF_SYM616=Lme_22 - WorkHeart_GameScene_TouchesMoved_Foundation_NSSet_UIKit_UIEvent
-	.long LDIFF_SYM616
+LDIFF_SYM624=Lme_22 - WorkHeart_GameScene_TouchesMoved_Foundation_NSSet_UIKit_UIEvent
+	.long LDIFF_SYM624
 	.long 0
 	.byte 12,31,0,68,14,192,2,157,40,158,39,68,13,29,68,147,38,148,37,68,149,36,150,35,68,151,34,152,33,68,153,32
 	.align 3
 Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_71:
 
-	.byte 5
-	.asciz "System_UInt32"
-
-	.byte 20,16
-LDIFF_SYM617=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM617
-	.byte 2,35,0,6
-	.asciz "m_value"
-
-LDIFF_SYM618=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM618
-	.byte 2,35,16,0,7
-	.asciz "System_UInt32"
-
-LDIFF_SYM619=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM619
-LTDIE_71_POINTER:
-
-	.byte 13
-LDIFF_SYM620=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM620
-LTDIE_71_REFERENCE:
-
-	.byte 14
-LDIFF_SYM621=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM621
 	.byte 2
 	.asciz "WorkHeart.GameScene:TouchesEnded"
 	.asciz "WorkHeart_GameScene_TouchesEnded_Foundation_NSSet_UIKit_UIEvent"
 
-	.byte 5,184,1
+	.byte 5,194,1
 	.quad WorkHeart_GameScene_TouchesEnded_Foundation_NSSet_UIKit_UIEvent
 	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM622=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM622
+LDIFF_SYM625=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM625
 	.byte 1,105,3
 	.asciz "touches"
 
-LDIFF_SYM623=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM623
+LDIFF_SYM626=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM626
 	.byte 3,141,200,0,3
 	.asciz "evt"
 
-LDIFF_SYM624=LTDIE_69_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM624
+LDIFF_SYM627=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM627
 	.byte 3,141,208,0,11
 	.asciz "touch"
 
-LDIFF_SYM625=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM625
+LDIFF_SYM628=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM628
 	.byte 1,104,11
 	.asciz "pt"
 
-LDIFF_SYM626=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM626
+LDIFF_SYM629=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM629
 	.byte 3,141,144,1,11
 	.asciz "touchedNode"
 
-LDIFF_SYM627=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM627
+LDIFF_SYM630=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM630
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM628=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM628
+LDIFF_SYM631=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM631
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM629=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM629
+LDIFF_SYM632=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM632
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM630=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM630
+LDIFF_SYM633=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM633
 	.byte 1,100,11
 	.asciz "V_6"
 
-LDIFF_SYM631=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM631
+LDIFF_SYM634=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM634
 	.byte 1,99,11
 	.asciz "V_7"
 
-LDIFF_SYM632=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM632
+LDIFF_SYM635=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM635
 	.byte 3,141,160,1,11
 	.asciz "V_8"
 
-LDIFF_SYM633=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM633
+LDIFF_SYM636=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM636
 	.byte 3,141,168,1,11
 	.asciz "V_9"
 
-LDIFF_SYM634=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM634
+LDIFF_SYM637=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM637
 	.byte 3,141,176,1,11
 	.asciz "V_10"
 
-LDIFF_SYM635=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM635
+LDIFF_SYM638=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM638
 	.byte 3,141,184,1,11
 	.asciz "V_11"
 
-LDIFF_SYM636=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM636
+LDIFF_SYM639=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM639
 	.byte 3,141,192,1,11
 	.asciz "V_12"
 
-LDIFF_SYM637=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM637
+LDIFF_SYM640=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM640
 	.byte 3,141,200,1,11
 	.asciz "V_13"
 
-LDIFF_SYM638=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM638
+LDIFF_SYM641=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM641
 	.byte 3,141,208,1,11
 	.asciz "V_14"
 
-LDIFF_SYM639=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM639
+LDIFF_SYM642=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM642
 	.byte 3,141,216,1,11
 	.asciz "V_15"
 
-LDIFF_SYM640=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM640
+LDIFF_SYM643=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM643
 	.byte 3,141,224,1,11
 	.asciz "V_16"
 
-LDIFF_SYM641=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM641
+LDIFF_SYM644=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM644
 	.byte 3,141,232,1,11
 	.asciz "V_17"
 
-LDIFF_SYM642=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM642
+LDIFF_SYM645=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM645
 	.byte 3,141,240,1,11
 	.asciz "V_18"
 
-LDIFF_SYM643=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM643
+LDIFF_SYM646=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM646
 	.byte 3,141,248,1,11
 	.asciz "V_19"
 
-LDIFF_SYM644=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM644
+LDIFF_SYM647=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM647
 	.byte 3,141,128,2,11
 	.asciz "V_20"
 
-LDIFF_SYM645=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM645
+LDIFF_SYM648=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM648
 	.byte 3,141,136,2,11
 	.asciz "V_21"
 
-LDIFF_SYM646=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM646
+LDIFF_SYM649=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM649
 	.byte 3,141,144,2,11
 	.asciz "V_22"
 
-LDIFF_SYM647=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM647
+LDIFF_SYM650=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM650
 	.byte 3,141,152,2,11
 	.asciz "V_23"
 
-LDIFF_SYM648=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM648
+LDIFF_SYM651=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM651
 	.byte 3,141,160,2,11
 	.asciz "V_24"
 
-LDIFF_SYM649=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM649
+LDIFF_SYM652=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM652
 	.byte 3,141,168,2,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM650=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM650
+LDIFF_SYM653=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM653
 Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_TouchesEnded_Foundation_NSSet_UIKit_UIEvent
 
-LDIFF_SYM651=Lme_23 - WorkHeart_GameScene_TouchesEnded_Foundation_NSSet_UIKit_UIEvent
-	.long LDIFF_SYM651
+LDIFF_SYM654=Lme_23 - WorkHeart_GameScene_TouchesEnded_Foundation_NSSet_UIKit_UIEvent
+	.long LDIFF_SYM654
 	.long 0
 	.byte 12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40,152,39,68,153,38
 	.align 3
@@ -45474,34 +46700,34 @@ Lfde35_end:
 	.asciz "WorkHeart.GameScene:Update"
 	.asciz "WorkHeart_GameScene_Update_double"
 
-	.byte 5,236,2
+	.byte 5,246,2
 	.quad WorkHeart_GameScene_Update_double
 	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM652=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM652
+LDIFF_SYM655=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM655
 	.byte 2,141,16,3
 	.asciz "currentTime"
 
-LDIFF_SYM653=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM653
+LDIFF_SYM656=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM656
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM654=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM654
+LDIFF_SYM657=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM657
 Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_Update_double
 
-LDIFF_SYM655=Lme_24 - WorkHeart_GameScene_Update_double
-	.long LDIFF_SYM655
+LDIFF_SYM658=Lme_24 - WorkHeart_GameScene_Update_double
+	.long LDIFF_SYM658
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -45513,29 +46739,29 @@ Lfde36_end:
 	.asciz "WorkHeart.GameScene:StartTracking"
 	.asciz "WorkHeart_GameScene_StartTracking"
 
-	.byte 5,241,2
+	.byte 5,251,2
 	.quad WorkHeart_GameScene_StartTracking
 	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM656=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM656
+LDIFF_SYM659=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM659
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM657=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM657
+LDIFF_SYM660=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM660
 Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_StartTracking
 
-LDIFF_SYM658=Lme_25 - WorkHeart_GameScene_StartTracking
-	.long LDIFF_SYM658
+LDIFF_SYM661=Lme_25 - WorkHeart_GameScene_StartTracking
+	.long LDIFF_SYM661
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -45547,29 +46773,29 @@ Lfde37_end:
 	.asciz "WorkHeart.GameScene:StopTracking"
 	.asciz "WorkHeart_GameScene_StopTracking"
 
-	.byte 5,131,3
+	.byte 5,141,3
 	.quad WorkHeart_GameScene_StopTracking
 	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM659=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM659
+LDIFF_SYM662=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM662
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM660=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM660
+LDIFF_SYM663=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM663
 Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_StopTracking
 
-LDIFF_SYM661=Lme_26 - WorkHeart_GameScene_StopTracking
-	.long LDIFF_SYM661
+LDIFF_SYM664=Lme_26 - WorkHeart_GameScene_StopTracking
+	.long LDIFF_SYM664
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -45581,29 +46807,29 @@ Lfde38_end:
 	.asciz "WorkHeart.GameScene:PauseTracking"
 	.asciz "WorkHeart_GameScene_PauseTracking"
 
-	.byte 5,143,3
+	.byte 5,153,3
 	.quad WorkHeart_GameScene_PauseTracking
 	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM662=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM662
+LDIFF_SYM665=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM665
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM663=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM663
+LDIFF_SYM666=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM666
 Lfde39_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_PauseTracking
 
-LDIFF_SYM664=Lme_27 - WorkHeart_GameScene_PauseTracking
-	.long LDIFF_SYM664
+LDIFF_SYM667=Lme_27 - WorkHeart_GameScene_PauseTracking
+	.long LDIFF_SYM667
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -45615,29 +46841,29 @@ Lfde39_end:
 	.asciz "WorkHeart.GameScene:ResumeTracking"
 	.asciz "WorkHeart_GameScene_ResumeTracking"
 
-	.byte 5,154,3
+	.byte 5,164,3
 	.quad WorkHeart_GameScene_ResumeTracking
 	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM665=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM665
+LDIFF_SYM668=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM668
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM666=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM666
+LDIFF_SYM669=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM669
 Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_ResumeTracking
 
-LDIFF_SYM667=Lme_28 - WorkHeart_GameScene_ResumeTracking
-	.long LDIFF_SYM667
+LDIFF_SYM670=Lme_28 - WorkHeart_GameScene_ResumeTracking
+	.long LDIFF_SYM670
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -45650,93 +46876,93 @@ LTDIE_73:
 	.asciz "System_EventArgs"
 
 	.byte 16,16
-LDIFF_SYM668=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM668
+LDIFF_SYM671=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM671
 	.byte 2,35,0,0,7
 	.asciz "System_EventArgs"
 
-LDIFF_SYM669=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM669
+LDIFF_SYM672=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM672
 LTDIE_73_POINTER:
 
 	.byte 13
-LDIFF_SYM670=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM670
+LDIFF_SYM673=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM673
 LTDIE_73_REFERENCE:
 
 	.byte 14
-LDIFF_SYM671=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM671
+LDIFF_SYM674=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM674
 LTDIE_72:
 
 	.byte 5
 	.asciz "System_Timers_ElapsedEventArgs"
 
 	.byte 24,16
-LDIFF_SYM672=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM672
+LDIFF_SYM675=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM675
 	.byte 2,35,0,6
 	.asciz "time"
 
-LDIFF_SYM673=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM673
+LDIFF_SYM676=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM676
 	.byte 2,35,16,0,7
 	.asciz "System_Timers_ElapsedEventArgs"
 
-LDIFF_SYM674=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM674
+LDIFF_SYM677=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM677
 LTDIE_72_POINTER:
 
 	.byte 13
-LDIFF_SYM675=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM675
+LDIFF_SYM678=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM678
 LTDIE_72_REFERENCE:
 
 	.byte 14
-LDIFF_SYM676=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM676
+LDIFF_SYM679=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM679
 	.byte 2
 	.asciz "WorkHeart.GameScene:UpdateTimedData"
 	.asciz "WorkHeart_GameScene_UpdateTimedData_object_System_Timers_ElapsedEventArgs"
 
-	.byte 5,166,3
+	.byte 5,176,3
 	.quad WorkHeart_GameScene_UpdateTimedData_object_System_Timers_ElapsedEventArgs
 	.quad Lme_29
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM677=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM677
+LDIFF_SYM680=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM680
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM678=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM678
+LDIFF_SYM681=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM681
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM679=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM679
+LDIFF_SYM682=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM682
 	.byte 2,141,32,11
 	.asciz "timeElapsed"
 
-LDIFF_SYM680=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM680
+LDIFF_SYM683=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM683
 	.byte 3,141,144,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM681=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM681
+LDIFF_SYM684=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM684
 Lfde41_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_UpdateTimedData_object_System_Timers_ElapsedEventArgs
 
-LDIFF_SYM682=Lme_29 - WorkHeart_GameScene_UpdateTimedData_object_System_Timers_ElapsedEventArgs
-	.long LDIFF_SYM682
+LDIFF_SYM685=Lme_29 - WorkHeart_GameScene_UpdateTimedData_object_System_Timers_ElapsedEventArgs
+	.long LDIFF_SYM685
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18
 	.align 3
@@ -45748,29 +46974,29 @@ Lfde41_end:
 	.asciz "WorkHeart.GameScene:PausedTime"
 	.asciz "WorkHeart_GameScene_PausedTime"
 
-	.byte 5,180,3
+	.byte 5,190,3
 	.quad WorkHeart_GameScene_PausedTime
 	.quad Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM683=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM683
+LDIFF_SYM686=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM686
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM684=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM684
+LDIFF_SYM687=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM687
 Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_PausedTime
 
-LDIFF_SYM685=Lme_2a - WorkHeart_GameScene_PausedTime
-	.long LDIFF_SYM685
+LDIFF_SYM688=Lme_2a - WorkHeart_GameScene_PausedTime
+	.long LDIFF_SYM688
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -45782,39 +47008,39 @@ Lfde42_end:
 	.asciz "WorkHeart.GameScene:UpdatePausedTimedData"
 	.asciz "WorkHeart_GameScene_UpdatePausedTimedData_object_System_Timers_ElapsedEventArgs"
 
-	.byte 5,190,3
+	.byte 5,200,3
 	.quad WorkHeart_GameScene_UpdatePausedTimedData_object_System_Timers_ElapsedEventArgs
 	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM686=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM686
+LDIFF_SYM689=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM689
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM687=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM687
+LDIFF_SYM690=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM690
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM688=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM688
+LDIFF_SYM691=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM691
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM689=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM689
+LDIFF_SYM692=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM692
 Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_UpdatePausedTimedData_object_System_Timers_ElapsedEventArgs
 
-LDIFF_SYM690=Lme_2b - WorkHeart_GameScene_UpdatePausedTimedData_object_System_Timers_ElapsedEventArgs
-	.long LDIFF_SYM690
+LDIFF_SYM693=Lme_2b - WorkHeart_GameScene_UpdatePausedTimedData_object_System_Timers_ElapsedEventArgs
+	.long LDIFF_SYM693
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -45826,44 +47052,44 @@ Lfde43_end:
 	.asciz "WorkHeart.GameScene:CreateGravityNode"
 	.asciz "WorkHeart_GameScene_CreateGravityNode"
 
-	.byte 5,197,3
+	.byte 5,207,3
 	.quad WorkHeart_GameScene_CreateGravityNode
 	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM691=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM691
+LDIFF_SYM694=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM694
 	.byte 1,106,11
 	.asciz "gravityPhysics"
 
-LDIFF_SYM692=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM692
+LDIFF_SYM695=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM695
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM693=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM693
+LDIFF_SYM696=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM696
 	.byte 3,141,128,1,11
 	.asciz "V_2"
 
-LDIFF_SYM694=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM694
+LDIFF_SYM697=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM697
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM695=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM695
+LDIFF_SYM698=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM698
 Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_CreateGravityNode
 
-LDIFF_SYM696=Lme_2c - WorkHeart_GameScene_CreateGravityNode
-	.long LDIFF_SYM696
+LDIFF_SYM699=Lme_2c - WorkHeart_GameScene_CreateGravityNode
+	.long LDIFF_SYM699
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29,68,154,28
 	.align 3
@@ -45876,55 +47102,55 @@ LTDIE_74:
 	.asciz "UIKit_UIColor"
 
 	.byte 40,16
-LDIFF_SYM697=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM697
+LDIFF_SYM700=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM700
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIColor"
 
-LDIFF_SYM698=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM698
+LDIFF_SYM701=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM701
 LTDIE_74_POINTER:
 
 	.byte 13
-LDIFF_SYM699=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM699
+LDIFF_SYM702=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM702
 LTDIE_74_REFERENCE:
 
 	.byte 14
-LDIFF_SYM700=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM700
+LDIFF_SYM703=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM703
 	.byte 2
 	.asciz "WorkHeart.GameScene:setBGColour"
 	.asciz "WorkHeart_GameScene_setBGColour_UIKit_UIColor"
 
-	.byte 5,207,3
+	.byte 5,217,3
 	.quad WorkHeart_GameScene_setBGColour_UIKit_UIColor
 	.quad Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM701=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM701
+LDIFF_SYM704=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM704
 	.byte 2,141,16,3
 	.asciz "color"
 
-LDIFF_SYM702=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM702
+LDIFF_SYM705=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM705
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM703=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM703
+LDIFF_SYM706=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM706
 Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_setBGColour_UIKit_UIColor
 
-LDIFF_SYM704=Lme_2d - WorkHeart_GameScene_setBGColour_UIKit_UIColor
-	.long LDIFF_SYM704
+LDIFF_SYM707=Lme_2d - WorkHeart_GameScene_setBGColour_UIKit_UIColor
+	.long LDIFF_SYM707
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -45936,59 +47162,59 @@ Lfde45_end:
 	.asciz "WorkHeart.GameScene:AddHeadingLabels"
 	.asciz "WorkHeart_GameScene_AddHeadingLabels"
 
-	.byte 5,212,3
+	.byte 5,222,3
 	.quad WorkHeart_GameScene_AddHeadingLabels
 	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM705=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM705
+LDIFF_SYM708=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM708
 	.byte 1,106,11
 	.asciz "partOfDay"
 
-LDIFF_SYM706=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM706
+LDIFF_SYM709=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM709
 	.byte 1,105,11
 	.asciz "hours"
 
-LDIFF_SYM707=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM707
+LDIFF_SYM710=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM710
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM708=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM708
+LDIFF_SYM711=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM711
 	.byte 3,141,128,2,11
 	.asciz "V_3"
 
-LDIFF_SYM709=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM709
+LDIFF_SYM712=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM712
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM710=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM710
+LDIFF_SYM713=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM713
 	.byte 1,102,11
 	.asciz "V_5"
 
-LDIFF_SYM711=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM711
+LDIFF_SYM714=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM714
 	.byte 3,141,240,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM712=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM712
+LDIFF_SYM715=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM715
 Lfde46_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_AddHeadingLabels
 
-LDIFF_SYM713=Lme_2e - WorkHeart_GameScene_AddHeadingLabels
-	.long LDIFF_SYM713
+LDIFF_SYM716=Lme_2e - WorkHeart_GameScene_AddHeadingLabels
+	.long LDIFF_SYM716
 	.long 0
 	.byte 12,31,0,84,14,160,5,157,84,158,83,68,13,29,68,147,82,148,81,68,149,80,150,79,68,151,78,152,77,68,153,76
 	.byte 154,75
@@ -46001,49 +47227,49 @@ Lfde46_end:
 	.asciz "WorkHeart.GameScene:addInfoLabel"
 	.asciz "WorkHeart_GameScene_addInfoLabel_string_string_string"
 
-	.byte 5,132,4
+	.byte 5,142,4
 	.quad WorkHeart_GameScene_addInfoLabel_string_string_string
 	.quad Lme_2f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM714=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM714
+LDIFF_SYM717=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM717
 	.byte 1,103,3
 	.asciz "icon"
 
-LDIFF_SYM715=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM715
+LDIFF_SYM718=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM718
 	.byte 2,141,56,3
 	.asciz "text"
 
-LDIFF_SYM716=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM716
+LDIFF_SYM719=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM719
 	.byte 3,141,192,0,3
 	.asciz "text2"
 
-LDIFF_SYM717=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM717
+LDIFF_SYM720=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM720
 	.byte 3,141,200,0,11
 	.asciz "V_0"
 
-LDIFF_SYM718=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM718
+LDIFF_SYM721=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM721
 	.byte 3,141,168,2,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM719=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM719
+LDIFF_SYM722=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM722
 Lfde47_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_addInfoLabel_string_string_string
 
-LDIFF_SYM720=Lme_2f - WorkHeart_GameScene_addInfoLabel_string_string_string
-	.long LDIFF_SYM720
+LDIFF_SYM723=Lme_2f - WorkHeart_GameScene_addInfoLabel_string_string_string
+	.long LDIFF_SYM723
 	.long 0
 	.byte 12,31,0,84,14,240,5,157,94,158,93,68,13,29,68,147,92,148,91,68,149,90,150,89,68,151,88
 	.align 3
@@ -46062,27 +47288,27 @@ Lfde47_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM721=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM721
+LDIFF_SYM724=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM724
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM722=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM722
+LDIFF_SYM725=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM725
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM723=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM723
+LDIFF_SYM726=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM726
 Lfde48_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_GameScene_removeInfoLabel
 
-LDIFF_SYM724=Lme_30 - WorkHeart_GameScene_removeInfoLabel
-	.long LDIFF_SYM724
+LDIFF_SYM727=Lme_30 - WorkHeart_GameScene_removeInfoLabel
+	.long LDIFF_SYM727
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
@@ -46092,57 +47318,128 @@ Lfde48_end:
 LTDIE_75:
 
 	.byte 5
-	.asciz "WorkHeart_Classes_LightData"
+	.asciz "CoreGraphics_CGPath"
 
-	.byte 16,16
-LDIFF_SYM725=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM725
-	.byte 2,35,0,0,7
-	.asciz "WorkHeart_Classes_LightData"
+	.byte 24,16
+LDIFF_SYM728=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM728
+	.byte 2,35,0,6
+	.asciz "handle"
 
-LDIFF_SYM726=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM726
+LDIFF_SYM729=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM729
+	.byte 2,35,16,0,7
+	.asciz "CoreGraphics_CGPath"
+
+LDIFF_SYM730=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM730
 LTDIE_75_POINTER:
 
 	.byte 13
-LDIFF_SYM727=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM727
+LDIFF_SYM731=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM731
 LTDIE_75_REFERENCE:
 
 	.byte 14
-LDIFF_SYM728=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM728
+LDIFF_SYM732=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM732
+	.byte 2
+	.asciz "WorkHeart.GameScene:addSkipButton"
+	.asciz "WorkHeart_GameScene_addSkipButton"
+
+	.byte 5,192,4
+	.quad WorkHeart_GameScene_addSkipButton
+	.quad Lme_31
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM733=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM733
+	.byte 1,106,11
+	.asciz "path"
+
+LDIFF_SYM734=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM734
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM735=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM735
+	.byte 3,141,248,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM736=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM736
+Lfde49_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_GameScene_addSkipButton
+
+LDIFF_SYM737=Lme_31 - WorkHeart_GameScene_addSkipButton
+	.long LDIFF_SYM737
+	.long 0
+	.byte 12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,153,36,154,35
+	.align 3
+Lfde49_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_76:
+
+	.byte 5
+	.asciz "WorkHeart_Classes_LightData"
+
+	.byte 16,16
+LDIFF_SYM738=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM738
+	.byte 2,35,0,0,7
+	.asciz "WorkHeart_Classes_LightData"
+
+LDIFF_SYM739=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM739
+LTDIE_76_POINTER:
+
+	.byte 13
+LDIFF_SYM740=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM740
+LTDIE_76_REFERENCE:
+
+	.byte 14
+LDIFF_SYM741=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM741
 	.byte 2
 	.asciz "WorkHeart.Classes.LightData:.ctor"
 	.asciz "WorkHeart_Classes_LightData__ctor"
 
 	.byte 6,9
 	.quad WorkHeart_Classes_LightData__ctor
-	.quad Lme_31
+	.quad Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM729=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM729
+LDIFF_SYM742=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM742
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM730=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM730
-Lfde49_start:
+LDIFF_SYM743=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM743
+Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_LightData__ctor
 
-LDIFF_SYM731=Lme_31 - WorkHeart_Classes_LightData__ctor
-	.long LDIFF_SYM731
+LDIFF_SYM744=Lme_32 - WorkHeart_Classes_LightData__ctor
+	.long LDIFF_SYM744
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde49_end:
+Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46152,36 +47449,36 @@ Lfde49_end:
 
 	.byte 6,14
 	.quad WorkHeart_Classes_LightData_GetCurrentLightValue
-	.quad Lme_32
+	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM732=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM732
+LDIFF_SYM745=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM745
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM733=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM733
+LDIFF_SYM746=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM746
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM734=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM734
-Lfde50_start:
+LDIFF_SYM747=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM747
+Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_LightData_GetCurrentLightValue
 
-LDIFF_SYM735=Lme_32 - WorkHeart_Classes_LightData_GetCurrentLightValue
-	.long LDIFF_SYM735
+LDIFF_SYM748=Lme_33 - WorkHeart_Classes_LightData_GetCurrentLightValue
+	.long LDIFF_SYM748
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde50_end:
+Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46191,31 +47488,31 @@ Lfde50_end:
 
 	.byte 7,9
 	.quad WorkHeart_Classes_DurationData__ctor
-	.quad Lme_33
+	.quad Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM736=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM736
+LDIFF_SYM749=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM749
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM737=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM737
-Lfde51_start:
+LDIFF_SYM750=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM750
+Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_DurationData__ctor
 
-LDIFF_SYM738=Lme_33 - WorkHeart_Classes_DurationData__ctor
-	.long LDIFF_SYM738
+LDIFF_SYM751=Lme_34 - WorkHeart_Classes_DurationData__ctor
+	.long LDIFF_SYM751
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde51_end:
+Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46225,76 +47522,76 @@ Lfde51_end:
 
 	.byte 7,14
 	.quad WorkHeart_Classes_DurationData_getDurationStatus_System_TimeSpan_double_double_double
-	.quad Lme_34
+	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM739=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM739
+LDIFF_SYM752=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM752
 	.byte 2,141,24,3
 	.asciz "timeElapsed"
 
-LDIFF_SYM740=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM740
+LDIFF_SYM753=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM753
 	.byte 2,141,32,3
 	.asciz "timeGreen"
 
-LDIFF_SYM741=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM741
+LDIFF_SYM754=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM754
 	.byte 2,141,48,3
 	.asciz "timeYellow"
 
-LDIFF_SYM742=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM742
+LDIFF_SYM755=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM755
 	.byte 2,141,56,3
 	.asciz "timeOrange"
 
-LDIFF_SYM743=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM743
+LDIFF_SYM756=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM756
 	.byte 3,141,192,0,11
 	.asciz "n"
 
-LDIFF_SYM744=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM744
+LDIFF_SYM757=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM757
 	.byte 3,141,224,0,11
 	.asciz "n"
 
-LDIFF_SYM745=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM745
+LDIFF_SYM758=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM758
 	.byte 3,141,232,0,11
 	.asciz "n"
 
-LDIFF_SYM746=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM746
+LDIFF_SYM759=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM759
 	.byte 3,141,240,0,11
 	.asciz "V_3"
 
-LDIFF_SYM747=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM747
+LDIFF_SYM760=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM760
 	.byte 3,141,248,0,11
 	.asciz "V_4"
 
-LDIFF_SYM748=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM748
+LDIFF_SYM761=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM761
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM749=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM749
-Lfde52_start:
+LDIFF_SYM762=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM762
+Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_DurationData_getDurationStatus_System_TimeSpan_double_double_double
 
-LDIFF_SYM750=Lme_34 - WorkHeart_Classes_DurationData_getDurationStatus_System_TimeSpan_double_double_double
-	.long LDIFF_SYM750
+LDIFF_SYM763=Lme_35 - WorkHeart_Classes_DurationData_getDurationStatus_System_TimeSpan_double_double_double
+	.long LDIFF_SYM763
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
 	.align 3
-Lfde52_end:
+Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46304,31 +47601,31 @@ Lfde52_end:
 
 	.byte 8,24
 	.quad WorkHeart_Classes_NoiseData__ctor
-	.quad Lme_35
+	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM751=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM751
+LDIFF_SYM764=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM764
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM752=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM752
-Lfde53_start:
+LDIFF_SYM765=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM765
+Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_NoiseData__ctor
 
-LDIFF_SYM753=Lme_35 - WorkHeart_Classes_NoiseData__ctor
-	.long LDIFF_SYM753
+LDIFF_SYM766=Lme_36 - WorkHeart_Classes_NoiseData__ctor
+	.long LDIFF_SYM766
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde53_end:
+Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46338,76 +47635,76 @@ Lfde53_end:
 
 	.byte 8,34
 	.quad WorkHeart_Classes_NoiseData_getNoiseStatus_double_double_double
-	.quad Lme_36
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM754=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM754
+LDIFF_SYM767=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM767
 	.byte 2,141,24,3
 	.asciz "noiseGreen"
 
-LDIFF_SYM755=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM755
+LDIFF_SYM768=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM768
 	.byte 2,141,32,3
 	.asciz "noiseYellow"
 
-LDIFF_SYM756=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM756
+LDIFF_SYM769=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM769
 	.byte 2,141,40,3
 	.asciz "noiseOrange"
 
-LDIFF_SYM757=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM757
+LDIFF_SYM770=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM770
 	.byte 2,141,48,11
 	.asciz "currentNoiseLevel"
 
-LDIFF_SYM758=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM758
+LDIFF_SYM771=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM771
 	.byte 3,141,208,0,11
 	.asciz "n"
 
-LDIFF_SYM759=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM759
+LDIFF_SYM772=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM772
 	.byte 3,141,216,0,11
 	.asciz "n"
 
-LDIFF_SYM760=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM760
+LDIFF_SYM773=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM773
 	.byte 3,141,224,0,11
 	.asciz "n"
 
-LDIFF_SYM761=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM761
+LDIFF_SYM774=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM774
 	.byte 3,141,232,0,11
 	.asciz "V_4"
 
-LDIFF_SYM762=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM762
+LDIFF_SYM775=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM775
 	.byte 3,141,240,0,11
 	.asciz "V_5"
 
-LDIFF_SYM763=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM763
+LDIFF_SYM776=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM776
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM764=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM764
-Lfde54_start:
+LDIFF_SYM777=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM777
+Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_NoiseData_getNoiseStatus_double_double_double
 
-LDIFF_SYM765=Lme_36 - WorkHeart_Classes_NoiseData_getNoiseStatus_double_double_double
-	.long LDIFF_SYM765
+LDIFF_SYM778=Lme_37 - WorkHeart_Classes_NoiseData_getNoiseStatus_double_double_double
+	.long LDIFF_SYM778
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16
 	.align 3
-Lfde54_end:
+Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46417,262 +47714,262 @@ Lfde54_end:
 
 	.byte 8,51
 	.quad WorkHeart_Classes_NoiseData_CheckNoise
-	.quad Lme_37
+	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM766=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM766
+LDIFF_SYM779=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM779
 	.byte 1,106,11
 	.asciz "peakPower"
 
-LDIFF_SYM767=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM767
+LDIFF_SYM780=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM780
 	.byte 2,141,56,11
 	.asciz "averagePower"
 
-LDIFF_SYM768=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM768
+LDIFF_SYM781=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM781
 	.byte 3,141,192,0,11
 	.asciz "V_2"
 
-LDIFF_SYM769=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM769
+LDIFF_SYM782=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM782
 	.byte 1,105,11
 	.asciz "V_3"
 
-LDIFF_SYM770=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM770
+LDIFF_SYM783=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM783
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM771=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM771
-Lfde55_start:
+LDIFF_SYM784=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM784
+Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_NoiseData_CheckNoise
 
-LDIFF_SYM772=Lme_37 - WorkHeart_Classes_NoiseData_CheckNoise
-	.long LDIFF_SYM772
+LDIFF_SYM785=Lme_38 - WorkHeart_Classes_NoiseData_CheckNoise
+	.long LDIFF_SYM785
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,153,20,154,19
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 	.align 3
-Lfde55_end:
+Lfde56_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_76:
-
-	.byte 5
-	.asciz "AVFoundation_AVAudioSession"
-
-	.byte 40,16
-LDIFF_SYM773=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM773
-	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVAudioSession"
-
-LDIFF_SYM774=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM774
-LTDIE_76_POINTER:
-
-	.byte 13
-LDIFF_SYM775=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM775
-LTDIE_76_REFERENCE:
-
-	.byte 14
-LDIFF_SYM776=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM776
 LTDIE_77:
 
 	.byte 5
-	.asciz "Foundation_NSError"
+	.asciz "AVFoundation_AVAudioSession"
 
 	.byte 40,16
-LDIFF_SYM777=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM777
+LDIFF_SYM786=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM786
 	.byte 2,35,0,0,7
-	.asciz "Foundation_NSError"
+	.asciz "AVFoundation_AVAudioSession"
 
-LDIFF_SYM778=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM778
+LDIFF_SYM787=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM787
 LTDIE_77_POINTER:
 
 	.byte 13
-LDIFF_SYM779=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM779
+LDIFF_SYM788=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM788
 LTDIE_77_REFERENCE:
 
 	.byte 14
-LDIFF_SYM780=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM780
+LDIFF_SYM789=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM789
+LTDIE_78:
+
+	.byte 5
+	.asciz "Foundation_NSError"
+
+	.byte 40,16
+LDIFF_SYM790=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM790
+	.byte 2,35,0,0,7
+	.asciz "Foundation_NSError"
+
+LDIFF_SYM791=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM791
+LTDIE_78_POINTER:
+
+	.byte 13
+LDIFF_SYM792=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM792
+LTDIE_78_REFERENCE:
+
+	.byte 14
+LDIFF_SYM793=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM793
 	.byte 2
 	.asciz "WorkHeart.Classes.NoiseData:SetupAudio"
 	.asciz "WorkHeart_Classes_NoiseData_SetupAudio"
 
 	.byte 8,65
 	.quad WorkHeart_Classes_NoiseData_SetupAudio
-	.quad Lme_38
+	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM781=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM781
+LDIFF_SYM794=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM794
 	.byte 1,106,11
 	.asciz "audioSession"
 
-LDIFF_SYM782=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM782
+LDIFF_SYM795=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM795
 	.byte 1,105,11
 	.asciz "err"
 
-LDIFF_SYM783=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM783
+LDIFF_SYM796=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM796
 	.byte 1,104,11
 	.asciz "fileName"
 
-LDIFF_SYM784=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM784
+LDIFF_SYM797=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM797
 	.byte 1,103,11
 	.asciz "tempRecording"
 
-LDIFF_SYM785=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM785
+LDIFF_SYM798=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM798
 	.byte 1,102,11
 	.asciz "values"
 
-LDIFF_SYM786=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM786
+LDIFF_SYM799=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM799
 	.byte 1,101,11
 	.asciz "keys"
 
-LDIFF_SYM787=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM787
+LDIFF_SYM800=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM800
 	.byte 1,100,11
 	.asciz "error"
 
-LDIFF_SYM788=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM788
+LDIFF_SYM801=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM801
 	.byte 3,141,248,0,11
 	.asciz "V_7"
 
-LDIFF_SYM789=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM789
+LDIFF_SYM802=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM802
 	.byte 1,99,11
 	.asciz "V_8"
 
-LDIFF_SYM790=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM790
+LDIFF_SYM803=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM803
 	.byte 3,141,128,1,11
 	.asciz "V_9"
 
-LDIFF_SYM791=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM791
+LDIFF_SYM804=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM804
 	.byte 3,141,240,0,11
 	.asciz "V_10"
 
-LDIFF_SYM792=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM792
+LDIFF_SYM805=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM805
 	.byte 3,141,136,1,11
 	.asciz "V_11"
 
-LDIFF_SYM793=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM793
+LDIFF_SYM806=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM806
 	.byte 3,141,144,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM794=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM794
-Lfde56_start:
+LDIFF_SYM807=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM807
+Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_NoiseData_SetupAudio
 
-LDIFF_SYM795=Lme_38 - WorkHeart_Classes_NoiseData_SetupAudio
-	.long LDIFF_SYM795
+LDIFF_SYM808=Lme_39 - WorkHeart_Classes_NoiseData_SetupAudio
+	.long LDIFF_SYM808
 	.long 0
 	.byte 12,31,0,84,14,144,4,157,66,158,65,68,13,29,68,147,64,148,63,68,149,62,150,61,68,151,60,152,59,68,153,58
 	.byte 154,57
 	.align 3
-Lfde56_end:
+Lfde57_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_78:
+LTDIE_79:
 
 	.byte 5
 	.asciz "AVFoundation_AVStatusEventArgs"
 
 	.byte 17,16
-LDIFF_SYM796=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM796
+LDIFF_SYM809=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM809
 	.byte 2,35,0,6
 	.asciz "<Status>k__BackingField"
 
-LDIFF_SYM797=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM797
+LDIFF_SYM810=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM810
 	.byte 2,35,16,0,7
 	.asciz "AVFoundation_AVStatusEventArgs"
 
-LDIFF_SYM798=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM798
-LTDIE_78_POINTER:
+LDIFF_SYM811=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM811
+LTDIE_79_POINTER:
 
 	.byte 13
-LDIFF_SYM799=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM799
-LTDIE_78_REFERENCE:
+LDIFF_SYM812=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM812
+LTDIE_79_REFERENCE:
 
 	.byte 14
-LDIFF_SYM800=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM800
+LDIFF_SYM813=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM813
 	.byte 2
 	.asciz "WorkHeart.Classes.NoiseData:<SetupAudio>b__9_0"
 	.asciz "WorkHeart_Classes_NoiseData__SetupAudiob__9_0_object_AVFoundation_AVStatusEventArgs"
 
 	.byte 8,124
 	.quad WorkHeart_Classes_NoiseData__SetupAudiob__9_0_object_AVFoundation_AVStatusEventArgs
-	.quad Lme_39
+	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM801=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM801
+LDIFF_SYM814=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM814
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM802=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM802
+LDIFF_SYM815=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM815
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM803=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM803
+LDIFF_SYM816=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM816
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM804=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM804
-Lfde57_start:
+LDIFF_SYM817=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM817
+Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_NoiseData__SetupAudiob__9_0_object_AVFoundation_AVStatusEventArgs
 
-LDIFF_SYM805=Lme_39 - WorkHeart_Classes_NoiseData__SetupAudiob__9_0_object_AVFoundation_AVStatusEventArgs
-	.long LDIFF_SYM805
+LDIFF_SYM818=Lme_3a - WorkHeart_Classes_NoiseData__SetupAudiob__9_0_object_AVFoundation_AVStatusEventArgs
+	.long LDIFF_SYM818
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde57_end:
+Lfde58_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46682,31 +47979,31 @@ Lfde57_end:
 
 	.byte 9,15
 	.quad WorkHeart_Classes_MovementData__ctor
-	.quad Lme_3a
+	.quad Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM806=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM806
+LDIFF_SYM819=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM819
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM807=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM807
-Lfde58_start:
+LDIFF_SYM820=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM820
+Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_MovementData__ctor
 
-LDIFF_SYM808=Lme_3a - WorkHeart_Classes_MovementData__ctor
-	.long LDIFF_SYM808
+LDIFF_SYM821=Lme_3b - WorkHeart_Classes_MovementData__ctor
+	.long LDIFF_SYM821
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde58_end:
+Lfde59_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46716,31 +48013,31 @@ Lfde58_end:
 
 	.byte 9,21
 	.quad WorkHeart_Classes_MovementData_InitializeAccelerometer
-	.quad Lme_3b
+	.quad Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM809=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM809
+LDIFF_SYM822=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM822
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM810=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM810
-Lfde59_start:
+LDIFF_SYM823=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM823
+Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_MovementData_InitializeAccelerometer
 
-LDIFF_SYM811=Lme_3b - WorkHeart_Classes_MovementData_InitializeAccelerometer
-	.long LDIFF_SYM811
+LDIFF_SYM824=Lme_3c - WorkHeart_Classes_MovementData_InitializeAccelerometer
+	.long LDIFF_SYM824
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde59_end:
+Lfde60_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46750,147 +48047,147 @@ Lfde59_end:
 
 	.byte 9,34
 	.quad WorkHeart_Classes_MovementData_getMotionStatus_double_double_double
-	.quad Lme_3c
+	.quad Lme_3d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM812=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM812
+LDIFF_SYM825=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM825
 	.byte 2,141,24,3
 	.asciz "timeGreen"
 
-LDIFF_SYM813=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM813
+LDIFF_SYM826=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM826
 	.byte 2,141,32,3
 	.asciz "timeYellow"
 
-LDIFF_SYM814=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM814
+LDIFF_SYM827=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM827
 	.byte 2,141,40,3
 	.asciz "timeOrange"
 
-LDIFF_SYM815=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM828=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM828
 	.byte 2,141,48,11
 	.asciz "n"
 
-LDIFF_SYM816=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM816
+LDIFF_SYM829=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM829
 	.byte 3,141,208,0,11
 	.asciz "n"
 
-LDIFF_SYM817=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM817
+LDIFF_SYM830=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM830
 	.byte 3,141,216,0,11
 	.asciz "n"
 
-LDIFF_SYM818=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM818
+LDIFF_SYM831=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM831
 	.byte 3,141,224,0,11
 	.asciz "V_3"
 
-LDIFF_SYM819=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM819
+LDIFF_SYM832=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM832
 	.byte 3,141,232,0,11
 	.asciz "V_4"
 
-LDIFF_SYM820=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM820
+LDIFF_SYM833=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM833
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM821=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM821
-Lfde60_start:
+LDIFF_SYM834=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM834
+Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_MovementData_getMotionStatus_double_double_double
 
-LDIFF_SYM822=Lme_3c - WorkHeart_Classes_MovementData_getMotionStatus_double_double_double
-	.long LDIFF_SYM822
+LDIFF_SYM835=Lme_3d - WorkHeart_Classes_MovementData_getMotionStatus_double_double_double
+	.long LDIFF_SYM835
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14
 	.align 3
-Lfde60_end:
+Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_79:
+LTDIE_80:
 
 	.byte 5
 	.asciz "Xamarin_Essentials_AccelerometerChangedEventArgs"
 
 	.byte 28,16
-LDIFF_SYM823=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM823
+LDIFF_SYM836=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM836
 	.byte 2,35,0,6
 	.asciz "<Reading>k__BackingField"
 
-LDIFF_SYM824=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM824
+LDIFF_SYM837=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM837
 	.byte 2,35,16,0,7
 	.asciz "Xamarin_Essentials_AccelerometerChangedEventArgs"
 
-LDIFF_SYM825=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM825
-LTDIE_79_POINTER:
+LDIFF_SYM838=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM838
+LTDIE_80_POINTER:
 
 	.byte 13
-LDIFF_SYM826=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM826
-LTDIE_79_REFERENCE:
+LDIFF_SYM839=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM839
+LTDIE_80_REFERENCE:
 
 	.byte 14
-LDIFF_SYM827=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM827
+LDIFF_SYM840=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM840
 	.byte 2
 	.asciz "WorkHeart.Classes.MovementData:HandleAccelerometerReadingChanged"
 	.asciz "WorkHeart_Classes_MovementData_HandleAccelerometerReadingChanged_object_Xamarin_Essentials_AccelerometerChangedEventArgs"
 
 	.byte 9,49
 	.quad WorkHeart_Classes_MovementData_HandleAccelerometerReadingChanged_object_Xamarin_Essentials_AccelerometerChangedEventArgs
-	.quad Lme_3d
+	.quad Lme_3e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM828=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM828
+LDIFF_SYM841=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM841
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM829=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM829
+LDIFF_SYM842=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM842
 	.byte 2,141,32,3
 	.asciz "e"
 
-LDIFF_SYM830=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM830
+LDIFF_SYM843=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM843
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM831=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM831
-	.byte 3,141,128,2,0
+LDIFF_SYM844=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM844
+	.byte 3,141,160,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM832=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM832
-Lfde61_start:
+LDIFF_SYM845=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM845
+Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_MovementData_HandleAccelerometerReadingChanged_object_Xamarin_Essentials_AccelerometerChangedEventArgs
 
-LDIFF_SYM833=Lme_3d - WorkHeart_Classes_MovementData_HandleAccelerometerReadingChanged_object_Xamarin_Essentials_AccelerometerChangedEventArgs
-	.long LDIFF_SYM833
+LDIFF_SYM846=Lme_3e - WorkHeart_Classes_MovementData_HandleAccelerometerReadingChanged_object_Xamarin_Essentials_AccelerometerChangedEventArgs
+	.long LDIFF_SYM846
 	.long 0
-	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,153,34,154,33
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,154,21
 	.align 3
-Lfde61_end:
+Lfde62_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46898,53 +48195,53 @@ Lfde61_end:
 	.asciz "WorkHeart.Classes.MovementData:GetMaxMotion"
 	.asciz "WorkHeart_Classes_MovementData_GetMaxMotion"
 
-	.byte 9,59
+	.byte 9,56
 	.quad WorkHeart_Classes_MovementData_GetMaxMotion
-	.quad Lme_3e
+	.quad Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM834=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM834
+LDIFF_SYM847=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM847
 	.byte 1,106,11
 	.asciz "xMove"
 
-LDIFF_SYM835=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM835
+LDIFF_SYM848=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM848
 	.byte 2,141,48,11
 	.asciz "yMove"
 
-LDIFF_SYM836=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM849=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM849
 	.byte 2,141,56,11
 	.asciz "zMove"
 
-LDIFF_SYM837=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM837
+LDIFF_SYM850=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM850
 	.byte 3,141,192,0,11
 	.asciz "V_3"
 
-LDIFF_SYM838=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM838
+LDIFF_SYM851=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM851
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM839=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM839
-Lfde62_start:
+LDIFF_SYM852=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM852
+Lfde63_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Classes_MovementData_GetMaxMotion
 
-LDIFF_SYM840=Lme_3e - WorkHeart_Classes_MovementData_GetMaxMotion
-	.long LDIFF_SYM840
+LDIFF_SYM853=Lme_3f - WorkHeart_Classes_MovementData_GetMaxMotion
+	.long LDIFF_SYM853
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde62_end:
+Lfde63_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46954,128 +48251,40 @@ Lfde62_end:
 
 	.byte 10,15
 	.quad WorkHeart_Objects_Bubble__ctor
-	.quad Lme_3f
+	.quad Lme_40
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM841=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM841
+LDIFF_SYM854=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM854
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM842=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM842
-Lfde63_start:
+LDIFF_SYM855=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM855
+Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble__ctor
 
-LDIFF_SYM843=Lme_3f - WorkHeart_Objects_Bubble__ctor
-	.long LDIFF_SYM843
+LDIFF_SYM856=Lme_40 - WorkHeart_Objects_Bubble__ctor
+	.long LDIFF_SYM856
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde63_end:
+Lfde64_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_80:
 
-	.byte 5
-	.asciz "CoreGraphics_CGPath"
-
-	.byte 24,16
-LDIFF_SYM844=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM844
-	.byte 2,35,0,6
-	.asciz "handle"
-
-LDIFF_SYM845=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM845
-	.byte 2,35,16,0,7
-	.asciz "CoreGraphics_CGPath"
-
-LDIFF_SYM846=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM846
-LTDIE_80_POINTER:
-
-	.byte 13
-LDIFF_SYM847=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM847
-LTDIE_80_REFERENCE:
-
-	.byte 14
-LDIFF_SYM848=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM848
 	.byte 2
 	.asciz "WorkHeart.Objects.Bubble:SetDefaultLook"
 	.asciz "WorkHeart_Objects_Bubble_SetDefaultLook"
 
 	.byte 10,62
 	.quad WorkHeart_Objects_Bubble_SetDefaultLook
-	.quad Lme_40
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM849=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM849
-	.byte 1,106,11
-	.asciz "path"
-
-LDIFF_SYM850=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM850
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM851=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM851
-Lfde64_start:
-
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_Bubble_SetDefaultLook
-
-LDIFF_SYM852=Lme_40 - WorkHeart_Objects_Bubble_SetDefaultLook
-	.long LDIFF_SYM852
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
-	.align 3
-Lfde64_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_81:
-
-	.byte 5
-	.asciz "SpriteKit_SKPhysicsBody"
-
-	.byte 40,16
-LDIFF_SYM853=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM853
-	.byte 2,35,0,0,7
-	.asciz "SpriteKit_SKPhysicsBody"
-
-LDIFF_SYM854=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM854
-LTDIE_81_POINTER:
-
-	.byte 13
-LDIFF_SYM855=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM855
-LTDIE_81_REFERENCE:
-
-	.byte 14
-LDIFF_SYM856=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM856
-	.byte 2
-	.asciz "WorkHeart.Objects.Bubble:SetActivatedPhysics"
-	.asciz "WorkHeart_Objects_Bubble_SetActivatedPhysics"
-
-	.byte 10,72
-	.quad WorkHeart_Objects_Bubble_SetActivatedPhysics
 	.quad Lme_41
 
 	.byte 2,118,16,3
@@ -47084,9 +48293,9 @@ LDIFF_SYM856=LTDIE_81 - Ldebug_info_start
 LDIFF_SYM857=LTDIE_26_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM857
 	.byte 1,106,11
-	.asciz "body"
+	.asciz "path"
 
-LDIFF_SYM858=LTDIE_81_REFERENCE - Ldebug_info_start
+LDIFF_SYM858=LTDIE_75_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM858
 	.byte 1,105,0
 
@@ -47098,9 +48307,9 @@ Lfde65_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_Bubble_SetActivatedPhysics
+	.quad WorkHeart_Objects_Bubble_SetDefaultLook
 
-LDIFF_SYM860=Lme_41 - WorkHeart_Objects_Bubble_SetActivatedPhysics
+LDIFF_SYM860=Lme_41 - WorkHeart_Objects_Bubble_SetDefaultLook
 	.long LDIFF_SYM860
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
@@ -47108,53 +48317,36 @@ LDIFF_SYM860=Lme_41 - WorkHeart_Objects_Bubble_SetActivatedPhysics
 Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_81:
 
-	.byte 2
-	.asciz "WorkHeart.Objects.Bubble:SetReActivatedPhysics"
-	.asciz "WorkHeart_Objects_Bubble_SetReActivatedPhysics"
+	.byte 5
+	.asciz "SpriteKit_SKPhysicsBody"
 
-	.byte 10,83
-	.quad WorkHeart_Objects_Bubble_SetReActivatedPhysics
-	.quad Lme_42
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM861=LTDIE_26_REFERENCE - Ldebug_info_start
+	.byte 40,16
+LDIFF_SYM861=LTDIE_4 - Ldebug_info_start
 	.long LDIFF_SYM861
-	.byte 1,106,11
-	.asciz "body"
+	.byte 2,35,0,0,7
+	.asciz "SpriteKit_SKPhysicsBody"
 
-LDIFF_SYM862=LTDIE_81_REFERENCE - Ldebug_info_start
+LDIFF_SYM862=LTDIE_81 - Ldebug_info_start
 	.long LDIFF_SYM862
-	.byte 1,105,0
+LTDIE_81_POINTER:
 
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM863=Lfde66_end - Lfde66_start
+	.byte 13
+LDIFF_SYM863=LTDIE_81 - Ldebug_info_start
 	.long LDIFF_SYM863
-Lfde66_start:
+LTDIE_81_REFERENCE:
 
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_Bubble_SetReActivatedPhysics
-
-LDIFF_SYM864=Lme_42 - WorkHeart_Objects_Bubble_SetReActivatedPhysics
+	.byte 14
+LDIFF_SYM864=LTDIE_81 - Ldebug_info_start
 	.long LDIFF_SYM864
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
-	.align 3
-Lfde66_end:
-
-.section __DWARF, __debug_info,regular,debug
-
 	.byte 2
-	.asciz "WorkHeart.Objects.Bubble:SetCenteredPhysics"
-	.asciz "WorkHeart_Objects_Bubble_SetCenteredPhysics"
+	.asciz "WorkHeart.Objects.Bubble:SetActivatedPhysics"
+	.asciz "WorkHeart_Objects_Bubble_SetActivatedPhysics"
 
-	.byte 10,94
-	.quad WorkHeart_Objects_Bubble_SetCenteredPhysics
-	.quad Lme_43
+	.byte 10,72
+	.quad WorkHeart_Objects_Bubble_SetActivatedPhysics
+	.quad Lme_42
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -47170,20 +48362,98 @@ LDIFF_SYM866=LTDIE_81_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM867=Lfde67_end - Lfde67_start
+LDIFF_SYM867=Lfde66_end - Lfde66_start
 	.long LDIFF_SYM867
+Lfde66_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_Objects_Bubble_SetActivatedPhysics
+
+LDIFF_SYM868=Lme_42 - WorkHeart_Objects_Bubble_SetActivatedPhysics
+	.long LDIFF_SYM868
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
+	.align 3
+Lfde66_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "WorkHeart.Objects.Bubble:SetReActivatedPhysics"
+	.asciz "WorkHeart_Objects_Bubble_SetReActivatedPhysics"
+
+	.byte 10,83
+	.quad WorkHeart_Objects_Bubble_SetReActivatedPhysics
+	.quad Lme_43
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM869=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM869
+	.byte 1,106,11
+	.asciz "body"
+
+LDIFF_SYM870=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM870
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM871=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM871
 Lfde67_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_Objects_Bubble_SetReActivatedPhysics
+
+LDIFF_SYM872=Lme_43 - WorkHeart_Objects_Bubble_SetReActivatedPhysics
+	.long LDIFF_SYM872
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
+	.align 3
+Lfde67_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "WorkHeart.Objects.Bubble:SetCenteredPhysics"
+	.asciz "WorkHeart_Objects_Bubble_SetCenteredPhysics"
+
+	.byte 10,94
+	.quad WorkHeart_Objects_Bubble_SetCenteredPhysics
+	.quad Lme_44
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM873=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM873
+	.byte 1,106,11
+	.asciz "body"
+
+LDIFF_SYM874=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM874
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM875=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM875
+Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_SetCenteredPhysics
 
-LDIFF_SYM868=Lme_43 - WorkHeart_Objects_Bubble_SetCenteredPhysics
-	.long LDIFF_SYM868
+LDIFF_SYM876=Lme_44 - WorkHeart_Objects_Bubble_SetCenteredPhysics
+	.long LDIFF_SYM876
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 	.align 3
-Lfde67_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47193,31 +48463,31 @@ Lfde67_end:
 
 	.byte 10,105
 	.quad WorkHeart_Objects_Bubble_AddIcon
-	.quad Lme_44
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM869=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM869
+LDIFF_SYM877=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM877
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM870=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM870
-Lfde68_start:
+LDIFF_SYM878=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM878
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_AddIcon
 
-LDIFF_SYM871=Lme_44 - WorkHeart_Objects_Bubble_AddIcon
-	.long LDIFF_SYM871
+LDIFF_SYM879=Lme_45 - WorkHeart_Objects_Bubble_AddIcon
+	.long LDIFF_SYM879
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde68_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47227,31 +48497,31 @@ Lfde68_end:
 
 	.byte 10,122
 	.quad WorkHeart_Objects_Bubble_SubscribeToTracking
-	.quad Lme_45
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM872=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM872
+LDIFF_SYM880=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM880
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM873=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM873
-Lfde69_start:
+LDIFF_SYM881=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM881
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_SubscribeToTracking
 
-LDIFF_SYM874=Lme_45 - WorkHeart_Objects_Bubble_SubscribeToTracking
-	.long LDIFF_SYM874
+LDIFF_SYM882=Lme_46 - WorkHeart_Objects_Bubble_SubscribeToTracking
+	.long LDIFF_SYM882
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde69_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47261,31 +48531,31 @@ Lfde69_end:
 
 	.byte 10,130,1
 	.quad WorkHeart_Objects_Bubble_SubscribeToTrackingStopped
-	.quad Lme_46
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM875=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM875
+LDIFF_SYM883=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM883
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM876=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM876
-Lfde70_start:
+LDIFF_SYM884=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM884
+Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_SubscribeToTrackingStopped
 
-LDIFF_SYM877=Lme_46 - WorkHeart_Objects_Bubble_SubscribeToTrackingStopped
-	.long LDIFF_SYM877
+LDIFF_SYM885=Lme_47 - WorkHeart_Objects_Bubble_SubscribeToTrackingStopped
+	.long LDIFF_SYM885
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde70_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_82:
@@ -47294,64 +48564,64 @@ LTDIE_82:
 	.asciz "SpriteKit_SKAction"
 
 	.byte 40,16
-LDIFF_SYM878=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM878
+LDIFF_SYM886=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM886
 	.byte 2,35,0,0,7
 	.asciz "SpriteKit_SKAction"
 
-LDIFF_SYM879=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM879
+LDIFF_SYM887=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM887
 LTDIE_82_POINTER:
 
 	.byte 13
-LDIFF_SYM880=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM880
+LDIFF_SYM888=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM888
 LTDIE_82_REFERENCE:
 
 	.byte 14
-LDIFF_SYM881=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM881
+LDIFF_SYM889=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM889
 	.byte 2
 	.asciz "WorkHeart.Objects.Bubble:StartTracking"
 	.asciz "WorkHeart_Objects_Bubble_StartTracking"
 
 	.byte 10,138,1
 	.quad WorkHeart_Objects_Bubble_StartTracking
-	.quad Lme_47
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM882=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM882
+LDIFF_SYM890=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM890
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM883=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM883
+LDIFF_SYM891=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM891
 	.byte 1,105,11
 	.asciz "setSizeSmall"
 
-LDIFF_SYM884=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM884
+LDIFF_SYM892=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM892
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM885=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM885
-Lfde71_start:
+LDIFF_SYM893=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM893
+Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_StartTracking
 
-LDIFF_SYM886=Lme_47 - WorkHeart_Objects_Bubble_StartTracking
-	.long LDIFF_SYM886
+LDIFF_SYM894=Lme_48 - WorkHeart_Objects_Bubble_StartTracking
+	.long LDIFF_SYM894
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
-Lfde71_end:
+Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47361,41 +48631,41 @@ Lfde71_end:
 
 	.byte 10,154,1
 	.quad WorkHeart_Objects_Bubble_StopTracking
-	.quad Lme_48
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM887=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM887
+LDIFF_SYM895=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM895
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM888=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM888
+LDIFF_SYM896=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM896
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM889=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM889
+LDIFF_SYM897=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM897
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM890=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM890
-Lfde72_start:
+LDIFF_SYM898=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM898
+Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_StopTracking
 
-LDIFF_SYM891=Lme_48 - WorkHeart_Objects_Bubble_StopTracking
-	.long LDIFF_SYM891
+LDIFF_SYM899=Lme_49 - WorkHeart_Objects_Bubble_StopTracking
+	.long LDIFF_SYM899
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
-Lfde72_end:
+Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47405,31 +48675,31 @@ Lfde72_end:
 
 	.byte 10,188,1
 	.quad WorkHeart_Objects_Bubble_SubscribeToBubbleCentered
-	.quad Lme_49
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM892=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM892
+LDIFF_SYM900=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM900
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM893=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM893
-Lfde73_start:
+LDIFF_SYM901=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM901
+Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_SubscribeToBubbleCentered
 
-LDIFF_SYM894=Lme_49 - WorkHeart_Objects_Bubble_SubscribeToBubbleCentered
-	.long LDIFF_SYM894
+LDIFF_SYM902=Lme_4a - WorkHeart_Objects_Bubble_SubscribeToBubbleCentered
+	.long LDIFF_SYM902
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde73_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47439,31 +48709,31 @@ Lfde73_end:
 
 	.byte 10,194,1
 	.quad WorkHeart_Objects_Bubble_SubscribeToBubbleUnCentered
-	.quad Lme_4a
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM895=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM895
+LDIFF_SYM903=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM903
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM896=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM896
-Lfde74_start:
+LDIFF_SYM904=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM904
+Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_SubscribeToBubbleUnCentered
 
-LDIFF_SYM897=Lme_4a - WorkHeart_Objects_Bubble_SubscribeToBubbleUnCentered
-	.long LDIFF_SYM897
+LDIFF_SYM905=Lme_4b - WorkHeart_Objects_Bubble_SubscribeToBubbleUnCentered
+	.long LDIFF_SYM905
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde74_end:
+Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47473,31 +48743,31 @@ Lfde74_end:
 
 	.byte 10,200,1
 	.quad WorkHeart_Objects_Bubble_bubbleCentered
-	.quad Lme_4b
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM898=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM898
+LDIFF_SYM906=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM906
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM899=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM899
-Lfde75_start:
+LDIFF_SYM907=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM907
+Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_bubbleCentered
 
-LDIFF_SYM900=Lme_4b - WorkHeart_Objects_Bubble_bubbleCentered
-	.long LDIFF_SYM900
+LDIFF_SYM908=Lme_4c - WorkHeart_Objects_Bubble_bubbleCentered
+	.long LDIFF_SYM908
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde75_end:
+Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47507,85 +48777,7 @@ Lfde75_end:
 
 	.byte 10,205,1
 	.quad WorkHeart_Objects_Bubble_bubbleUnCentered
-	.quad Lme_4c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM901=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM901
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM902=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM902
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM903=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM903
-Lfde76_start:
-
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_Bubble_bubbleUnCentered
-
-LDIFF_SYM904=Lme_4c - WorkHeart_Objects_Bubble_bubbleUnCentered
-	.long LDIFF_SYM904
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
-	.align 3
-Lfde76_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "WorkHeart.Objects.Bubble:CenterItem"
-	.asciz "WorkHeart_Objects_Bubble_CenterItem"
-
-	.byte 10,225,1
-	.quad WorkHeart_Objects_Bubble_CenterItem
 	.quad Lme_4d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM905=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM905
-	.byte 1,106,11
-	.asciz "setSizeHuge"
-
-LDIFF_SYM906=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM906
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM907=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM907
-Lfde77_start:
-
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_Bubble_CenterItem
-
-LDIFF_SYM908=Lme_4d - WorkHeart_Objects_Bubble_CenterItem
-	.long LDIFF_SYM908
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
-	.align 3
-Lfde77_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "WorkHeart.Objects.Bubble:SetActivated"
-	.asciz "WorkHeart_Objects_Bubble_SetActivated"
-
-	.byte 10,246,1
-	.quad WorkHeart_Objects_Bubble_SetActivated
-	.quad Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -47601,20 +48793,98 @@ LDIFF_SYM910=LDIE_BOOLEAN - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM911=Lfde78_end - Lfde78_start
+LDIFF_SYM911=Lfde77_end - Lfde77_start
 	.long LDIFF_SYM911
+Lfde77_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_Objects_Bubble_bubbleUnCentered
+
+LDIFF_SYM912=Lme_4d - WorkHeart_Objects_Bubble_bubbleUnCentered
+	.long LDIFF_SYM912
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
+	.align 3
+Lfde77_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "WorkHeart.Objects.Bubble:CenterItem"
+	.asciz "WorkHeart_Objects_Bubble_CenterItem"
+
+	.byte 10,225,1
+	.quad WorkHeart_Objects_Bubble_CenterItem
+	.quad Lme_4e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM913=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM913
+	.byte 1,106,11
+	.asciz "setSizeHuge"
+
+LDIFF_SYM914=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM914
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM915=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM915
 Lfde78_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_Objects_Bubble_CenterItem
+
+LDIFF_SYM916=Lme_4e - WorkHeart_Objects_Bubble_CenterItem
+	.long LDIFF_SYM916
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
+	.align 3
+Lfde78_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "WorkHeart.Objects.Bubble:SetActivated"
+	.asciz "WorkHeart_Objects_Bubble_SetActivated"
+
+	.byte 10,246,1
+	.quad WorkHeart_Objects_Bubble_SetActivated
+	.quad Lme_4f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM917=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM917
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM918=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM918
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM919=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM919
+Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_SetActivated
 
-LDIFF_SYM912=Lme_4e - WorkHeart_Objects_Bubble_SetActivated
-	.long LDIFF_SYM912
+LDIFF_SYM920=Lme_4f - WorkHeart_Objects_Bubble_SetActivated
+	.long LDIFF_SYM920
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde78_end:
+Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47624,85 +48894,7 @@ Lfde78_end:
 
 	.byte 10,134,2
 	.quad WorkHeart_Objects_Bubble_SetColours_WorkHeart_Objects_Colours
-	.quad Lme_4f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM913=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM913
-	.byte 1,105,3
-	.asciz "colour"
-
-LDIFF_SYM914=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM914
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM915=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM915
-Lfde79_start:
-
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_Bubble_SetColours_WorkHeart_Objects_Colours
-
-LDIFF_SYM916=Lme_4f - WorkHeart_Objects_Bubble_SetColours_WorkHeart_Objects_Colours
-	.long LDIFF_SYM916
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
-	.align 3
-Lfde79_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "WorkHeart.Objects.Bubble:SetIcon"
-	.asciz "WorkHeart_Objects_Bubble_SetIcon_string"
-
-	.byte 10,140,2
-	.quad WorkHeart_Objects_Bubble_SetIcon_string
 	.quad Lme_50
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM917=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM917
-	.byte 1,105,3
-	.asciz "iconName"
-
-LDIFF_SYM918=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM918
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM919=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM919
-Lfde80_start:
-
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_Bubble_SetIcon_string
-
-LDIFF_SYM920=Lme_50 - WorkHeart_Objects_Bubble_SetIcon_string
-	.long LDIFF_SYM920
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
-	.align 3
-Lfde80_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "WorkHeart.Objects.Bubble:SetIconColour"
-	.asciz "WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours"
-
-	.byte 10,149,2
-	.quad WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours
-	.quad Lme_51
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -47714,24 +48906,102 @@ LDIFF_SYM921=LTDIE_26_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM922=LTDIE_28 - Ldebug_info_start
 	.long LDIFF_SYM922
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM923=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM923
+Lfde80_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_Objects_Bubble_SetColours_WorkHeart_Objects_Colours
+
+LDIFF_SYM924=Lme_50 - WorkHeart_Objects_Bubble_SetColours_WorkHeart_Objects_Colours
+	.long LDIFF_SYM924
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
+	.align 3
+Lfde80_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "WorkHeart.Objects.Bubble:SetIcon"
+	.asciz "WorkHeart_Objects_Bubble_SetIcon_string"
+
+	.byte 10,140,2
+	.quad WorkHeart_Objects_Bubble_SetIcon_string
+	.quad Lme_51
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM925=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM925
+	.byte 1,105,3
+	.asciz "iconName"
+
+LDIFF_SYM926=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM926
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM927=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM927
+Lfde81_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_Objects_Bubble_SetIcon_string
+
+LDIFF_SYM928=Lme_51 - WorkHeart_Objects_Bubble_SetIcon_string
+	.long LDIFF_SYM928
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
+	.align 3
+Lfde81_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "WorkHeart.Objects.Bubble:SetIconColour"
+	.asciz "WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours"
+
+	.byte 10,149,2
+	.quad WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours
+	.quad Lme_52
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM929=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM929
+	.byte 1,105,3
+	.asciz "colour"
+
+LDIFF_SYM930=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM930
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM923=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM923
-Lfde81_start:
+LDIFF_SYM931=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM931
+Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours
 
-LDIFF_SYM924=Lme_51 - WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours
-	.long LDIFF_SYM924
+LDIFF_SYM932=Lme_52 - WorkHeart_Objects_Bubble_SetIconColour_WorkHeart_Objects_Colours
+	.long LDIFF_SYM932
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
-Lfde81_end:
+Lfde82_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47741,82 +49011,82 @@ Lfde81_end:
 
 	.byte 10,160,2
 	.quad WorkHeart_Objects_Bubble_SetStatus_WorkHeart_Objects_Colours
-	.quad Lme_52
+	.quad Lme_53
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM925=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM925
+LDIFF_SYM933=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM933
 	.byte 1,105,3
 	.asciz "colour"
 
-LDIFF_SYM926=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM926
+LDIFF_SYM934=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM934
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM927=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM927
+LDIFF_SYM935=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM935
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM928=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM928
+LDIFF_SYM936=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM936
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM929=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM929
+LDIFF_SYM937=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM937
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM930=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM930
+LDIFF_SYM938=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM938
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM931=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM931
+LDIFF_SYM939=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM939
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM932=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM932
+LDIFF_SYM940=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM940
 	.byte 1,99,11
 	.asciz "V_6"
 
-LDIFF_SYM933=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM933
+LDIFF_SYM941=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM941
 	.byte 3,141,232,0,11
 	.asciz "V_7"
 
-LDIFF_SYM934=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM934
+LDIFF_SYM942=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM942
 	.byte 3,141,240,0,11
 	.asciz "V_8"
 
-LDIFF_SYM935=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM935
+LDIFF_SYM943=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM943
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM936=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM936
-Lfde82_start:
+LDIFF_SYM944=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM944
+Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_SetStatus_WorkHeart_Objects_Colours
 
-LDIFF_SYM937=Lme_52 - WorkHeart_Objects_Bubble_SetStatus_WorkHeart_Objects_Colours
-	.long LDIFF_SYM937
+LDIFF_SYM945=Lme_53 - WorkHeart_Objects_Bubble_SetStatus_WorkHeart_Objects_Colours
+	.long LDIFF_SYM945
 	.long 0
 	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,148,31,68,149,30,150,29,68,151,28,152,27,68,153,26
 	.byte 154,25
 	.align 3
-Lfde82_end:
+Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47826,51 +49096,51 @@ Lfde82_end:
 
 	.byte 10,235,2
 	.quad WorkHeart_Objects_Bubble_showActionView
-	.quad Lme_53
+	.quad Lme_54
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM938=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM938
+LDIFF_SYM946=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM946
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM939=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM939
+LDIFF_SYM947=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM947
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM940=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM940
+LDIFF_SYM948=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM948
 	.byte 1,104,11
 	.asciz "path"
 
-LDIFF_SYM941=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM941
+LDIFF_SYM949=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM949
 	.byte 1,103,11
 	.asciz "path"
 
-LDIFF_SYM942=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM942
+LDIFF_SYM950=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM950
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM943=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM943
-Lfde83_start:
+LDIFF_SYM951=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM951
+Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_showActionView
 
-LDIFF_SYM944=Lme_53 - WorkHeart_Objects_Bubble_showActionView
-	.long LDIFF_SYM944
+LDIFF_SYM952=Lme_54 - WorkHeart_Objects_Bubble_showActionView
+	.long LDIFF_SYM952
 	.long 0
-	.byte 12,31,0,68,14,128,3,157,48,158,47,68,13,29,68,150,46,151,45,68,152,44,153,43,68,154,42
+	.byte 12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,150,44,151,43,68,152,42,153,41,68,154,40
 	.align 3
-Lfde83_end:
+Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47880,36 +49150,36 @@ Lfde83_end:
 
 	.byte 10,154,3
 	.quad WorkHeart_Objects_Bubble_RemoveActionView
-	.quad Lme_54
+	.quad Lme_55
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM945=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM945
+LDIFF_SYM953=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM953
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM946=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM946
+LDIFF_SYM954=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM954
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM947=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM947
-Lfde84_start:
+LDIFF_SYM955=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM955
+Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_RemoveActionView
 
-LDIFF_SYM948=Lme_54 - WorkHeart_Objects_Bubble_RemoveActionView
-	.long LDIFF_SYM948
+LDIFF_SYM956=Lme_55 - WorkHeart_Objects_Bubble_RemoveActionView
+	.long LDIFF_SYM956
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 	.align 3
-Lfde84_end:
+Lfde85_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47919,32 +49189,32 @@ Lfde84_end:
 
 	.byte 10,168,3
 	.quad WorkHeart_Objects_Bubble_AddActionLabels
-	.quad Lme_55
+	.quad Lme_56
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM949=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM949
+LDIFF_SYM957=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM957
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM950=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM950
-Lfde85_start:
+LDIFF_SYM958=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM958
+Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_AddActionLabels
 
-LDIFF_SYM951=Lme_55 - WorkHeart_Objects_Bubble_AddActionLabels
-	.long LDIFF_SYM951
+LDIFF_SYM959=Lme_56 - WorkHeart_Objects_Bubble_AddActionLabels
+	.long LDIFF_SYM959
 	.long 0
 	.byte 12,31,0,68,14,208,3,157,58,158,57,68,13,29,68,147,56,148,55,68,149,54,150,53,68,151,52,152,51,68,153,50
 	.byte 154,49
 	.align 3
-Lfde85_end:
+Lfde86_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47954,67 +49224,67 @@ Lfde85_end:
 
 	.byte 10,199,3
 	.quad WorkHeart_Objects_Bubble_showCenteredView
-	.quad Lme_56
+	.quad Lme_57
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM952=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM952
+LDIFF_SYM960=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM960
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM953=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM953
+LDIFF_SYM961=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM961
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM954=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM954
+LDIFF_SYM962=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM962
 	.byte 1,104,11
 	.asciz "path"
 
-LDIFF_SYM955=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM955
+LDIFF_SYM963=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM963
 	.byte 1,103,11
 	.asciz "trackIcon"
 
-LDIFF_SYM956=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM956
+LDIFF_SYM964=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM964
 	.byte 1,102,11
 	.asciz "plusIcon"
 
-LDIFF_SYM957=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM957
+LDIFF_SYM965=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM965
 	.byte 1,101,11
 	.asciz "minusIcon"
 
-LDIFF_SYM958=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM958
+LDIFF_SYM966=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM966
 	.byte 1,100,11
 	.asciz "trackIcon"
 
-LDIFF_SYM959=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM959
+LDIFF_SYM967=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM967
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM960=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM960
-Lfde86_start:
+LDIFF_SYM968=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM968
+Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_showCenteredView
 
-LDIFF_SYM961=Lme_56 - WorkHeart_Objects_Bubble_showCenteredView
-	.long LDIFF_SYM961
+LDIFF_SYM969=Lme_57 - WorkHeart_Objects_Bubble_showCenteredView
+	.long LDIFF_SYM969
 	.long 0
 	.byte 12,31,0,84,14,224,8,157,140,1,158,139,1,68,13,29,68,147,138,1,148,137,1,68,149,136,1,150,135,1,68,151
 	.byte 134,1,152,133,1,68,153,132,1,154,131,1
 	.align 3
-Lfde86_end:
+Lfde87_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48024,36 +49294,36 @@ Lfde86_end:
 
 	.byte 10,187,4
 	.quad WorkHeart_Objects_Bubble_RemoveCenteredView
-	.quad Lme_57
+	.quad Lme_58
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM962=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM962
+LDIFF_SYM970=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM970
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM963=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM963
+LDIFF_SYM971=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM971
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM964=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM964
-Lfde87_start:
+LDIFF_SYM972=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM972
+Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_RemoveCenteredView
 
-LDIFF_SYM965=Lme_57 - WorkHeart_Objects_Bubble_RemoveCenteredView
-	.long LDIFF_SYM965
+LDIFF_SYM973=Lme_58 - WorkHeart_Objects_Bubble_RemoveCenteredView
+	.long LDIFF_SYM973
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde87_end:
+Lfde88_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48063,32 +49333,32 @@ Lfde87_end:
 
 	.byte 10,196,4
 	.quad WorkHeart_Objects_Bubble_AddCenteredLabels
-	.quad Lme_58
+	.quad Lme_59
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM966=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM966
+LDIFF_SYM974=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM974
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM967=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM967
-Lfde88_start:
+LDIFF_SYM975=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM975
+Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Bubble_AddCenteredLabels
 
-LDIFF_SYM968=Lme_58 - WorkHeart_Objects_Bubble_AddCenteredLabels
-	.long LDIFF_SYM968
+LDIFF_SYM976=Lme_59 - WorkHeart_Objects_Bubble_AddCenteredLabels
+	.long LDIFF_SYM976
 	.long 0
 	.byte 12,31,0,68,14,224,3,157,60,158,59,68,13,29,68,147,58,148,57,68,149,56,150,55,68,151,54,152,53,68,153,52
 	.byte 154,51
 	.align 3
-Lfde88_end:
+Lfde89_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48098,75 +49368,14 @@ Lfde88_end:
 
 	.byte 10,228,4
 	.quad WorkHeart_Objects_Bubble_UpdateCenteredLabel
-	.quad Lme_59
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM969=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM969
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM970=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM970
-Lfde89_start:
-
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_Bubble_UpdateCenteredLabel
-
-LDIFF_SYM971=Lme_59 - WorkHeart_Objects_Bubble_UpdateCenteredLabel
-	.long LDIFF_SYM971
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
-	.align 3
-Lfde89_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_83:
-
-	.byte 5
-	.asciz "WorkHeart_Objects_TestSprite"
-
-	.byte 40,16
-LDIFF_SYM972=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM972
-	.byte 2,35,0,0,7
-	.asciz "WorkHeart_Objects_TestSprite"
-
-LDIFF_SYM973=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM973
-LTDIE_83_POINTER:
-
-	.byte 13
-LDIFF_SYM974=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM974
-LTDIE_83_REFERENCE:
-
-	.byte 14
-LDIFF_SYM975=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM975
-	.byte 2
-	.asciz "WorkHeart.Objects.TestSprite:.ctor"
-	.asciz "WorkHeart_Objects_TestSprite__ctor_CoreGraphics_CGPoint"
-
-	.byte 11,12
-	.quad WorkHeart_Objects_TestSprite__ctor_CoreGraphics_CGPoint
 	.quad Lme_5a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM976=LTDIE_83_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM976
-	.byte 1,106,3
-	.asciz "initialPosition"
-
-LDIFF_SYM977=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM977=LTDIE_26_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM977
-	.byte 2,141,24,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -48176,14 +49385,75 @@ Lfde90_start:
 
 	.long 0
 	.align 3
+	.quad WorkHeart_Objects_Bubble_UpdateCenteredLabel
+
+LDIFF_SYM979=Lme_5a - WorkHeart_Objects_Bubble_UpdateCenteredLabel
+	.long LDIFF_SYM979
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde90_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_83:
+
+	.byte 5
+	.asciz "WorkHeart_Objects_TestSprite"
+
+	.byte 40,16
+LDIFF_SYM980=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM980
+	.byte 2,35,0,0,7
+	.asciz "WorkHeart_Objects_TestSprite"
+
+LDIFF_SYM981=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM981
+LTDIE_83_POINTER:
+
+	.byte 13
+LDIFF_SYM982=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM982
+LTDIE_83_REFERENCE:
+
+	.byte 14
+LDIFF_SYM983=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM983
+	.byte 2
+	.asciz "WorkHeart.Objects.TestSprite:.ctor"
+	.asciz "WorkHeart_Objects_TestSprite__ctor_CoreGraphics_CGPoint"
+
+	.byte 11,12
+	.quad WorkHeart_Objects_TestSprite__ctor_CoreGraphics_CGPoint
+	.quad Lme_5b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM984=LTDIE_83_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM984
+	.byte 1,106,3
+	.asciz "initialPosition"
+
+LDIFF_SYM985=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM985
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM986=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM986
+Lfde91_start:
+
+	.long 0
+	.align 3
 	.quad WorkHeart_Objects_TestSprite__ctor_CoreGraphics_CGPoint
 
-LDIFF_SYM979=Lme_5a - WorkHeart_Objects_TestSprite__ctor_CoreGraphics_CGPoint
-	.long LDIFF_SYM979
+LDIFF_SYM987=Lme_5b - WorkHeart_Objects_TestSprite__ctor_CoreGraphics_CGPoint
+	.long LDIFF_SYM987
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
 	.align 3
-Lfde90_end:
+Lfde91_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48191,38 +49461,38 @@ Lfde90_end:
 	.asciz "WorkHeart.Objects.TimerButton:.ctor"
 	.asciz "WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize"
 
-	.byte 12,21
+	.byte 12,22
 	.quad WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize
-	.quad Lme_5b
+	.quad Lme_5c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM980=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM980
+LDIFF_SYM988=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM988
 	.byte 1,106,3
 	.asciz "parentDimentions"
 
-LDIFF_SYM981=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM981
+LDIFF_SYM989=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM989
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM982=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM982
-Lfde91_start:
+LDIFF_SYM990=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM990
+Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize
 
-LDIFF_SYM983=Lme_5b - WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize
-	.long LDIFF_SYM983
+LDIFF_SYM991=Lme_5c - WorkHeart_Objects_TimerButton__ctor_CoreGraphics_CGSize
+	.long LDIFF_SYM991
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde91_end:
+Lfde92_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48230,87 +49500,9 @@ Lfde91_end:
 	.asciz "WorkHeart.Objects.TimerButton:SetDefaultLook"
 	.asciz "WorkHeart_Objects_TimerButton_SetDefaultLook"
 
-	.byte 12,34
+	.byte 12,35
 	.quad WorkHeart_Objects_TimerButton_SetDefaultLook
-	.quad Lme_5c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM984=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM984
-	.byte 1,106,11
-	.asciz "path"
-
-LDIFF_SYM985=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM985
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM986=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM986
-Lfde92_start:
-
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_TimerButton_SetDefaultLook
-
-LDIFF_SYM987=Lme_5c - WorkHeart_Objects_TimerButton_SetDefaultLook
-	.long LDIFF_SYM987
-	.long 0
-	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,153,28,154,27
-	.align 3
-Lfde92_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:SetCenteredPhysics"
-	.asciz "WorkHeart_Objects_TimerButton_SetCenteredPhysics"
-
-	.byte 12,46
-	.quad WorkHeart_Objects_TimerButton_SetCenteredPhysics
 	.quad Lme_5d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM988=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM988
-	.byte 2,141,24,11
-	.asciz "body"
-
-LDIFF_SYM989=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM989
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM990=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM990
-Lfde93_start:
-
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_TimerButton_SetCenteredPhysics
-
-LDIFF_SYM991=Lme_5d - WorkHeart_Objects_TimerButton_SetCenteredPhysics
-	.long LDIFF_SYM991
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16
-	.align 3
-Lfde93_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:SetLoosePhysics"
-	.asciz "WorkHeart_Objects_TimerButton_SetLoosePhysics"
-
-	.byte 12,59
-	.quad WorkHeart_Objects_TimerButton_SetLoosePhysics
-	.quad Lme_5e
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -48318,28 +49510,106 @@ Lfde93_end:
 LDIFF_SYM992=LTDIE_21_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM992
 	.byte 1,106,11
-	.asciz "body"
+	.asciz "path"
 
-LDIFF_SYM993=LTDIE_81_REFERENCE - Ldebug_info_start
+LDIFF_SYM993=LTDIE_75_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM993
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM994=Lfde94_end - Lfde94_start
+LDIFF_SYM994=Lfde93_end - Lfde93_start
 	.long LDIFF_SYM994
+Lfde93_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_Objects_TimerButton_SetDefaultLook
+
+LDIFF_SYM995=Lme_5d - WorkHeart_Objects_TimerButton_SetDefaultLook
+	.long LDIFF_SYM995
+	.long 0
+	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,153,28,154,27
+	.align 3
+Lfde93_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "WorkHeart.Objects.TimerButton:SetCenteredPhysics"
+	.asciz "WorkHeart_Objects_TimerButton_SetCenteredPhysics"
+
+	.byte 12,47
+	.quad WorkHeart_Objects_TimerButton_SetCenteredPhysics
+	.quad Lme_5e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM996=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM996
+	.byte 2,141,24,11
+	.asciz "body"
+
+LDIFF_SYM997=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM997
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM998=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM998
 Lfde94_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_Objects_TimerButton_SetCenteredPhysics
+
+LDIFF_SYM999=Lme_5e - WorkHeart_Objects_TimerButton_SetCenteredPhysics
+	.long LDIFF_SYM999
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16
+	.align 3
+Lfde94_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "WorkHeart.Objects.TimerButton:SetLoosePhysics"
+	.asciz "WorkHeart_Objects_TimerButton_SetLoosePhysics"
+
+	.byte 12,60
+	.quad WorkHeart_Objects_TimerButton_SetLoosePhysics
+	.quad Lme_5f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1000=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1000
+	.byte 1,106,11
+	.asciz "body"
+
+LDIFF_SYM1001=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1001
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1002=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM1002
+Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_TimerButton_SetLoosePhysics
 
-LDIFF_SYM995=Lme_5e - WorkHeart_Objects_TimerButton_SetLoosePhysics
-	.long LDIFF_SYM995
+LDIFF_SYM1003=Lme_5f - WorkHeart_Objects_TimerButton_SetLoosePhysics
+	.long LDIFF_SYM1003
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 	.align 3
-Lfde94_end:
+Lfde95_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48347,49 +49617,49 @@ Lfde94_end:
 	.asciz "WorkHeart.Objects.TimerButton:AddTimerLabels"
 	.asciz "WorkHeart_Objects_TimerButton_AddTimerLabels"
 
-	.byte 12,69
+	.byte 12,70
 	.quad WorkHeart_Objects_TimerButton_AddTimerLabels
-	.quad Lme_5f
+	.quad Lme_60
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM996=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM996
+LDIFF_SYM1004=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1004
 	.byte 1,106,11
 	.asciz "timerLabelStart"
 
-LDIFF_SYM997=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM997
+LDIFF_SYM1005=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1005
 	.byte 1,105,11
 	.asciz "timerLabelTracking"
 
-LDIFF_SYM998=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM998
+LDIFF_SYM1006=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1006
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM999=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM999
+LDIFF_SYM1007=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1007
 	.byte 3,141,168,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1000=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM1000
-Lfde95_start:
+LDIFF_SYM1008=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM1008
+Lfde96_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_TimerButton_AddTimerLabels
 
-LDIFF_SYM1001=Lme_5f - WorkHeart_Objects_TimerButton_AddTimerLabels
-	.long LDIFF_SYM1001
+LDIFF_SYM1009=Lme_60 - WorkHeart_Objects_TimerButton_AddTimerLabels
+	.long LDIFF_SYM1009
 	.long 0
 	.byte 12,31,0,68,14,224,3,157,60,158,59,68,13,29,68,147,58,148,57,68,149,56,150,55,68,151,54,152,53,68,153,52
 	.byte 154,51
 	.align 3
-Lfde95_end:
+Lfde96_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48397,39 +49667,33 @@ Lfde95_end:
 	.asciz "WorkHeart.Objects.TimerButton:AddTimingElements"
 	.asciz "WorkHeart_Objects_TimerButton_AddTimingElements"
 
-	.byte 12,96
+	.byte 12,97
 	.quad WorkHeart_Objects_TimerButton_AddTimingElements
-	.quad Lme_60
+	.quad Lme_61
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1002=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1002
-	.byte 1,106,11
-	.asciz "iconSprite"
-
-LDIFF_SYM1003=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1003
-	.byte 1,105,0
+LDIFF_SYM1010=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1010
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1004=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM1004
-Lfde96_start:
+LDIFF_SYM1011=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM1011
+Lfde97_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_TimerButton_AddTimingElements
 
-LDIFF_SYM1005=Lme_60 - WorkHeart_Objects_TimerButton_AddTimingElements
-	.long LDIFF_SYM1005
+LDIFF_SYM1012=Lme_61 - WorkHeart_Objects_TimerButton_AddTimingElements
+	.long LDIFF_SYM1012
 	.long 0
-	.byte 12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,147,40,148,39,68,149,38,150,37,68,151,36,152,35,68,153,34
-	.byte 154,33
+	.byte 12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,148,36,149,35,68,150,34,151,33,68,152,32,153,31,68,154,30
 	.align 3
-Lfde96_end:
+Lfde97_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48437,33 +49701,33 @@ Lfde96_end:
 	.asciz "WorkHeart.Objects.TimerButton:AddRing"
 	.asciz "WorkHeart_Objects_TimerButton_AddRing"
 
-	.byte 12,118
+	.byte 12,119
 	.quad WorkHeart_Objects_TimerButton_AddRing
-	.quad Lme_61
+	.quad Lme_62
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1006=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1006
+LDIFF_SYM1013=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1013
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1007=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM1007
-Lfde97_start:
+LDIFF_SYM1014=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM1014
+Lfde98_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_TimerButton_AddRing
 
-LDIFF_SYM1008=Lme_61 - WorkHeart_Objects_TimerButton_AddRing
-	.long LDIFF_SYM1008
+LDIFF_SYM1015=Lme_62 - WorkHeart_Objects_TimerButton_AddRing
+	.long LDIFF_SYM1015
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde97_end:
+Lfde98_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48471,63 +49735,29 @@ Lfde97_end:
 	.asciz "WorkHeart.Objects.TimerButton:SubscribeToTracking"
 	.asciz "WorkHeart_Objects_TimerButton_SubscribeToTracking"
 
-	.byte 12,130,1
+	.byte 12,131,1
 	.quad WorkHeart_Objects_TimerButton_SubscribeToTracking
-	.quad Lme_62
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1009=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1009
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1010=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM1010
-Lfde98_start:
-
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_TimerButton_SubscribeToTracking
-
-LDIFF_SYM1011=Lme_62 - WorkHeart_Objects_TimerButton_SubscribeToTracking
-	.long LDIFF_SYM1011
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
-	.align 3
-Lfde98_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:SubscribeToTrackingStopped"
-	.asciz "WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped"
-
-	.byte 12,138,1
-	.quad WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped
 	.quad Lme_63
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1012=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1012
+LDIFF_SYM1016=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1016
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1013=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM1013
+LDIFF_SYM1017=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM1017
 Lfde99_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped
+	.quad WorkHeart_Objects_TimerButton_SubscribeToTracking
 
-LDIFF_SYM1014=Lme_63 - WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped
-	.long LDIFF_SYM1014
+LDIFF_SYM1018=Lme_63 - WorkHeart_Objects_TimerButton_SubscribeToTracking
+	.long LDIFF_SYM1018
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -48536,66 +49766,66 @@ Lfde99_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:StartTracking"
-	.asciz "WorkHeart_Objects_TimerButton_StartTracking"
+	.asciz "WorkHeart.Objects.TimerButton:SubscribeToTrackingStopped"
+	.asciz "WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped"
 
-	.byte 12,146,1
-	.quad WorkHeart_Objects_TimerButton_StartTracking
+	.byte 12,139,1
+	.quad WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped
 	.quad Lme_64
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1015=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1015
+LDIFF_SYM1019=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1019
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1016=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM1016
+LDIFF_SYM1020=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM1020
 Lfde100_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_StartTracking
+	.quad WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped
 
-LDIFF_SYM1017=Lme_64 - WorkHeart_Objects_TimerButton_StartTracking
-	.long LDIFF_SYM1017
+LDIFF_SYM1021=Lme_64 - WorkHeart_Objects_TimerButton_SubscribeToTrackingStopped
+	.long LDIFF_SYM1021
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde100_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:StopTracking"
-	.asciz "WorkHeart_Objects_TimerButton_StopTracking"
+	.asciz "WorkHeart.Objects.TimerButton:StartTracking"
+	.asciz "WorkHeart_Objects_TimerButton_StartTracking"
 
-	.byte 12,155,1
-	.quad WorkHeart_Objects_TimerButton_StopTracking
+	.byte 12,147,1
+	.quad WorkHeart_Objects_TimerButton_StartTracking
 	.quad Lme_65
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1018=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1018
+LDIFF_SYM1022=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1022
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1019=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM1019
+LDIFF_SYM1023=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM1023
 Lfde101_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_StopTracking
+	.quad WorkHeart_Objects_TimerButton_StartTracking
 
-LDIFF_SYM1020=Lme_65 - WorkHeart_Objects_TimerButton_StopTracking
-	.long LDIFF_SYM1020
+LDIFF_SYM1024=Lme_65 - WorkHeart_Objects_TimerButton_StartTracking
+	.long LDIFF_SYM1024
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -48604,66 +49834,66 @@ Lfde101_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:SubscribeToBubbleCentered"
-	.asciz "WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered"
+	.asciz "WorkHeart.Objects.TimerButton:StopTracking"
+	.asciz "WorkHeart_Objects_TimerButton_StopTracking"
 
-	.byte 12,170,1
-	.quad WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered
+	.byte 12,156,1
+	.quad WorkHeart_Objects_TimerButton_StopTracking
 	.quad Lme_66
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1021=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1021
+LDIFF_SYM1025=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1025
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1022=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM1022
+LDIFF_SYM1026=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM1026
 Lfde102_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered
+	.quad WorkHeart_Objects_TimerButton_StopTracking
 
-LDIFF_SYM1023=Lme_66 - WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered
-	.long LDIFF_SYM1023
+LDIFF_SYM1027=Lme_66 - WorkHeart_Objects_TimerButton_StopTracking
+	.long LDIFF_SYM1027
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
 Lfde102_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:SubscribeToBubbleUnCentered"
-	.asciz "WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered"
+	.asciz "WorkHeart.Objects.TimerButton:SubscribeToBubbleCentered"
+	.asciz "WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered"
 
-	.byte 12,176,1
-	.quad WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered
+	.byte 12,175,1
+	.quad WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered
 	.quad Lme_67
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1024=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1024
+LDIFF_SYM1028=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1028
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1025=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM1025
+LDIFF_SYM1029=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM1029
 Lfde103_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered
+	.quad WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered
 
-LDIFF_SYM1026=Lme_67 - WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered
-	.long LDIFF_SYM1026
+LDIFF_SYM1030=Lme_67 - WorkHeart_Objects_TimerButton_SubscribeToBubbleCentered
+	.long LDIFF_SYM1030
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -48672,32 +49902,32 @@ Lfde103_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:bubbleCentered"
-	.asciz "WorkHeart_Objects_TimerButton_bubbleCentered"
+	.asciz "WorkHeart.Objects.TimerButton:SubscribeToBubbleUnCentered"
+	.asciz "WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered"
 
-	.byte 12,182,1
-	.quad WorkHeart_Objects_TimerButton_bubbleCentered
+	.byte 12,181,1
+	.quad WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered
 	.quad Lme_68
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1027=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1027
+LDIFF_SYM1031=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1031
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1028=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM1028
+LDIFF_SYM1032=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM1032
 Lfde104_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_bubbleCentered
+	.quad WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered
 
-LDIFF_SYM1029=Lme_68 - WorkHeart_Objects_TimerButton_bubbleCentered
-	.long LDIFF_SYM1029
+LDIFF_SYM1033=Lme_68 - WorkHeart_Objects_TimerButton_SubscribeToBubbleUnCentered
+	.long LDIFF_SYM1033
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -48706,32 +49936,32 @@ Lfde104_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:bubbleUnCentered"
-	.asciz "WorkHeart_Objects_TimerButton_bubbleUnCentered"
+	.asciz "WorkHeart.Objects.TimerButton:bubbleCentered"
+	.asciz "WorkHeart_Objects_TimerButton_bubbleCentered"
 
-	.byte 12,189,1
-	.quad WorkHeart_Objects_TimerButton_bubbleUnCentered
+	.byte 12,187,1
+	.quad WorkHeart_Objects_TimerButton_bubbleCentered
 	.quad Lme_69
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1030=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1030
+LDIFF_SYM1034=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1034
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1031=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM1031
+LDIFF_SYM1035=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM1035
 Lfde105_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_bubbleUnCentered
+	.quad WorkHeart_Objects_TimerButton_bubbleCentered
 
-LDIFF_SYM1032=Lme_69 - WorkHeart_Objects_TimerButton_bubbleUnCentered
-	.long LDIFF_SYM1032
+LDIFF_SYM1036=Lme_69 - WorkHeart_Objects_TimerButton_bubbleCentered
+	.long LDIFF_SYM1036
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -48740,32 +49970,32 @@ Lfde105_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:SubscribePaused"
-	.asciz "WorkHeart_Objects_TimerButton_SubscribePaused"
+	.asciz "WorkHeart.Objects.TimerButton:bubbleUnCentered"
+	.asciz "WorkHeart_Objects_TimerButton_bubbleUnCentered"
 
-	.byte 12,200,1
-	.quad WorkHeart_Objects_TimerButton_SubscribePaused
+	.byte 12,194,1
+	.quad WorkHeart_Objects_TimerButton_bubbleUnCentered
 	.quad Lme_6a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1033=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1033
+LDIFF_SYM1037=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1037
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1034=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM1034
+LDIFF_SYM1038=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM1038
 Lfde106_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_SubscribePaused
+	.quad WorkHeart_Objects_TimerButton_bubbleUnCentered
 
-LDIFF_SYM1035=Lme_6a - WorkHeart_Objects_TimerButton_SubscribePaused
-	.long LDIFF_SYM1035
+LDIFF_SYM1039=Lme_6a - WorkHeart_Objects_TimerButton_bubbleUnCentered
+	.long LDIFF_SYM1039
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -48774,32 +50004,32 @@ Lfde106_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:SubscribeToPlayed"
-	.asciz "WorkHeart_Objects_TimerButton_SubscribeToPlayed"
+	.asciz "WorkHeart.Objects.TimerButton:SubscribePaused"
+	.asciz "WorkHeart_Objects_TimerButton_SubscribePaused"
 
-	.byte 12,206,1
-	.quad WorkHeart_Objects_TimerButton_SubscribeToPlayed
+	.byte 12,205,1
+	.quad WorkHeart_Objects_TimerButton_SubscribePaused
 	.quad Lme_6b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1036=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1036
+LDIFF_SYM1040=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1040
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1037=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM1037
+LDIFF_SYM1041=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM1041
 Lfde107_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_SubscribeToPlayed
+	.quad WorkHeart_Objects_TimerButton_SubscribePaused
 
-LDIFF_SYM1038=Lme_6b - WorkHeart_Objects_TimerButton_SubscribeToPlayed
-	.long LDIFF_SYM1038
+LDIFF_SYM1042=Lme_6b - WorkHeart_Objects_TimerButton_SubscribePaused
+	.long LDIFF_SYM1042
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -48808,66 +50038,66 @@ Lfde107_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:TrackingPaused"
-	.asciz "WorkHeart_Objects_TimerButton_TrackingPaused"
+	.asciz "WorkHeart.Objects.TimerButton:SubscribeToPlayed"
+	.asciz "WorkHeart_Objects_TimerButton_SubscribeToPlayed"
 
-	.byte 12,212,1
-	.quad WorkHeart_Objects_TimerButton_TrackingPaused
+	.byte 12,211,1
+	.quad WorkHeart_Objects_TimerButton_SubscribeToPlayed
 	.quad Lme_6c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1039=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1039
+LDIFF_SYM1043=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1043
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1040=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM1040
+LDIFF_SYM1044=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM1044
 Lfde108_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_TrackingPaused
+	.quad WorkHeart_Objects_TimerButton_SubscribeToPlayed
 
-LDIFF_SYM1041=Lme_6c - WorkHeart_Objects_TimerButton_TrackingPaused
-	.long LDIFF_SYM1041
+LDIFF_SYM1045=Lme_6c - WorkHeart_Objects_TimerButton_SubscribeToPlayed
+	.long LDIFF_SYM1045
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde108_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:TrackingPlayed"
-	.asciz "WorkHeart_Objects_TimerButton_TrackingPlayed"
+	.asciz "WorkHeart.Objects.TimerButton:TrackingPaused"
+	.asciz "WorkHeart_Objects_TimerButton_TrackingPaused"
 
-	.byte 12,223,1
-	.quad WorkHeart_Objects_TimerButton_TrackingPlayed
+	.byte 12,217,1
+	.quad WorkHeart_Objects_TimerButton_TrackingPaused
 	.quad Lme_6d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1042=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1042
+LDIFF_SYM1046=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1046
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1043=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM1043
+LDIFF_SYM1047=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM1047
 Lfde109_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton_TrackingPlayed
+	.quad WorkHeart_Objects_TimerButton_TrackingPaused
 
-LDIFF_SYM1044=Lme_6d - WorkHeart_Objects_TimerButton_TrackingPlayed
-	.long LDIFF_SYM1044
+LDIFF_SYM1048=Lme_6d - WorkHeart_Objects_TimerButton_TrackingPaused
+	.long LDIFF_SYM1048
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -48876,41 +50106,85 @@ Lfde109_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton:ShowTrackingPaused"
-	.asciz "WorkHeart_Objects_TimerButton_ShowTrackingPaused"
+	.asciz "WorkHeart.Objects.TimerButton:TrackingPlayed"
+	.asciz "WorkHeart_Objects_TimerButton_TrackingPlayed"
 
-	.byte 12,230,1
-	.quad WorkHeart_Objects_TimerButton_ShowTrackingPaused
+	.byte 12,228,1
+	.quad WorkHeart_Objects_TimerButton_TrackingPlayed
 	.quad Lme_6e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1045=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1045
-	.byte 1,106,11
-	.asciz "path"
-
-LDIFF_SYM1046=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1046
-	.byte 1,105,0
+LDIFF_SYM1049=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1049
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1047=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM1047
+LDIFF_SYM1050=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM1050
 Lfde110_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_Objects_TimerButton_TrackingPlayed
+
+LDIFF_SYM1051=Lme_6e - WorkHeart_Objects_TimerButton_TrackingPlayed
+	.long LDIFF_SYM1051
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
+	.align 3
+Lfde110_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "WorkHeart.Objects.TimerButton:ShowTrackingPaused"
+	.asciz "WorkHeart_Objects_TimerButton_ShowTrackingPaused"
+
+	.byte 12,238,1
+	.quad WorkHeart_Objects_TimerButton_ShowTrackingPaused
+	.quad Lme_6f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1052=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1052
+	.byte 1,106,11
+	.asciz "path"
+
+LDIFF_SYM1053=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1053
+	.byte 1,105,11
+	.asciz "stopIcon"
+
+LDIFF_SYM1054=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1054
+	.byte 1,104,11
+	.asciz "playIcon"
+
+LDIFF_SYM1055=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1055
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1056=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM1056
+Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_TimerButton_ShowTrackingPaused
 
-LDIFF_SYM1048=Lme_6e - WorkHeart_Objects_TimerButton_ShowTrackingPaused
-	.long LDIFF_SYM1048
+LDIFF_SYM1057=Lme_6f - WorkHeart_Objects_TimerButton_ShowTrackingPaused
+	.long LDIFF_SYM1057
 	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,154,21
+	.byte 12,31,0,68,14,160,3,157,52,158,51,68,13,29,68,151,50,152,49,68,153,48,154,47
 	.align 3
-Lfde110_end:
+Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48918,38 +50192,38 @@ Lfde110_end:
 	.asciz "WorkHeart.Objects.TimerButton:SetColours"
 	.asciz "WorkHeart_Objects_TimerButton_SetColours_WorkHeart_Objects_Colours"
 
-	.byte 12,245,1
+	.byte 12,144,2
 	.quad WorkHeart_Objects_TimerButton_SetColours_WorkHeart_Objects_Colours
-	.quad Lme_6f
+	.quad Lme_70
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1049=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1049
+LDIFF_SYM1058=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1058
 	.byte 1,105,3
 	.asciz "colour"
 
-LDIFF_SYM1050=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1050
+LDIFF_SYM1059=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1059
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1051=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM1051
-Lfde111_start:
+LDIFF_SYM1060=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM1060
+Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_TimerButton_SetColours_WorkHeart_Objects_Colours
 
-LDIFF_SYM1052=Lme_6f - WorkHeart_Objects_TimerButton_SetColours_WorkHeart_Objects_Colours
-	.long LDIFF_SYM1052
+LDIFF_SYM1061=Lme_70 - WorkHeart_Objects_TimerButton_SetColours_WorkHeart_Objects_Colours
+	.long LDIFF_SYM1061
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde111_end:
+Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48957,114 +50231,114 @@ Lfde111_end:
 	.asciz "WorkHeart.Objects.TimerButton:CenterItemContents"
 	.asciz "WorkHeart_Objects_TimerButton_CenterItemContents"
 
-	.byte 12,251,1
+	.byte 12,150,2
 	.quad WorkHeart_Objects_TimerButton_CenterItemContents
-	.quad Lme_70
+	.quad Lme_71
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1053=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1053
+LDIFF_SYM1062=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1062
 	.byte 1,106,11
 	.asciz "translateToCenter"
 
-LDIFF_SYM1054=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1054
+LDIFF_SYM1063=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1063
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1055=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM1055
-Lfde112_start:
+LDIFF_SYM1064=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM1064
+Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_TimerButton_CenterItemContents
 
-LDIFF_SYM1056=Lme_70 - WorkHeart_Objects_TimerButton_CenterItemContents
-	.long LDIFF_SYM1056
+LDIFF_SYM1065=Lme_71 - WorkHeart_Objects_TimerButton_CenterItemContents
+	.long LDIFF_SYM1065
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17
 	.align 3
-Lfde112_end:
+Lfde113_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_84:
 
 	.byte 5
-	.asciz "_<>c__DisplayClass27_0"
+	.asciz "_<>c__DisplayClass28_0"
 
 	.byte 32,16
-LDIFF_SYM1057=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1057
+LDIFF_SYM1066=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1066
 	.byte 2,35,0,6
-	.asciz "<>4__this"
-
-LDIFF_SYM1058=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1058
-	.byte 2,35,16,6
 	.asciz "timeElaspsed"
 
-LDIFF_SYM1059=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1059
-	.byte 2,35,24,0,7
-	.asciz "_<>c__DisplayClass27_0"
+LDIFF_SYM1067=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1067
+	.byte 2,35,24,6
+	.asciz "<>4__this"
 
-LDIFF_SYM1060=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM1068=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1068
+	.byte 2,35,16,0,7
+	.asciz "_<>c__DisplayClass28_0"
+
+LDIFF_SYM1069=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1069
 LTDIE_84_POINTER:
 
 	.byte 13
-LDIFF_SYM1061=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1070=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1070
 LTDIE_84_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1062=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM1062
+LDIFF_SYM1071=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1071
 	.byte 2
 	.asciz "WorkHeart.Objects.TimerButton:UpdateTime"
 	.asciz "WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan"
 
 	.byte 12,0
 	.quad WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan
-	.quad Lme_71
+	.quad Lme_72
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1063=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1063
+LDIFF_SYM1072=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1072
 	.byte 1,106,3
 	.asciz "timeElaspsed"
 
-LDIFF_SYM1064=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM1073=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1073
 	.byte 2,141,32,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM1065=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1074=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1074
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1066=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM1066
-Lfde113_start:
+LDIFF_SYM1075=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM1075
+Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan
 
-LDIFF_SYM1067=Lme_71 - WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan
-	.long LDIFF_SYM1067
+LDIFF_SYM1076=Lme_72 - WorkHeart_Objects_TimerButton_UpdateTime_System_TimeSpan
+	.long LDIFF_SYM1076
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde113_end:
+Lfde114_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49074,46 +50348,46 @@ Lfde113_end:
 
 	.byte 13,20
 	.quad WorkHeart_Objects_Colors_GetColor_WorkHeart_Objects_Colours
-	.quad Lme_72
+	.quad Lme_73
 
 	.byte 2,118,16,3
 	.asciz "colour"
 
-LDIFF_SYM1068=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM1077=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1077
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM1069=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1069
+LDIFF_SYM1078=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1078
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1070=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1070
+LDIFF_SYM1079=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1079
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1071=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1071
+LDIFF_SYM1080=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1080
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1072=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM1072
-Lfde114_start:
+LDIFF_SYM1081=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM1081
+Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Colors_GetColor_WorkHeart_Objects_Colours
 
-LDIFF_SYM1073=Lme_72 - WorkHeart_Objects_Colors_GetColor_WorkHeart_Objects_Colours
-	.long LDIFF_SYM1073
+LDIFF_SYM1082=Lme_73 - WorkHeart_Objects_Colors_GetColor_WorkHeart_Objects_Colours
+	.long LDIFF_SYM1082
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7
 	.align 3
-Lfde114_end:
+Lfde115_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_85:
@@ -49122,54 +50396,54 @@ LTDIE_85:
 	.asciz "WorkHeart_Objects_Colors"
 
 	.byte 16,16
-LDIFF_SYM1074=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1074
+LDIFF_SYM1083=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1083
 	.byte 2,35,0,0,7
 	.asciz "WorkHeart_Objects_Colors"
 
-LDIFF_SYM1075=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1075
+LDIFF_SYM1084=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1084
 LTDIE_85_POINTER:
 
 	.byte 13
-LDIFF_SYM1076=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1076
+LDIFF_SYM1085=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1085
 LTDIE_85_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1077=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1077
+LDIFF_SYM1086=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1086
 	.byte 2
 	.asciz "WorkHeart.Objects.Colors:.ctor"
 	.asciz "WorkHeart_Objects_Colors__ctor"
 
 	.byte 0,0
 	.quad WorkHeart_Objects_Colors__ctor
-	.quad Lme_73
+	.quad Lme_74
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1078=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1078
+LDIFF_SYM1087=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1087
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1079=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM1079
-Lfde115_start:
+LDIFF_SYM1088=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM1088
+Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_Colors__ctor
 
-LDIFF_SYM1080=Lme_73 - WorkHeart_Objects_Colors__ctor
-	.long LDIFF_SYM1080
+LDIFF_SYM1089=Lme_74 - WorkHeart_Objects_Colors__ctor
+	.long LDIFF_SYM1089
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde115_end:
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_86:
@@ -49178,69 +50452,69 @@ LTDIE_86:
 	.asciz "WorkHeart_Objects_LightBubble"
 
 	.byte 128,2,16
-LDIFF_SYM1081=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM1081
+LDIFF_SYM1090=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM1090
 	.byte 2,35,0,6
 	.asciz "parentSize"
 
-LDIFF_SYM1082=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1082
+LDIFF_SYM1091=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1091
 	.byte 3,35,224,1,6
 	.asciz "defaultPosition"
 
-LDIFF_SYM1083=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1083
+LDIFF_SYM1092=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1092
 	.byte 3,35,240,1,0,7
 	.asciz "WorkHeart_Objects_LightBubble"
 
-LDIFF_SYM1084=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM1084
+LDIFF_SYM1093=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1093
 LTDIE_86_POINTER:
 
 	.byte 13
-LDIFF_SYM1085=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM1085
+LDIFF_SYM1094=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1094
 LTDIE_86_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1086=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM1086
+LDIFF_SYM1095=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1095
 	.byte 2
 	.asciz "WorkHeart.Objects.LightBubble:.ctor"
 	.asciz "WorkHeart_Objects_LightBubble__ctor_CoreGraphics_CGSize"
 
 	.byte 14,14
 	.quad WorkHeart_Objects_LightBubble__ctor_CoreGraphics_CGSize
-	.quad Lme_74
+	.quad Lme_75
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1087=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1087
+LDIFF_SYM1096=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1096
 	.byte 1,106,3
 	.asciz "parentDimentions"
 
-LDIFF_SYM1088=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1088
+LDIFF_SYM1097=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1097
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1089=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM1089
-Lfde116_start:
+LDIFF_SYM1098=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM1098
+Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_LightBubble__ctor_CoreGraphics_CGSize
 
-LDIFF_SYM1090=Lme_74 - WorkHeart_Objects_LightBubble__ctor_CoreGraphics_CGSize
-	.long LDIFF_SYM1090
+LDIFF_SYM1099=Lme_75 - WorkHeart_Objects_LightBubble__ctor_CoreGraphics_CGSize
+	.long LDIFF_SYM1099
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,154,30
 	.align 3
-Lfde116_end:
+Lfde117_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49250,36 +50524,36 @@ Lfde116_end:
 
 	.byte 14,28
 	.quad WorkHeart_Objects_LightBubble_SetDefaultCharateristics
-	.quad Lme_75
+	.quad Lme_76
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1091=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1091
+LDIFF_SYM1100=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1100
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1092=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1092
+LDIFF_SYM1101=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1101
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1093=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM1093
-Lfde117_start:
+LDIFF_SYM1102=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM1102
+Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_LightBubble_SetDefaultCharateristics
 
-LDIFF_SYM1094=Lme_75 - WorkHeart_Objects_LightBubble_SetDefaultCharateristics
-	.long LDIFF_SYM1094
+LDIFF_SYM1103=Lme_76 - WorkHeart_Objects_LightBubble_SetDefaultCharateristics
+	.long LDIFF_SYM1103
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde117_end:
+Lfde118_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49289,31 +50563,31 @@ Lfde117_end:
 
 	.byte 14,48
 	.quad WorkHeart_Objects_LightBubble_SubscribeToTracking
-	.quad Lme_76
+	.quad Lme_77
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1095=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1095
+LDIFF_SYM1104=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1104
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1096=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM1096
-Lfde118_start:
+LDIFF_SYM1105=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM1105
+Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_LightBubble_SubscribeToTracking
 
-LDIFF_SYM1097=Lme_76 - WorkHeart_Objects_LightBubble_SubscribeToTracking
-	.long LDIFF_SYM1097
+LDIFF_SYM1106=Lme_77 - WorkHeart_Objects_LightBubble_SubscribeToTracking
+	.long LDIFF_SYM1106
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde118_end:
+Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49323,31 +50597,31 @@ Lfde118_end:
 
 	.byte 14,54
 	.quad WorkHeart_Objects_LightBubble_SubscribeToTrackingStopped
-	.quad Lme_77
+	.quad Lme_78
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1098=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1098
+LDIFF_SYM1107=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1107
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1099=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM1099
-Lfde119_start:
+LDIFF_SYM1108=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM1108
+Lfde120_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_LightBubble_SubscribeToTrackingStopped
 
-LDIFF_SYM1100=Lme_77 - WorkHeart_Objects_LightBubble_SubscribeToTrackingStopped
-	.long LDIFF_SYM1100
+LDIFF_SYM1109=Lme_78 - WorkHeart_Objects_LightBubble_SubscribeToTrackingStopped
+	.long LDIFF_SYM1109
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde119_end:
+Lfde120_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49357,31 +50631,31 @@ Lfde119_end:
 
 	.byte 14,60
 	.quad WorkHeart_Objects_LightBubble_StartTracking
-	.quad Lme_78
+	.quad Lme_79
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1101=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1101
+LDIFF_SYM1110=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1110
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1102=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM1102
-Lfde120_start:
+LDIFF_SYM1111=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM1111
+Lfde121_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_LightBubble_StartTracking
 
-LDIFF_SYM1103=Lme_78 - WorkHeart_Objects_LightBubble_StartTracking
-	.long LDIFF_SYM1103
+LDIFF_SYM1112=Lme_79 - WorkHeart_Objects_LightBubble_StartTracking
+	.long LDIFF_SYM1112
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde120_end:
+Lfde121_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49391,36 +50665,36 @@ Lfde120_end:
 
 	.byte 14,67
 	.quad WorkHeart_Objects_LightBubble_StopTracking
-	.quad Lme_79
+	.quad Lme_7a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1104=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1104
+LDIFF_SYM1113=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1113
 	.byte 1,106,11
 	.asciz "translateToOrigin"
 
-LDIFF_SYM1105=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1105
+LDIFF_SYM1114=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1114
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1106=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM1106
-Lfde121_start:
+LDIFF_SYM1115=Lfde122_end - Lfde122_start
+	.long LDIFF_SYM1115
+Lfde122_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_LightBubble_StopTracking
 
-LDIFF_SYM1107=Lme_79 - WorkHeart_Objects_LightBubble_StopTracking
-	.long LDIFF_SYM1107
+LDIFF_SYM1116=Lme_7a - WorkHeart_Objects_LightBubble_StopTracking
+	.long LDIFF_SYM1116
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde121_end:
+Lfde122_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49430,36 +50704,36 @@ Lfde121_end:
 
 	.byte 14,76
 	.quad WorkHeart_Objects_LightBubble_CenterItemContents
-	.quad Lme_7a
+	.quad Lme_7b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1108=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1108
+LDIFF_SYM1117=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1117
 	.byte 1,106,11
 	.asciz "translateToCenter"
 
-LDIFF_SYM1109=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1109
+LDIFF_SYM1118=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1118
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1110=Lfde122_end - Lfde122_start
-	.long LDIFF_SYM1110
-Lfde122_start:
+LDIFF_SYM1119=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM1119
+Lfde123_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_LightBubble_CenterItemContents
 
-LDIFF_SYM1111=Lme_7a - WorkHeart_Objects_LightBubble_CenterItemContents
-	.long LDIFF_SYM1111
+LDIFF_SYM1120=Lme_7b - WorkHeart_Objects_LightBubble_CenterItemContents
+	.long LDIFF_SYM1120
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17
 	.align 3
-Lfde122_end:
+Lfde123_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49469,36 +50743,36 @@ Lfde122_end:
 
 	.byte 15,24
 	.quad WorkHeart_Objects_NoiseBubble__ctor_CoreGraphics_CGSize
-	.quad Lme_7b
+	.quad Lme_7c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1112=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1112
+LDIFF_SYM1121=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1121
 	.byte 1,106,3
 	.asciz "parentDimentions"
 
-LDIFF_SYM1113=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1113
+LDIFF_SYM1122=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1122
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1114=Lfde123_end - Lfde123_start
-	.long LDIFF_SYM1114
-Lfde123_start:
+LDIFF_SYM1123=Lfde124_end - Lfde124_start
+	.long LDIFF_SYM1123
+Lfde124_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_NoiseBubble__ctor_CoreGraphics_CGSize
 
-LDIFF_SYM1115=Lme_7b - WorkHeart_Objects_NoiseBubble__ctor_CoreGraphics_CGSize
-	.long LDIFF_SYM1115
+LDIFF_SYM1124=Lme_7c - WorkHeart_Objects_NoiseBubble__ctor_CoreGraphics_CGSize
+	.long LDIFF_SYM1124
 	.long 0
 	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,154,32
 	.align 3
-Lfde123_end:
+Lfde124_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49508,36 +50782,36 @@ Lfde123_end:
 
 	.byte 15,63
 	.quad WorkHeart_Objects_NoiseBubble_SetDefaultCharateristics
-	.quad Lme_7c
+	.quad Lme_7d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1116=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1116
+LDIFF_SYM1125=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1125
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1117=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1117
+LDIFF_SYM1126=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1126
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1118=Lfde124_end - Lfde124_start
-	.long LDIFF_SYM1118
-Lfde124_start:
+LDIFF_SYM1127=Lfde125_end - Lfde125_start
+	.long LDIFF_SYM1127
+Lfde125_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_NoiseBubble_SetDefaultCharateristics
 
-LDIFF_SYM1119=Lme_7c - WorkHeart_Objects_NoiseBubble_SetDefaultCharateristics
-	.long LDIFF_SYM1119
+LDIFF_SYM1128=Lme_7d - WorkHeart_Objects_NoiseBubble_SetDefaultCharateristics
+	.long LDIFF_SYM1128
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde124_end:
+Lfde125_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49547,31 +50821,31 @@ Lfde124_end:
 
 	.byte 15,82
 	.quad WorkHeart_Objects_NoiseBubble_SubscribeToTracking
-	.quad Lme_7d
+	.quad Lme_7e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1120=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1120
+LDIFF_SYM1129=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1129
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1121=Lfde125_end - Lfde125_start
-	.long LDIFF_SYM1121
-Lfde125_start:
+LDIFF_SYM1130=Lfde126_end - Lfde126_start
+	.long LDIFF_SYM1130
+Lfde126_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_NoiseBubble_SubscribeToTracking
 
-LDIFF_SYM1122=Lme_7d - WorkHeart_Objects_NoiseBubble_SubscribeToTracking
-	.long LDIFF_SYM1122
+LDIFF_SYM1131=Lme_7e - WorkHeart_Objects_NoiseBubble_SubscribeToTracking
+	.long LDIFF_SYM1131
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde125_end:
+Lfde126_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49581,31 +50855,31 @@ Lfde125_end:
 
 	.byte 15,88
 	.quad WorkHeart_Objects_NoiseBubble_SubscribeToTrackingStopped
-	.quad Lme_7e
+	.quad Lme_7f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1123=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1123
+LDIFF_SYM1132=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1132
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1124=Lfde126_end - Lfde126_start
-	.long LDIFF_SYM1124
-Lfde126_start:
+LDIFF_SYM1133=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM1133
+Lfde127_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_NoiseBubble_SubscribeToTrackingStopped
 
-LDIFF_SYM1125=Lme_7e - WorkHeart_Objects_NoiseBubble_SubscribeToTrackingStopped
-	.long LDIFF_SYM1125
+LDIFF_SYM1134=Lme_7f - WorkHeart_Objects_NoiseBubble_SubscribeToTrackingStopped
+	.long LDIFF_SYM1134
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde126_end:
+Lfde127_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49615,31 +50889,31 @@ Lfde126_end:
 
 	.byte 15,94
 	.quad WorkHeart_Objects_NoiseBubble_StartTracking
-	.quad Lme_7f
+	.quad Lme_80
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1126=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1126
+LDIFF_SYM1135=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1135
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1127=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM1127
-Lfde127_start:
+LDIFF_SYM1136=Lfde128_end - Lfde128_start
+	.long LDIFF_SYM1136
+Lfde128_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_NoiseBubble_StartTracking
 
-LDIFF_SYM1128=Lme_7f - WorkHeart_Objects_NoiseBubble_StartTracking
-	.long LDIFF_SYM1128
+LDIFF_SYM1137=Lme_80 - WorkHeart_Objects_NoiseBubble_StartTracking
+	.long LDIFF_SYM1137
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde127_end:
+Lfde128_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49649,36 +50923,36 @@ Lfde127_end:
 
 	.byte 15,100
 	.quad WorkHeart_Objects_NoiseBubble_StopTracking
-	.quad Lme_80
+	.quad Lme_81
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1129=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1129
+LDIFF_SYM1138=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1138
 	.byte 1,106,11
 	.asciz "translateToOrigin"
 
-LDIFF_SYM1130=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1130
+LDIFF_SYM1139=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1139
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1131=Lfde128_end - Lfde128_start
-	.long LDIFF_SYM1131
-Lfde128_start:
+LDIFF_SYM1140=Lfde129_end - Lfde129_start
+	.long LDIFF_SYM1140
+Lfde129_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_NoiseBubble_StopTracking
 
-LDIFF_SYM1132=Lme_80 - WorkHeart_Objects_NoiseBubble_StopTracking
-	.long LDIFF_SYM1132
+LDIFF_SYM1141=Lme_81 - WorkHeart_Objects_NoiseBubble_StopTracking
+	.long LDIFF_SYM1141
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde128_end:
+Lfde129_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49688,36 +50962,36 @@ Lfde128_end:
 
 	.byte 15,109
 	.quad WorkHeart_Objects_NoiseBubble_CenterItemContents
-	.quad Lme_81
+	.quad Lme_82
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1133=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1133
+LDIFF_SYM1142=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1142
 	.byte 1,106,11
 	.asciz "translateToCenter"
 
-LDIFF_SYM1134=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1134
+LDIFF_SYM1143=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1143
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1135=Lfde129_end - Lfde129_start
-	.long LDIFF_SYM1135
-Lfde129_start:
+LDIFF_SYM1144=Lfde130_end - Lfde130_start
+	.long LDIFF_SYM1144
+Lfde130_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_NoiseBubble_CenterItemContents
 
-LDIFF_SYM1136=Lme_81 - WorkHeart_Objects_NoiseBubble_CenterItemContents
-	.long LDIFF_SYM1136
+LDIFF_SYM1145=Lme_82 - WorkHeart_Objects_NoiseBubble_CenterItemContents
+	.long LDIFF_SYM1145
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17
 	.align 3
-Lfde129_end:
+Lfde130_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49727,46 +51001,46 @@ Lfde129_end:
 
 	.byte 15,115
 	.quad WorkHeart_Objects_NoiseBubble_CheckNoise
-	.quad Lme_82
+	.quad Lme_83
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1137=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1137
+LDIFF_SYM1146=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1146
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1138=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1138
+LDIFF_SYM1147=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1147
 	.byte 1,105,11
 	.asciz "colourStatus"
 
-LDIFF_SYM1139=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1139
+LDIFF_SYM1148=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1148
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1140=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1140
+LDIFF_SYM1149=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1149
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1141=Lfde130_end - Lfde130_start
-	.long LDIFF_SYM1141
-Lfde130_start:
+LDIFF_SYM1150=Lfde131_end - Lfde131_start
+	.long LDIFF_SYM1150
+Lfde131_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_NoiseBubble_CheckNoise
 
-LDIFF_SYM1142=Lme_82 - WorkHeart_Objects_NoiseBubble_CheckNoise
-	.long LDIFF_SYM1142
+LDIFF_SYM1151=Lme_83 - WorkHeart_Objects_NoiseBubble_CheckNoise
+	.long LDIFF_SYM1151
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde130_end:
+Lfde131_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49776,36 +51050,36 @@ Lfde130_end:
 
 	.byte 15,131,1
 	.quad WorkHeart_Objects_NoiseBubble_GetNoiseLevel
-	.quad Lme_83
+	.quad Lme_84
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1143=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1143
+LDIFF_SYM1152=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1152
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM1144=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1144
+LDIFF_SYM1153=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1153
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1145=Lfde131_end - Lfde131_start
-	.long LDIFF_SYM1145
-Lfde131_start:
+LDIFF_SYM1154=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM1154
+Lfde132_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_NoiseBubble_GetNoiseLevel
 
-LDIFF_SYM1146=Lme_83 - WorkHeart_Objects_NoiseBubble_GetNoiseLevel
-	.long LDIFF_SYM1146
+LDIFF_SYM1155=Lme_84 - WorkHeart_Objects_NoiseBubble_GetNoiseLevel
+	.long LDIFF_SYM1155
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde131_end:
+Lfde132_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49815,36 +51089,36 @@ Lfde131_end:
 
 	.byte 16,17
 	.quad WorkHeart_Objects_DurationBubble__ctor_CoreGraphics_CGSize
-	.quad Lme_84
+	.quad Lme_85
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1147=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1147
+LDIFF_SYM1156=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1156
 	.byte 1,106,3
 	.asciz "parentDimentions"
 
-LDIFF_SYM1148=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1148
+LDIFF_SYM1157=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1157
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1149=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM1149
-Lfde132_start:
+LDIFF_SYM1158=Lfde133_end - Lfde133_start
+	.long LDIFF_SYM1158
+Lfde133_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_DurationBubble__ctor_CoreGraphics_CGSize
 
-LDIFF_SYM1150=Lme_84 - WorkHeart_Objects_DurationBubble__ctor_CoreGraphics_CGSize
-	.long LDIFF_SYM1150
+LDIFF_SYM1159=Lme_85 - WorkHeart_Objects_DurationBubble__ctor_CoreGraphics_CGSize
+	.long LDIFF_SYM1159
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,154,30
 	.align 3
-Lfde132_end:
+Lfde133_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49854,36 +51128,36 @@ Lfde132_end:
 
 	.byte 16,35
 	.quad WorkHeart_Objects_DurationBubble_SetDefaultCharateristics
-	.quad Lme_85
+	.quad Lme_86
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1151=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1151
+LDIFF_SYM1160=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1160
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1152=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM1161=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1161
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1153=Lfde133_end - Lfde133_start
-	.long LDIFF_SYM1153
-Lfde133_start:
+LDIFF_SYM1162=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM1162
+Lfde134_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_DurationBubble_SetDefaultCharateristics
 
-LDIFF_SYM1154=Lme_85 - WorkHeart_Objects_DurationBubble_SetDefaultCharateristics
-	.long LDIFF_SYM1154
+LDIFF_SYM1163=Lme_86 - WorkHeart_Objects_DurationBubble_SetDefaultCharateristics
+	.long LDIFF_SYM1163
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde133_end:
+Lfde134_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49893,31 +51167,31 @@ Lfde133_end:
 
 	.byte 16,55
 	.quad WorkHeart_Objects_DurationBubble_SubscribeToTracking
-	.quad Lme_86
+	.quad Lme_87
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1155=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1155
+LDIFF_SYM1164=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1164
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1156=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM1156
-Lfde134_start:
+LDIFF_SYM1165=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM1165
+Lfde135_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_DurationBubble_SubscribeToTracking
 
-LDIFF_SYM1157=Lme_86 - WorkHeart_Objects_DurationBubble_SubscribeToTracking
-	.long LDIFF_SYM1157
+LDIFF_SYM1166=Lme_87 - WorkHeart_Objects_DurationBubble_SubscribeToTracking
+	.long LDIFF_SYM1166
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde134_end:
+Lfde135_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49927,31 +51201,31 @@ Lfde134_end:
 
 	.byte 16,61
 	.quad WorkHeart_Objects_DurationBubble_SubscribeToTrackingStopped
-	.quad Lme_87
+	.quad Lme_88
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1158=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1167=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1167
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1159=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM1159
-Lfde135_start:
+LDIFF_SYM1168=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM1168
+Lfde136_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_DurationBubble_SubscribeToTrackingStopped
 
-LDIFF_SYM1160=Lme_87 - WorkHeart_Objects_DurationBubble_SubscribeToTrackingStopped
-	.long LDIFF_SYM1160
+LDIFF_SYM1169=Lme_88 - WorkHeart_Objects_DurationBubble_SubscribeToTrackingStopped
+	.long LDIFF_SYM1169
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde135_end:
+Lfde136_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49961,31 +51235,31 @@ Lfde135_end:
 
 	.byte 16,67
 	.quad WorkHeart_Objects_DurationBubble_StartTracking
-	.quad Lme_88
+	.quad Lme_89
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1161=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1161
+LDIFF_SYM1170=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1170
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1162=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM1162
-Lfde136_start:
+LDIFF_SYM1171=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM1171
+Lfde137_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_DurationBubble_StartTracking
 
-LDIFF_SYM1163=Lme_88 - WorkHeart_Objects_DurationBubble_StartTracking
-	.long LDIFF_SYM1163
+LDIFF_SYM1172=Lme_89 - WorkHeart_Objects_DurationBubble_StartTracking
+	.long LDIFF_SYM1172
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde136_end:
+Lfde137_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49995,36 +51269,36 @@ Lfde136_end:
 
 	.byte 16,74
 	.quad WorkHeart_Objects_DurationBubble_StopTracking
-	.quad Lme_89
+	.quad Lme_8a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1164=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1173=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1173
 	.byte 1,106,11
 	.asciz "translateToOrigin"
 
-LDIFF_SYM1165=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1165
+LDIFF_SYM1174=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1174
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1166=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM1166
-Lfde137_start:
+LDIFF_SYM1175=Lfde138_end - Lfde138_start
+	.long LDIFF_SYM1175
+Lfde138_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_DurationBubble_StopTracking
 
-LDIFF_SYM1167=Lme_89 - WorkHeart_Objects_DurationBubble_StopTracking
-	.long LDIFF_SYM1167
+LDIFF_SYM1176=Lme_8a - WorkHeart_Objects_DurationBubble_StopTracking
+	.long LDIFF_SYM1176
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde137_end:
+Lfde138_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50034,36 +51308,36 @@ Lfde137_end:
 
 	.byte 16,83
 	.quad WorkHeart_Objects_DurationBubble_CenterItemContents
-	.quad Lme_8a
+	.quad Lme_8b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1168=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1168
+LDIFF_SYM1177=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1177
 	.byte 1,106,11
 	.asciz "translateToCenter"
 
-LDIFF_SYM1169=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1178=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1178
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1170=Lfde138_end - Lfde138_start
-	.long LDIFF_SYM1170
-Lfde138_start:
+LDIFF_SYM1179=Lfde139_end - Lfde139_start
+	.long LDIFF_SYM1179
+Lfde139_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_DurationBubble_CenterItemContents
 
-LDIFF_SYM1171=Lme_8a - WorkHeart_Objects_DurationBubble_CenterItemContents
-	.long LDIFF_SYM1171
+LDIFF_SYM1180=Lme_8b - WorkHeart_Objects_DurationBubble_CenterItemContents
+	.long LDIFF_SYM1180
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17
 	.align 3
-Lfde138_end:
+Lfde139_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50073,46 +51347,46 @@ Lfde138_end:
 
 	.byte 16,90
 	.quad WorkHeart_Objects_DurationBubble_UpdateDuration_System_TimeSpan
-	.quad Lme_8b
+	.quad Lme_8c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1172=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1181=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1181
 	.byte 1,106,3
 	.asciz "timeElapsed"
 
-LDIFF_SYM1173=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1173
+LDIFF_SYM1182=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1182
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM1174=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1174
+LDIFF_SYM1183=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1183
 	.byte 1,105,11
 	.asciz "colourStatus"
 
-LDIFF_SYM1175=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1184=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1184
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1176=Lfde139_end - Lfde139_start
-	.long LDIFF_SYM1176
-Lfde139_start:
+LDIFF_SYM1185=Lfde140_end - Lfde140_start
+	.long LDIFF_SYM1185
+Lfde140_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_DurationBubble_UpdateDuration_System_TimeSpan
 
-LDIFF_SYM1177=Lme_8b - WorkHeart_Objects_DurationBubble_UpdateDuration_System_TimeSpan
-	.long LDIFF_SYM1177
+LDIFF_SYM1186=Lme_8c - WorkHeart_Objects_DurationBubble_UpdateDuration_System_TimeSpan
+	.long LDIFF_SYM1186
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
-Lfde139_end:
+Lfde140_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50122,36 +51396,36 @@ Lfde139_end:
 
 	.byte 17,14
 	.quad WorkHeart_Objects_WaterBubble__ctor_CoreGraphics_CGSize
-	.quad Lme_8c
+	.quad Lme_8d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1178=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1178
+LDIFF_SYM1187=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1187
 	.byte 1,106,3
 	.asciz "parentDimentions"
 
-LDIFF_SYM1179=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1179
+LDIFF_SYM1188=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1180=Lfde140_end - Lfde140_start
-	.long LDIFF_SYM1180
-Lfde140_start:
+LDIFF_SYM1189=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM1189
+Lfde141_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble__ctor_CoreGraphics_CGSize
 
-LDIFF_SYM1181=Lme_8c - WorkHeart_Objects_WaterBubble__ctor_CoreGraphics_CGSize
-	.long LDIFF_SYM1181
+LDIFF_SYM1190=Lme_8d - WorkHeart_Objects_WaterBubble__ctor_CoreGraphics_CGSize
+	.long LDIFF_SYM1190
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,154,30
 	.align 3
-Lfde140_end:
+Lfde141_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50161,36 +51435,36 @@ Lfde140_end:
 
 	.byte 17,48
 	.quad WorkHeart_Objects_WaterBubble_SetDefaultCharateristics
-	.quad Lme_8d
+	.quad Lme_8e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1182=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1182
+LDIFF_SYM1191=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1191
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1183=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1183
+LDIFF_SYM1192=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1192
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1184=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM1184
-Lfde141_start:
+LDIFF_SYM1193=Lfde142_end - Lfde142_start
+	.long LDIFF_SYM1193
+Lfde142_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble_SetDefaultCharateristics
 
-LDIFF_SYM1185=Lme_8d - WorkHeart_Objects_WaterBubble_SetDefaultCharateristics
-	.long LDIFF_SYM1185
+LDIFF_SYM1194=Lme_8e - WorkHeart_Objects_WaterBubble_SetDefaultCharateristics
+	.long LDIFF_SYM1194
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde141_end:
+Lfde142_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50200,31 +51474,31 @@ Lfde141_end:
 
 	.byte 17,68
 	.quad WorkHeart_Objects_WaterBubble_SubscribeToTracking
-	.quad Lme_8e
+	.quad Lme_8f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1186=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1186
+LDIFF_SYM1195=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1195
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1187=Lfde142_end - Lfde142_start
-	.long LDIFF_SYM1187
-Lfde142_start:
+LDIFF_SYM1196=Lfde143_end - Lfde143_start
+	.long LDIFF_SYM1196
+Lfde143_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble_SubscribeToTracking
 
-LDIFF_SYM1188=Lme_8e - WorkHeart_Objects_WaterBubble_SubscribeToTracking
-	.long LDIFF_SYM1188
+LDIFF_SYM1197=Lme_8f - WorkHeart_Objects_WaterBubble_SubscribeToTracking
+	.long LDIFF_SYM1197
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde142_end:
+Lfde143_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50234,31 +51508,31 @@ Lfde142_end:
 
 	.byte 17,74
 	.quad WorkHeart_Objects_WaterBubble_SubscribeToTrackingStopped
-	.quad Lme_8f
+	.quad Lme_90
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1189=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1198=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1198
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1190=Lfde143_end - Lfde143_start
-	.long LDIFF_SYM1190
-Lfde143_start:
+LDIFF_SYM1199=Lfde144_end - Lfde144_start
+	.long LDIFF_SYM1199
+Lfde144_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble_SubscribeToTrackingStopped
 
-LDIFF_SYM1191=Lme_8f - WorkHeart_Objects_WaterBubble_SubscribeToTrackingStopped
-	.long LDIFF_SYM1191
+LDIFF_SYM1200=Lme_90 - WorkHeart_Objects_WaterBubble_SubscribeToTrackingStopped
+	.long LDIFF_SYM1200
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde143_end:
+Lfde144_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50268,31 +51542,31 @@ Lfde143_end:
 
 	.byte 17,80
 	.quad WorkHeart_Objects_WaterBubble_StartTracking
-	.quad Lme_90
+	.quad Lme_91
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1192=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1201=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1201
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1193=Lfde144_end - Lfde144_start
-	.long LDIFF_SYM1193
-Lfde144_start:
+LDIFF_SYM1202=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM1202
+Lfde145_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble_StartTracking
 
-LDIFF_SYM1194=Lme_90 - WorkHeart_Objects_WaterBubble_StartTracking
-	.long LDIFF_SYM1194
+LDIFF_SYM1203=Lme_91 - WorkHeart_Objects_WaterBubble_StartTracking
+	.long LDIFF_SYM1203
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde144_end:
+Lfde145_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50302,36 +51576,36 @@ Lfde144_end:
 
 	.byte 17,89
 	.quad WorkHeart_Objects_WaterBubble_StopTracking
-	.quad Lme_91
+	.quad Lme_92
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1195=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1204=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1204
 	.byte 1,106,11
 	.asciz "translateToOrigin"
 
-LDIFF_SYM1196=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1205=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1205
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1197=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM1197
-Lfde145_start:
+LDIFF_SYM1206=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM1206
+Lfde146_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble_StopTracking
 
-LDIFF_SYM1198=Lme_91 - WorkHeart_Objects_WaterBubble_StopTracking
-	.long LDIFF_SYM1198
+LDIFF_SYM1207=Lme_92 - WorkHeart_Objects_WaterBubble_StopTracking
+	.long LDIFF_SYM1207
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde145_end:
+Lfde146_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50341,36 +51615,36 @@ Lfde145_end:
 
 	.byte 17,98
 	.quad WorkHeart_Objects_WaterBubble_CenterItemContents
-	.quad Lme_92
+	.quad Lme_93
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1199=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1208=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1208
 	.byte 1,106,11
 	.asciz "translateToCenter"
 
-LDIFF_SYM1200=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1209=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1209
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1201=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM1201
-Lfde146_start:
+LDIFF_SYM1210=Lfde147_end - Lfde147_start
+	.long LDIFF_SYM1210
+Lfde147_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble_CenterItemContents
 
-LDIFF_SYM1202=Lme_92 - WorkHeart_Objects_WaterBubble_CenterItemContents
-	.long LDIFF_SYM1202
+LDIFF_SYM1211=Lme_93 - WorkHeart_Objects_WaterBubble_CenterItemContents
+	.long LDIFF_SYM1211
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17
 	.align 3
-Lfde146_end:
+Lfde147_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50380,51 +51654,51 @@ Lfde146_end:
 
 	.byte 17,105
 	.quad WorkHeart_Objects_WaterBubble_UpdateDuration_System_TimeSpan
-	.quad Lme_93
+	.quad Lme_94
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1203=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1212=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1212
 	.byte 1,106,3
 	.asciz "timeElapsed"
 
-LDIFF_SYM1204=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1213=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1213
 	.byte 2,141,48,11
 	.asciz "waterTimeAmount"
 
-LDIFF_SYM1205=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1214=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1214
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1206=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1215=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1215
 	.byte 1,104,11
 	.asciz "colourStatus"
 
-LDIFF_SYM1207=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1216=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1216
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1208=Lfde147_end - Lfde147_start
-	.long LDIFF_SYM1208
-Lfde147_start:
+LDIFF_SYM1217=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM1217
+Lfde148_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble_UpdateDuration_System_TimeSpan
 
-LDIFF_SYM1209=Lme_93 - WorkHeart_Objects_WaterBubble_UpdateDuration_System_TimeSpan
-	.long LDIFF_SYM1209
+LDIFF_SYM1218=Lme_94 - WorkHeart_Objects_WaterBubble_UpdateDuration_System_TimeSpan
+	.long LDIFF_SYM1218
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde147_end:
+Lfde148_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50434,41 +51708,41 @@ Lfde147_end:
 
 	.byte 17,117
 	.quad WorkHeart_Objects_WaterBubble_addWater
-	.quad Lme_94
+	.quad Lme_95
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1210=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1210
+LDIFF_SYM1219=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1211=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1211
+LDIFF_SYM1220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 2,141,56,11
 	.asciz "V_1"
 
-LDIFF_SYM1212=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1212
+LDIFF_SYM1221=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1221
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1213=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM1213
-Lfde148_start:
+LDIFF_SYM1222=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM1222
+Lfde149_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble_addWater
 
-LDIFF_SYM1214=Lme_94 - WorkHeart_Objects_WaterBubble_addWater
-	.long LDIFF_SYM1214
+LDIFF_SYM1223=Lme_95 - WorkHeart_Objects_WaterBubble_addWater
+	.long LDIFF_SYM1223
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde148_end:
+Lfde149_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50478,46 +51752,46 @@ Lfde148_end:
 
 	.byte 17,128,1
 	.quad WorkHeart_Objects_WaterBubble_removeWater
-	.quad Lme_95
+	.quad Lme_96
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1215=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1215
+LDIFF_SYM1224=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1224
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1216=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1225=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1217=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1217
+LDIFF_SYM1226=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1226
 	.byte 3,141,192,0,11
 	.asciz "V_2"
 
-LDIFF_SYM1218=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1218
+LDIFF_SYM1227=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1227
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1219=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM1219
-Lfde149_start:
+LDIFF_SYM1228=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM1228
+Lfde150_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble_removeWater
 
-LDIFF_SYM1220=Lme_95 - WorkHeart_Objects_WaterBubble_removeWater
-	.long LDIFF_SYM1220
+LDIFF_SYM1229=Lme_96 - WorkHeart_Objects_WaterBubble_removeWater
+	.long LDIFF_SYM1229
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
-Lfde149_end:
+Lfde150_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50527,36 +51801,36 @@ Lfde149_end:
 
 	.byte 17,141,1
 	.quad WorkHeart_Objects_WaterBubble_GetGlasses
-	.quad Lme_96
+	.quad Lme_97
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1221=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1221
+LDIFF_SYM1230=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1230
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1222=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1231=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1231
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1223=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM1223
-Lfde150_start:
+LDIFF_SYM1232=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM1232
+Lfde151_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_WaterBubble_GetGlasses
 
-LDIFF_SYM1224=Lme_96 - WorkHeart_Objects_WaterBubble_GetGlasses
-	.long LDIFF_SYM1224
+LDIFF_SYM1233=Lme_97 - WorkHeart_Objects_WaterBubble_GetGlasses
+	.long LDIFF_SYM1233
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde150_end:
+Lfde151_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50566,36 +51840,36 @@ Lfde150_end:
 
 	.byte 18,14
 	.quad WorkHeart_Objects_FoodBubble__ctor_CoreGraphics_CGSize
-	.quad Lme_97
+	.quad Lme_98
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1225=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1225
+LDIFF_SYM1234=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1234
 	.byte 1,106,3
 	.asciz "parentDimentions"
 
-LDIFF_SYM1226=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1226
+LDIFF_SYM1235=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1235
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1227=Lfde151_end - Lfde151_start
-	.long LDIFF_SYM1227
-Lfde151_start:
+LDIFF_SYM1236=Lfde152_end - Lfde152_start
+	.long LDIFF_SYM1236
+Lfde152_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_FoodBubble__ctor_CoreGraphics_CGSize
 
-LDIFF_SYM1228=Lme_97 - WorkHeart_Objects_FoodBubble__ctor_CoreGraphics_CGSize
-	.long LDIFF_SYM1228
+LDIFF_SYM1237=Lme_98 - WorkHeart_Objects_FoodBubble__ctor_CoreGraphics_CGSize
+	.long LDIFF_SYM1237
 	.long 0
 	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,154,32
 	.align 3
-Lfde151_end:
+Lfde152_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50605,36 +51879,36 @@ Lfde151_end:
 
 	.byte 18,48
 	.quad WorkHeart_Objects_FoodBubble_SetDefaultCharateristics
-	.quad Lme_98
+	.quad Lme_99
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1229=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1229
+LDIFF_SYM1238=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1238
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1230=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1239=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1239
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1231=Lfde152_end - Lfde152_start
-	.long LDIFF_SYM1231
-Lfde152_start:
+LDIFF_SYM1240=Lfde153_end - Lfde153_start
+	.long LDIFF_SYM1240
+Lfde153_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_FoodBubble_SetDefaultCharateristics
 
-LDIFF_SYM1232=Lme_98 - WorkHeart_Objects_FoodBubble_SetDefaultCharateristics
-	.long LDIFF_SYM1232
+LDIFF_SYM1241=Lme_99 - WorkHeart_Objects_FoodBubble_SetDefaultCharateristics
+	.long LDIFF_SYM1241
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde152_end:
+Lfde153_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50644,31 +51918,31 @@ Lfde152_end:
 
 	.byte 18,68
 	.quad WorkHeart_Objects_FoodBubble_SubscribeToTracking
-	.quad Lme_99
+	.quad Lme_9a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1233=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1242=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1242
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1234=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM1234
-Lfde153_start:
+LDIFF_SYM1243=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM1243
+Lfde154_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_FoodBubble_SubscribeToTracking
 
-LDIFF_SYM1235=Lme_99 - WorkHeart_Objects_FoodBubble_SubscribeToTracking
-	.long LDIFF_SYM1235
+LDIFF_SYM1244=Lme_9a - WorkHeart_Objects_FoodBubble_SubscribeToTracking
+	.long LDIFF_SYM1244
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde153_end:
+Lfde154_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50678,31 +51952,31 @@ Lfde153_end:
 
 	.byte 18,74
 	.quad WorkHeart_Objects_FoodBubble_SubscribeToTrackingStopped
-	.quad Lme_9a
+	.quad Lme_9b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1236=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1245=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1245
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1237=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM1237
-Lfde154_start:
+LDIFF_SYM1246=Lfde155_end - Lfde155_start
+	.long LDIFF_SYM1246
+Lfde155_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_FoodBubble_SubscribeToTrackingStopped
 
-LDIFF_SYM1238=Lme_9a - WorkHeart_Objects_FoodBubble_SubscribeToTrackingStopped
-	.long LDIFF_SYM1238
+LDIFF_SYM1247=Lme_9b - WorkHeart_Objects_FoodBubble_SubscribeToTrackingStopped
+	.long LDIFF_SYM1247
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde154_end:
+Lfde155_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50712,31 +51986,31 @@ Lfde154_end:
 
 	.byte 18,80
 	.quad WorkHeart_Objects_FoodBubble_StartTracking
-	.quad Lme_9b
+	.quad Lme_9c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1239=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1248=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1248
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1240=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM1240
-Lfde155_start:
+LDIFF_SYM1249=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM1249
+Lfde156_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_FoodBubble_StartTracking
 
-LDIFF_SYM1241=Lme_9b - WorkHeart_Objects_FoodBubble_StartTracking
-	.long LDIFF_SYM1241
+LDIFF_SYM1250=Lme_9c - WorkHeart_Objects_FoodBubble_StartTracking
+	.long LDIFF_SYM1250
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde155_end:
+Lfde156_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50746,36 +52020,36 @@ Lfde155_end:
 
 	.byte 18,89
 	.quad WorkHeart_Objects_FoodBubble_StopTracking
-	.quad Lme_9c
+	.quad Lme_9d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1242=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1242
+LDIFF_SYM1251=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1251
 	.byte 1,106,11
 	.asciz "translateToOrigin"
 
-LDIFF_SYM1243=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1243
+LDIFF_SYM1252=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1252
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1244=Lfde156_end - Lfde156_start
-	.long LDIFF_SYM1244
-Lfde156_start:
+LDIFF_SYM1253=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM1253
+Lfde157_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_FoodBubble_StopTracking
 
-LDIFF_SYM1245=Lme_9c - WorkHeart_Objects_FoodBubble_StopTracking
-	.long LDIFF_SYM1245
+LDIFF_SYM1254=Lme_9d - WorkHeart_Objects_FoodBubble_StopTracking
+	.long LDIFF_SYM1254
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde156_end:
+Lfde157_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50785,36 +52059,36 @@ Lfde156_end:
 
 	.byte 18,98
 	.quad WorkHeart_Objects_FoodBubble_CenterItemContents
-	.quad Lme_9d
+	.quad Lme_9e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1246=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1246
+LDIFF_SYM1255=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1255
 	.byte 1,106,11
 	.asciz "translateToCenter"
 
-LDIFF_SYM1247=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1256=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1256
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1248=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM1248
-Lfde157_start:
+LDIFF_SYM1257=Lfde158_end - Lfde158_start
+	.long LDIFF_SYM1257
+Lfde158_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_FoodBubble_CenterItemContents
 
-LDIFF_SYM1249=Lme_9d - WorkHeart_Objects_FoodBubble_CenterItemContents
-	.long LDIFF_SYM1249
+LDIFF_SYM1258=Lme_9e - WorkHeart_Objects_FoodBubble_CenterItemContents
+	.long LDIFF_SYM1258
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17
 	.align 3
-Lfde157_end:
+Lfde158_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50824,51 +52098,51 @@ Lfde157_end:
 
 	.byte 18,105
 	.quad WorkHeart_Objects_FoodBubble_UpdateDuration_System_TimeSpan
-	.quad Lme_9e
+	.quad Lme_9f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1250=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1250
+LDIFF_SYM1259=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1259
 	.byte 1,106,3
 	.asciz "timeElapsed"
 
-LDIFF_SYM1251=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1260=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1260
 	.byte 2,141,48,11
 	.asciz "foodTimeAmount"
 
-LDIFF_SYM1252=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1252
+LDIFF_SYM1261=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1261
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1253=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1253
+LDIFF_SYM1262=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1262
 	.byte 1,104,11
 	.asciz "colourStatus"
 
-LDIFF_SYM1254=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1254
+LDIFF_SYM1263=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1263
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1255=Lfde158_end - Lfde158_start
-	.long LDIFF_SYM1255
-Lfde158_start:
+LDIFF_SYM1264=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM1264
+Lfde159_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_FoodBubble_UpdateDuration_System_TimeSpan
 
-LDIFF_SYM1256=Lme_9e - WorkHeart_Objects_FoodBubble_UpdateDuration_System_TimeSpan
-	.long LDIFF_SYM1256
+LDIFF_SYM1265=Lme_9f - WorkHeart_Objects_FoodBubble_UpdateDuration_System_TimeSpan
+	.long LDIFF_SYM1265
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde158_end:
+Lfde159_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50878,41 +52152,41 @@ Lfde158_end:
 
 	.byte 18,117
 	.quad WorkHeart_Objects_FoodBubble_addFood
-	.quad Lme_9f
+	.quad Lme_a0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1257=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1257
+LDIFF_SYM1266=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1266
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1258=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1267=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1267
 	.byte 2,141,56,11
 	.asciz "V_1"
 
-LDIFF_SYM1259=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1259
+LDIFF_SYM1268=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1268
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1260=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM1260
-Lfde159_start:
+LDIFF_SYM1269=Lfde160_end - Lfde160_start
+	.long LDIFF_SYM1269
+Lfde160_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_FoodBubble_addFood
 
-LDIFF_SYM1261=Lme_9f - WorkHeart_Objects_FoodBubble_addFood
-	.long LDIFF_SYM1261
+LDIFF_SYM1270=Lme_a0 - WorkHeart_Objects_FoodBubble_addFood
+	.long LDIFF_SYM1270
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde159_end:
+Lfde160_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50922,46 +52196,46 @@ Lfde159_end:
 
 	.byte 18,127
 	.quad WorkHeart_Objects_FoodBubble_removeFood
-	.quad Lme_a0
+	.quad Lme_a1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1262=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1271=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1271
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1263=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1272=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1272
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1264=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1264
+LDIFF_SYM1273=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1273
 	.byte 3,141,192,0,11
 	.asciz "V_2"
 
-LDIFF_SYM1265=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1265
+LDIFF_SYM1274=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1274
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1266=Lfde160_end - Lfde160_start
-	.long LDIFF_SYM1266
-Lfde160_start:
+LDIFF_SYM1275=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM1275
+Lfde161_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_FoodBubble_removeFood
 
-LDIFF_SYM1267=Lme_a0 - WorkHeart_Objects_FoodBubble_removeFood
-	.long LDIFF_SYM1267
+LDIFF_SYM1276=Lme_a1 - WorkHeart_Objects_FoodBubble_removeFood
+	.long LDIFF_SYM1276
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
-Lfde160_end:
+Lfde161_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50971,36 +52245,36 @@ Lfde160_end:
 
 	.byte 19,14
 	.quad WorkHeart_Objects_StandBubble__ctor_CoreGraphics_CGSize
-	.quad Lme_a1
+	.quad Lme_a2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1268=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1277=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1277
 	.byte 1,106,3
 	.asciz "parentDimentions"
 
-LDIFF_SYM1269=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1269
+LDIFF_SYM1278=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1278
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1270=Lfde161_end - Lfde161_start
-	.long LDIFF_SYM1270
-Lfde161_start:
+LDIFF_SYM1279=Lfde162_end - Lfde162_start
+	.long LDIFF_SYM1279
+Lfde162_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_StandBubble__ctor_CoreGraphics_CGSize
 
-LDIFF_SYM1271=Lme_a1 - WorkHeart_Objects_StandBubble__ctor_CoreGraphics_CGSize
-	.long LDIFF_SYM1271
+LDIFF_SYM1280=Lme_a2 - WorkHeart_Objects_StandBubble__ctor_CoreGraphics_CGSize
+	.long LDIFF_SYM1280
 	.long 0
 	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,154,32
 	.align 3
-Lfde161_end:
+Lfde162_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51010,36 +52284,36 @@ Lfde161_end:
 
 	.byte 19,48
 	.quad WorkHeart_Objects_StandBubble_SetDefaultCharateristics
-	.quad Lme_a2
+	.quad Lme_a3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1272=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1272
+LDIFF_SYM1281=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1281
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1273=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1273
+LDIFF_SYM1282=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1282
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1274=Lfde162_end - Lfde162_start
-	.long LDIFF_SYM1274
-Lfde162_start:
+LDIFF_SYM1283=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM1283
+Lfde163_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_StandBubble_SetDefaultCharateristics
 
-LDIFF_SYM1275=Lme_a2 - WorkHeart_Objects_StandBubble_SetDefaultCharateristics
-	.long LDIFF_SYM1275
+LDIFF_SYM1284=Lme_a3 - WorkHeart_Objects_StandBubble_SetDefaultCharateristics
+	.long LDIFF_SYM1284
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde162_end:
+Lfde163_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51049,31 +52323,31 @@ Lfde162_end:
 
 	.byte 19,68
 	.quad WorkHeart_Objects_StandBubble_SubscribeToTracking
-	.quad Lme_a3
+	.quad Lme_a4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1276=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1276
+LDIFF_SYM1285=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1285
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1277=Lfde163_end - Lfde163_start
-	.long LDIFF_SYM1277
-Lfde163_start:
+LDIFF_SYM1286=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM1286
+Lfde164_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_StandBubble_SubscribeToTracking
 
-LDIFF_SYM1278=Lme_a3 - WorkHeart_Objects_StandBubble_SubscribeToTracking
-	.long LDIFF_SYM1278
+LDIFF_SYM1287=Lme_a4 - WorkHeart_Objects_StandBubble_SubscribeToTracking
+	.long LDIFF_SYM1287
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde163_end:
+Lfde164_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51083,31 +52357,31 @@ Lfde163_end:
 
 	.byte 19,74
 	.quad WorkHeart_Objects_StandBubble_SubscribeToTrackingStopped
-	.quad Lme_a4
+	.quad Lme_a5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1279=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1279
+LDIFF_SYM1288=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1288
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1280=Lfde164_end - Lfde164_start
-	.long LDIFF_SYM1280
-Lfde164_start:
+LDIFF_SYM1289=Lfde165_end - Lfde165_start
+	.long LDIFF_SYM1289
+Lfde165_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_StandBubble_SubscribeToTrackingStopped
 
-LDIFF_SYM1281=Lme_a4 - WorkHeart_Objects_StandBubble_SubscribeToTrackingStopped
-	.long LDIFF_SYM1281
+LDIFF_SYM1290=Lme_a5 - WorkHeart_Objects_StandBubble_SubscribeToTrackingStopped
+	.long LDIFF_SYM1290
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde164_end:
+Lfde165_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51117,31 +52391,31 @@ Lfde164_end:
 
 	.byte 19,80
 	.quad WorkHeart_Objects_StandBubble_StartTracking
-	.quad Lme_a5
+	.quad Lme_a6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1282=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1282
+LDIFF_SYM1291=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1291
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1283=Lfde165_end - Lfde165_start
-	.long LDIFF_SYM1283
-Lfde165_start:
+LDIFF_SYM1292=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM1292
+Lfde166_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_StandBubble_StartTracking
 
-LDIFF_SYM1284=Lme_a5 - WorkHeart_Objects_StandBubble_StartTracking
-	.long LDIFF_SYM1284
+LDIFF_SYM1293=Lme_a6 - WorkHeart_Objects_StandBubble_StartTracking
+	.long LDIFF_SYM1293
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde165_end:
+Lfde166_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51151,36 +52425,36 @@ Lfde165_end:
 
 	.byte 19,89
 	.quad WorkHeart_Objects_StandBubble_StopTracking
-	.quad Lme_a6
+	.quad Lme_a7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1285=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1285
+LDIFF_SYM1294=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 1,106,11
 	.asciz "translateToOrigin"
 
-LDIFF_SYM1286=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1286
+LDIFF_SYM1295=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1295
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1287=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM1287
-Lfde166_start:
+LDIFF_SYM1296=Lfde167_end - Lfde167_start
+	.long LDIFF_SYM1296
+Lfde167_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_StandBubble_StopTracking
 
-LDIFF_SYM1288=Lme_a6 - WorkHeart_Objects_StandBubble_StopTracking
-	.long LDIFF_SYM1288
+LDIFF_SYM1297=Lme_a7 - WorkHeart_Objects_StandBubble_StopTracking
+	.long LDIFF_SYM1297
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde166_end:
+Lfde167_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51190,36 +52464,36 @@ Lfde166_end:
 
 	.byte 19,98
 	.quad WorkHeart_Objects_StandBubble_CenterItemContents
-	.quad Lme_a7
+	.quad Lme_a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1289=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1289
+LDIFF_SYM1298=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1298
 	.byte 1,106,11
 	.asciz "translateToCenter"
 
-LDIFF_SYM1290=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1290
+LDIFF_SYM1299=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1299
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1291=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM1291
-Lfde167_start:
+LDIFF_SYM1300=Lfde168_end - Lfde168_start
+	.long LDIFF_SYM1300
+Lfde168_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_StandBubble_CenterItemContents
 
-LDIFF_SYM1292=Lme_a7 - WorkHeart_Objects_StandBubble_CenterItemContents
-	.long LDIFF_SYM1292
+LDIFF_SYM1301=Lme_a8 - WorkHeart_Objects_StandBubble_CenterItemContents
+	.long LDIFF_SYM1301
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17
 	.align 3
-Lfde167_end:
+Lfde168_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51229,51 +52503,51 @@ Lfde167_end:
 
 	.byte 19,105
 	.quad WorkHeart_Objects_StandBubble_UpdateDuration_System_TimeSpan
-	.quad Lme_a8
+	.quad Lme_a9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1293=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1293
+LDIFF_SYM1302=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1302
 	.byte 1,106,3
 	.asciz "timeElapsed"
 
-LDIFF_SYM1294=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1294
+LDIFF_SYM1303=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1303
 	.byte 2,141,48,11
 	.asciz "standTimeAmount"
 
-LDIFF_SYM1295=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1295
+LDIFF_SYM1304=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1304
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1296=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1296
+LDIFF_SYM1305=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1305
 	.byte 1,104,11
 	.asciz "colourStatus"
 
-LDIFF_SYM1297=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1297
+LDIFF_SYM1306=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1306
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1298=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM1298
-Lfde168_start:
+LDIFF_SYM1307=Lfde169_end - Lfde169_start
+	.long LDIFF_SYM1307
+Lfde169_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_StandBubble_UpdateDuration_System_TimeSpan
 
-LDIFF_SYM1299=Lme_a8 - WorkHeart_Objects_StandBubble_UpdateDuration_System_TimeSpan
-	.long LDIFF_SYM1299
+LDIFF_SYM1308=Lme_a9 - WorkHeart_Objects_StandBubble_UpdateDuration_System_TimeSpan
+	.long LDIFF_SYM1308
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde168_end:
+Lfde169_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51283,41 +52557,41 @@ Lfde168_end:
 
 	.byte 19,117
 	.quad WorkHeart_Objects_StandBubble_addStand
-	.quad Lme_a9
+	.quad Lme_aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1300=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1300
+LDIFF_SYM1309=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1309
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1301=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1301
+LDIFF_SYM1310=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1310
 	.byte 2,141,56,11
 	.asciz "V_1"
 
-LDIFF_SYM1302=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1302
+LDIFF_SYM1311=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1311
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1303=Lfde169_end - Lfde169_start
-	.long LDIFF_SYM1303
-Lfde169_start:
+LDIFF_SYM1312=Lfde170_end - Lfde170_start
+	.long LDIFF_SYM1312
+Lfde170_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_StandBubble_addStand
 
-LDIFF_SYM1304=Lme_a9 - WorkHeart_Objects_StandBubble_addStand
-	.long LDIFF_SYM1304
+LDIFF_SYM1313=Lme_aa - WorkHeart_Objects_StandBubble_addStand
+	.long LDIFF_SYM1313
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde169_end:
+Lfde170_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51327,46 +52601,46 @@ Lfde169_end:
 
 	.byte 19,127
 	.quad WorkHeart_Objects_StandBubble_removeStand
-	.quad Lme_aa
+	.quad Lme_ab
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1305=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1305
+LDIFF_SYM1314=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1314
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1306=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1306
+LDIFF_SYM1315=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1315
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1307=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1307
+LDIFF_SYM1316=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1316
 	.byte 3,141,192,0,11
 	.asciz "V_2"
 
-LDIFF_SYM1308=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1308
+LDIFF_SYM1317=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1317
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1309=Lfde170_end - Lfde170_start
-	.long LDIFF_SYM1309
-Lfde170_start:
+LDIFF_SYM1318=Lfde171_end - Lfde171_start
+	.long LDIFF_SYM1318
+Lfde171_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_StandBubble_removeStand
 
-LDIFF_SYM1310=Lme_aa - WorkHeart_Objects_StandBubble_removeStand
-	.long LDIFF_SYM1310
+LDIFF_SYM1319=Lme_ab - WorkHeart_Objects_StandBubble_removeStand
+	.long LDIFF_SYM1319
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
-Lfde170_end:
+Lfde171_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51376,36 +52650,36 @@ Lfde170_end:
 
 	.byte 20,17
 	.quad WorkHeart_Objects_MotionBubble__ctor_CoreGraphics_CGSize
-	.quad Lme_ab
+	.quad Lme_ac
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1311=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1311
+LDIFF_SYM1320=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1320
 	.byte 1,106,3
 	.asciz "parentDimentions"
 
-LDIFF_SYM1312=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1312
+LDIFF_SYM1321=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1321
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1313=Lfde171_end - Lfde171_start
-	.long LDIFF_SYM1313
-Lfde171_start:
+LDIFF_SYM1322=Lfde172_end - Lfde172_start
+	.long LDIFF_SYM1322
+Lfde172_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_MotionBubble__ctor_CoreGraphics_CGSize
 
-LDIFF_SYM1314=Lme_ab - WorkHeart_Objects_MotionBubble__ctor_CoreGraphics_CGSize
-	.long LDIFF_SYM1314
+LDIFF_SYM1323=Lme_ac - WorkHeart_Objects_MotionBubble__ctor_CoreGraphics_CGSize
+	.long LDIFF_SYM1323
 	.long 0
 	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,154,32
 	.align 3
-Lfde171_end:
+Lfde172_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51415,36 +52689,36 @@ Lfde171_end:
 
 	.byte 20,52
 	.quad WorkHeart_Objects_MotionBubble_SetDefaultCharateristics
-	.quad Lme_ac
+	.quad Lme_ad
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1315=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1315
+LDIFF_SYM1324=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1324
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1316=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1316
+LDIFF_SYM1325=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1325
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1317=Lfde172_end - Lfde172_start
-	.long LDIFF_SYM1317
-Lfde172_start:
+LDIFF_SYM1326=Lfde173_end - Lfde173_start
+	.long LDIFF_SYM1326
+Lfde173_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_MotionBubble_SetDefaultCharateristics
 
-LDIFF_SYM1318=Lme_ac - WorkHeart_Objects_MotionBubble_SetDefaultCharateristics
-	.long LDIFF_SYM1318
+LDIFF_SYM1327=Lme_ad - WorkHeart_Objects_MotionBubble_SetDefaultCharateristics
+	.long LDIFF_SYM1327
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde172_end:
+Lfde173_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51454,31 +52728,31 @@ Lfde172_end:
 
 	.byte 20,71
 	.quad WorkHeart_Objects_MotionBubble_SubscribeToTracking
-	.quad Lme_ad
+	.quad Lme_ae
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1319=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1319
+LDIFF_SYM1328=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1328
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1320=Lfde173_end - Lfde173_start
-	.long LDIFF_SYM1320
-Lfde173_start:
+LDIFF_SYM1329=Lfde174_end - Lfde174_start
+	.long LDIFF_SYM1329
+Lfde174_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_MotionBubble_SubscribeToTracking
 
-LDIFF_SYM1321=Lme_ad - WorkHeart_Objects_MotionBubble_SubscribeToTracking
-	.long LDIFF_SYM1321
+LDIFF_SYM1330=Lme_ae - WorkHeart_Objects_MotionBubble_SubscribeToTracking
+	.long LDIFF_SYM1330
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde173_end:
+Lfde174_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51488,31 +52762,31 @@ Lfde173_end:
 
 	.byte 20,77
 	.quad WorkHeart_Objects_MotionBubble_SubscribeToTrackingStopped
-	.quad Lme_ae
+	.quad Lme_af
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1322=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1322
+LDIFF_SYM1331=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1331
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1323=Lfde174_end - Lfde174_start
-	.long LDIFF_SYM1323
-Lfde174_start:
+LDIFF_SYM1332=Lfde175_end - Lfde175_start
+	.long LDIFF_SYM1332
+Lfde175_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_MotionBubble_SubscribeToTrackingStopped
 
-LDIFF_SYM1324=Lme_ae - WorkHeart_Objects_MotionBubble_SubscribeToTrackingStopped
-	.long LDIFF_SYM1324
+LDIFF_SYM1333=Lme_af - WorkHeart_Objects_MotionBubble_SubscribeToTrackingStopped
+	.long LDIFF_SYM1333
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde174_end:
+Lfde175_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51522,31 +52796,31 @@ Lfde174_end:
 
 	.byte 20,83
 	.quad WorkHeart_Objects_MotionBubble_StartTracking
-	.quad Lme_af
+	.quad Lme_b0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1325=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1325
+LDIFF_SYM1334=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1334
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1326=Lfde175_end - Lfde175_start
-	.long LDIFF_SYM1326
-Lfde175_start:
+LDIFF_SYM1335=Lfde176_end - Lfde176_start
+	.long LDIFF_SYM1335
+Lfde176_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_MotionBubble_StartTracking
 
-LDIFF_SYM1327=Lme_af - WorkHeart_Objects_MotionBubble_StartTracking
-	.long LDIFF_SYM1327
+LDIFF_SYM1336=Lme_b0 - WorkHeart_Objects_MotionBubble_StartTracking
+	.long LDIFF_SYM1336
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde175_end:
+Lfde176_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51556,36 +52830,36 @@ Lfde175_end:
 
 	.byte 20,89
 	.quad WorkHeart_Objects_MotionBubble_StopTracking
-	.quad Lme_b0
+	.quad Lme_b1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1328=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1328
+LDIFF_SYM1337=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1337
 	.byte 1,106,11
 	.asciz "translateToOrigin"
 
-LDIFF_SYM1329=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1338=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1338
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1330=Lfde176_end - Lfde176_start
-	.long LDIFF_SYM1330
-Lfde176_start:
+LDIFF_SYM1339=Lfde177_end - Lfde177_start
+	.long LDIFF_SYM1339
+Lfde177_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_MotionBubble_StopTracking
 
-LDIFF_SYM1331=Lme_b0 - WorkHeart_Objects_MotionBubble_StopTracking
-	.long LDIFF_SYM1331
+LDIFF_SYM1340=Lme_b1 - WorkHeart_Objects_MotionBubble_StopTracking
+	.long LDIFF_SYM1340
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde176_end:
+Lfde177_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51595,36 +52869,36 @@ Lfde176_end:
 
 	.byte 20,98
 	.quad WorkHeart_Objects_MotionBubble_CenterItemContents
-	.quad Lme_b1
+	.quad Lme_b2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1332=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1341=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1341
 	.byte 1,106,11
 	.asciz "translateToCenter"
 
-LDIFF_SYM1333=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1342=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1342
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1334=Lfde177_end - Lfde177_start
-	.long LDIFF_SYM1334
-Lfde177_start:
+LDIFF_SYM1343=Lfde178_end - Lfde178_start
+	.long LDIFF_SYM1343
+Lfde178_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_MotionBubble_CenterItemContents
 
-LDIFF_SYM1335=Lme_b1 - WorkHeart_Objects_MotionBubble_CenterItemContents
-	.long LDIFF_SYM1335
+LDIFF_SYM1344=Lme_b2 - WorkHeart_Objects_MotionBubble_CenterItemContents
+	.long LDIFF_SYM1344
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17
 	.align 3
-Lfde177_end:
+Lfde178_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51634,46 +52908,46 @@ Lfde177_end:
 
 	.byte 20,104
 	.quad WorkHeart_Objects_MotionBubble_CheckMotion
-	.quad Lme_b2
+	.quad Lme_b3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1336=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1345=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1345
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1337=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1337
+LDIFF_SYM1346=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1346
 	.byte 1,105,11
 	.asciz "colourStatus"
 
-LDIFF_SYM1338=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1338
+LDIFF_SYM1347=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1347
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1339=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1339
+LDIFF_SYM1348=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1348
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1340=Lfde178_end - Lfde178_start
-	.long LDIFF_SYM1340
-Lfde178_start:
+LDIFF_SYM1349=Lfde179_end - Lfde179_start
+	.long LDIFF_SYM1349
+Lfde179_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_MotionBubble_CheckMotion
 
-LDIFF_SYM1341=Lme_b2 - WorkHeart_Objects_MotionBubble_CheckMotion
-	.long LDIFF_SYM1341
+LDIFF_SYM1350=Lme_b3 - WorkHeart_Objects_MotionBubble_CheckMotion
+	.long LDIFF_SYM1350
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde178_end:
+Lfde179_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51683,36 +52957,36 @@ Lfde178_end:
 
 	.byte 20,120
 	.quad WorkHeart_Objects_MotionBubble_GetMaxMotion
-	.quad Lme_b3
+	.quad Lme_b4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1342=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1351=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1351
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM1343=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1343
+LDIFF_SYM1352=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1352
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1344=Lfde179_end - Lfde179_start
-	.long LDIFF_SYM1344
-Lfde179_start:
+LDIFF_SYM1353=Lfde180_end - Lfde180_start
+	.long LDIFF_SYM1353
+Lfde180_start:
 
 	.long 0
 	.align 3
 	.quad WorkHeart_Objects_MotionBubble_GetMaxMotion
 
-LDIFF_SYM1345=Lme_b3 - WorkHeart_Objects_MotionBubble_GetMaxMotion
-	.long LDIFF_SYM1345
+LDIFF_SYM1354=Lme_b4 - WorkHeart_Objects_MotionBubble_GetMaxMotion
+	.long LDIFF_SYM1354
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde179_end:
+Lfde180_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51722,114 +52996,145 @@ Lfde179_end:
 
 	.byte 0,0
 	.quad _PrivateImplementationDetails_ComputeStringHash_string
-	.quad Lme_b4
+	.quad Lme_b5
 
 	.byte 2,118,16,3
 	.asciz "s"
 
-LDIFF_SYM1346=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1346
+LDIFF_SYM1355=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1355
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1347=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1347
+LDIFF_SYM1356=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1356
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1348=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1357=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1357
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1349=Lfde180_end - Lfde180_start
-	.long LDIFF_SYM1349
-Lfde180_start:
+LDIFF_SYM1358=Lfde181_end - Lfde181_start
+	.long LDIFF_SYM1358
+Lfde181_start:
 
 	.long 0
 	.align 3
 	.quad _PrivateImplementationDetails_ComputeStringHash_string
 
-LDIFF_SYM1350=Lme_b4 - _PrivateImplementationDetails_ComputeStringHash_string
-	.long LDIFF_SYM1350
+LDIFF_SYM1359=Lme_b5 - _PrivateImplementationDetails_ComputeStringHash_string
+	.long LDIFF_SYM1359
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
-	.align 3
-Lfde180_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton/<>c__DisplayClass27_0:.ctor"
-	.asciz "WorkHeart_Objects_TimerButton__c__DisplayClass27_0__ctor"
-
-	.byte 0,0
-	.quad WorkHeart_Objects_TimerButton__c__DisplayClass27_0__ctor
-	.quad Lme_cd
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1351=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1351
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1352=Lfde181_end - Lfde181_start
-	.long LDIFF_SYM1352
-Lfde181_start:
-
-	.long 0
-	.align 3
-	.quad WorkHeart_Objects_TimerButton__c__DisplayClass27_0__ctor
-
-LDIFF_SYM1353=Lme_cd - WorkHeart_Objects_TimerButton__c__DisplayClass27_0__ctor
-	.long LDIFF_SYM1353
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde181_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "WorkHeart.Objects.TimerButton/<>c__DisplayClass27_0:<UpdateTime>b__0"
-	.asciz "WorkHeart_Objects_TimerButton__c__DisplayClass27_0__UpdateTimeb__0"
+	.asciz "WorkHeart.Objects.TimerButton/<>c__DisplayClass28_0:.ctor"
+	.asciz "WorkHeart_Objects_TimerButton__c__DisplayClass28_0__ctor"
 
-	.byte 12,130,2
-	.quad WorkHeart_Objects_TimerButton__c__DisplayClass27_0__UpdateTimeb__0
+	.byte 0,0
+	.quad WorkHeart_Objects_TimerButton__c__DisplayClass28_0__ctor
 	.quad Lme_ce
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1354=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1354
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1355=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1355
-	.byte 3,141,216,0,0
+LDIFF_SYM1360=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1360
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1356=Lfde182_end - Lfde182_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1361=Lfde182_end - Lfde182_start
+	.long LDIFF_SYM1361
 Lfde182_start:
 
 	.long 0
 	.align 3
-	.quad WorkHeart_Objects_TimerButton__c__DisplayClass27_0__UpdateTimeb__0
+	.quad WorkHeart_Objects_TimerButton__c__DisplayClass28_0__ctor
 
-LDIFF_SYM1357=Lme_ce - WorkHeart_Objects_TimerButton__c__DisplayClass27_0__UpdateTimeb__0
-	.long LDIFF_SYM1357
+LDIFF_SYM1362=Lme_ce - WorkHeart_Objects_TimerButton__c__DisplayClass28_0__ctor
+	.long LDIFF_SYM1362
 	.long 0
-	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,149,26,150,25,68,151,24,152,23,68,153,22,154,21
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde182_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "WorkHeart.Objects.TimerButton/<>c__DisplayClass28_0:<UpdateTime>b__0"
+	.asciz "WorkHeart_Objects_TimerButton__c__DisplayClass28_0__UpdateTimeb__0"
+
+	.byte 12,157,2
+	.quad WorkHeart_Objects_TimerButton__c__DisplayClass28_0__UpdateTimeb__0
+	.quad Lme_cf
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1363=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1363
+	.byte 1,106,11
+	.asciz "hours"
+
+LDIFF_SYM1364=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1364
+	.byte 1,105,11
+	.asciz "minutes"
+
+LDIFF_SYM1365=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1365
+	.byte 1,104,11
+	.asciz "seconds"
+
+LDIFF_SYM1366=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1366
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1367=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1367
+	.byte 3,141,232,0,11
+	.asciz "V_4"
+
+LDIFF_SYM1368=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1368
+	.byte 1,102,11
+	.asciz "V_5"
+
+LDIFF_SYM1369=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1369
+	.byte 1,101,11
+	.asciz "V_6"
+
+LDIFF_SYM1370=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1370
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1371=Lfde183_end - Lfde183_start
+	.long LDIFF_SYM1371
+Lfde183_start:
+
+	.long 0
+	.align 3
+	.quad WorkHeart_Objects_TimerButton__c__DisplayClass28_0__UpdateTimeb__0
+
+LDIFF_SYM1372=Lme_cf - WorkHeart_Objects_TimerButton__c__DisplayClass28_0__UpdateTimeb__0
+	.long LDIFF_SYM1372
+	.long 0
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,68,153,18
+	.byte 154,17
+	.align 3
+Lfde183_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_87:
@@ -51838,113 +53143,113 @@ LTDIE_87:
 	.asciz "System_EventHandler`1"
 
 	.byte 128,1,16
-LDIFF_SYM1358=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM1358
+LDIFF_SYM1373=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM1373
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1359=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1374=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1374
 LTDIE_87_POINTER:
 
 	.byte 13
-LDIFF_SYM1360=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM1360
+LDIFF_SYM1375=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1375
 LTDIE_87_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1361=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM1361
+LDIFF_SYM1376=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1376
 LTDIE_88:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM1362=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1377=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1377
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM1363=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1378=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1378
 LTDIE_88_POINTER:
 
 	.byte 13
-LDIFF_SYM1364=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1379=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1379
 LTDIE_88_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1365=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1365
+LDIFF_SYM1380=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1380
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<AVFoundation.AVStatusEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_AVFoundation_AVStatusEventArgs_invoke_void_object_TEventArgs_object_AVFoundation_AVStatusEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_AVFoundation_AVStatusEventArgs_invoke_void_object_TEventArgs_object_AVFoundation_AVStatusEventArgs
-	.quad Lme_d0
+	.quad Lme_d1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1366=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1366
+LDIFF_SYM1381=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1381
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1367=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1367
+LDIFF_SYM1382=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1382
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1368=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1368
+LDIFF_SYM1383=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1383
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1369=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1369
+LDIFF_SYM1384=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1384
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1370=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1385=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1385
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1371=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1371
+LDIFF_SYM1386=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1386
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1372=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1372
+LDIFF_SYM1387=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1387
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1373=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1373
+LDIFF_SYM1388=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1388
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1374=Lfde183_end - Lfde183_start
-	.long LDIFF_SYM1374
-Lfde183_start:
+LDIFF_SYM1389=Lfde184_end - Lfde184_start
+	.long LDIFF_SYM1389
+Lfde184_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_AVFoundation_AVStatusEventArgs_invoke_void_object_TEventArgs_object_AVFoundation_AVStatusEventArgs
 
-LDIFF_SYM1375=Lme_d0 - wrapper_delegate_invoke_System_EventHandler_1_AVFoundation_AVStatusEventArgs_invoke_void_object_TEventArgs_object_AVFoundation_AVStatusEventArgs
-	.long LDIFF_SYM1375
+LDIFF_SYM1390=Lme_d1 - wrapper_delegate_invoke_System_EventHandler_1_AVFoundation_AVStatusEventArgs_invoke_void_object_TEventArgs_object_AVFoundation_AVStatusEventArgs
+	.long LDIFF_SYM1390
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde183_end:
+Lfde184_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_89:
@@ -51953,90 +53258,90 @@ LTDIE_89:
 	.asciz "System_EventHandler`1"
 
 	.byte 128,1,16
-LDIFF_SYM1376=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1391=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM1391
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1377=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM1377
+LDIFF_SYM1392=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1392
 LTDIE_89_POINTER:
 
 	.byte 13
-LDIFF_SYM1378=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM1378
+LDIFF_SYM1393=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1393
 LTDIE_89_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1379=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM1379
+LDIFF_SYM1394=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1394
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Xamarin.Essentials.AccelerometerChangedEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Essentials_AccelerometerChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Essentials_AccelerometerChangedEventArgs
-	.quad Lme_d1
+	.quad Lme_d2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1380=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1380
+LDIFF_SYM1395=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1395
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1381=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1381
+LDIFF_SYM1396=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1396
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1382=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1382
+LDIFF_SYM1397=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1397
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1383=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1383
+LDIFF_SYM1398=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1398
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1384=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1384
+LDIFF_SYM1399=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1399
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1385=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1385
+LDIFF_SYM1400=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1400
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1386=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1386
+LDIFF_SYM1401=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1401
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1387=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1387
+LDIFF_SYM1402=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1402
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1388=Lfde184_end - Lfde184_start
-	.long LDIFF_SYM1388
-Lfde184_start:
+LDIFF_SYM1403=Lfde185_end - Lfde185_start
+	.long LDIFF_SYM1403
+Lfde185_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Essentials_AccelerometerChangedEventArgs
 
-LDIFF_SYM1389=Lme_d1 - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Essentials_AccelerometerChangedEventArgs
-	.long LDIFF_SYM1389
+LDIFF_SYM1404=Lme_d2 - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Essentials_AccelerometerChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Essentials_AccelerometerChangedEventArgs
+	.long LDIFF_SYM1404
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde184_end:
+Lfde185_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_90:
@@ -52047,75 +53352,75 @@ LTDIE_90:
 	.byte 16,7
 	.asciz "_<Module>"
 
-LDIFF_SYM1390=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1405=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1405
 LTDIE_90_POINTER:
 
 	.byte 13
-LDIFF_SYM1391=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1391
+LDIFF_SYM1406=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1406
 LTDIE_90_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1392=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1392
+LDIFF_SYM1407=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1407
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_void"
 	.asciz "wrapper_delegate_invoke__Module_invoke_void"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_void
-	.quad Lme_d2
+	.quad Lme_d3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1393=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1393
+LDIFF_SYM1408=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1408
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1394=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1394
+LDIFF_SYM1409=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1409
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1395=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1395
+LDIFF_SYM1410=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1410
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1396=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1396
+LDIFF_SYM1411=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1411
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1397=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1397
+LDIFF_SYM1412=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1412
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1398=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1398
+LDIFF_SYM1413=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1413
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1399=Lfde185_end - Lfde185_start
-	.long LDIFF_SYM1399
-Lfde185_start:
+LDIFF_SYM1414=Lfde186_end - Lfde186_start
+	.long LDIFF_SYM1414
+Lfde186_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void
 
-LDIFF_SYM1400=Lme_d2 - wrapper_delegate_invoke__Module_invoke_void
-	.long LDIFF_SYM1400
+LDIFF_SYM1415=Lme_d3 - wrapper_delegate_invoke__Module_invoke_void
+	.long LDIFF_SYM1415
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde185_end:
+Lfde186_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_91:
@@ -52124,74 +53429,74 @@ LTDIE_91:
 	.asciz "System_AsyncCallback"
 
 	.byte 128,1,16
-LDIFF_SYM1401=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM1401
+LDIFF_SYM1416=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM1416
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM1402=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM1402
+LDIFF_SYM1417=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM1417
 LTDIE_91_POINTER:
 
 	.byte 13
-LDIFF_SYM1403=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM1403
+LDIFF_SYM1418=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM1418
 LTDIE_91_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1404=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM1404
+LDIFF_SYM1419=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM1419
 	.byte 2
 	.asciz "(wrapper_delegate-begin-invoke)_<Module>:begin_invoke_IAsyncResult__this___AsyncCallback_object"
 	.asciz "wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
-	.quad Lme_d3
+	.quad Lme_d4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1405=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1405
+LDIFF_SYM1420=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1420
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM1406=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1421=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1421
 	.byte 2,141,56,3
 	.asciz "param1"
 
-LDIFF_SYM1407=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1422=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1422
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1408=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1423=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1423
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1409=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1424=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1424
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1410=Lfde186_end - Lfde186_start
-	.long LDIFF_SYM1410
-Lfde186_start:
+LDIFF_SYM1425=Lfde187_end - Lfde187_start
+	.long LDIFF_SYM1425
+Lfde187_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
 
-LDIFF_SYM1411=Lme_d3 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
-	.long LDIFF_SYM1411
+LDIFF_SYM1426=Lme_d4 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+	.long LDIFF_SYM1426
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7
 	.align 3
-Lfde186_end:
+Lfde187_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_92:
@@ -52202,64 +53507,64 @@ LTDIE_92:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM1412=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1412
+LDIFF_SYM1427=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1427
 LTDIE_92_POINTER:
 
 	.byte 13
-LDIFF_SYM1413=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1413
+LDIFF_SYM1428=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1428
 LTDIE_92_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1414=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1429=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1429
 	.byte 2
 	.asciz "(wrapper_delegate-end-invoke)_<Module>:end_invoke_void__this___IAsyncResult"
 	.asciz "wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.quad Lme_d4
+	.quad Lme_d5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1415=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1415
+LDIFF_SYM1430=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1430
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM1416=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1416
+LDIFF_SYM1431=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1431
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM1417=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1417
+LDIFF_SYM1432=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1432
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1418=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1418
+LDIFF_SYM1433=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1433
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1419=Lfde187_end - Lfde187_start
-	.long LDIFF_SYM1419
-Lfde187_start:
+LDIFF_SYM1434=Lfde188_end - Lfde188_start
+	.long LDIFF_SYM1434
+Lfde188_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM1420=Lme_d4 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM1420
+LDIFF_SYM1435=Lme_d5 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM1435
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7
 	.align 3
-Lfde187_end:
+Lfde188_end:
 
 .section __DWARF, __debug_info,regular,debug
 

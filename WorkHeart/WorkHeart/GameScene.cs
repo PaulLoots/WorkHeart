@@ -54,6 +54,9 @@ namespace WorkHeart
         private DateTime timerBeginTime;
         private DateTime pausedTimerBeginTime;
 
+        //Buttons
+        private SKShapeNode skipButton;
+
         //Events
         public delegate void TrackingStartedAction();
         public static event TrackingStartedAction OnTrackingStarted;
@@ -93,6 +96,8 @@ namespace WorkHeart
             //Add Gravity to scene
             gravityNode = CreateGravityNode();
             AddChild(gravityNode);
+
+            addSkipButton();
 
             timerButton = new TimerButton(Size);
             AddChild(timerButton);
@@ -147,6 +152,11 @@ namespace WorkHeart
                         break;
                     case "StandBubble":
                         currentBubble = standBubble;
+                        break;
+                    case "skipButton":
+                        Console.WriteLine("skip");
+                        totalPausedTime = totalPausedTime - new TimeSpan(18000000000);
+                        Console.WriteLine(totalPausedTime);
                         break;
                     default:
                         break;
@@ -506,7 +516,7 @@ namespace WorkHeart
                 Name = "headingLabel2"
             };
 
-            addInfoLabel("light", "Select which items you would", "like to track.");
+            addInfoLabel("bulb", "Select which items you would", "like to track.");
 
             AddChild(headingLabel1);
             AddChild(headingLabel2);
@@ -545,19 +555,9 @@ namespace WorkHeart
                 HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Left,
                 Position = new CGPoint((float)(this.Size.Width / 2.85), (float)(this.Size.Height * 0.15)),
             };
-            //infoText3 = new SKLabelNode
-            //{
-            //    Text = text.Substring(77, 114),
-            //    FontSize = 18,
-            //    FontName = "Helvetica Neue Regular",
-            //    FontColor = UIColor.FromRGB(51, 51, 51),
-            //    VerticalAlignmentMode = SKLabelVerticalAlignmentMode.Top,
-            //    HorizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Left,
-            //    Position = new CGPoint((float)(this.Size.Width / 2.85), (float)(this.Size.Height * 0.12)),
-            //};
+
             AddChild(infoText1);
             AddChild(infoText2);
-            //AddChild(infoText3);
         }
 
         private void removeInfoLabel()
@@ -570,6 +570,20 @@ namespace WorkHeart
                 infoText2.RemoveFromParent();
                 //infoText3.RemoveFromParent();
             }
+        }
+
+        private void addSkipButton()
+        {
+            //Stop Button
+            skipButton = new SKShapeNode();
+            var path = new CGPath();
+            path.AddArc(0, 0, 50, 0, (float)Math.PI * 2f, true);
+            skipButton.Path = path;
+            skipButton.Position = new CGPoint((float)(this.Size.Width / 2), (float)(this.Size.Height * 0.95));
+            skipButton.FillColor = Colors.GetColor(Colours.Grey);
+            skipButton.Alpha = (float)(0.01);
+            skipButton.Name = "skipButton";
+            AddChild(skipButton);
         }
     }
 }
