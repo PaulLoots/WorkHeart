@@ -20,7 +20,7 @@
 <p align="center">
    
   <a href="https://github.com/PaulLoots/WorkHeart">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="Media/logo.png" alt="Logo" width="80" height="80">
   </a>
   
   <h3 align="center">Work ♥</h3>
@@ -49,12 +49,12 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-  * [Libraries Used](#libraries-used)
 * [Usage](#usage)
-   * [Adding A List](#adding-a-list)
-   * [Managing Lists](#managing-lists)
-   * [Viewing and Adding List Items](#viewing-and-adding-list-items)
-   * [Performing Actions on List Items](#performing-actions-on-list-items)
+   * [Selecting Tracking Items](#selecting-tracking-items)
+   * [Starting and Stopping a Tracking Session](#starting-and-stopping-a-tracking-session)
+   * [Interpreting Tracking Colours](#interpreting-tracking-colours)
+   * [Interacting with Tracking Items](#interacting-with-tracking-items)
+* [Class and Inheritance diagram](#class-and-inheritance-diagram)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -67,24 +67,25 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-List is an Android App dedicated to do one thing: **Create Lists**
-It makes it easy to make and manage lists while providing emotional support with a random work-related quote each time the app is launched.
+We spend a third of our day working and an unhealthy work environment can cause serious health issues over time.
+
+Work ♥ aims to improve working conditions by monitoring the user’s work environment and providing suggestions to the users about how they can improve these conditions.
 
 
 ### Built With
 
-* [Android Studio](https://developer.android.com/studio/)
-* [Kotlin](https://kotlinlang.org/docs/tutorials/kotlin-for-py/documentation.html)
+* [Xamarin iOS](hhttps://docs.microsoft.com/en-us/xamarin/ios/)
+* [SpriteKit](https://docs.microsoft.com/en-us/xamarin/ios/platform/gaming/spritekit)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps. This project uses the Gradle build system.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-For development, the latest version of Android Studio is required. The latest version can be downloaded from [here](https://developer.android.com/studio/).
+For development, the latest version of Visual Studio is required. The latest version can be downloaded from [here](https://visualstudio.microsoft.com/downloads/).
 
 ### Installation
  
@@ -92,50 +93,48 @@ For development, the latest version of Android Studio is required. The latest ve
 ```sh
 git clone https:://github.com/PaulLoots/WorkHeart.git
 ```
-2. Build the project
-```sh
-gradlew build
-```
-or
-Use `Import Project` in Android Studio.
+2. Open the project
+
+Use `Open Workspace` in Visual Studio.
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### Adding A List
+### Selecting Tracking Items
 
-![Adding A List][lists]
+![image1][image1]
 
-1. Tap on the **plus** fab
-2. Enter the list name and tap **add**
-3. View the newly added list in the lists pane
+1. View all trackable items
+2. Tap on an item to **delecet** and display info
 
-### Managing Lists
+### Starting and Stopping a Tracking Session
 
-![Managing Lists][list-management]
+![image2][image2]
 
-1. Swipe left horisontally to scroll through lists
-2. Tap in the **three dots** to show list actions
-3. Select an action to perform on the list
+1. Tap **Start Tracking** to start tracking session
+2. Tap on the timer to pause session
+3. Tap **stop** to end session or **play** to resume session
 
-### Viewing and Adding List Items
+### Interpreting Tracking Colours
 
-![Viewing and Adding List Items][list-details]
+![image3][image3]
 
-1. Tap on a list to show its items
-2. See all added items of a list
-3. Tap on the **plus** fab
-4. Enter the list item and tap **add**
-5. See the added list item under the list heading
+1. **Green** items indicate they are in a good state
+2. **Yello** and **Orange** indicates medium urgency
+3. **Red** indicates an item that needs attention
 
-### Performing Actions on List Items
+### Interacting with Tracking Items
 
-![Performing Actions on List Items][list-item-management]
+![image4][image4]
 
-1. **Edit** or **Delete** a list item by tapping on its corresponding icons
-2. Check items in the list 
-3. Re-arrange list items by dragging the **drag handle**
+1. Tap on an item for more information
+2. Increment an item's value with the `+` and `-` buttons
+
+<!-- USAGE EXAMPLES -->
+## Class and Inheritance diagram
+
+![class][class]
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -169,9 +168,12 @@ Project Link: [https://github.com/PaulLoots/WorkHeart](https://github.com/PaulLo
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Android to do list app tutorial](https://hub.packtpub.com/how-to-develop-a-simple-to-do-list-app-tutorial/)
-* [Create SQL database in Android studio](https://dzone.com/articles/create-a-database-android-application-in-android-s)
-* [Recycler View Android studio](https://developer.android.com/guide/topics/ui/layout/recyclerview)
+* [Work Duration](https://www.inc.com/jessica-stillman/practice-makes-perfect-but-something-else-works-too.html)
+* [Stand Intervals](https://www.medicalnewstoday.com/articles/293314.php)
+* [Water Intake](https://www.huffpost.com/entry/8-ways-to-prevent-your-office-from-killing-you_n_1305274?guccounter=1&slideshow=true)
+* [Food Consumption](https://www.pacificprime.com/blog/10-biggest-health-problems-working-office.html)
+* [Noise](https://www.gla.ac.uk/media/media_142352_en.pdf)
+* [Vibration](https://www.ncbi.nlm.nih.gov/pubmed/28542287)
 
 
 
@@ -191,8 +193,9 @@ Project Link: [https://github.com/PaulLoots/WorkHeart](https://github.com/PaulLo
 [license-url]: https://github.com/PaulLoots/Listy/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paullootsdesign
-[product-screenshot]: images/overview.png
-[lists]: images/lists.png
-[list-details]: images/list_details.png
-[list-management]: images/list_management.png
-[list-item-management]: images/list_item_management.png
+[product-screenshot]: Media/overview.png
+[image1]: Media/1.png
+[image2]: Media/2.png
+[image3]: Media/3.png
+[image4]: Media/4.png
+[class]: Media/class.png
