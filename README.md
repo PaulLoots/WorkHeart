@@ -28,14 +28,14 @@
   <p align="center">
     know your work environment
     <br />
-    <a href="https://github.com/PaulLoots/WorkHeart"><strong>Explore the docs »</strong></a>
+    <a href="#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/PaulLoots/WorkHeart">View Demo</a>
     ·
-    <a href="https://github.com/PaulLoots/WorkHeart/issues">Report Bug</a>
+    <a href="https://youtu.be/oszimryB3aU">Watch Reveal</a>
     ·
-    <a href="https://github.com/PaulLoots/WorkHeart/issues">Request Feature</a>
+    <a href="https://github.com/PaulLoots/WorkHeart/issues">Report Bug</a>
   </p>
 </p>
 
@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot][product-screenshot]
+[![Product Name Screen Shot][product-screenshot]](https://youtu.be/oszimryB3aU)
 
 We spend a third of our day working and an unhealthy work environment can cause serious health issues over time.
 
@@ -106,7 +106,7 @@ Use `Open Workspace` in Visual Studio.
 ![image1][image1]
 
 1. View all trackable items
-2. Tap on an item to **delecet** and display info
+2. Tap on an item to **deselect** and display info
 
 ### Starting and Stopping a Tracking Session
 
@@ -181,16 +181,16 @@ Project Link: [https://github.com/PaulLoots/WorkHeart](https://github.com/PaulLo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/PaulLoots/Listy.svg?style=flat-square
-[contributors-url]: https://github.com/PaulLoots/Listy/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/PaulLoots/Listy.svg?style=flat-square
-[forks-url]: https://github.com/PaulLoots/Listy/network/members
-[stars-shield]: https://img.shields.io/github/stars/PaulLoots/Listy.svg?style=flat-square
-[stars-url]: https://github.com/PaulLoots/Listy/stargazers
-[issues-shield]: https://img.shields.io/github/issues/PaulLoots/Listy.svg?style=flat-square
-[issues-url]: https://github.com/PaulLoots/Listy/issues
-[license-shield]: https://img.shields.io/github/license/PaulLoots/Listy.svg?style=flat-square
-[license-url]: https://github.com/PaulLoots/Listy/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/PaulLoots/WorkHeart.svg?style=flat-square
+[contributors-url]: https://github.com/PaulLoots/WorkHeart/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PaulLoots/WorkHeart.svg?style=flat-square
+[forks-url]: https://github.com/PaulLoots/WorkHeart/network/members
+[stars-shield]: https://img.shields.io/github/stars/PaulLoots/WorkHeart.svg?style=flat-square
+[stars-url]: https://github.com/PaulLoots/WorkHeart/stargazers
+[issues-shield]: https://img.shields.io/github/issues/PaulLoots/WorkHeart.svg?style=flat-square
+[issues-url]: https://github.com/PaulLoots/WorkHeart/issues
+[license-shield]: https://img.shields.io/github/license/PaulLoots/WorkHeart.svg?style=flat-square
+[license-url]: https://github.com/PaulLoots/WorkHeart/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paullootsdesign
 [product-screenshot]: Media/overview.png
