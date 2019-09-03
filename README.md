@@ -20,7 +20,7 @@
 <p align="center">
    
   <a href="https://github.com/PaulLoots/WorkHeart">
-    <img src="Media/logo.png" alt="Logo" width="80" height="80">
+    <img src="Media/logo.png" alt="Logo" width="140" height="140">
   </a>
   
   <h3 align="center">Work ♥</h3>
