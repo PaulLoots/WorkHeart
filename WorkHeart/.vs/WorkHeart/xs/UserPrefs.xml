@@ -1,7 +1,7 @@
-﻿<Properties StartupConfiguration="{D7B04512-8AF3-49D4-B06B-6138B8911960}|Default">
+﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="WorkHeart/GameScene.cs">
     <Files>
-      <File FileName="WorkHeart/GameScene.cs" Line="565" Column="34" />
+      <File FileName="WorkHeart/GameScene.cs" Line="590" Column="1" />
       <File FileName="WorkHeart/Objects/TestSprite.cs" />
       <File FileName="WorkHeart/Objects/TimerButton.cs" />
       <File FileName="WorkHeart/Objects/LightBubble.cs" />
@@ -12,7 +12,6 @@
       <File FileName="WorkHeart/Objects/Bubble.cs" />
       <File FileName="WorkHeart/Objects/WaterBubble.cs" />
       <File FileName="WorkHeart/Objects/FoodBubble.cs" />
-      <File FileName="WorkHeart/Objects/StandBubble.cs" />
       <File FileName="WorkHeart/Info.plist" />
       <File FileName="WorkHeart/Classes/MovementData.cs" />
       <File FileName="WorkHeart/Classes/NoiseData.cs" />
@@ -20,10 +19,19 @@
       <File FileName="WorkHeart/Main.cs" />
       <File FileName="WorkHeart/GameViewController.cs" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WorkHeart" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WorkHeart PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.24a1164fdf1efff3014856f8cae6b5f70ff3c369" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <DisabledProjects>
+    <String>WorkHeart/WorkHeart.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

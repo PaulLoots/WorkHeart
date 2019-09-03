@@ -1,0 +1,284 @@
+.subsections_via_symbols
+.text
+	.align 3
+jit_code_start:
+_mono_aot_System_Numericsjit_code_start:
+	.globl _mono_aot_System_Numericsjit_code_start
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+ut_0:
+add x0, x0, 16
+b _System_Numerics_System_Numerics_Vector3_GetHashCode
+ut_end:
+.section __TEXT, __const
+_unbox_trampoline_p:
+
+	.long 0
+LDIFF_SYM0=ut_end - ut_0
+	.long LDIFF_SYM0
+.text
+ut_1:
+add x0, x0, 16
+b _System_Numerics_System_Numerics_Vector3_Equals_object
+.text
+ut_2:
+add x0, x0, 16
+b _System_Numerics_System_Numerics_Vector3_ToString
+.text
+ut_3:
+add x0, x0, 16
+b _System_Numerics_System_Numerics_Vector3_ToString_string_System_IFormatProvider
+.text
+ut_4:
+add x0, x0, 16
+b _System_Numerics_System_Numerics_Vector3__ctor_single_single_single
+.text
+ut_5:
+add x0, x0, 16
+b _System_Numerics_System_Numerics_Vector3_Equals_System_Numerics_Vector3
+.text
+ut_10:
+add x0, x0, 16
+b _System_Numerics_wrapper_other_System_Numerics_Vector3_StructureToPtr_object_intptr_bool
+.text
+ut_11:
+add x0, x0, 16
+b _System_Numerics_wrapper_other_System_Numerics_Vector3_PtrToStructure_intptr_object
+.text
+	.align 3
+jit_code_end:
+_mono_aot_System_Numericsjit_code_end:
+	.globl _mono_aot_System_Numericsjit_code_end
+
+	.byte 0,0,0,0
+.no_dead_strip _System_Numerics_System_Numerics_Vector3_GetHashCode
+.no_dead_strip _System_Numerics_System_Numerics_Vector3_Equals_object
+.no_dead_strip _System_Numerics_System_Numerics_Vector3_ToString
+.no_dead_strip _System_Numerics_System_Numerics_Vector3_ToString_string_System_IFormatProvider
+.no_dead_strip _System_Numerics_System_Numerics_Vector3__ctor_single_single_single
+.no_dead_strip _System_Numerics_System_Numerics_Vector3_Equals_System_Numerics_Vector3
+.no_dead_strip _System_Numerics_System_Numerics_Hashing_HashHelpers_Combine_int_int
+.no_dead_strip _System_Numerics_System_Runtime_CompilerServices_IntrinsicAttribute__ctor
+.no_dead_strip _System_Numerics_wrapper_other_System_Numerics_Vector3_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Numerics_wrapper_other_System_Numerics_Vector3_PtrToStructure_intptr_object
+
+.text
+	.align 3
+method_addresses:
+_mono_aot_System_Numericsmethod_addresses:
+	.globl _mono_aot_System_Numericsmethod_addresses
+	.no_dead_strip method_addresses
+bl _System_Numerics_System_Numerics_Vector3_GetHashCode
+bl _System_Numerics_System_Numerics_Vector3_Equals_object
+bl _System_Numerics_System_Numerics_Vector3_ToString
+bl _System_Numerics_System_Numerics_Vector3_ToString_string_System_IFormatProvider
+bl _System_Numerics_System_Numerics_Vector3__ctor_single_single_single
+bl _System_Numerics_System_Numerics_Vector3_Equals_System_Numerics_Vector3
+bl _System_Numerics_System_Numerics_Hashing_HashHelpers_Combine_int_int
+bl _System_Numerics_System_Runtime_CompilerServices_IntrinsicAttribute__ctor
+bl method_addresses
+bl method_addresses
+bl _System_Numerics_wrapper_other_System_Numerics_Vector3_StructureToPtr_object_intptr_bool
+bl _System_Numerics_wrapper_other_System_Numerics_Vector3_PtrToStructure_intptr_object
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+_mono_aot_System_Numericsunbox_trampolines:
+	.globl _mono_aot_System_Numericsunbox_trampolines
+
+	.long 0,1,2,3,4,5,10,11
+unbox_trampolines_end:
+_mono_aot_System_Numericsunbox_trampolines_end:
+	.globl _mono_aot_System_Numericsunbox_trampolines_end
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+_mono_aot_System_Numericsunbox_trampoline_addresses:
+	.globl _mono_aot_System_Numericsunbox_trampoline_addresses
+bl ut_0
+bl ut_1
+bl ut_2
+bl ut_3
+bl ut_4
+bl ut_5
+bl ut_10
+bl ut_11
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+_mono_aot_System_Numericsunwind_info:
+	.globl _mono_aot_System_Numericsunwind_info
+
+	.byte 0
+
+.text
+	.align 4
+plt:
+_mono_aot_System_Numericsplt:
+	.globl _mono_aot_System_Numericsplt
+mono_aot_System_Numerics_plt:
+_p_1_plt_System_Numerics__jit_icall_mono_threads_state_poll_llvm:
+	.globl _p_1_plt_System_Numerics__jit_icall_mono_threads_state_poll_llvm
+.private_extern _p_1_plt_System_Numerics__jit_icall_mono_threads_state_poll_llvm
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_threads_state_poll
+plt_System_Numerics__jit_icall_mono_threads_state_poll:
+_p_1:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #232]
+br x16
+.word 399
+_p_2_plt_System_Numerics_single_GetHashCode_llvm:
+	.globl _p_2_plt_System_Numerics_single_GetHashCode_llvm
+.private_extern _p_2_plt_System_Numerics_single_GetHashCode_llvm
+	.no_dead_strip plt_System_Numerics_single_GetHashCode
+plt_System_Numerics_single_GetHashCode:
+_p_2:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #240]
+br x16
+.word 425
+_p_3_plt_System_Numerics__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm:
+	.globl _p_3_plt_System_Numerics__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+.private_extern _p_3_plt_System_Numerics__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+	.no_dead_strip plt_System_Numerics__jit_icall_llvm_throw_corlib_exception_abs_trampoline
+plt_System_Numerics__jit_icall_llvm_throw_corlib_exception_abs_trampoline:
+_p_3:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #248]
+br x16
+.word 430
+_p_4_plt_System_Numerics_System_Numerics_Vector3_Equals_System_Numerics_Vector3_llvm:
+	.globl _p_4_plt_System_Numerics_System_Numerics_Vector3_Equals_System_Numerics_Vector3_llvm
+.private_extern _p_4_plt_System_Numerics_System_Numerics_Vector3_Equals_System_Numerics_Vector3_llvm
+	.no_dead_strip plt_System_Numerics_System_Numerics_Vector3_Equals_System_Numerics_Vector3
+plt_System_Numerics_System_Numerics_Vector3_Equals_System_Numerics_Vector3:
+_p_4:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #256]
+br x16
+.word 475
+_p_5_plt_System_Numerics_System_Globalization_CultureInfo_get_CurrentCulture_llvm:
+	.globl _p_5_plt_System_Numerics_System_Globalization_CultureInfo_get_CurrentCulture_llvm
+.private_extern _p_5_plt_System_Numerics_System_Globalization_CultureInfo_get_CurrentCulture_llvm
+	.no_dead_strip plt_System_Numerics_System_Globalization_CultureInfo_get_CurrentCulture
+plt_System_Numerics_System_Globalization_CultureInfo_get_CurrentCulture:
+_p_5:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #264]
+br x16
+.word 477
+_p_6_plt_System_Numerics_System_Numerics_Vector3_ToString_string_System_IFormatProvider_llvm:
+	.globl _p_6_plt_System_Numerics_System_Numerics_Vector3_ToString_string_System_IFormatProvider_llvm
+.private_extern _p_6_plt_System_Numerics_System_Numerics_Vector3_ToString_string_System_IFormatProvider_llvm
+	.no_dead_strip plt_System_Numerics_System_Numerics_Vector3_ToString_string_System_IFormatProvider
+plt_System_Numerics_System_Numerics_Vector3_ToString_string_System_IFormatProvider:
+_p_6:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #272]
+br x16
+.word 482
+_p_7_plt_System_Numerics_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm:
+	.globl _p_7_plt_System_Numerics_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+.private_extern _p_7_plt_System_Numerics_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+	.no_dead_strip plt_System_Numerics_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_System_Numerics_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_7:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #280]
+br x16
+.word 484
+_p_8_plt_System_Numerics_System_Text_StringBuilder__ctor_llvm:
+	.globl _p_8_plt_System_Numerics_System_Text_StringBuilder__ctor_llvm
+.private_extern _p_8_plt_System_Numerics_System_Text_StringBuilder__ctor_llvm
+	.no_dead_strip plt_System_Numerics_System_Text_StringBuilder__ctor
+plt_System_Numerics_System_Text_StringBuilder__ctor:
+_p_8:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #288]
+br x16
+.word 492
+_p_9_plt_System_Numerics_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider_llvm:
+	.globl _p_9_plt_System_Numerics_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider_llvm
+.private_extern _p_9_plt_System_Numerics_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider_llvm
+	.no_dead_strip plt_System_Numerics_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider
+plt_System_Numerics_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider:
+_p_9:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #296]
+br x16
+.word 497
+_p_10_plt_System_Numerics_System_Text_StringBuilder_Append_char_llvm:
+	.globl _p_10_plt_System_Numerics_System_Text_StringBuilder_Append_char_llvm
+.private_extern _p_10_plt_System_Numerics_System_Text_StringBuilder_Append_char_llvm
+	.no_dead_strip plt_System_Numerics_System_Text_StringBuilder_Append_char
+plt_System_Numerics_System_Text_StringBuilder_Append_char:
+_p_10:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #304]
+br x16
+.word 502
+_p_11_plt_System_Numerics_System_Text_StringBuilder_Append_string_llvm:
+	.globl _p_11_plt_System_Numerics_System_Text_StringBuilder_Append_string_llvm
+.private_extern _p_11_plt_System_Numerics_System_Text_StringBuilder_Append_string_llvm
+	.no_dead_strip plt_System_Numerics_System_Text_StringBuilder_Append_string
+plt_System_Numerics_System_Text_StringBuilder_Append_string:
+_p_11:
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #312]
+br x16
+.word 507
+plt_end:
+_mono_aot_System_Numericsplt_end:
+	.globl _mono_aot_System_Numericsplt_end
+.section __DATA, __bss
+	.align 3
+jit_got:
+_mono_aot_System_Numericsjit_got:
+	.globl _mono_aot_System_Numericsjit_got
+.lcomm mono_aot_System_Numerics_got, 320
+got_end:
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 1, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.section __TEXT, __const
+	.align 2
+name_0:
+	.asciz "_unbox_trampoline_p"
+.data
+	.align 3
+globals:
+_mono_aot_System_Numericsglobals:
+	.globl _mono_aot_System_Numericsglobals
+	.align 3
+	.quad Lglobals_hash
+	.align 3
+	.quad name_0
+	.align 3
+	.quad _unbox_trampoline_p
+
+	.long 0,0
+.text
+	.align 3
+mem_end:
