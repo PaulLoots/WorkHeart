@@ -31,7 +31,7 @@
     <a href="#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/PaulLoots/WorkHeart">View Demo</a>
+    <a href="https://youtu.be/9uc0e5hnaQU">View Demo</a>
     ·
     <a href="https://youtu.be/oszimryB3aU">Watch Reveal</a>
     ·
